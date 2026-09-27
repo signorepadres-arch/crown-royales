@@ -4,124 +4,130 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Crown Royales</title>
-  <meta name="description" content="Sunday NFL betting dashboard with Crown Royal picks, confidence scores, player props, Hail Marys, and performance tracking." />
+  <meta name="description" content="Saturday college football and Sunday NFL betting dashboard with confidence tiers, lock props, Hail Mary parlays, and performance tracking." />
   <style>
-    :root {
-      --bg:#0b0b0f; --panel:#131319; --panel2:#191922; --text:#f7f7fb; --muted:#a5a6b2;
-      --gold:#d4af37; --gold2:#f0d879; --line:#2a2a35; --green:#25c281; --red:#ff5a69; --purple:#8c6cf0;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:radial-gradient(circle at top,#17131d 0,#0b0b0f 42%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    .wrap{max-width:1120px;margin:0 auto;padding:28px 18px 64px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px}
-    .brand{display:flex;align-items:center;gap:12px}.crown{font-size:34px}.brand h1{margin:0;font-size:30px;letter-spacing:.2px}.brand small{display:block;color:var(--muted);margin-top:4px}
-    .date-pill{padding:10px 14px;border:1px solid var(--line);background:#111117;border-radius:999px;color:var(--gold2);font-weight:700;font-size:13px}
-    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
-    .stat{background:linear-gradient(180deg,#17171f,#111118);border:1px solid var(--line);border-radius:16px;padding:16px}
-    .stat .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.stat .value{font-size:24px;font-weight:800;margin-top:6px}.stat .sub{color:var(--muted);font-size:12px;margin-top:4px}
-    .grid{display:grid;grid-template-columns:1.4fr .8fr;gap:18px}
-    .section{background:rgba(19,19,25,.92);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:18px;box-shadow:0 14px 40px rgba(0,0,0,.16)}
-    .section h2{font-size:15px;text-transform:uppercase;letter-spacing:.11em;margin:0 0 14px;color:#c9cad3}
-    .pick{padding:16px;border:1px solid var(--line);background:linear-gradient(180deg,#191922,#14141b);border-radius:16px;margin-bottom:12px}
-    .pick:last-child{margin-bottom:0}.pick-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.pick-title{font-size:19px;font-weight:800}.tag{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
-    .royal{background:rgba(212,175,55,.15);color:var(--gold2);border:1px solid rgba(212,175,55,.35)}.crown-tag{background:rgba(140,108,240,.14);color:#c7b8ff;border:1px solid rgba(140,108,240,.35)}.lean{background:#20202a;color:#c8c8d1;border:1px solid #343441}
-    .meta{color:var(--muted);font-size:13px;margin-top:7px}.reason{font-size:14px;line-height:1.5;color:#d9d9df;margin-top:10px}.meter{height:8px;background:#24242d;border-radius:99px;overflow:hidden;margin-top:12px}.meter span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:99px}
-    .conf{font-size:13px;color:#e8e8ee;font-weight:700;margin-top:7px;display:flex;justify-content:space-between}.odds{color:var(--green);font-weight:800}
-    .lock{border-color:rgba(37,194,129,.28);background:linear-gradient(180deg,rgba(37,194,129,.09),#14141b)}
-    .hail{border-color:rgba(255,90,105,.28);background:linear-gradient(180deg,rgba(255,90,105,.06),#14141b)}
-    .legs{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.leg{background:#20202a;border:1px solid #30303d;border-radius:999px;padding:7px 10px;font-size:12px}
-    table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.win{color:var(--green);font-weight:800}.loss{color:var(--red);font-weight:800}.pending{color:var(--gold2);font-weight:800}
-    .foot{color:var(--muted);font-size:12px;line-height:1.5;margin-top:14px}
-    @media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}header{align-items:flex-start}.brand h1{font-size:26px}}
-    @media(max-width:520px){.wrap{padding:18px 12px 44px}.stats{grid-template-columns:1fr 1fr}.stat .value{font-size:20px}.pick-title{font-size:17px}.date-pill{font-size:11px}}
+    :root{--bg:#0b0b0f;--panel:#131319;--text:#f7f7fb;--muted:#a5a6b2;--gold:#d4af37;--gold2:#f0d879;--line:#2a2a35;--green:#25c281;--red:#ff5a69;--purple:#8c6cf0}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#17131d 0,#0b0b0f 42%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{max-width:1120px;margin:0 auto;padding:28px 18px 64px} header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
+    .brand{display:flex;align-items:center;gap:12px}.crown-icon{font-size:34px}.brand h1{margin:0;font-size:30px}.brand small{display:block;color:var(--muted);margin-top:4px}
+    .date-pill,.sport-pill{padding:10px 14px;border:1px solid var(--line);background:#111117;border-radius:999px;color:var(--gold2);font-weight:700;font-size:13px}
+    .topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}.sport-pill{color:#d9d9e3}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+    .stat,.section{background:linear-gradient(180deg,#17171f,#111118);border:1px solid var(--line);border-radius:16px;padding:16px}.stat .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.stat .value{font-size:24px;font-weight:800;margin-top:6px}.stat .sub{color:var(--muted);font-size:12px;margin-top:4px}
+    .grid{display:grid;grid-template-columns:1.4fr .8fr;gap:18px}.section{margin-bottom:18px;box-shadow:0 14px 40px rgba(0,0,0,.16)}.section h2{font-size:15px;text-transform:uppercase;letter-spacing:.11em;margin:0 0 14px;color:#c9cad3}
+    .pick{padding:16px;border:1px solid var(--line);background:linear-gradient(180deg,#191922,#14141b);border-radius:16px;margin-bottom:12px}.pick:last-child{margin-bottom:0}.pick-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.pick-title{font-size:19px;font-weight:800}
+    .tag{display:inline-flex;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.royal{background:rgba(212,175,55,.15);color:var(--gold2);border:1px solid rgba(212,175,55,.35)}.crown-tag{background:rgba(140,108,240,.14);color:#c7b8ff;border:1px solid rgba(140,108,240,.35)}.lean{background:#20202a;color:#c8c8d1;border:1px solid #343441}
+    .meta{color:var(--muted);font-size:13px;margin-top:7px}.reason{font-size:14px;line-height:1.5;color:#d9d9df;margin-top:10px}.meter{height:8px;background:#24242d;border-radius:99px;overflow:hidden;margin-top:12px}.meter span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:99px}.conf{font-size:13px;font-weight:700;margin-top:7px;display:flex;justify-content:space-between}.odds{color:var(--green);font-weight:800}
+    .lock{border-color:rgba(37,194,129,.28);background:linear-gradient(180deg,rgba(37,194,129,.09),#14141b)}.hail{border-color:rgba(255,90,105,.28);background:linear-gradient(180deg,rgba(255,90,105,.06),#14141b)}
+    .legs{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.leg{background:#20202a;border:1px solid #30303d;border-radius:999px;padding:7px 10px;font-size:12px}.foot{color:var(--muted);font-size:12px;line-height:1.5;margin-top:14px}
+    table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.pending{color:var(--gold2);font-weight:800}
+    #lockedOverlay{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(7,7,11,.52);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);z-index:50;padding:20px}.lock-card{width:min(560px,94vw);background:rgba(17,17,23,.92);border:1px solid rgba(212,175,55,.35);border-radius:24px;padding:30px;text-align:center;box-shadow:0 25px 80px rgba(0,0,0,.45)}.lock-card .big{font-size:52px}.lock-card h2{font-size:28px;margin:8px 0 8px}.lock-card p{color:#c4c4cd;line-height:1.55;margin:0}.countdown{font-size:18px;font-weight:800;color:var(--gold2);margin-top:16px}
+    .hidden{display:none!important}
+    @media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}header{align-items:flex-start}.brand h1{font-size:26px}.topline{align-items:flex-start;flex-direction:column}}
+    @media(max-width:520px){.wrap{padding:18px 12px 44px}.stats{grid-template-columns:1fr 1fr}.stat .value{font-size:20px}.pick-title{font-size:17px}.date-pill{font-size:11px}.lock-card h2{font-size:23px}}
   </style>
 </head>
 <body>
+<div id="lockedOverlay">
+  <div class="lock-card">
+    <div class="big">♛</div>
+    <h2 id="lockTitle">Next Crown Royales drop</h2>
+    <p id="lockCopy">The board is locked while the next card is being built.</p>
+    <div class="countdown" id="countdown"></div>
+  </div>
+</div>
+
 <div class="wrap">
   <header>
-    <div class="brand"><div class="crown">♛</div><div><h1>Crown Royales</h1><small>Sunday NFL Card • confidence-first betting dashboard</small></div></div>
-    <div class="date-pill">Sunday • Week 3 • 09/27/26</div>
+    <div class="brand"><div class="crown-icon">♛</div><div><h1>Crown Royales</h1><small>Saturday CFB + Sunday NFL • confidence-first betting dashboard</small></div></div>
+    <div class="date-pill" id="todayLabel">Loading…</div>
   </header>
 
+  <div class="topline">
+    <div class="sport-pill" id="sportLabel">Today's slate</div>
+    <div class="foot" style="margin:0">New cards release at <strong style="color:var(--gold2)">11:00 AM ET</strong> every Saturday and Sunday.</div>
+  </div>
+
   <section class="stats">
-    <div class="stat"><div class="label">Crown Royal Record</div><div class="value">0-0</div><div class="sub">Official tracking starts today</div></div>
-    <div class="stat"><div class="label">Crown Record</div><div class="value">0-0</div><div class="sub">Pending today</div></div>
-    <div class="stat"><div class="label">Lock Prop Record</div><div class="value">0-0</div><div class="sub">Pending today</div></div>
+    <div class="stat"><div class="label">Crown Royal Record</div><div class="value">0-0</div><div class="sub">Tracked across CFB + NFL</div></div>
+    <div class="stat"><div class="label">Crown Record</div><div class="value">0-0</div><div class="sub">Tracked across CFB + NFL</div></div>
+    <div class="stat"><div class="label">Lock Prop Record</div><div class="value">0-0</div><div class="sub">One featured prop per card</div></div>
     <div class="stat"><div class="label">Hail Mary ROI</div><div class="value">—</div><div class="sub">Standard $10 stake</div></div>
   </section>
 
-  <div class="grid">
-    <main>
-      <section class="section">
-        <h2>Today's Card</h2>
-
-        <article class="pick">
-          <div class="pick-top"><div><span class="tag royal">Crown Royal</span><div class="pick-title" style="margin-top:10px">Seattle Seahawks — Moneyline</div></div><div class="odds">Top Play</div></div>
-          <div class="meta">SEA @ WAS • 1:00 PM ET</div>
-          <div class="reason">Highest-conviction setup on the card. Seattle's defensive profile plus Washington's key absences make the outright win the preferred exposure.</div>
-          <div class="meter"><span style="width:90%"></span></div><div class="conf"><span>Confidence</span><span>9.0 / 10</span></div>
-        </article>
-
-        <article class="pick">
-          <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Chiefs -6.5 Alternate Spread</div></div><div class="odds">Strong</div></div>
-          <div class="meta">KC @ MIA • 1:00 PM ET</div>
-          <div class="reason">Buys multiple points of protection versus the main market while keeping meaningful upside.</div>
-          <div class="meter"><span style="width:85%"></span></div><div class="conf"><span>Confidence</span><span>8.5 / 10</span></div>
-        </article>
-
-        <article class="pick">
-          <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bills Moneyline</div></div><div class="odds">Strong</div></div>
-          <div class="meta">LAC @ BUF • 1:00 PM ET</div>
-          <div class="reason">Home-field edge and the cleaner side of the matchup. Moneyline avoids laying a full touchdown.</div>
-          <div class="meter"><span style="width:80%"></span></div><div class="conf"><span>Confidence</span><span>8.0 / 10</span></div>
-        </article>
-
-        <article class="pick">
-          <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bengals Moneyline</div></div><div class="odds">Strong</div></div>
-          <div class="meta">CIN @ PIT • 1:00 PM ET</div>
-          <div class="reason">Solid matchup edge, but divisional-road-game volatility keeps it below Crown Royal status.</div>
-          <div class="meter"><span style="width:75%"></span></div><div class="conf"><span>Confidence</span><span>7.5 / 10</span></div>
-        </article>
-
-        <article class="pick">
-          <div class="pick-top"><div><span class="tag lean">Lean</span><div class="pick-title" style="margin-top:10px">Lions -3.5 Alternate Spread</div></div></div>
-          <div class="meta">NYJ @ DET • 1:00 PM ET</div>
-        </article>
-      </section>
-    </main>
-
-    <aside>
-      <section class="section lock">
-        <h2>Lock Player Prop</h2>
-        <div class="pick-title">Jaxon Smith-Njigba 70+ Receiving Yards</div>
-        <div class="meta">SEA @ WAS • 1:00 PM ET</div>
-        <div class="meter"><span style="width:84%"></span></div><div class="conf"><span>Confidence</span><span>8.4 / 10</span></div>
-      </section>
-
-      <section class="section hail">
-        <h2>$10 Hail Mary</h2>
-        <div class="pick-title">Target: $300–$500 return</div>
-        <div class="legs">
-          <span class="leg">KC -6.5</span><span class="leg">SEA -3.5</span><span class="leg">JSN TD</span><span class="leg">James Cook TD</span><span class="leg">Jeanty 70+ rush</span><span class="leg">Rashee Rice TD</span>
-        </div>
-        <div class="foot">Aggressive by design. Tracked separately from the confidence tiers.</div>
-      </section>
-
-      <section class="section">
-        <h2>Performance Ledger</h2>
-        <table>
-          <thead><tr><th>Date</th><th>Tier</th><th>Play</th><th>Result</th></tr></thead>
-          <tbody>
-            <tr><td>09/27</td><td>Crown Royal</td><td>SEA ML</td><td class="pending">Pending</td></tr>
-            <tr><td>09/27</td><td>Lock Prop</td><td>JSN 70+</td><td class="pending">Pending</td></tr>
-            <tr><td>09/27</td><td>Hail Mary</td><td>6-leg</td><td class="pending">Pending</td></tr>
-          </tbody>
-        </table>
-      </section>
-    </aside>
+  <div id="nflCard">
+    <div class="grid">
+      <main>
+        <section class="section">
+          <h2>Sunday NFL Card</h2>
+          <article class="pick">
+            <div class="pick-top"><div><span class="tag royal">Crown Royal</span><div class="pick-title" style="margin-top:10px">Seattle Seahawks — Moneyline</div></div><div class="odds">Top Play</div></div>
+            <div class="meta">SEA @ WAS • 1:00 PM ET</div>
+            <div class="reason">Highest-conviction setup on the card. Seattle's defensive profile plus Washington's key absences make the outright win the preferred exposure.</div>
+            <div class="meter"><span style="width:90%"></span></div><div class="conf"><span>Confidence</span><span>9.0 / 10</span></div>
+          </article>
+          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Chiefs -6.5 Alternate Spread</div></div><div class="odds">Strong</div></div><div class="meta">KC @ MIA • 1:00 PM ET</div><div class="meter"><span style="width:85%"></span></div><div class="conf"><span>Confidence</span><span>8.5 / 10</span></div></article>
+          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bills Moneyline</div></div><div class="odds">Strong</div></div><div class="meta">LAC @ BUF • 1:00 PM ET</div><div class="meter"><span style="width:80%"></span></div><div class="conf"><span>Confidence</span><span>8.0 / 10</span></div></article>
+          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bengals Moneyline</div></div><div class="odds">Strong</div></div><div class="meta">CIN @ PIT • 1:00 PM ET</div><div class="meter"><span style="width:75%"></span></div><div class="conf"><span>Confidence</span><span>7.5 / 10</span></div></article>
+        </section>
+      </main>
+      <aside>
+        <section class="section lock"><h2>Lock Player Prop</h2><div class="pick-title">Jaxon Smith-Njigba 70+ Receiving Yards</div><div class="meta">SEA @ WAS • 1:00 PM ET</div><div class="meter"><span style="width:84%"></span></div><div class="conf"><span>Confidence</span><span>8.4 / 10</span></div></section>
+        <section class="section hail"><h2>$10 Hail Mary</h2><div class="pick-title">Target: $300–$500 return</div><div class="legs"><span class="leg">KC -6.5</span><span class="leg">SEA -3.5</span><span class="leg">JSN TD</span><span class="leg">James Cook TD</span><span class="leg">Jeanty 70+ rush</span><span class="leg">Rashee Rice TD</span></div></section>
+      </aside>
+    </div>
   </div>
+
+  <div id="cfbCard" class="hidden">
+    <div class="grid">
+      <main><section class="section"><h2>Saturday College Football Card</h2><article class="pick"><div class="pick-title">Next CFB card releases Saturday at 11:00 AM ET</div><div class="reason">Crown Royal, Crown, Lean, Lock Player Prop, and the $10 Hail Mary will all appear here once the Saturday card is published.</div></article></section></main>
+      <aside><section class="section lock"><h2>Lock Player Prop</h2><div class="pick-title">Releases Saturday at 11:00 AM ET</div></section><section class="section hail"><h2>$10 Hail Mary</h2><div class="pick-title">Saturday edition</div><div class="foot">Target remains roughly $300–$500 from a $10 stake.</div></section></aside>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>Performance Ledger</h2>
+    <table><thead><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Play</th><th>Result</th></tr></thead><tbody>
+      <tr><td>09/27</td><td>NFL</td><td>Crown Royal</td><td>SEA ML</td><td class="pending">Pending</td></tr>
+      <tr><td>09/27</td><td>NFL</td><td>Lock Prop</td><td>JSN 70+</td><td class="pending">Pending</td></tr>
+      <tr><td>09/27</td><td>NFL</td><td>Hail Mary</td><td>6-leg</td><td class="pending">Pending</td></tr>
+    </tbody></table>
+  </section>
 
   <div class="foot">Crown Royales is a tracking dashboard, not a guarantee of outcomes. Confidence scores are model judgments, not true probabilities. Market prices and lines can move before kickoff.</div>
 </div>
+
+<script>
+(function(){
+  const fmt=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'long',year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
+  function parts(d){const p={};new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(d).forEach(x=>{if(x.type!=='literal')p[x.type]=x.value});return p}
+  function nextRelease(now){
+    const p=parts(now); const dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday); const hour=+p.hour; const minute=+p.minute;
+    const etDate=new Date(Date.UTC(+p.year,+p.month-1,+p.day,hour,minute));
+    function mk(days,label){const d=new Date(etDate);d.setUTCDate(d.getUTCDate()+days);d.setUTCHours(11,0,0,0);return {d,label}}
+    if(dow===6 && (hour<11 || (hour===11&&minute===0))) return mk(0,'Saturday');
+    if(dow===0 && (hour<11 || (hour===11&&minute===0))) return mk(0,'Sunday');
+    if(dow===6) return mk(1,'Sunday');
+    if(dow===0) return mk(6,'Saturday');
+    return mk((6-dow+7)%7,'Saturday');
+  }
+  function update(){
+    const now=new Date(), p=parts(now), dow=p.weekday, hour=+p.hour;
+    document.getElementById('todayLabel').textContent=fmt.format(now).replace(', 24:', ', 00:')+' ET';
+    const saturday=dow==='Sat', sunday=dow==='Sun', released=(saturday||sunday)&&hour>=11;
+    const nfl=document.getElementById('nflCard'), cfb=document.getElementById('cfbCard'), overlay=document.getElementById('lockedOverlay');
+    if(saturday){cfb.classList.remove('hidden');nfl.classList.add('hidden');document.getElementById('sportLabel').textContent='College Football • Saturday';}
+    else {nfl.classList.remove('hidden');cfb.classList.add('hidden');document.getElementById('sportLabel').textContent='NFL • Sunday';}
+    if(released){overlay.style.display='none';return}
+    overlay.style.display='flex';
+    const nr=nextRelease(now);
+    document.getElementById('lockTitle').textContent='Next bets release at 11:00 AM ET '+nr.label;
+    document.getElementById('lockCopy').textContent='The previous card is locked. Crown Royal, Crown, Lean, Lock Prop, and the $10 Hail Mary will unlock together.';
+    const diff=Math.max(0,nr.d.getTime()-new Date(Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute)).getTime());
+    const hrs=Math.floor(diff/3600000), mins=Math.floor((diff%3600000)/60000);
+    document.getElementById('countdown').textContent=hrs+'h '+mins+'m until the next drop';
+  }
+  update(); setInterval(update,60000);
+})();
+</script>
 </body>
 </html>

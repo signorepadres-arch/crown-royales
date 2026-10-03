@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "updated": "2026-10-03",
+  "purpose": "Persistent learning log for the Crown Royales CFB + NFL betting model.",
+  "principles": [
+    "Keep Crown Royal rare and reserved for the highest-conviction setup.",
+    "Use moneylines or alternate spreads for higher-stake core bets when the full market spread creates unnecessary variance.",
+    "Keep the Hail Mary separate from the core card; target roughly $300-$500 from a $10 stake.",
+    "Track both parlay outcomes and individual leg hit rates so a one-leg miss is still informative.",
+    "Avoid overfitting to one week; adjust only when misses reveal repeatable risk such as overaggressive road-favorite spreads, uncertain touchdown dependence, or fragile volume assumptions."
+  ],
+  "results": [
+    {
+      "date": "2026-09-26",
+      "sport": "CFB",
+      "type": "Hail Mary",
+      "result": "LOSS",
+      "leg_record": "9-1",
+      "legs": [
+        [
+          "Georgia -13.5",
+          "WIN"
+        ],
+        [
+          "Texas -5.5",
+          "LOSS"
+        ],
+        [
+          "Ohio State -20.5 ALT",
+          "WIN"
+        ],
+        [
+          "Notre Dame -20.5 ALT",
+          "WIN"
+        ],
+        [
+          "Alabama ML",
+          "WIN"
+        ],
+        [
+          "Wisconsin +9.5",
+          "WIN"
+        ],
+        [
+          "Missouri +6.5",
+          "WIN"
+        ],
+        [
+          "Oregon ML",
+          "WIN"
+        ],
+        [
+          "Oregon/USC Over 61.5",
+          "WIN"
+        ],
+        [
+          "Wake Forest +13.5",
+          "WIN"
+        ]
+      ],
+      "lesson": "Texas won 20-17 but failed to cover -5.5. The ticket's only miss came from asking a favored team to cover rather than simply win. For core/high-stake tickets, favor ML or alt-spread protection when price permits."
+    },
+    {
+      "date": "2026-09-26",
+      "sport": "CFB",
+      "type": "Lock Parlay",
+      "result": "WIN",
+      "legs": [
+        [
+          "Texas ML",
+          "WIN"
+        ],
+        [
+          "Notre Dame -14.5",
+          "WIN"
+        ],
+        [
+          "Georgia ML",
+          "WIN"
+        ]
+      ],
+      "lesson": "Shorter protected parlay structure worked; preserve this format for higher-stake CFB tickets."
+    },
+    {
+      "date": "2026-09-27",
+      "sport": "NFL",
+      "type": "Crown Royal",
+      "pick": "Seattle ML",
+      "result": "LOSS",
+      "lesson": "Do not let injury-based matchup edges overwhelm turnover/game-variance risk. Crown Royal confidence should require multiple independent edges, not one dominant narrative."
+    },
+    {
+      "date": "2026-09-27",
+      "sport": "NFL",
+      "type": "Crown",
+      "result": "2-1",
+      "legs": [
+        [
+          "Kansas City -6.5",
+          "WIN"
+        ],
+        [
+          "Buffalo ML",
+          "WIN"
+        ],
+        [
+          "Cincinnati ML",
+          "LOSS"
+        ]
+      ],
+      "lesson": "Protected favorites performed better than the outright Crown Royal call; continue separating confidence tier from payout attractiveness."
+    },
+    {
+      "date": "2026-09-27",
+      "sport": "NFL",
+      "type": "Lock Prop",
+      "pick": "Jaxon Smith-Njigba 70+ receiving yards",
+      "result": "WIN",
+      "actual": "128 receiving yards",
+      "lesson": "Volume-based receiving thresholds are preferable to touchdown-dependent props for the Lock Prop."
+    },
+    {
+      "date": "2026-09-27",
+      "sport": "NFL",
+      "type": "Hail Mary",
+      "result": "LOSS",
+      "leg_record": "3-3",
+      "legs": [
+        [
+          "Kansas City -6.5",
+          "WIN"
+        ],
+        [
+          "Seattle -3.5",
+          "LOSS"
+        ],
+        [
+          "JSN anytime TD",
+          "WIN"
+        ],
+        [
+          "James Cook anytime TD",
+          "WIN"
+        ],
+        [
+          "Ashton Jeanty 70+ rushing",
+          "LOSS"
+        ],
+        [
+          "Rashee Rice anytime TD",
+          "LOSS"
+        ]
+      ],
+      "lesson": "TD props and aggressive alt thresholds added too much variance. Keep Hail Mary around 5-6 legs and diversify between sides, volume props, and only a limited number of TD scorers."
+    }
+  ],
+  "aggregate": {
+    "Crown_Royal": "0-1",
+    "Crown": "2-1",
+    "Lock": "2-0",
+    "Hail_Mary": "0-2",
+    "Hail_Mary_leg_record": "12-4",
+    "Hail_Mary_leg_hit_rate": "75%"
+  }
+}

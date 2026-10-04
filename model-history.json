@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "purpose": "Persistent learning log for the Crown Royales CFB + NFL betting model.",
   "principles": [
     "Keep Crown Royal rare and reserved for the highest-conviction setup.",
@@ -152,14 +152,117 @@
         ]
       ],
       "lesson": "TD props and aggressive alt thresholds added too much variance. Keep Hail Mary around 5-6 legs and diversify between sides, volume props, and only a limited number of TD scorers."
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "CFB",
+      "type": "Crown Royal",
+      "pick": "Notre Dame -14.5 ALT",
+      "result": "LOSS",
+      "actual": "Notre Dame won 37-26 (11-point margin)",
+      "lesson": "Notre Dame won, but did not cover -14.5. The 10.5-point miss shows the margin projection was too aggressive; a strong win probability did not justify a high spread confidence."
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "CFB",
+      "type": "Crown",
+      "result": "3-0",
+      "legs": [
+        [
+          "Georgia -17.5 ALT",
+          "WIN"
+        ],
+        [
+          "Ohio State -7.5 ALT",
+          "WIN"
+        ],
+        [
+          "Miami ML",
+          "WIN"
+        ]
+      ],
+      "lesson": "All three Crown plays won. Continue scoring price value and closing-line value separately from outcomes."
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "CFB",
+      "type": "Lean",
+      "result": "2-0",
+      "legs": [
+        [
+          "Alabama ML",
+          "WIN"
+        ],
+        [
+          "Texas Tech -7.5 ALT",
+          "WIN"
+        ]
+      ],
+      "lesson": "Both Leans won; retain them as a separate confidence tier rather than merging with Crown results."
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "CFB",
+      "type": "Lock Parlay",
+      "result": "LOSS",
+      "legs": [
+        [
+          "Notre Dame -14.5 ALT",
+          "LOSS"
+        ],
+        [
+          "Georgia ML",
+          "WIN"
+        ],
+        [
+          "Ohio State ML",
+          "WIN"
+        ]
+      ],
+      "lesson": "The parlay failed on Notre Dame's 11-point win. A losing leg makes the full ticket a loss even when the other legs hit."
+    },
+    {
+      "date": "2026-10-03",
+      "sport": "CFB",
+      "type": "Hail Mary",
+      "result": "LOSS",
+      "leg_record": "4-2",
+      "legs": [
+        [
+          "Notre Dame -21",
+          "LOSS"
+        ],
+        [
+          "Alabama -5.5",
+          "WIN"
+        ],
+        [
+          "Georgia -24.5",
+          "LOSS"
+        ],
+        [
+          "Ohio State -14.5",
+          "WIN"
+        ],
+        [
+          "Miami -15.5",
+          "WIN"
+        ],
+        [
+          "Texas Tech -13.5",
+          "WIN"
+        ]
+      ],
+      "lesson": "The parlay lost despite four of six legs hitting. Both missed legs were aggressive spreads on favorites; grade probability and price rather than assuming favorite dominance."
     }
   ],
   "aggregate": {
-    "Crown_Royal": "0-1",
-    "Crown": "2-1",
-    "Lock": "2-0",
-    "Hail_Mary": "0-2",
-    "Hail_Mary_leg_record": "12-4",
-    "Hail_Mary_leg_hit_rate": "75%"
+    "Crown_Royal": "0-2",
+    "Crown": "5-1",
+    "Lean": "2-0",
+    "Lock": "2-1",
+    "Hail_Mary": "0-3",
+    "Hail_Mary_leg_record": "16-6",
+    "Hail_Mary_leg_hit_rate": "72.7%"
   }
 }

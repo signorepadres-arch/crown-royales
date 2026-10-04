@@ -11,7 +11,7 @@
     .wrap{max-width:1120px;margin:0 auto;padding:28px 18px 64px} header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
     .brand{display:flex;align-items:center;gap:12px}.crown-icon{font-size:34px}.brand h1{margin:0;font-size:30px}.brand small{display:block;color:var(--muted);margin-top:4px}
     .date-pill,.sport-pill{padding:10px 14px;border:1px solid var(--line);background:#111117;border-radius:999px;color:var(--gold2);font-weight:700;font-size:13px}
-    .topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}.sport-pill{color:#d9d9e3}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+    .topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}.sport-pill{color:#d9d9e3}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
     .stat,.section{background:linear-gradient(180deg,#17171f,#111118);border:1px solid var(--line);border-radius:16px;padding:16px}.stat .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.stat .value{font-size:24px;font-weight:800;margin-top:6px}.stat .sub{color:var(--muted);font-size:12px;margin-top:4px}
     .grid{display:grid;grid-template-columns:1.4fr .8fr;gap:18px}.section{margin-bottom:18px;box-shadow:0 14px 40px rgba(0,0,0,.16)}.section h2{font-size:15px;text-transform:uppercase;letter-spacing:.11em;margin:0 0 14px;color:#c9cad3}
     .pick{padding:16px;border:1px solid var(--line);background:linear-gradient(180deg,#191922,#14141b);border-radius:16px;margin-bottom:12px}.pick:last-child{margin-bottom:0}.pick-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.pick-title{font-size:19px;font-weight:800}
@@ -48,10 +48,11 @@
   </div>
 
   <section class="stats">
-    <div class="stat"><div class="label">Crown Royal Record</div><div class="value">0-1</div><div class="sub">NFL tracked; CFB starts today</div></div>
-    <div class="stat"><div class="label">Crown Record</div><div class="value">2-1</div><div class="sub">66.7% hit rate</div></div>
-    <div class="stat"><div class="label">Lock Record</div><div class="value">2-0</div><div class="sub">CFB lock + NFL prop</div></div>
-    <div class="stat"><div class="label">Hail Mary</div><div class="value">0-2</div><div class="sub">12/16 legs hit (75%)</div></div>
+    <div class="stat"><div class="label">Crown Royal Record</div><div class="value" id="statCrownRoyal">—</div><div class="sub" id="subCrownRoyal">All tracked sports</div></div>
+    <div class="stat"><div class="label">Crown Record</div><div class="value" id="statCrown">—</div><div class="sub" id="subCrown">All tracked sports</div></div>
+    <div class="stat"><div class="label">Lean Record</div><div class="value" id="statLean">—</div><div class="sub" id="subLean">All tracked sports</div></div>
+    <div class="stat"><div class="label">Lock Record</div><div class="value" id="statLock">—</div><div class="sub" id="subLock">Includes lock props and parlays</div></div>
+    <div class="stat"><div class="label">Hail Mary</div><div class="value" id="statHail">—</div><div class="sub" id="subHail">Tracked separately from core plays</div></div>
   </section>
 
   <div id="nflCard">
@@ -137,16 +138,16 @@
   <section class="section">
     <h2>Performance Ledger</h2>
     <table><thead><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Play</th><th>Result</th></tr></thead><tbody>
-      <tr><td>09/26</td><td>CFB</td><td>Lock</td><td>Texas ML + ND -14.5 + Georgia ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr><td>09/26</td><td>CFB</td><td>Hail Mary</td><td>10-leg • 9/10 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Crown Royal</td><td>SEA ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Crown</td><td>KC -6.5</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Crown</td><td>BUF ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Crown</td><td>CIN ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Lock Prop</td><td>JSN 70+ rec (128)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr><td>09/27</td><td>NFL</td><td>Hail Mary</td><td>6-leg • 3/6 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
+      <tr data-tier="Lock" data-result="WIN"><td>09/26</td><td>CFB</td><td>Lock</td><td>Texas ML + ND -14.5 + Georgia ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
+      <tr data-tier="Hail Mary" data-result="LOSS" data-leg-wins="9" data-leg-losses="1"><td>09/26</td><td>CFB</td><td>Hail Mary</td><td>10-leg • 9/10 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
+      <tr data-tier="Crown Royal" data-result="LOSS"><td>09/27</td><td>NFL</td><td>Crown Royal</td><td>SEA ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
+      <tr data-tier="Crown" data-result="WIN"><td>09/27</td><td>NFL</td><td>Crown</td><td>KC -6.5</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
+      <tr data-tier="Crown" data-result="WIN"><td>09/27</td><td>NFL</td><td>Crown</td><td>BUF ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
+      <tr data-tier="Crown" data-result="LOSS"><td>09/27</td><td>NFL</td><td>Crown</td><td>CIN ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
+      <tr data-tier="Lock Prop" data-result="WIN"><td>09/27</td><td>NFL</td><td>Lock Prop</td><td>JSN 70+ rec (128)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
+      <tr data-tier="Hail Mary" data-result="LOSS" data-leg-wins="3" data-leg-losses="3"><td>09/27</td><td>NFL</td><td>Hail Mary</td><td>6-leg • 3/6 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
     </tbody></table>
-    <div class="foot">Model note: the two Hail Marys are 0-2 despite a combined 12/16 individual-leg hit rate. Going forward, core bets use more ML/alt-line protection; Hail Marys stay separate and are capped around 5–6 legs unless the price requires otherwise.</div>
+    <div class="foot">Model note: Hail Mary parlays and individual leg results are tracked separately from core plays. Lower-variance lines still need a price edge; protection alone does not make a bet valuable.</div>
   </section>
 
   <div class="foot">Crown Royales is a tracking dashboard, not a guarantee of outcomes. Confidence scores are model judgments, not true probabilities. Market prices and lines can move before kickoff.</div>
@@ -182,6 +183,36 @@
     const hrs=Math.floor(diff/3600000), mins=Math.floor((diff%3600000)/60000);
     document.getElementById('countdown').textContent=hrs+'h '+mins+'m until the next drop';
   }
+  function updateTracker(){
+    const rows=[...document.querySelectorAll('tbody tr[data-tier][data-result]')];
+    const summary={};
+    let hmWins=0,hmLosses=0,hmLegWins=0,hmLegLosses=0;
+    for(const row of rows){
+      const tier=row.dataset.tier, result=row.dataset.result;
+      if(!summary[tier]) summary[tier]={wins:0,losses:0};
+      if(result==='WIN') summary[tier].wins++; else if(result==='LOSS') summary[tier].losses++;
+      if(tier==='Hail Mary'){
+        if(result==='WIN') hmWins++; else if(result==='LOSS') hmLosses++;
+        hmLegWins+=Number(row.dataset.legWins||0); hmLegLosses+=Number(row.dataset.legLosses||0);
+      }
+    }
+    function render(tier,id,subId,subtitle){
+      const record=summary[tier]||{wins:0,losses:0}, total=record.wins+record.losses;
+      document.getElementById(id).textContent=record.wins+'-'+record.losses;
+      document.getElementById(subId).textContent=total?Math.round(record.wins/total*100)+'% hit rate • all tracked sports':subtitle;
+    }
+    render('Crown Royal','statCrownRoyal','subCrownRoyal','All tracked sports');
+    render('Crown','statCrown','subCrown','All tracked sports');
+    render('Lean','statLean','subLean','All tracked sports');
+    const locks={wins:(summary['Lock']?.wins||0)+(summary['Lock Prop']?.wins||0),losses:(summary['Lock']?.losses||0)+(summary['Lock Prop']?.losses||0)};
+    const lockTotal=locks.wins+locks.losses;
+    document.getElementById('statLock').textContent=locks.wins+'-'+locks.losses;
+    document.getElementById('subLock').textContent=lockTotal?Math.round(locks.wins/lockTotal*100)+'% hit rate • props and parlays':'Includes lock props and parlays';
+    const hmTotal=hmWins+hmLosses, legTotal=hmLegWins+hmLegLosses;
+    document.getElementById('statHail').textContent=hmWins+'-'+hmLosses;
+    document.getElementById('subHail').textContent=hmLegWins+'/'+legTotal+' legs hit ('+(legTotal?Math.round(hmLegWins/legTotal*100):0)+'%) • '+hmTotal+' tickets';
+  }
+  updateTracker();
   update(); setInterval(update,60000);
 })();
 </script>

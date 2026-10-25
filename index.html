@@ -43,9 +43,14 @@
   </header>
 
   <div class="topline">
-    <div class="sport-pill" id="sportLabel">Today's slate</div>
-    <div class="foot" style="margin:0">New cards release at <strong style="color:var(--gold2)">11:00 AM ET</strong> every Saturday and Sunday.</div>
+    <div class="sport-pill" id="sportLabel">No active card published</div>
+    <div class="foot" style="margin:0">Board reviewed Oct 24, 2026 • no qualified CFB play published</div>
   </div>
+  <section class="section" aria-live="polite">
+    <h2>Current Board Status</h2>
+    <div class="pick-title">No verified picks are posted for the current slate.</div>
+    <div class="foot">The dated cards below have been retired from the active board. The performance ledger is manually settled and is graded through Oct 3, 2026. Live score updates and automatic settlement are not connected.</div>
+  </section>
 
   <section class="stats">
     <div class="stat"><div class="label">Crown Royal Record</div><div class="value" id="statCrownRoyal">—</div><div class="sub" id="subCrownRoyal">All tracked sports</div></div>
@@ -176,20 +181,12 @@
     return mk((6-dow+7)%7,'Saturday');
   }
   function update(){
-    const now=new Date(), p=parts(now), dow=p.weekday, hour=+p.hour;
+    const now=new Date();
     document.getElementById('todayLabel').textContent=fmt.format(now).replace(', 24:', ', 00:')+' ET';
-    const saturday=dow==='Sat', sunday=dow==='Sun', released=(saturday||sunday)&&hour>=11;
-    const nfl=document.getElementById('nflCard'), cfb=document.getElementById('cfbCard'), overlay=document.getElementById('lockedOverlay');
-    if(saturday){cfb.classList.remove('hidden');nfl.classList.add('hidden');document.getElementById('sportLabel').textContent='College Football • Saturday';}
-    else {nfl.classList.remove('hidden');cfb.classList.add('hidden');document.getElementById('sportLabel').textContent='NFL • Sunday';}
-    if(released){overlay.style.display='none';return}
-    overlay.style.display='flex';
-    const nr=nextRelease(now);
-    document.getElementById('lockTitle').textContent='Next bets release at 11:00 AM ET '+nr.label;
-    document.getElementById('lockCopy').textContent='The previous card is locked. Crown Royal, Crown, Lean, Lock Prop, and the $10 Hail Mary will unlock together.';
-    const diff=Math.max(0,nr.d.getTime()-new Date(Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute)).getTime());
-    const hrs=Math.floor(diff/3600000), mins=Math.floor((diff%3600000)/60000);
-    document.getElementById('countdown').textContent=hrs+'h '+mins+'m until the next drop';
+    document.getElementById('sportLabel').textContent='No active card published';
+    document.getElementById('nflCard').classList.add('hidden');
+    document.getElementById('cfbCard').classList.add('hidden');
+    document.getElementById('lockedOverlay').style.display='none';
   }
   function updateTracker(){
     const rows=[...document.querySelectorAll('tbody tr[data-tier][data-result]')];

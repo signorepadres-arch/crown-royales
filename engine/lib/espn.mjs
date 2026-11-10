@@ -22,7 +22,7 @@ export async function fetchJSON(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
       requestCount++;
-      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (CrownRoyalesBot)', Accept: 'application/json' } });
+      const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36', Accept: 'application/json' } });
       if (r.ok) return await r.json();
       if (r.status === 404) return null;
       lastErr = new Error(`HTTP ${r.status} ${url}`);

@@ -1,6 +1,9007 @@
 {
  "sport": "nfl",
  "season": 2026,
- "games": {},
- "updated": "2026-11-10T16:45:45.379Z"
+ "games": {
+  "401872656": {
+   "id": "401872656",
+   "date": "2026-09-10T00:20Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 13,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -170,
+    "mlAway": 142,
+    "total": 44.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3.5,
+     "total": 44.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 44.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401872657": {
+   "id": "401872657",
+   "date": "2026-09-11T00:35Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 7,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -218,
+    "mlAway": 180,
+    "total": 47.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -2.5,
+     "total": 48.5,
+     "mlHome": -155,
+     "mlAway": 130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 48.5,
+    "mlHome": -155,
+    "mlAway": 130
+   },
+   "coreTried": true
+  },
+  "401872658": {
+   "id": "401872658",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 20,
+   "as": 13,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -298,
+    "mlAway": 240,
+    "total": 40.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -3,
+     "total": 42.5,
+     "mlHome": -175,
+     "mlAway": 145
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 42.5,
+    "mlHome": -175,
+    "mlAway": 145
+   },
+   "coreTried": true
+  },
+  "401872659": {
+   "id": "401872659",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 23,
+   "as": 41,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 136,
+    "mlAway": -162,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 3.5,
+     "total": 49.5,
+     "mlHome": 154,
+     "mlAway": -185
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3.5,
+    "total": 49.5,
+    "mlHome": 154,
+    "mlAway": -185
+   },
+   "coreTried": true
+  },
+  "401872660": {
+   "id": "401872660",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 31,
+   "as": 36,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -110,
+    "mlAway": -110,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 45.5,
+     "mlHome": -108,
+     "mlAway": -112
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 45.5,
+    "mlHome": -108,
+    "mlAway": -112
+   },
+   "coreTried": true
+  },
+  "401872661": {
+   "id": "401872661",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 37,
+   "as": 59,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 140,
+    "mlAway": -166,
+    "total": 47.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 2.5,
+     "total": 44.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 44.5,
+    "mlHome": 114,
+    "mlAway": -135
+   },
+   "coreTried": true
+  },
+  "401872922": {
+   "id": "401872922",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 34,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -470,
+    "mlAway": 360,
+    "total": 40.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -7,
+     "total": 40.5,
+     "mlHome": -285,
+     "mlAway": 230
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7,
+    "total": 40.5,
+    "mlHome": -285,
+    "mlAway": 230
+   },
+   "coreTried": true
+  },
+  "401872923": {
+   "id": "401872923",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 31,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -340,
+    "mlAway": 270,
+    "total": 49.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -7,
+     "total": 48.5,
+     "mlHome": -325,
+     "mlAway": 260
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7,
+    "total": 48.5,
+    "mlHome": -325,
+    "mlAway": 260
+   },
+   "coreTried": true
+  },
+  "401872924": {
+   "id": "401872924",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 10,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -118,
+    "mlAway": -102,
+    "total": 39.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 39.5,
+     "mlHome": -170,
+     "mlAway": 142
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 39.5,
+    "mlHome": -170,
+    "mlAway": 142
+   },
+   "coreTried": true
+  },
+  "401872925": {
+   "id": "401872925",
+   "date": "2026-09-13T17:00Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 33,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -198,
+    "mlAway": 164,
+    "total": 50.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3.5,
+     "total": 50.5,
+     "mlHome": -198,
+     "mlAway": 164
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 50.5,
+    "mlHome": -198,
+    "mlAway": 164
+   },
+   "coreTried": true
+  },
+  "401872926": {
+   "id": "401872926",
+   "date": "2026-09-13T20:25Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "hs": 14,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -485,
+    "mlAway": 370,
+    "total": 47.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -11.5,
+     "total": 45.5,
+     "mlHome": -625,
+     "mlAway": 470
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -11.5,
+    "total": 45.5,
+    "mlHome": -625,
+    "mlAway": 470
+   },
+   "coreTried": true
+  },
+  "401872927": {
+   "id": "401872927",
+   "date": "2026-09-13T20:25Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 39,
+   "as": 22,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -142,
+    "mlAway": 120,
+    "total": 46.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": 1.5,
+     "total": 44.5,
+     "mlHome": 105,
+     "mlAway": -125
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 44.5,
+    "mlHome": 105,
+    "mlAway": -125
+   },
+   "coreTried": true
+  },
+  "401872928": {
+   "id": "401872928",
+   "date": "2026-09-13T20:25Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 27,
+   "as": 13,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -170,
+    "mlAway": 142,
+    "total": 40.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 41.5,
+     "mlHome": -180,
+     "mlAway": 150
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 41.5,
+    "mlHome": -180,
+    "mlAway": 150
+   },
+   "coreTried": true
+  },
+  "401872929": {
+   "id": "401872929",
+   "date": "2026-09-13T20:25Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 24,
+   "as": 22,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -238,
+    "mlAway": 195,
+    "total": 43.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -5.5,
+     "total": 46.5,
+     "mlHome": -238,
+     "mlAway": 195
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 46.5,
+    "mlHome": -238,
+    "mlAway": 195
+   },
+   "coreTried": true
+  },
+  "401872930": {
+   "id": "401872930",
+   "date": "2026-09-14T00:20Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 28,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 140,
+    "mlAway": -166,
+    "total": 47.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 2.5,
+     "total": 48.5,
+     "mlHome": 110,
+     "mlAway": -130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 48.5,
+    "mlHome": 110,
+    "mlAway": -130
+   },
+   "coreTried": true
+  },
+  "401872931": {
+   "id": "401872931",
+   "date": "2026-09-15T00:15Z",
+   "week": 1,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "1-0"
+   },
+   "away": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "0-1"
+   },
+   "hs": 31,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -130,
+    "mlAway": 110,
+    "total": 42.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 42.5,
+     "mlHome": -155,
+     "mlAway": 130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 42.5,
+    "mlHome": -155,
+    "mlAway": 130
+   },
+   "coreTried": true
+  },
+  "401872932": {
+   "id": "401872932",
+   "date": "2026-09-18T00:15Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "away": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 41,
+   "as": 31,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -245,
+    "mlAway": 200,
+    "total": 54.5,
+    "overPrice": -118,
+    "underPrice": -102,
+    "open": {
+     "spread": -3,
+     "total": 52.5,
+     "mlHome": -162,
+     "mlAway": 136
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 52.5,
+    "mlHome": -162,
+    "mlAway": 136
+   },
+   "coreTried": true
+  },
+  "401872933": {
+   "id": "401872933",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 3,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": 120,
+    "mlAway": -142,
+    "total": 43.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -1.5,
+     "total": 43.5,
+     "mlHome": -120,
+     "mlAway": 100
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 43.5,
+    "mlHome": -120,
+    "mlAway": 100
+   },
+   "coreTried": true
+  },
+  "401872934": {
+   "id": "401872934",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "hs": 6,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -148,
+    "mlAway": 124,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 46.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 46.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872935": {
+   "id": "401872935",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 19,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -425,
+    "mlAway": 330,
+    "total": 41.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -5.5,
+     "total": 42.5,
+     "mlHome": -245,
+     "mlAway": 200
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 42.5,
+    "mlHome": -245,
+    "mlAway": 200
+   },
+   "coreTried": true
+  },
+  "401872936": {
+   "id": "401872936",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 17,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 154,
+    "mlAway": -185,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 6.5,
+     "total": 42.5,
+     "mlHome": 230,
+     "mlAway": -285
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 6.5,
+    "total": 42.5,
+    "mlHome": 230,
+    "mlAway": -285
+   },
+   "coreTried": true
+  },
+  "401872937": {
+   "id": "401872937",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "hs": 3,
+   "as": 9,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -4.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -218,
+    "mlAway": 180,
+    "total": 46.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -3.5,
+     "total": 45.5,
+     "mlHome": -185,
+     "mlAway": 154
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 45.5,
+    "mlHome": -185,
+    "mlAway": 154
+   },
+   "coreTried": true
+  },
+  "401872938": {
+   "id": "401872938",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 17,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -360,
+    "mlAway": 285,
+    "total": 45.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -7.5,
+     "total": 46.5,
+     "mlHome": -380,
+     "mlAway": 300
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7.5,
+    "total": 46.5,
+    "mlHome": -380,
+    "mlAway": 300
+   },
+   "coreTried": true
+  },
+  "401872939": {
+   "id": "401872939",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "away": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "hs": 20,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 7,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 260,
+    "mlAway": -325,
+    "total": 39.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 4.5,
+     "total": 42.5,
+     "mlHome": 180,
+     "mlAway": -218
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 4.5,
+    "total": 42.5,
+    "mlHome": 180,
+    "mlAway": -218
+   },
+   "coreTried": true
+  },
+  "401872940": {
+   "id": "401872940",
+   "date": "2026-09-20T20:05Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 20,
+   "as": 13,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -142,
+    "mlAway": 120,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 44.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 44.5,
+    "mlHome": -142,
+    "mlAway": 120
+   },
+   "coreTried": true
+  },
+  "401872941": {
+   "id": "401872941",
+   "date": "2026-09-20T20:05Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "away": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "hs": 14,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -122,
+    "spreadAwayPrice": 102,
+    "mlHome": -325,
+    "mlAway": 260,
+    "total": 43.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -8.5,
+     "total": 42.5,
+     "mlHome": -425,
+     "mlAway": 330
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 42.5,
+    "mlHome": -425,
+    "mlAway": 330
+   },
+   "coreTried": true
+  },
+  "401872942": {
+   "id": "401872942",
+   "date": "2026-09-20T20:25Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "hs": 35,
+   "as": 13,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -12.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -900,
+    "mlAway": 600,
+    "total": 44.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -10.5,
+     "total": 46.5,
+     "mlHome": -575,
+     "mlAway": 425
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -10.5,
+    "total": 46.5,
+    "mlHome": -575,
+    "mlAway": 425
+   },
+   "coreTried": true
+  },
+  "401872943": {
+   "id": "401872943",
+   "date": "2026-09-20T20:25Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "hs": 7,
+   "as": 31,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
+    "mlHome": 180,
+    "mlAway": -218,
+    "total": 40.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 10,
+     "total": 44.5,
+     "mlHome": 380,
+     "mlAway": -500
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 10,
+    "total": 44.5,
+    "mlHome": 380,
+    "mlAway": -500
+   },
+   "coreTried": true
+  },
+  "401872944": {
+   "id": "401872944",
+   "date": "2026-09-20T20:25Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "hs": 37,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -4.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -225,
+    "mlAway": 185,
+    "total": 51.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -4.5,
+     "total": 51.5,
+     "mlHome": -205,
+     "mlAway": 170
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 51.5,
+    "mlHome": -205,
+    "mlAway": 170
+   },
+   "coreTried": true
+  },
+  "401872945": {
+   "id": "401872945",
+   "date": "2026-09-21T00:20Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "2-0"
+   },
+   "away": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "0-2"
+   },
+   "hs": 33,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -265,
+    "mlAway": 215,
+    "total": 46.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -5.5,
+     "total": 47.5,
+     "mlHome": -250,
+     "mlAway": 205
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 47.5,
+    "mlHome": -250,
+    "mlAway": 205
+   },
+   "coreTried": true
+  },
+  "401872946": {
+   "id": "401872946",
+   "date": "2026-09-20T17:00Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 20,
+   "as": 3,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -4.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -218,
+    "mlAway": 180,
+    "total": 41.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -4.5,
+     "total": 43.5,
+     "mlHome": -225,
+     "mlAway": 185
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 43.5,
+    "mlHome": -225,
+    "mlAway": 185
+   },
+   "coreTried": true
+  },
+  "401872947": {
+   "id": "401872947",
+   "date": "2026-09-22T00:15Z",
+   "week": 2,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "away": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "1-1"
+   },
+   "hs": 28,
+   "as": 6,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": 102,
+    "spreadAwayPrice": -122,
+    "mlHome": -310,
+    "mlAway": 250,
+    "total": 47.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -8.5,
+     "total": 47.5,
+     "mlHome": -375,
+     "mlAway": 295
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 47.5,
+    "mlHome": -375,
+    "mlAway": 295
+   },
+   "coreTried": true
+  },
+  "401872948": {
+   "id": "401872948",
+   "date": "2026-09-25T00:15Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "away": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 14,
+   "as": 35,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -4.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -238,
+    "mlAway": 195,
+    "total": 43.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -7.5,
+     "total": 46.5,
+     "mlHome": -360,
+     "mlAway": 285
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7.5,
+    "total": 46.5,
+    "mlHome": -360,
+    "mlAway": 285
+   },
+   "coreTried": true
+  },
+  "401872949": {
+   "id": "401872949",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 21,
+   "as": 18,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 110,
+    "mlAway": -130,
+    "total": 41.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 1.5,
+     "total": 39.5,
+     "mlHome": 100,
+     "mlAway": -120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 39.5,
+    "mlHome": 100,
+    "mlAway": -120
+   },
+   "coreTried": true
+  },
+  "401872950": {
+   "id": "401872950",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "hs": 30,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 154,
+    "mlAway": -185,
+    "total": 42.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 1.5,
+     "total": 47.5,
+     "mlHome": -105,
+     "mlAway": -115
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 47.5,
+    "mlHome": -105,
+    "mlAway": -115
+   },
+   "coreTried": true
+  },
+  "401872951": {
+   "id": "401872951",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "0-3"
+   },
+   "hs": 19,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 100,
+    "mlAway": -120,
+    "total": 42.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 45.5,
+     "mlHome": 110,
+     "mlAway": -130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 45.5,
+    "mlHome": 110,
+    "mlAway": -130
+   },
+   "coreTried": true
+  },
+  "401872952": {
+   "id": "401872952",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "0-3"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "3-0"
+   },
+   "hs": 10,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 10,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 440,
+    "mlAway": -600,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 7,
+     "total": 44.5,
+     "mlHome": 270,
+     "mlAway": -340
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 7,
+    "total": 44.5,
+    "mlHome": 270,
+    "mlAway": -340
+   },
+   "coreTried": true
+  },
+  "401872953": {
+   "id": "401872953",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-0"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-3"
+   },
+   "hs": 24,
+   "as": 16,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -345,
+    "mlAway": 275,
+    "total": 50.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 48.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 48.5,
+    "mlHome": -142,
+    "mlAway": 120
+   },
+   "coreTried": true
+  },
+  "401872954": {
+   "id": "401872954",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 31,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -355,
+    "mlAway": 280,
+    "total": 49.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -9.5,
+     "total": 44.5,
+     "mlHome": -440,
+     "mlAway": 340
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -9.5,
+    "total": 44.5,
+    "mlHome": -440,
+    "mlAway": 340
+   },
+   "coreTried": true
+  },
+  "401872955": {
+   "id": "401872955",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "away": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "hs": 33,
+   "as": 31,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 8.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 320,
+    "mlAway": -410,
+    "total": 40.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 3.5,
+     "total": 46.5,
+     "mlHome": 164,
+     "mlAway": -198
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3.5,
+    "total": 46.5,
+    "mlHome": 164,
+    "mlAway": -198
+   },
+   "coreTried": true
+  },
+  "401872956": {
+   "id": "401872956",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "0-3"
+   },
+   "hs": 12,
+   "as": 7,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -135,
+    "mlAway": 114,
+    "total": 37.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -3,
+     "total": 45.5,
+     "mlHome": -175,
+     "mlAway": 145
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 45.5,
+    "mlHome": -175,
+    "mlAway": 145
+   },
+   "coreTried": true
+  },
+  "401872957": {
+   "id": "401872957",
+   "date": "2026-09-27T17:00Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 35,
+   "as": 6,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -155,
+    "mlAway": 130,
+    "total": 46.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -1.5,
+     "total": 45.5,
+     "mlHome": -118,
+     "mlAway": -102
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 45.5,
+    "mlHome": -118,
+    "mlAway": -102
+   },
+   "coreTried": true
+  },
+  "401872958": {
+   "id": "401872958",
+   "date": "2026-09-27T20:05Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-0"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 36,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -395,
+    "mlAway": 310,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -11.5,
+     "total": 46.5,
+     "mlHome": -650,
+     "mlAway": 470
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -11.5,
+    "total": 46.5,
+    "mlHome": -650,
+    "mlAway": 470
+   },
+   "coreTried": true
+  },
+  "401872959": {
+   "id": "401872959",
+   "date": "2026-09-27T20:05Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "0-3"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "3-0"
+   },
+   "hs": 16,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -115,
+    "mlAway": -105,
+    "total": 42.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -1.5,
+     "total": 43.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 43.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401872960": {
+   "id": "401872960",
+   "date": "2026-09-27T20:25Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "away": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "hs": 31,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 136,
+    "mlAway": -162,
+    "total": 54.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 2.5,
+     "total": 52.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 52.5,
+    "mlHome": 114,
+    "mlAway": -135
+   },
+   "coreTried": true
+  },
+  "401872961": {
+   "id": "401872961",
+   "date": "2026-09-27T20:25Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "away": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-0"
+   },
+   "hs": 27,
+   "as": 35,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -198,
+    "mlAway": 164,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 42.5,
+     "mlHome": -166,
+     "mlAway": 140
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 42.5,
+    "mlHome": -166,
+    "mlAway": 140
+   },
+   "coreTried": true
+  },
+  "401872962": {
+   "id": "401872962",
+   "date": "2026-09-28T00:20Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "1-2"
+   },
+   "hs": 30,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -118,
+    "mlAway": -102,
+    "total": 44.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 2.5,
+     "total": 45.5,
+     "mlHome": 120,
+     "mlAway": -142
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 45.5,
+    "mlHome": 120,
+    "mlAway": -142
+   },
+   "coreTried": true
+  },
+  "401872963": {
+   "id": "401872963",
+   "date": "2026-09-29T00:15Z",
+   "week": 3,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "away": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-1"
+   },
+   "hs": 27,
+   "as": 7,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 154,
+    "mlAway": -185,
+    "total": 42.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -1.5,
+     "total": 46.5,
+     "mlHome": -118,
+     "mlAway": -102
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 46.5,
+    "mlHome": -118,
+    "mlAway": -102
+   },
+   "coreTried": true
+  },
+  "401872964": {
+   "id": "401872964",
+   "date": "2026-10-02T00:15Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 27,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
+    "mlHome": 124,
+    "mlAway": -148,
+    "total": 38.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 2.5,
+     "total": 40.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 40.5,
+    "mlHome": 114,
+    "mlAway": -135
+   },
+   "coreTried": true
+  },
+  "401872965": {
+   "id": "401872965",
+   "date": "2026-10-04T13:30Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "1-3"
+   },
+   "away": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 13,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": 185,
+    "mlAway": -225,
+    "total": 46.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -1.5,
+     "total": 48.5,
+     "mlHome": -110,
+     "mlAway": -110
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 48.5,
+    "mlHome": -110,
+    "mlAway": -110
+   },
+   "coreTried": true
+  },
+  "401872966": {
+   "id": "401872966",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "1-3"
+   },
+   "hs": 36,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 110,
+    "mlAway": -130,
+    "total": 43.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -7,
+     "total": 45.5,
+     "mlHome": -325,
+     "mlAway": 260
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7,
+    "total": 45.5,
+    "mlHome": -325,
+    "mlAway": 260
+   },
+   "coreTried": true
+  },
+  "401872967": {
+   "id": "401872967",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "0-4"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 30,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -155,
+    "mlAway": 130,
+    "total": 48.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -2.5,
+     "total": 47.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 47.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872968": {
+   "id": "401872968",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "0-4"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 14,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": 124,
+    "mlAway": -148,
+    "total": 38.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 1.5,
+     "total": 47.5,
+     "mlHome": 105,
+     "mlAway": -125
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 47.5,
+    "mlHome": 105,
+    "mlAway": -125
+   },
+   "coreTried": true
+  },
+  "401872969": {
+   "id": "401872969",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "hs": 17,
+   "as": 22,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -148,
+    "mlAway": 124,
+    "total": 51.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 51.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 51.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872970": {
+   "id": "401872970",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "away": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 20,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 164,
+    "mlAway": -198,
+    "total": 42.5,
+    "overPrice": -120,
+    "underPrice": 100,
+    "open": {
+     "spread": 1.5,
+     "total": 47.5,
+     "mlHome": -102,
+     "mlAway": -118
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 47.5,
+    "mlHome": -102,
+    "mlAway": -118
+   },
+   "coreTried": true
+  },
+  "401872971": {
+   "id": "401872971",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 26,
+   "as": 29,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -345,
+    "mlAway": 275,
+    "total": 49.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3,
+     "total": 49.5,
+     "mlHome": -162,
+     "mlAway": 136
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 49.5,
+    "mlHome": -162,
+    "mlAway": 136
+   },
+   "coreTried": true
+  },
+  "401872972": {
+   "id": "401872972",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "1-3"
+   },
+   "hs": 23,
+   "as": 12,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -198,
+    "mlAway": 164,
+    "total": 43.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -8.5,
+     "total": 45.5,
+     "mlHome": -380,
+     "mlAway": 300
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 45.5,
+    "mlHome": -380,
+    "mlAway": 300
+   },
+   "coreTried": true
+  },
+  "401872973": {
+   "id": "401872973",
+   "date": "2026-10-04T17:00Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "0-4"
+   },
+   "hs": 24,
+   "as": 18,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -11.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -800,
+    "mlAway": 550,
+    "total": 41.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -8.5,
+     "total": 47.5,
+     "mlHome": -395,
+     "mlAway": 310
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 47.5,
+    "mlHome": -395,
+    "mlAway": 310
+   },
+   "coreTried": true
+  },
+  "401872974": {
+   "id": "401872974",
+   "date": "2026-10-04T20:05Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "4-0"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "0-4"
+   },
+   "hs": 15,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -10,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -535,
+    "mlAway": 400,
+    "total": 38.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -7.5,
+     "total": 43.5,
+     "mlHome": -395,
+     "mlAway": 310
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7.5,
+    "total": 43.5,
+    "mlHome": -395,
+    "mlAway": 310
+   },
+   "coreTried": true
+  },
+  "401872975": {
+   "id": "401872975",
+   "date": "2026-10-04T20:25Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "4-0"
+   },
+   "away": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 24,
+   "as": 14,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -166,
+    "mlAway": 140,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -2.5,
+     "total": 46.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 46.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872976": {
+   "id": "401872976",
+   "date": "2026-10-04T20:25Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "4-0"
+   },
+   "hs": 27,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": 102,
+    "spreadAwayPrice": -122,
+    "mlHome": 170,
+    "mlAway": -205,
+    "total": 47.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 5.5,
+     "total": 43.5,
+     "mlHome": 210,
+     "mlAway": -258
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 5.5,
+    "total": 43.5,
+    "mlHome": 210,
+    "mlAway": -258
+   },
+   "coreTried": true
+  },
+  "401872977": {
+   "id": "401872977",
+   "date": "2026-10-04T20:25Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-4"
+   },
+   "hs": 30,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -345,
+    "mlAway": 275,
+    "total": 43.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 45.5,
+     "mlHome": -162,
+     "mlAway": 136
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 45.5,
+    "mlHome": -162,
+    "mlAway": 136
+   },
+   "coreTried": true
+  },
+  "401872978": {
+   "id": "401872978",
+   "date": "2026-10-05T00:20Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "away": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 32,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 160,
+    "mlAway": -192,
+    "total": 52.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 3,
+     "total": 45.5,
+     "mlHome": 136,
+     "mlAway": -162
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3,
+    "total": 45.5,
+    "mlHome": 136,
+    "mlAway": -162
+   },
+   "coreTried": true
+  },
+  "401872979": {
+   "id": "401872979",
+   "date": "2026-10-06T00:15Z",
+   "week": 4,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-3"
+   },
+   "away": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "2-2"
+   },
+   "hs": 24,
+   "as": 45,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
+    "mlHome": -115,
+    "mlAway": -105,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -102,
+    "open": {
+     "spread": -2.5,
+     "total": 45.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 45.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872980": {
+   "id": "401872980",
+   "date": "2026-10-09T00:15Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "away": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "1-4"
+   },
+   "hs": 16,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -500,
+    "mlAway": 380,
+    "total": 49.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3.5,
+     "total": 52.5,
+     "mlHome": -205,
+     "mlAway": 170
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 52.5,
+    "mlHome": -205,
+    "mlAway": 170
+   },
+   "coreTried": true
+  },
+  "401872981": {
+   "id": "401872981",
+   "date": "2026-10-11T13:30Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "4-1"
+   },
+   "away": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "hs": 19,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -360,
+    "mlAway": 285,
+    "total": 41.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 2.5,
+     "total": 44.5,
+     "mlHome": 110,
+     "mlAway": -130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 44.5,
+    "mlHome": 110,
+    "mlAway": -130
+   },
+   "coreTried": true
+  },
+  "401872982": {
+   "id": "401872982",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "0-5"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 24,
+   "as": 31,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 7.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 295,
+    "mlAway": -375,
+    "total": 45.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 5.5,
+     "total": 48.5,
+     "mlHome": 205,
+     "mlAway": -250
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 5.5,
+    "total": 48.5,
+    "mlHome": 205,
+    "mlAway": -250
+   },
+   "coreTried": true
+  },
+  "401872983": {
+   "id": "401872983",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 17,
+   "as": 12,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -135,
+    "mlAway": 114,
+    "total": 38.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -1.5,
+     "total": 38.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 38.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401872984": {
+   "id": "401872984",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "0-5"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "1-4"
+   },
+   "hs": 3,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 6.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 240,
+    "mlAway": -298,
+    "total": 37.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": 3.5,
+     "total": 43.5,
+     "mlHome": 160,
+     "mlAway": -192
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3.5,
+    "total": 43.5,
+    "mlHome": 160,
+    "mlAway": -192
+   },
+   "coreTried": true
+  },
+  "401872985": {
+   "id": "401872985",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "away": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "hs": 34,
+   "as": 22,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -162,
+    "mlAway": 136,
+    "total": 42.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 47.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 47.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872986": {
+   "id": "401872986",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "away": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 45,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -360,
+    "mlAway": 285,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -8.5,
+     "total": 45.5,
+     "mlHome": -425,
+     "mlAway": 330
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 45.5,
+    "mlHome": -425,
+    "mlAway": 330
+   },
+   "coreTried": true
+  },
+  "401872987": {
+   "id": "401872987",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "1-4"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "5-0"
+   },
+   "hs": 13,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 114,
+    "mlAway": -135,
+    "total": 41.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 1.5,
+     "total": 44.5,
+     "mlHome": 100,
+     "mlAway": -120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 44.5,
+    "mlHome": 100,
+    "mlAway": -120
+   },
+   "coreTried": true
+  },
+  "401872988": {
+   "id": "401872988",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "1-3-1"
+   },
+   "away": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "3-1-1"
+   },
+   "hs": 27,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -185,
+    "mlAway": 154,
+    "total": 41.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -2.5,
+     "total": 48.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 48.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401872989": {
+   "id": "401872989",
+   "date": "2026-10-11T20:05Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-5"
+   },
+   "away": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 17,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 142,
+    "mlAway": -170,
+    "total": 42.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -2.5,
+     "total": 44.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 44.5,
+    "mlHome": -142,
+    "mlAway": 120
+   },
+   "coreTried": true
+  },
+  "401872990": {
+   "id": "401872990",
+   "date": "2026-10-11T17:00Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "away": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 31,
+   "as": 7,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": 110,
+    "mlAway": -130,
+    "total": 46.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -3,
+     "total": 49.5,
+     "mlHome": -166,
+     "mlAway": 140
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 49.5,
+    "mlHome": -166,
+    "mlAway": 140
+   },
+   "coreTried": true
+  },
+  "401872991": {
+   "id": "401872991",
+   "date": "2026-10-11T20:25Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "1-4"
+   },
+   "away": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 21,
+   "as": 45,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 200,
+    "mlAway": -245,
+    "total": 55.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 8.5,
+     "total": 49.5,
+     "mlHome": 310,
+     "mlAway": -395
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 8.5,
+    "total": 49.5,
+    "mlHome": 310,
+    "mlAway": -395
+   },
+   "coreTried": true
+  },
+  "401872992": {
+   "id": "401872992",
+   "date": "2026-10-11T20:25Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "away": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "5-0"
+   },
+   "hs": 29,
+   "as": 32,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -166,
+    "mlAway": 140,
+    "total": 46.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3.5,
+     "total": 46.5,
+     "mlHome": -198,
+     "mlAway": 164
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 46.5,
+    "mlHome": -198,
+    "mlAway": 164
+   },
+   "coreTried": true
+  },
+  "401872993": {
+   "id": "401872993",
+   "date": "2026-10-12T00:20Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "away": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-1"
+   },
+   "hs": 23,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -170,
+    "mlAway": 142,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 4.5,
+     "total": 48.5,
+     "mlHome": 180,
+     "mlAway": -218
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 4.5,
+    "total": 48.5,
+    "mlHome": 180,
+    "mlAway": -218
+   },
+   "coreTried": true
+  },
+  "401872994": {
+   "id": "401872994",
+   "date": "2026-10-13T00:15Z",
+   "week": 5,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "2-3"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "4-1"
+   },
+   "hs": 34,
+   "as": 37,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -185,
+    "mlAway": 154,
+    "total": 55.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3,
+     "total": 53.5,
+     "mlHome": -155,
+     "mlAway": 130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 53.5,
+    "mlHome": -155,
+    "mlAway": 130
+   },
+   "coreTried": true
+  },
+  "401872995": {
+   "id": "401872995",
+   "date": "2026-10-16T00:15Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-3"
+   },
+   "hs": 17,
+   "as": 14,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": 130,
+    "mlAway": -155,
+    "total": 40.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 2.5,
+     "total": 43.5,
+     "mlHome": 110,
+     "mlAway": -130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 43.5,
+    "mlHome": 110,
+    "mlAway": -130
+   },
+   "coreTried": true
+  },
+  "401872996": {
+   "id": "401872996",
+   "date": "2026-10-18T13:30Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "hs": 31,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -142,
+    "mlAway": 120,
+    "total": 42.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 1.5,
+     "total": 41.5,
+     "mlHome": -105,
+     "mlAway": -115
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 41.5,
+    "mlHome": -105,
+    "mlAway": -115
+   },
+   "coreTried": true
+  },
+  "401872997": {
+   "id": "401872997",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "hs": 13,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 140,
+    "mlAway": -166,
+    "total": 40.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 6.5,
+     "total": 44.5,
+     "mlHome": 220,
+     "mlAway": -270
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 6.5,
+    "total": 44.5,
+    "mlHome": 220,
+    "mlAway": -270
+   },
+   "coreTried": true
+  },
+  "401872998": {
+   "id": "401872998",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2"
+   },
+   "hs": 14,
+   "as": 25,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 136,
+    "mlAway": -162,
+    "total": 39.5,
+    "overPrice": -118,
+    "underPrice": -102,
+    "open": {
+     "spread": -6.5,
+     "total": 43.5,
+     "mlHome": -285,
+     "mlAway": 230
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -6.5,
+    "total": 43.5,
+    "mlHome": -285,
+    "mlAway": 230
+   },
+   "coreTried": true
+  },
+  "401872999": {
+   "id": "401872999",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "away": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "hs": 23,
+   "as": 31,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -105,
+    "mlAway": -115,
+    "total": 50.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 3,
+     "total": 47.5,
+     "mlHome": 140,
+     "mlAway": -166
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3,
+    "total": 47.5,
+    "mlHome": 140,
+    "mlAway": -166
+   },
+   "coreTried": true
+  },
+  "401873000": {
+   "id": "401873000",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "3-2-1"
+   },
+   "away": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "hs": 27,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -125,
+    "spreadAwayPrice": 105,
+    "mlHome": -112,
+    "mlAway": -108,
+    "total": 46.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -2.5,
+     "total": 45.5,
+     "mlHome": -148,
+     "mlAway": 124
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 45.5,
+    "mlHome": -148,
+    "mlAway": 124
+   },
+   "coreTried": true
+  },
+  "401873001": {
+   "id": "401873001",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "hs": 26,
+   "as": 19,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -345,
+    "mlAway": 275,
+    "total": 42.5,
+    "overPrice": -118,
+    "underPrice": -102,
+    "open": {
+     "spread": -9.5,
+     "total": 42.5,
+     "mlHome": -455,
+     "mlAway": 350
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -9.5,
+    "total": 42.5,
+    "mlHome": -455,
+    "mlAway": 350
+   },
+   "coreTried": true
+  },
+  "401873002": {
+   "id": "401873002",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "1-5"
+   },
+   "away": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "hs": 19,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 114,
+    "mlAway": -135,
+    "total": 37.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -1.5,
+     "total": 45.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 45.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401873003": {
+   "id": "401873003",
+   "date": "2026-10-18T17:00Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "away": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "1-5"
+   },
+   "hs": 20,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -298,
+    "mlAway": 240,
+    "total": 43.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -3.5,
+     "total": 48.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 48.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401873004": {
+   "id": "401873004",
+   "date": "2026-10-18T20:05Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "hs": 16,
+   "as": 18,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -13.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -900,
+    "mlAway": 600,
+    "total": 51.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -13.5,
+     "total": 46.5,
+     "mlHome": -700,
+     "mlAway": 500
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -13.5,
+    "total": 46.5,
+    "mlHome": -700,
+    "mlAway": 500
+   },
+   "coreTried": true
+  },
+  "401873005": {
+   "id": "401873005",
+   "date": "2026-10-18T20:25Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-3"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "5-1"
+   },
+   "hs": 30,
+   "as": 33,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 5.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 200,
+    "mlAway": -245,
+    "total": 54.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 6.5,
+     "total": 47.5,
+     "mlHome": 230,
+     "mlAway": -285
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 6.5,
+    "total": 47.5,
+    "mlHome": 230,
+    "mlAway": -285
+   },
+   "coreTried": true
+  },
+  "401873006": {
+   "id": "401873006",
+   "date": "2026-10-18T20:25Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "5-0"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-6"
+   },
+   "hs": 22,
+   "as": 6,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -425,
+    "mlAway": 330,
+    "total": 41.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -2.5,
+     "total": 46.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 46.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401873007": {
+   "id": "401873007",
+   "date": "2026-10-19T00:20Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4"
+   },
+   "hs": 23,
+   "as": 13,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 102,
+    "mlAway": -122,
+    "total": 54.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 51.5,
+     "mlHome": -166,
+     "mlAway": 140
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 51.5,
+    "mlHome": -166,
+    "mlAway": 140
+   },
+   "coreTried": true
+  },
+  "401873008": {
+   "id": "401873008",
+   "date": "2026-10-20T00:15Z",
+   "week": 6,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "6-0"
+   },
+   "away": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "1-4-1"
+   },
+   "hs": 23,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -410,
+    "mlAway": 320,
+    "total": 51.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -5.5,
+     "total": 50.5,
+     "mlHome": -250,
+     "mlAway": 205
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 50.5,
+    "mlHome": -250,
+    "mlAway": 205
+   },
+   "coreTried": true
+  },
+  "401873009": {
+   "id": "401873009",
+   "date": "2026-10-27T00:15Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-4"
+   },
+   "hs": 21,
+   "as": 38,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 185,
+    "mlAway": -225,
+    "total": 43.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -3,
+     "total": 48.5,
+     "mlHome": -162,
+     "mlAway": 136
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 48.5,
+    "mlHome": -162,
+    "mlAway": 136
+   },
+   "coreTried": true
+  },
+  "401873010": {
+   "id": "401873010",
+   "date": "2026-10-23T00:15Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-3"
+   },
+   "hs": 30,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -155,
+    "mlAway": 130,
+    "total": 50.5,
+    "overPrice": -122,
+    "underPrice": 102,
+    "open": {
+     "spread": -1.5,
+     "total": 47.5,
+     "mlHome": -120,
+     "mlAway": 100
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 47.5,
+    "mlHome": -120,
+    "mlAway": 100
+   },
+   "coreTried": true
+  },
+  "401873011": {
+   "id": "401873011",
+   "date": "2026-10-25T13:30Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "away": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "hs": 10,
+   "as": 16,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 136,
+    "mlAway": -162,
+    "total": 42.5,
+    "overPrice": -118,
+    "underPrice": -102,
+    "open": {
+     "spread": 2.5,
+     "total": 42.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 42.5,
+    "mlHome": 114,
+    "mlAway": -135
+   },
+   "coreTried": true
+  },
+  "401873012": {
+   "id": "401873012",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-3"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "hs": 13,
+   "as": 35,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 136,
+    "mlAway": -162,
+    "total": 46.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3.5,
+     "total": 52.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 52.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401873013": {
+   "id": "401873013",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "1-6"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "hs": 24,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 114,
+    "mlAway": -135,
+    "total": 37.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 40.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 40.5,
+    "mlHome": -142,
+    "mlAway": 120
+   },
+   "coreTried": true
+  },
+  "401873014": {
+   "id": "401873014",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "6-0"
+   },
+   "away": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "hs": 16,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -340,
+    "mlAway": 270,
+    "total": 41.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3,
+     "total": 47.5,
+     "mlHome": -162,
+     "mlAway": 136
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 47.5,
+    "mlHome": -162,
+    "mlAway": 136
+   },
+   "coreTried": true
+  },
+  "401873015": {
+   "id": "401873015",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "1-5"
+   },
+   "hs": 25,
+   "as": 28,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -218,
+    "mlAway": 180,
+    "total": 39.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -2.5,
+     "total": 41.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 41.5,
+    "mlHome": -142,
+    "mlAway": 120
+   },
+   "coreTried": true
+  },
+  "401873016": {
+   "id": "401873016",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "away": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2-1"
+   },
+   "hs": 21,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -10,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -520,
+    "mlAway": 390,
+    "total": 43.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -5.5,
+     "total": 43.5,
+     "mlHome": -238,
+     "mlAway": 195
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 43.5,
+    "mlHome": -238,
+    "mlAway": 195
+   },
+   "coreTried": true
+  },
+  "401873017": {
+   "id": "401873017",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "3-4"
+   },
+   "away": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "6-1"
+   },
+   "hs": 29,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 2.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 120,
+    "mlAway": -142,
+    "total": 49.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 4.5,
+     "total": 47.5,
+     "mlHome": 180,
+     "mlAway": -218
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 4.5,
+    "total": 47.5,
+    "mlHome": 180,
+    "mlAway": -218
+   },
+   "coreTried": true
+  },
+  "401873018": {
+   "id": "401873018",
+   "date": "2026-10-25T17:00Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "3-3"
+   },
+   "away": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "hs": 13,
+   "as": 43,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -170,
+    "mlAway": 142,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 45.5,
+     "mlHome": -102,
+     "mlAway": -118
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 45.5,
+    "mlHome": -102,
+    "mlAway": -118
+   },
+   "coreTried": true
+  },
+  "401873019": {
+   "id": "401873019",
+   "date": "2026-10-25T20:05Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5"
+   },
+   "away": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "hs": 16,
+   "as": 30,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 195,
+    "mlAway": -238,
+    "total": 44.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 7.5,
+     "total": 43.5,
+     "mlHome": 285,
+     "mlAway": -360
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 7.5,
+    "total": 43.5,
+    "mlHome": 285,
+    "mlAway": -360
+   },
+   "coreTried": true
+  },
+  "401873020": {
+   "id": "401873020",
+   "date": "2026-10-25T20:25Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "4-2"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "4-3"
+   },
+   "hs": 20,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -192,
+    "mlAway": 160,
+    "total": 55.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -1.5,
+     "total": 50.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 50.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401873021": {
+   "id": "401873021",
+   "date": "2026-10-25T20:25Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "3-4"
+   },
+   "away": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "3-4"
+   },
+   "hs": 21,
+   "as": 35,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": 160,
+    "mlAway": -192,
+    "total": 49.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 7.5,
+     "total": 46.5,
+     "mlHome": 285,
+     "mlAway": -360
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 7.5,
+    "total": 46.5,
+    "mlHome": 285,
+    "mlAway": -360
+   },
+   "coreTried": true
+  },
+  "401873022": {
+   "id": "401873022",
+   "date": "2026-10-26T00:20Z",
+   "week": 7,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-3"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "5-1"
+   },
+   "hs": 20,
+   "as": 3,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -162,
+    "mlAway": 136,
+    "total": 43.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -3,
+     "total": 45.5,
+     "mlHome": -155,
+     "mlAway": 130
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3,
+    "total": 45.5,
+    "mlHome": -155,
+    "mlAway": 130
+   },
+   "coreTried": true
+  },
+  "401873023": {
+   "id": "401873023",
+   "date": "2026-10-30T00:15Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "5-3"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "3-4"
+   },
+   "hs": 27,
+   "as": 19,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -185,
+    "mlAway": 154,
+    "total": 47.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -7,
+     "total": 45.5,
+     "mlHome": -325,
+     "mlAway": 260
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -7,
+    "total": 45.5,
+    "mlHome": -325,
+    "mlAway": 260
+   },
+   "coreTried": true
+  },
+  "401873024": {
+   "id": "401873024",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "hs": 30,
+   "as": 33,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -7,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": -340,
+    "mlAway": 270,
+    "total": 54.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -10.5,
+     "total": 49.5,
+     "mlHome": -500,
+     "mlAway": 380
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -10.5,
+    "total": 49.5,
+    "mlHome": -500,
+    "mlAway": 380
+   },
+   "coreTried": true
+  },
+  "401873025": {
+   "id": "401873025",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "away": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "hs": 16,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -130,
+    "mlAway": 110,
+    "total": 43.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -4.5,
+     "total": 46.5,
+     "mlHome": -225,
+     "mlAway": 185
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 46.5,
+    "mlHome": -225,
+    "mlAway": 185
+   },
+   "coreTried": true
+  },
+  "401873026": {
+   "id": "401873026",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "6-1"
+   },
+   "away": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-4"
+   },
+   "hs": 36,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -162,
+    "mlAway": 136,
+    "total": 54.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -2.5,
+     "total": 51.5,
+     "mlHome": -135,
+     "mlAway": 114
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -2.5,
+    "total": 51.5,
+    "mlHome": -135,
+    "mlAway": 114
+   },
+   "coreTried": true
+  },
+  "401873027": {
+   "id": "401873027",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "5-3"
+   },
+   "hs": 27,
+   "as": 6,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -192,
+    "mlAway": 160,
+    "total": 38.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -5.5,
+     "total": 39.5,
+     "mlHome": -245,
+     "mlAway": 200
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 39.5,
+    "mlHome": -245,
+    "mlAway": 200
+   },
+   "coreTried": true
+  },
+  "401873028": {
+   "id": "401873028",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "away": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-6"
+   },
+   "hs": 42,
+   "as": 7,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -10.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -500,
+    "mlAway": 380,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -4.5,
+     "total": 49.5,
+     "mlHome": -218,
+     "mlAway": 180
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 49.5,
+    "mlHome": -218,
+    "mlAway": 180
+   },
+   "coreTried": true
+  },
+  "401873029": {
+   "id": "401873029",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-6"
+   },
+   "away": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "4-4"
+   },
+   "hs": 33,
+   "as": 38,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -130,
+    "mlAway": 110,
+    "total": 46.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -1.5,
+     "total": 41.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 41.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401873030": {
+   "id": "401873030",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "6-1"
+   },
+   "hs": 19,
+   "as": 15,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -175,
+    "mlAway": 145,
+    "total": 45.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -4.5,
+     "total": 47.5,
+     "mlHome": -225,
+     "mlAway": 185
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 47.5,
+    "mlHome": -225,
+    "mlAway": 185
+   },
+   "coreTried": true
+  },
+  "401873031": {
+   "id": "401873031",
+   "date": "2026-11-01T18:00Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "away": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "1-7"
+   },
+   "hs": 43,
+   "as": 36,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -13.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -950,
+    "mlAway": 625,
+    "total": 45.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -6.5,
+     "total": 49.5,
+     "mlHome": -270,
+     "mlAway": 220
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -6.5,
+    "total": 49.5,
+    "mlHome": -270,
+    "mlAway": 220
+   },
+   "coreTried": true
+  },
+  "401873032": {
+   "id": "401873032",
+   "date": "2026-11-01T21:05Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "4-4"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-7"
+   },
+   "hs": 24,
+   "as": 9,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -278,
+    "mlAway": 225,
+    "total": 45.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -3.5,
+     "total": 48.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 48.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401873033": {
+   "id": "401873033",
+   "date": "2026-11-01T21:25Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2"
+   },
+   "hs": 28,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
+    "mlHome": -115,
+    "mlAway": -105,
+    "total": 41.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -1.5,
+     "total": 43.5,
+     "mlHome": -118,
+     "mlAway": -102
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 43.5,
+    "mlHome": -118,
+    "mlAway": -102
+   },
+   "coreTried": true
+  },
+  "401873034": {
+   "id": "401873034",
+   "date": "2026-11-01T21:25Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "1-6"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-3"
+   },
+   "hs": 19,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 7,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 275,
+    "mlAway": -345,
+    "total": 41.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": 7,
+     "total": 45.5,
+     "mlHome": 260,
+     "mlAway": -325
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 7,
+    "total": 45.5,
+    "mlHome": 260,
+    "mlAway": -325
+   },
+   "coreTried": true
+  },
+  "401873035": {
+   "id": "401873035",
+   "date": "2026-11-02T01:20Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "2-4-1"
+   },
+   "away": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-6"
+   },
+   "hs": 27,
+   "as": 10,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -250,
+    "mlAway": 205,
+    "total": 40.5,
+    "overPrice": -120,
+    "underPrice": 100,
+    "open": {
+     "spread": 2.5,
+     "total": 46.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 2.5,
+    "total": 46.5,
+    "mlHome": 114,
+    "mlAway": -135
+   },
+   "coreTried": true
+  },
+  "401873036": {
+   "id": "401873036",
+   "date": "2026-11-03T01:15Z",
+   "week": 8,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-4"
+   },
+   "away": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 17,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -166,
+    "mlAway": 140,
+    "total": 46.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -4.5,
+     "total": 47.5,
+     "mlHome": -218,
+     "mlAway": 180
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 47.5,
+    "mlHome": -218,
+    "mlAway": 180
+   },
+   "coreTried": true
+  },
+  "401873037": {
+   "id": "401873037",
+   "date": "2026-11-06T01:15Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 10,
+   "as": 33,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 9.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 350,
+    "mlAway": -455,
+    "total": 40.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -4.5,
+     "total": 49.5,
+     "mlHome": -218,
+     "mlAway": 180
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -4.5,
+    "total": 49.5,
+    "mlHome": -218,
+    "mlAway": 180
+   },
+   "coreTried": true
+  },
+  "401873038": {
+   "id": "401873038",
+   "date": "2026-11-08T14:30Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "3-6"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 17,
+   "as": 34,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
+    "mlHome": 150,
+    "mlAway": -180,
+    "total": 52.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 4.5,
+     "total": 48.5,
+     "mlHome": 185,
+     "mlAway": -225
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 4.5,
+    "total": 48.5,
+    "mlHome": 185,
+    "mlAway": -225
+   },
+   "coreTried": true
+  },
+  "401873039": {
+   "id": "401873039",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final/OT",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 23,
+   "as": 22,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -4.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -230,
+    "mlAway": 190,
+    "total": 43.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -3.5,
+     "total": 41.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 41.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401873040": {
+   "id": "401873040",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-7"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "hs": 23,
+   "as": 27,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 180,
+    "mlAway": -218,
+    "total": 51.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 52.5,
+     "mlHome": 105,
+     "mlAway": -125
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 1.5,
+    "total": 52.5,
+    "mlHome": 105,
+    "mlAway": -125
+   },
+   "coreTried": true
+  },
+  "401873041": {
+   "id": "401873041",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "away": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "7-2"
+   },
+   "hs": 21,
+   "as": 26,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 130,
+    "mlAway": -155,
+    "total": 44.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 3,
+     "total": 42.5,
+     "mlHome": 136,
+     "mlAway": -162
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3,
+    "total": 42.5,
+    "mlHome": 136,
+    "mlAway": -162
+   },
+   "coreTried": true
+  },
+  "401873042": {
+   "id": "401873042",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "1-7"
+   },
+   "away": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 9,
+   "as": 19,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 6.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 235,
+    "mlAway": -290,
+    "total": 50.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 6.5,
+     "total": 47.5,
+     "mlHome": 220,
+     "mlAway": -270
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 6.5,
+    "total": 47.5,
+    "mlHome": 220,
+    "mlAway": -270
+   },
+   "coreTried": true
+  },
+  "401873043": {
+   "id": "401873043",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5-1"
+   },
+   "away": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 13,
+   "as": 20,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": 185,
+    "mlAway": -225,
+    "total": 47.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 4.5,
+     "total": 50.5,
+     "mlHome": 170,
+     "mlAway": -205
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 4.5,
+    "total": 50.5,
+    "mlHome": 170,
+    "mlAway": -205
+   },
+   "coreTried": true
+  },
+  "401873044": {
+   "id": "401873044",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "2-7"
+   },
+   "away": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2-1"
+   },
+   "hs": 11,
+   "as": 19,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 130,
+    "mlAway": -155,
+    "total": 38.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -5.5,
+     "total": 44.5,
+     "mlHome": -238,
+     "mlAway": 195
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -5.5,
+    "total": 44.5,
+    "mlHome": -238,
+    "mlAway": 195
+   },
+   "coreTried": true
+  },
+  "401873045": {
+   "id": "401873045",
+   "date": "2026-11-08T18:00Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-7"
+   },
+   "hs": 35,
+   "as": 12,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -455,
+    "mlAway": 350,
+    "total": 47.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -9.5,
+     "total": 41.5,
+     "mlHome": -470,
+     "mlAway": 360
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -9.5,
+    "total": 41.5,
+    "mlHome": -470,
+    "mlAway": 360
+   },
+   "coreTried": true
+  },
+  "401873046": {
+   "id": "401873046",
+   "date": "2026-11-08T21:05Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-8"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "hs": 22,
+   "as": 44,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 5.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -112,
+    "mlHome": 185,
+    "mlAway": -225,
+    "total": 40.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -1.5,
+     "total": 43.5,
+     "mlHome": -130,
+     "mlAway": 110
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 43.5,
+    "mlHome": -130,
+    "mlAway": 110
+   },
+   "coreTried": true
+  },
+  "401873047": {
+   "id": "401873047",
+   "date": "2026-11-08T21:25Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "7-1"
+   },
+   "away": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "hs": 38,
+   "as": 17,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -8.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -410,
+    "mlAway": 320,
+    "total": 51.5,
+    "overPrice": -118,
+    "underPrice": -102,
+    "open": {
+     "spread": -8.5,
+     "total": 46.5,
+     "mlHome": -425,
+     "mlAway": 330
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -8.5,
+    "total": 46.5,
+    "mlHome": -425,
+    "mlAway": 330
+   },
+   "coreTried": true
+  },
+  "401873048": {
+   "id": "401873048",
+   "date": "2026-11-08T21:25Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "away": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "3-6"
+   },
+   "hs": 17,
+   "as": 3,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -9.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -535,
+    "mlAway": 400,
+    "total": 40.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": -13.5,
+     "total": 45.5,
+     "mlHome": -750,
+     "mlAway": 525
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -13.5,
+    "total": 45.5,
+    "mlHome": -750,
+    "mlAway": 525
+   },
+   "coreTried": true
+  },
+  "401873049": {
+   "id": "401873049",
+   "date": "2026-11-08T21:25Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "6-3"
+   },
+   "hs": 27,
+   "as": 45,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -192,
+    "mlAway": 160,
+    "total": 44.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": -1.5,
+     "total": 46.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -1.5,
+    "total": 46.5,
+    "mlHome": -125,
+    "mlAway": 105
+   },
+   "coreTried": true
+  },
+  "401873050": {
+   "id": "401873050",
+   "date": "2026-11-09T01:20Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "7-2"
+   },
+   "away": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "3-6"
+   },
+   "hs": 27,
+   "as": 24,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -305,
+    "mlAway": 245,
+    "total": 47.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -3.5,
+     "total": 48.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": -3.5,
+    "total": 48.5,
+    "mlHome": -192,
+    "mlAway": 160
+   },
+   "coreTried": true
+  },
+  "401873051": {
+   "id": "401873051",
+   "date": "2026-11-10T01:15Z",
+   "week": 9,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "post",
+   "completed": true,
+   "canceled": false,
+   "detail": "Final",
+   "home": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "7-1"
+   },
+   "hs": 6,
+   "as": 23,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 160,
+    "mlAway": -192,
+    "total": 46.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 3,
+     "total": 48.5,
+     "mlHome": 130,
+     "mlAway": -155
+    }
+   },
+   "closeSource": "core",
+   "open": {
+    "spread": 3,
+    "total": 48.5,
+    "mlHome": 130,
+    "mlAway": -155
+   },
+   "coreTried": true
+  },
+  "401873052": {
+   "id": "401873052",
+   "date": "2026-11-13T01:15Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/12 - 8:15 PM EST",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "5-2-1"
+   },
+   "away": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "2-5-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -130,
+    "mlAway": 110,
+    "total": 41.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -1.5,
+     "total": 47.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -1.5,
+    "total": 47.5,
+    "mlHome": -125,
+    "mlAway": 105
+   }
+  },
+  "401873053": {
+   "id": "401873053",
+   "date": "2026-11-15T14:30Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": true,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 9:30 AM EST",
+   "home": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -120,
+    "spreadAwayPrice": 100,
+    "mlHome": -148,
+    "mlAway": 124,
+    "total": 51.5,
+    "overPrice": 100,
+    "underPrice": -120,
+    "open": {
+     "spread": -1.5,
+     "total": 48.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -1.5,
+    "total": 48.5,
+    "mlHome": -125,
+    "mlAway": 105
+   }
+  },
+  "401873054": {
+   "id": "401873054",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "20",
+    "abbr": "NYJ",
+    "name": "Jets",
+    "full": "New York Jets",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "color": "115740",
+    "fbs": null,
+    "rank": null,
+    "record": "2-7"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "7-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 8.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 390,
+    "mlAway": -520,
+    "total": 50.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": 7,
+     "total": 46.5,
+     "mlHome": 270,
+     "mlAway": -340
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 7,
+    "total": 46.5,
+    "mlHome": 270,
+    "mlAway": -340
+   }
+  },
+  "401873055": {
+   "id": "401873055",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -120,
+    "mlAway": 100,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": -1.5,
+     "total": 43.5,
+     "mlHome": -125,
+     "mlAway": 105
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -1.5,
+    "total": 43.5,
+    "mlHome": -125,
+    "mlAway": 105
+   }
+  },
+  "401873056": {
+   "id": "401873056",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "3-5"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 185,
+    "mlAway": -225,
+    "total": 39.5,
+    "overPrice": -112,
+    "underPrice": -108,
+    "open": {
+     "spread": 4.5,
+     "total": 38.5,
+     "mlHome": 180,
+     "mlAway": -218
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 4.5,
+    "total": 38.5,
+    "mlHome": 180,
+    "mlAway": -218
+   }
+  },
+  "401873057": {
+   "id": "401873057",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "1-7"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 10.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 455,
+    "mlAway": -625,
+    "total": 46.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 2.5,
+     "total": 45.5,
+     "mlHome": 114,
+     "mlAway": -135
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 2.5,
+    "total": 45.5,
+    "mlHome": 114,
+    "mlAway": -135
+   }
+  },
+  "401873058": {
+   "id": "401873058",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "3-6"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": 150,
+    "mlAway": -180,
+    "total": 45.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 4.5,
+     "total": 45.5,
+     "mlHome": 185,
+     "mlAway": -225
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 4.5,
+    "total": 45.5,
+    "mlHome": 185,
+    "mlAway": -225
+   }
+  },
+  "401873059": {
+   "id": "401873059",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "11",
+    "abbr": "IND",
+    "name": "Colts",
+    "full": "Indianapolis Colts",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "color": "003b75",
+    "fbs": null,
+    "rank": null,
+    "record": "2-7"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "1-7"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -2.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -142,
+    "mlAway": 120,
+    "total": 40.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -6.5,
+     "total": 47.5,
+     "mlHome": -290,
+     "mlAway": 235
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -6.5,
+    "total": 47.5,
+    "mlHome": -290,
+    "mlAway": 235
+   }
+  },
+  "401873060": {
+   "id": "401873060",
+   "date": "2026-11-15T18:00Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 1:00 PM EST",
+   "home": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "6-3"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -230,
+    "mlAway": 190,
+    "total": 40.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -4.5,
+     "total": 45.5,
+     "mlHome": -225,
+     "mlAway": 185
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -4.5,
+    "total": 45.5,
+    "mlHome": -225,
+    "mlAway": 185
+   }
+  },
+  "401873061": {
+   "id": "401873061",
+   "date": "2026-11-15T21:05Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 4:05 PM EST",
+   "home": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "3-6"
+   },
+   "away": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 9.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 350,
+    "mlAway": -455,
+    "total": 40.5,
+    "overPrice": -105,
+    "underPrice": -115,
+    "open": {
+     "spread": 10.5,
+     "total": 47.5,
+     "mlHome": 400,
+     "mlAway": -535
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 10.5,
+    "total": 47.5,
+    "mlHome": 400,
+    "mlAway": -535
+   }
+  },
+  "401873062": {
+   "id": "401873062",
+   "date": "2026-11-15T21:05Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 4:05 PM EST",
+   "home": {
+    "id": "13",
+    "abbr": "LV",
+    "name": "Raiders",
+    "full": "Las Vegas Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "away": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 150,
+    "mlAway": -180,
+    "total": 43.5,
+    "overPrice": -102,
+    "underPrice": -118,
+    "open": {
+     "spread": 7,
+     "total": 43.5,
+     "mlHome": 270,
+     "mlAway": -340
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 7,
+    "total": 43.5,
+    "mlHome": 270,
+    "mlAway": -340
+   }
+  },
+  "401873063": {
+   "id": "401873063",
+   "date": "2026-11-15T21:25Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 4:25 PM EST",
+   "home": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "away": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "7-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
+    "mlHome": 180,
+    "mlAway": -218,
+    "total": 55.5,
+    "overPrice": -115,
+    "underPrice": -105,
+    "open": {
+     "spread": -1.5,
+     "total": 52.5,
+     "mlHome": -120,
+     "mlAway": 100
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -1.5,
+    "total": 52.5,
+    "mlHome": -120,
+    "mlAway": 100
+   }
+  },
+  "401873064": {
+   "id": "401873064",
+   "date": "2026-11-16T01:20Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/15 - 8:20 PM EST",
+   "home": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "away": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "6-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -175,
+    "mlAway": 145,
+    "total": 48.5,
+    "overPrice": -108,
+    "underPrice": -112,
+    "open": {
+     "spread": -3.5,
+     "total": 47.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -3.5,
+    "total": 47.5,
+    "mlHome": -192,
+    "mlAway": 160
+   }
+  },
+  "401873065": {
+   "id": "401873065",
+   "date": "2026-11-17T01:15Z",
+   "week": 10,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/16 - 8:15 PM EST",
+   "home": {
+    "id": "33",
+    "abbr": "BAL",
+    "name": "Ravens",
+    "full": "Baltimore Ravens",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "color": "29126f",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "0-8"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -218,
+    "mlAway": 180,
+    "total": 38.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 48.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeAt": "2026-11-10T16:47:33.548Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -2.5,
+    "total": 48.5,
+    "mlHome": -142,
+    "mlAway": 120
+   }
+  }
+ },
+ "updated": "2026-11-10T16:47:33.548Z"
 }

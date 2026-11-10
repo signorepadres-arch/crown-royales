@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:45:45.379Z",
+ "generated": "2026-11-10T16:47:33.548Z",
  "live": {
   "overall": {
    "n": 0,
@@ -58,69 +58,258 @@
  },
  "backtest": {
   "cfb": {
-   "games": 0,
+   "games": 402,
    "picks": {
-    "n": 0,
-    "w": 0,
-    "l": 0,
+    "n": 56,
+    "w": 12,
+    "l": 44,
     "p": 0,
-    "units": 0,
-    "staked": 0,
+    "units": -17.12,
+    "staked": 54.5,
     "open": 0,
-    "roi": null,
-    "hit": null,
-    "avgEv": null,
+    "roi": -0.3141,
+    "hit": 0.2143,
+    "avgEv": 0.0773,
     "avgClv": null,
     "beatClose": null
    },
-   "byMarket": {},
-   "byTier": {},
-   "modelAts": {
-    "n": 0,
-    "w": 0,
-    "hit": null
+   "byMarket": {
+    "ml": {
+     "n": 54,
+     "w": 11,
+     "l": 43,
+     "p": 0,
+     "units": -17.82,
+     "staked": 52,
+     "open": 0,
+     "roi": -0.3427,
+     "hit": 0.2037,
+     "avgEv": 0.0783,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "spread": {
+     "n": 1,
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "units": -1,
+     "staked": 1,
+     "open": 0,
+     "roi": -1,
+     "hit": 0,
+     "avgEv": 0.0406,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "total": {
+     "n": 1,
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "units": 1.71,
+     "staked": 1.5,
+     "open": 0,
+     "roi": 1.14,
+     "hit": 1,
+     "avgEv": 0.0602,
+     "avgClv": null,
+     "beatClose": null
+    }
    },
-   "calibration": [],
+   "byTier": {
+    "crown": {
+     "n": 55,
+     "w": 12,
+     "l": 43,
+     "p": 0,
+     "units": -16.62,
+     "staked": 54,
+     "open": 0,
+     "roi": -0.3078,
+     "hit": 0.2182,
+     "avgEv": 0.078,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "lean": {
+     "n": 1,
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "units": -0.5,
+     "staked": 0.5,
+     "open": 0,
+     "roi": -1,
+     "hit": 0,
+     "avgEv": 0.0381,
+     "avgClv": null,
+     "beatClose": null
+    }
+   },
+   "modelAts": {
+    "n": 273,
+    "w": 137,
+    "hit": 0.5018
+   },
+   "calibration": [
+    {
+     "lo": 0.5,
+     "hi": 0.53,
+     "n": 359,
+     "pred": 0.5121,
+     "actual": 0.4401
+    },
+    {
+     "lo": 0.53,
+     "hi": 0.56,
+     "n": 36,
+     "pred": 0.5382,
+     "actual": 0.6111
+    },
+    {
+     "lo": 0.56,
+     "hi": 0.6,
+     "n": 2,
+     "pred": 0.5789,
+     "actual": 1
+    }
+   ],
    "params": {
-    "n": 0,
-    "a": 0.5,
-    "w": 0.3,
-    "at": 0.5,
-    "wt": 0.25,
-    "note": "Not enough completed games with closing lines yet — using defaults."
+    "n": 402,
+    "a": 0.136,
+    "w": 0.15,
+    "at": 0.136,
+    "wt": 0.15,
+    "mseMarket": 222.54,
+    "mseModel": 254.71,
+    "mseBlend": 224.09,
+    "mseTotMarket": 245.27,
+    "mseTotBlend": 247.32
    }
   },
   "nfl": {
-   "games": 0,
+   "games": 88,
    "picks": {
-    "n": 0,
-    "w": 0,
-    "l": 0,
-    "p": 0,
-    "units": 0,
-    "staked": 0,
+    "n": 28,
+    "w": 11,
+    "l": 16,
+    "p": 1,
+    "units": 1.57,
+    "staked": 28,
     "open": 0,
-    "roi": null,
-    "hit": null,
-    "avgEv": null,
+    "roi": 0.0561,
+    "hit": 0.4074,
+    "avgEv": 0.0652,
     "avgClv": null,
     "beatClose": null
    },
-   "byMarket": {},
-   "byTier": {},
-   "modelAts": {
-    "n": 0,
-    "w": 0,
-    "hit": null
+   "byMarket": {
+    "ml": {
+     "n": 21,
+     "w": 7,
+     "l": 13,
+     "p": 1,
+     "units": -0.33,
+     "staked": 21,
+     "open": 0,
+     "roi": -0.0157,
+     "hit": 0.35,
+     "avgEv": 0.0732,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "spread": {
+     "n": 6,
+     "w": 4,
+     "l": 2,
+     "p": 0,
+     "units": 2.9,
+     "staked": 6,
+     "open": 0,
+     "roi": 0.4833,
+     "hit": 0.6667,
+     "avgEv": 0.0397,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "total": {
+     "n": 1,
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "units": -1,
+     "staked": 1,
+     "open": 0,
+     "roi": -1,
+     "hit": 0,
+     "avgEv": 0.0508,
+     "avgClv": null,
+     "beatClose": null
+    }
    },
-   "calibration": [],
+   "byTier": {
+    "crown": {
+     "n": 24,
+     "w": 9,
+     "l": 14,
+     "p": 1,
+     "units": 1.61,
+     "staked": 25,
+     "open": 0,
+     "roi": 0.0644,
+     "hit": 0.3913,
+     "avgEv": 0.071,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "lean": {
+     "n": 4,
+     "w": 2,
+     "l": 2,
+     "p": 0,
+     "units": -0.04,
+     "staked": 3,
+     "open": 0,
+     "roi": -0.0133,
+     "hit": 0.5,
+     "avgEv": 0.0306,
+     "avgClv": null,
+     "beatClose": null
+    }
+   },
+   "modelAts": {
+    "n": 40,
+    "w": 20,
+    "hit": 0.5
+   },
+   "calibration": [
+    {
+     "lo": 0.5,
+     "hi": 0.53,
+     "n": 80,
+     "pred": 0.5109,
+     "actual": 0.4625
+    },
+    {
+     "lo": 0.53,
+     "hi": 0.56,
+     "n": 7,
+     "pred": 0.5344,
+     "actual": 0.7143
+    }
+   ],
    "params": {
-    "n": 0,
-    "a": 0.5,
-    "w": 0.3,
-    "at": 0.5,
-    "wt": 0.25,
-    "note": "Not enough completed games with closing lines yet — using defaults."
+    "n": 88,
+    "a": 0.315,
+    "w": 0.189,
+    "at": 0.315,
+    "wt": 0.158,
+    "mseMarket": 129.78,
+    "mseModel": 141.26,
+    "mseBlend": 130.72,
+    "mseTotMarket": 159.5,
+    "mseTotBlend": 161.39
    }
   }
  },
@@ -138,5 +327,14 @@
   "avgClv": null,
   "beatClose": null
  },
- "modelLog": []
+ "modelLog": [
+  {
+   "at": "2026-11-10T16:47:33.548Z",
+   "msg": "NFL model weight 0.3 → 0.189 after 88 backtest games"
+  },
+  {
+   "at": "2026-11-10T16:47:33.548Z",
+   "msg": "CFB model weight 0.3 → 0.15 after 402 backtest games"
+  }
+ ]
 }

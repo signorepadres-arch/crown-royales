@@ -1,22 +1,30 @@
 {
  "params": {
   "cfb": {
-   "n": 0,
-   "a": 0.5,
-   "w": 0.3,
-   "at": 0.5,
-   "wt": 0.25,
-   "note": "Not enough completed games with closing lines yet — using defaults.",
-   "updated": "2026-11-10T16:45:45.379Z"
+   "n": 402,
+   "a": 0.136,
+   "w": 0.15,
+   "at": 0.136,
+   "wt": 0.15,
+   "mseMarket": 222.54,
+   "mseModel": 254.71,
+   "mseBlend": 224.09,
+   "mseTotMarket": 245.27,
+   "mseTotBlend": 247.32,
+   "updated": "2026-11-10T16:47:33.548Z"
   },
   "nfl": {
-   "n": 0,
-   "a": 0.5,
-   "w": 0.3,
-   "at": 0.5,
-   "wt": 0.25,
-   "note": "Not enough completed games with closing lines yet — using defaults.",
-   "updated": "2026-11-10T16:45:45.379Z"
+   "n": 88,
+   "a": 0.315,
+   "w": 0.189,
+   "at": 0.315,
+   "wt": 0.158,
+   "mseMarket": 129.78,
+   "mseModel": 141.26,
+   "mseBlend": 130.72,
+   "mseTotMarket": 159.5,
+   "mseTotBlend": 161.39,
+   "updated": "2026-11-10T16:47:33.548Z"
   }
  },
  "thresholds": {
@@ -31,5 +39,14 @@
    "total": 0.03
   }
  },
- "log": []
+ "log": [
+  {
+   "at": "2026-11-10T16:47:33.548Z",
+   "msg": "NFL model weight 0.3 → 0.189 after 88 backtest games"
+  },
+  {
+   "at": "2026-11-10T16:47:33.548Z",
+   "msg": "CFB model weight 0.3 → 0.15 after 402 backtest games"
+  }
+ ]
 }

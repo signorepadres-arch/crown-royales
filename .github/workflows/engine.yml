@@ -1,0 +1,42 @@
+name: Crown Royales engine
+
+on:
+  schedule:
+    # Every 3 hours, every day (grading, line snapshots, previews)
+    - cron: '17 */3 * * *'
+    # Extra runs on Saturday/Sunday mornings around the 10:00 AM ET card release
+    - cron: '7 14,15,16 * * 0,6'
+    # Extra late-evening runs on game days to capture closing lines for late kicks and grade
+    - cron: '47 22,0,2 * * 0,1,6'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crown-royales-engine
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run engine
+        run: node engine/run.mjs
+      - name: Commit data
+        run: |
+          git config user.name "crown-royales-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "engine: data update $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1

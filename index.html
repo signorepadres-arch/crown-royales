@@ -1,224 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crown Royales</title>
-  <meta name="description" content="Saturday college football and Sunday NFL betting dashboard with confidence tiers, lock props, Hail Mary parlays, and performance tracking." />
-  <style>
-    :root{--bg:#0b0b0f;--panel:#131319;--text:#f7f7fb;--muted:#a5a6b2;--gold:#d4af37;--gold2:#f0d879;--line:#2a2a35;--green:#25c281;--red:#ff5a69;--purple:#8c6cf0}
-    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#17131d 0,#0b0b0f 42%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    .wrap{max-width:1120px;margin:0 auto;padding:28px 18px 64px} header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
-    .brand{display:flex;align-items:center;gap:12px}.crown-icon{font-size:34px}.brand h1{margin:0;font-size:30px}.brand small{display:block;color:var(--muted);margin-top:4px}
-    .date-pill,.sport-pill{padding:10px 14px;border:1px solid var(--line);background:#111117;border-radius:999px;color:var(--gold2);font-weight:700;font-size:13px}
-    .topline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}.sport-pill{color:#d9d9e3}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
-    .stat,.section{background:linear-gradient(180deg,#17171f,#111118);border:1px solid var(--line);border-radius:16px;padding:16px}.stat .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.stat .value{font-size:24px;font-weight:800;margin-top:6px}.stat .sub{color:var(--muted);font-size:12px;margin-top:4px}
-    .grid{display:grid;grid-template-columns:1.4fr .8fr;gap:18px}.section{margin-bottom:18px;box-shadow:0 14px 40px rgba(0,0,0,.16)}.section h2{font-size:15px;text-transform:uppercase;letter-spacing:.11em;margin:0 0 14px;color:#c9cad3}
-    .pick{padding:16px;border:1px solid var(--line);background:linear-gradient(180deg,#191922,#14141b);border-radius:16px;margin-bottom:12px}.pick:last-child{margin-bottom:0}.pick-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.pick-title{font-size:19px;font-weight:800}
-    .tag{display:inline-flex;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.royal{background:rgba(212,175,55,.15);color:var(--gold2);border:1px solid rgba(212,175,55,.35)}.crown-tag{background:rgba(140,108,240,.14);color:#c7b8ff;border:1px solid rgba(140,108,240,.35)}.lean{background:#20202a;color:#c8c8d1;border:1px solid #343441}
-    .meta{color:var(--muted);font-size:13px;margin-top:7px}.reason{font-size:14px;line-height:1.5;color:#d9d9df;margin-top:10px}.meter{height:8px;background:#24242d;border-radius:99px;overflow:hidden;margin-top:12px}.meter span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:99px}.conf{font-size:13px;font-weight:700;margin-top:7px;display:flex;justify-content:space-between}.odds{color:var(--green);font-weight:800}
-    .lock{border-color:rgba(37,194,129,.28);background:linear-gradient(180deg,rgba(37,194,129,.09),#14141b)}.hail{border-color:rgba(255,90,105,.28);background:linear-gradient(180deg,rgba(255,90,105,.06),#14141b)}
-    .legs{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.leg{background:#20202a;border:1px solid #30303d;border-radius:999px;padding:7px 10px;font-size:12px}.foot{color:var(--muted);font-size:12px;line-height:1.5;margin-top:14px}
-    table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.pending{color:var(--gold2);font-weight:800}
-    #lockedOverlay{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(7,7,11,.52);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);z-index:50;padding:20px}.lock-card{width:min(560px,94vw);background:rgba(17,17,23,.92);border:1px solid rgba(212,175,55,.35);border-radius:24px;padding:30px;text-align:center;box-shadow:0 25px 80px rgba(0,0,0,.45)}.lock-card .big{font-size:52px}.lock-card h2{font-size:28px;margin:8px 0 8px}.lock-card p{color:#c4c4cd;line-height:1.55;margin:0}.countdown{font-size:18px;font-weight:800;color:var(--gold2);margin-top:16px}
-    .hidden{display:none!important}
-    @media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}header{align-items:flex-start}.brand h1{font-size:26px}.topline{align-items:flex-start;flex-direction:column}}
-    @media(max-width:520px){.wrap{padding:18px 12px 44px}.stats{grid-template-columns:1fr 1fr}.stat .value{font-size:20px}.pick-title{font-size:17px}.date-pill{font-size:11px}.lock-card h2{font-size:23px}}
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crown Royales</title>
+<meta name="description" content="Saturday college football and Sunday NFL picks priced against the market, auto-graded with closing-line value tracking." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♛</text></svg>" />
+<style>
+:root{
+  --bg:#09090c;--surface:#111116;--surface2:#16161d;--line:#24242e;--line2:#30303c;
+  --text:#f4f3ee;--text2:#b9b8b0;--muted:#7d7c76;
+  --gold:#d6b25e;--gold2:#f1d79a;--goldDim:rgba(214,178,94,.14);
+  --good:#3fbf7f;--bad:#f0656f;--push:#a7a7b5;--live:#5aa8ff;
+  --r:14px;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto 0;height:420px;background:radial-gradient(60% 100% at 50% 0,rgba(214,178,94,.10),transparent 70%);pointer-events:none;z-index:-1}
+a{color:var(--gold2)}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 18px 80px}
+.num{font-variant-numeric:tabular-nums}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.mark{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,#2a2314,#14110a);border:1px solid rgba(214,178,94,.35);color:var(--gold2);font-size:24px}
+.brand h1{margin:0;font-size:22px;letter-spacing:.01em;font-weight:750}
+.brand small{display:block;color:var(--muted);font-size:12.5px}
+.status{display:flex;align-items:center;gap:8px;color:var(--text2);font-size:12.5px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 0 3px rgba(63,191,127,.15)}
+.dot.warn{background:#e2a33a;box-shadow:0 0 0 3px rgba(226,163,58,.15)}
+.dot.bad{background:var(--bad);box-shadow:0 0 0 3px rgba(240,101,111,.15)}
+
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0 18px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 15px}
+.kpi .l{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.09em}
+.kpi .v{font-size:24px;font-weight:750;margin-top:4px;letter-spacing:-.01em}
+.kpi .s{color:var(--text2);font-size:12px;margin-top:2px}
+.pos{color:var(--good)}.neg{color:var(--bad)}
+
+nav.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:20px;overflow-x:auto}
+nav.tabs button{appearance:none;background:none;border:0;color:var(--text2);font:inherit;font-weight:600;padding:11px 14px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+nav.tabs button[aria-selected=true]{color:var(--text);border-bottom-color:var(--gold)}
+nav.tabs button:hover{color:var(--text)}
+.panel[hidden]{display:none}
+
+.slate{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:18px}
+.slate-h{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.slate-h h2{margin:0;font-size:19px}
+.slate-h .sub{color:var(--text2);font-size:13px;margin-top:2px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line2);color:var(--text2)}
+.pill.official{color:var(--gold2);border-color:rgba(214,178,94,.45);background:var(--goldDim)}
+.pill.preview{color:#c9c3ff;border-color:rgba(160,150,255,.35);background:rgba(160,150,255,.08)}
+.pill.final{color:var(--text2)}
+.countdown{font-family:var(--mono);color:var(--gold2);font-size:13px;margin-top:6px;text-align:right}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+.card{position:relative;background:var(--surface2);border:1px solid var(--line);border-radius:var(--r);padding:15px 15px 13px;overflow:hidden}
+.card.royal{border-color:rgba(214,178,94,.55);background:linear-gradient(160deg,rgba(214,178,94,.13),var(--surface2) 55%)}
+.card.preview{border-style:dashed;opacity:.92}
+.card .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.tier{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:6px}
+.tier.royal{background:var(--gold);color:#1a1404}
+.tier.crown{background:rgba(214,178,94,.16);color:var(--gold2);border:1px solid rgba(214,178,94,.35)}
+.tier.lean{background:#22222b;color:var(--text2);border:1px solid var(--line2)}
+.tier.parlay{background:rgba(90,168,255,.12);color:#a9cfff;border:1px solid rgba(90,168,255,.3)}
+.tier.hail{background:rgba(240,101,111,.1);color:#ffb3b8;border:1px solid rgba(240,101,111,.3)}
+.units{font-family:var(--mono);font-size:12.5px;color:var(--text2)}
+.pick{font-size:21px;font-weight:780;margin:10px 0 2px;letter-spacing:-.01em}
+.pick .price{font-family:var(--mono);font-size:15px;color:var(--text2);font-weight:600;margin-left:6px}
+.matchup{color:var(--text2);font-size:13px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+.metrics div{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.metrics b{display:block;font-size:15px;color:var(--text);letter-spacing:0;text-transform:none;font-weight:700;margin-top:1px}
+.edgebar{height:4px;border-radius:4px;background:#24242d;margin-top:10px;overflow:hidden}
+.edgebar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:4px}
+.why{font-size:12.5px;color:var(--text2);margin-top:9px}
+.result{position:absolute;top:13px;right:14px;font-weight:800;font-size:12px;letter-spacing:.08em}
+.res-W{color:var(--good)}.res-L{color:var(--bad)}.res-P,.res-V{color:var(--push)}.res-live{color:var(--live)}
+.legs{display:flex;flex-direction:column;gap:5px;margin-top:10px}
+.leg{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:6px 9px;background:#1b1b23;border:1px solid var(--line);border-radius:8px}
+.leg .m{color:var(--muted)}
+.empty{color:var(--text2);padding:18px;border:1px dashed var(--line2);border-radius:var(--r);text-align:center;font-size:14px}
+
+h3.sec{font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px;font-weight:700}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;background:var(--surface)}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.team{display:inline-flex;align-items:center;gap:6px}
+.team img{width:18px;height:18px;object-fit:contain}
+.rk{color:var(--muted);font-size:11px}
+.edge-pos{color:var(--gold2);font-weight:700}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px}
+.box h4{margin:0 0 2px;font-size:15px}
+.box .note{color:var(--muted);font-size:12.5px;margin:0 0 10px}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.tip{position:absolute;pointer-events:none;background:#1d1d25;border:1px solid var(--line2);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--text);white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .1s}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.filters select{background:var(--surface);color:var(--text);border:1px solid var(--line2);border-radius:8px;padding:7px 10px;font:inherit;font-size:13px}
+.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.mini{background:var(--surface2);border:1px solid var(--line);border-radius:12px;padding:11px 12px}
+.mini .l{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.mini .v{font-size:19px;font-weight:750;margin-top:2px}
+.mini .s{font-size:11.5px;color:var(--text2)}
+.log li{margin:0 0 6px;color:var(--text2);font-size:13px}
+.log time{color:var(--muted);font-family:var(--mono);font-size:11.5px;margin-right:8px}
+.how p,.how li{color:var(--text2);font-size:14px}
+.how b{color:var(--text)}
+footer{color:var(--muted);font-size:12px;margin-top:34px;line-height:1.6;border-top:1px solid var(--line);padding-top:16px}
+@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.kpis .kpi:first-child{grid-column:span 2}.grid2{grid-template-columns:1fr}.statgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.wrap{padding:16px 12px 60px}.cards{grid-template-columns:1fr}.pick{font-size:19px}}
+</style>
 </head>
 <body>
-<div id="lockedOverlay">
-  <div class="lock-card">
-    <div class="big">♛</div>
-    <h2 id="lockTitle">Next Crown Royales drop</h2>
-    <p id="lockCopy">The board is locked while the next card is being built.</p>
-    <div class="countdown" id="countdown"></div>
-  </div>
-</div>
-
 <div class="wrap">
   <header>
-    <div class="brand"><div class="crown-icon">♛</div><div><h1>Crown Royales</h1><small>Saturday CFB + Sunday NFL • confidence-first betting dashboard</small></div></div>
-    <div class="date-pill" id="todayLabel">Loading…</div>
+    <div class="brand"><div class="mark">♛</div><div><h1>Crown Royales</h1><small>Saturday CFB · Sunday NFL · priced against the market</small></div></div>
+    <div class="status" id="status"><span class="dot"></span><span>Loading…</span></div>
   </header>
 
-  <div class="topline">
-    <div class="sport-pill" id="sportLabel">No active card published</div>
-    <div class="foot" style="margin:0">Board reviewed Oct 24, 2026 • no qualified CFB play published</div>
-  </div>
-  <section class="section" aria-live="polite">
-    <h2>Current Board Status</h2>
-    <div class="pick-title">No verified picks are posted for the current slate.</div>
-    <div class="foot">The dated cards below have been retired from the active board. The performance ledger is manually settled and is graded through Oct 3, 2026. Live score updates and automatic settlement are not connected.</div>
-  </section>
+  <section class="kpis" id="kpis"></section>
 
-  <section class="stats">
-    <div class="stat"><div class="label">Crown Royal Record</div><div class="value" id="statCrownRoyal">—</div><div class="sub" id="subCrownRoyal">All tracked sports</div></div>
-    <div class="stat"><div class="label">Crown Record</div><div class="value" id="statCrown">—</div><div class="sub" id="subCrown">All tracked sports</div></div>
-    <div class="stat"><div class="label">Lean Record</div><div class="value" id="statLean">—</div><div class="sub" id="subLean">All tracked sports</div></div>
-    <div class="stat"><div class="label">Lock Record</div><div class="value" id="statLock">—</div><div class="sub" id="subLock">Includes lock props and parlays</div></div>
-    <div class="stat"><div class="label">Hail Mary</div><div class="value" id="statHail">—</div><div class="sub" id="subHail">Tracked separately from core plays</div></div>
-  </section>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="board">This Week</button>
+    <button role="tab" aria-selected="false" data-tab="results">Results</button>
+    <button role="tab" aria-selected="false" data-tab="model">Model Lab</button>
+  </nav>
 
-  <div id="nflCard">
-    <div class="grid">
-      <main>
-        <section class="section">
-          <h2>Sunday NFL Card</h2>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag royal">Crown Royal</span><div class="pick-title" style="margin-top:10px">Seattle Seahawks — Moneyline</div></div><div class="odds">Top Play</div></div>
-            <div class="meta">SEA @ WAS • 1:00 PM ET</div>
-            <div class="reason">Highest-conviction setup on the card. Seattle's defensive profile plus Washington's key absences make the outright win the preferred exposure.</div>
-            <div class="meter"><span style="width:90%"></span></div><div class="conf"><span>Confidence</span><span>9.0 / 10</span></div>
-          </article>
-          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Chiefs -6.5 Alternate Spread</div></div><div class="odds">Strong</div></div><div class="meta">KC @ MIA • 1:00 PM ET</div><div class="meter"><span style="width:85%"></span></div><div class="conf"><span>Confidence</span><span>8.5 / 10</span></div></article>
-          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bills Moneyline</div></div><div class="odds">Strong</div></div><div class="meta">LAC @ BUF • 1:00 PM ET</div><div class="meter"><span style="width:80%"></span></div><div class="conf"><span>Confidence</span><span>8.0 / 10</span></div></article>
-          <article class="pick"><div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Bengals Moneyline</div></div><div class="odds">Strong</div></div><div class="meta">CIN @ PIT • 1:00 PM ET</div><div class="meter"><span style="width:75%"></span></div><div class="conf"><span>Confidence</span><span>7.5 / 10</span></div></article>
-        </section>
-      </main>
-      <aside>
-        <section class="section lock"><h2>Lock Player Prop</h2><div class="pick-title">Jaxon Smith-Njigba 70+ Receiving Yards</div><div class="meta">SEA @ WAS • 1:00 PM ET</div><div class="meter"><span style="width:84%"></span></div><div class="conf"><span>Confidence</span><span>8.4 / 10</span></div></section>
-        <section class="section hail"><h2>$10 Hail Mary</h2><div class="pick-title">Target: $300–$500 return</div><div class="legs"><span class="leg">KC -6.5</span><span class="leg">SEA -3.5</span><span class="leg">JSN TD</span><span class="leg">James Cook TD</span><span class="leg">Jeanty 70+ rush</span><span class="leg">Rashee Rice TD</span></div></section>
-      </aside>
-    </div>
-  </div>
+  <section class="panel" id="tab-board"></section>
+  <section class="panel" id="tab-results" hidden></section>
+  <section class="panel" id="tab-model" hidden></section>
 
-  <div id="cfbCard" class="hidden">
-    <div class="grid">
-      <main>
-        <section class="section">
-          <h2>Saturday College Football Card • 10/03/26</h2>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag royal">Crown Royal</span><div class="pick-title" style="margin-top:10px">Notre Dame -14.5 ALT</div></div><div class="odds">Top Play</div></div>
-            <div class="meta">#3 Notre Dame @ North Carolina • 12:00 PM ET • main market ~ND -21/-21.5</div>
-            <div class="reason">The model prefers buying a full touchdown of protection rather than laying the market number. Notre Dame enters with the stronger defensive profile and a large market edge.</div>
-            <div class="meter"><span style="width:90%"></span></div><div class="conf"><span>Confidence</span><span>9.0 / 10</span></div>
-          </article>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Georgia -17.5 ALT</div></div><div class="odds">Strong</div></div>
-            <div class="meta">Vanderbilt @ #2 Georgia • 12:45 PM ET • main market ~UGA -24.5/-25</div>
-            <div class="reason">Another favorite where the model wants margin protection instead of forcing the full spread.</div>
-            <div class="meter"><span style="width:86%"></span></div><div class="conf"><span>Confidence</span><span>8.6 / 10</span></div>
-          </article>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Ohio State -7.5 ALT</div></div><div class="odds">Strong</div></div>
-            <div class="meta">#5 Ohio State @ #14 Iowa • 3:30 PM ET • main market ~OSU -14.5</div>
-            <div class="reason">Iowa is a tougher road environment, so this deliberately avoids asking Ohio State to cover the full two-touchdown market.</div>
-            <div class="meter"><span style="width:83%"></span></div><div class="conf"><span>Confidence</span><span>8.3 / 10</span></div>
-          </article>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag crown-tag">Crown</span><div class="pick-title" style="margin-top:10px">Miami (FL) Moneyline</div></div><div class="odds">Strong</div></div>
-            <div class="meta">#4 Miami @ Clemson • 7:30 PM ET • main market ~MIA -15.5</div>
-            <div class="reason">The market makes Miami a sizable road favorite, but the core card only asks them to win outright.</div>
-            <div class="meter"><span style="width:80%"></span></div><div class="conf"><span>Confidence</span><span>8.0 / 10</span></div>
-          </article>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag lean">Lean</span><div class="pick-title" style="margin-top:10px">Alabama Moneyline</div></div></div>
-            <div class="meta">#7 Alabama @ #16 Mississippi State • 12:00 PM ET • main market ~ALA -5.5/-6</div>
-            <div class="meter"><span style="width:76%"></span></div><div class="conf"><span>Confidence</span><span>7.6 / 10</span></div>
-          </article>
-          <article class="pick">
-            <div class="pick-top"><div><span class="tag lean">Lean</span><div class="pick-title" style="margin-top:10px">Texas Tech -7.5 ALT</div></div></div>
-            <div class="meta">#12 Texas Tech @ Colorado • 7:30 PM ET • main market ~TTU -13.5</div>
-            <div class="meter"><span style="width:74%"></span></div><div class="conf"><span>Confidence</span><span>7.4 / 10</span></div>
-          </article>
-        </section>
-      </main>
-      <aside>
-        <section class="section lock">
-          <h2>Big-Money Lock Parlay</h2>
-          <div class="pick-title">Notre Dame -14.5 ALT + Georgia ML + Ohio State ML</div>
-          <div class="foot">Built around protection. Last week's CFB lock cashed; the model is keeping the higher-stake ticket shorter than the Hail Mary.</div>
-        </section>
-        <section class="section hail">
-          <h2>$10 Hail Mary</h2>
-          <div class="pick-title">6-leg standard-line card</div>
-          <div class="legs"><span class="leg">ND -21</span><span class="leg">ALA -5.5</span><span class="leg">UGA -24.5</span><span class="leg">OSU -14.5</span><span class="leg">MIA -15.5</span><span class="leg">TTU -13.5</span></div>
-          <div class="foot">Aggressive ticket only. Last week's 10-leg CFB Hail Mary hit 9/10 individual legs but still lost the parlay, so this week is cut to six legs.</div>
-        </section>
-      </aside>
-    </div>
-  </div>
-
-  <section class="section">
-    <h2>Performance Ledger</h2>
-    <table><thead><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Play</th><th>Result</th></tr></thead><tbody>
-      <tr data-tier="Lock" data-result="WIN"><td>09/26</td><td>CFB</td><td>Lock</td><td>Texas ML + ND -14.5 + Georgia ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Hail Mary" data-result="LOSS" data-leg-wins="9" data-leg-losses="1"><td>09/26</td><td>CFB</td><td>Hail Mary</td><td>10-leg • 9/10 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Crown Royal" data-result="LOSS"><td>09/27</td><td>NFL</td><td>Crown Royal</td><td>SEA ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Crown" data-result="WIN"><td>09/27</td><td>NFL</td><td>Crown</td><td>KC -6.5</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Crown" data-result="WIN"><td>09/27</td><td>NFL</td><td>Crown</td><td>BUF ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Crown" data-result="LOSS"><td>09/27</td><td>NFL</td><td>Crown</td><td>CIN ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Lock Prop" data-result="WIN"><td>09/27</td><td>NFL</td><td>Lock Prop</td><td>JSN 70+ rec (128)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Hail Mary" data-result="LOSS" data-leg-wins="3" data-leg-losses="3"><td>09/27</td><td>NFL</td><td>Hail Mary</td><td>6-leg • 3/6 legs hit</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Crown Royal" data-result="LOSS"><td>10/03</td><td>CFB</td><td>Crown Royal</td><td>Notre Dame -14.5 ALT (won by 11)</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Crown" data-result="WIN"><td>10/03</td><td>CFB</td><td>Crown</td><td>Georgia -17.5 ALT (won by 24)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Crown" data-result="WIN"><td>10/03</td><td>CFB</td><td>Crown</td><td>Ohio State -7.5 ALT (won by 17)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Crown" data-result="WIN"><td>10/03</td><td>CFB</td><td>Crown</td><td>Miami ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Lean" data-result="WIN"><td>10/03</td><td>CFB</td><td>Lean</td><td>Alabama ML</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Lean" data-result="WIN"><td>10/03</td><td>CFB</td><td>Lean</td><td>Texas Tech -7.5 ALT (won by 22)</td><td style="color:var(--green);font-weight:800">WIN</td></tr>
-      <tr data-tier="Lock" data-result="LOSS"><td>10/03</td><td>CFB</td><td>Lock Parlay</td><td>Notre Dame -14.5 ALT + Georgia ML + Ohio State ML</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-      <tr data-tier="Hail Mary" data-result="LOSS" data-leg-wins="4" data-leg-losses="2"><td>10/03</td><td>CFB</td><td>Hail Mary</td><td>6-leg • 4/6 legs hit (ND -21 and Georgia -24.5 missed)</td><td style="color:var(--red);font-weight:800">LOSS</td></tr>
-    </tbody></table>
-    <div class="foot">Model note: Hail Mary parlays and individual leg results are tracked separately from core plays. Lower-variance lines still need a price edge; protection alone does not make a bet valuable.</div>
-  </section>
-
-  <div class="foot">Crown Royales is a tracking dashboard, not a guarantee of outcomes. Confidence scores are model judgments, not true probabilities. Market prices and lines can move before kickoff.</div>
+  <footer>
+    Crown Royales is a tracking and research tool, not betting advice or a guarantee. Win % is the model's estimated probability after blending with the market; Edge is expected return per unit at the listed price. Lines come from ESPN's feed (one sportsbook) and move — always check your book's price before betting. Bet responsibly; if gambling stops being fun, call 1-800-GAMBLER.
+  </footer>
 </div>
 
 <script>
-(function(){
-  const fmt=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'long',year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
-  function parts(d){const p={};new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(d).forEach(x=>{if(x.type!=='literal')p[x.type]=x.value});return p}
-  function nextRelease(now){
-    const p=parts(now); const dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday); const hour=+p.hour; const minute=+p.minute;
-    const etDate=new Date(Date.UTC(+p.year,+p.month-1,+p.day,hour,minute));
-    function mk(days,label){const d=new Date(etDate);d.setUTCDate(d.getUTCDate()+days);d.setUTCHours(11,0,0,0);return {d,label}}
-    if(dow===6 && (hour<11 || (hour===11&&minute===0))) return mk(0,'Saturday');
-    if(dow===0 && (hour<11 || (hour===11&&minute===0))) return mk(0,'Sunday');
-    if(dow===6) return mk(1,'Sunday');
-    if(dow===0) return mk(6,'Saturday');
-    return mk((6-dow+7)%7,'Saturday');
-  }
-  function update(){
-    const now=new Date();
-    document.getElementById('todayLabel').textContent=fmt.format(now).replace(', 24:', ', 00:')+' ET';
-    document.getElementById('sportLabel').textContent='No active card published';
-    document.getElementById('nflCard').classList.add('hidden');
-    document.getElementById('cfbCard').classList.add('hidden');
-    document.getElementById('lockedOverlay').style.display='none';
-  }
-  function updateTracker(){
-    const rows=[...document.querySelectorAll('tbody tr[data-tier][data-result]')];
-    const summary={};
-    let hmWins=0,hmLosses=0,hmLegWins=0,hmLegLosses=0;
-    for(const row of rows){
-      const tier=row.dataset.tier, result=row.dataset.result;
-      if(!summary[tier]) summary[tier]={wins:0,losses:0};
-      if(result==='WIN') summary[tier].wins++; else if(result==='LOSS') summary[tier].losses++;
-      if(tier==='Hail Mary'){
-        if(result==='WIN') hmWins++; else if(result==='LOSS') hmLosses++;
-        hmLegWins+=Number(row.dataset.legWins||0); hmLegLosses+=Number(row.dataset.legLosses||0);
+(() => {
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct = (x, d = 1) => x == null ? '—' : (x * 100).toFixed(d) + '%';
+const sgn = (x, d = 2) => x == null ? '—' : (x > 0 ? '+' : '') + x.toFixed(d);
+const am = a => a == null ? '' : a > 0 ? '+' + a : '' + a;
+const ln = l => l == null ? '—' : l === 0 ? 'PK' : l > 0 ? '+' + l : '' + l;
+const etTime = iso => new Date(iso).toLocaleString('en-US', {timeZone:'America/New_York', weekday:'short', hour:'numeric', minute:'2-digit'}) + ' ET';
+const etDate = ymd => new Date(ymd + 'T12:00:00Z').toLocaleDateString('en-US', {weekday:'long', month:'short', day:'numeric', timeZone:'UTC'});
+const ago = iso => { const m = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000)); if (m < 2) return 'just now'; return m < 60 ? m + 'm ago' : m < 1440 ? Math.round(m / 60) + 'h ago' : Math.round(m / 1440) + 'd ago'; };
+const TIER = {royal:'Crown Royal', crown:'Crown', lean:'Lean'};
+const MARKET = {spread:'Spread', ml:'Moneyline', total:'Total'};
+const UNIT = 20; // $ per unit for display
+let D = {}; let live = {};
+
+async function load() {
+  const get = f => fetch('data/' + f + '?t=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  const [board, stats, ledger, meta, legacy, model] = await Promise.all(['board.json','stats.json','ledger.json','meta.json','legacy.json','model.json'].map(get));
+  D = {board, stats, ledger, meta, legacy, model};
+  renderStatus(); renderKpis(); renderBoard(); renderResults(); renderModel();
+  pollLive();
+}
+
+function renderStatus() {
+  const m = D.meta, el = $('#status');
+  if (!m) { el.innerHTML = '<span class="dot warn"></span><span>Engine has not run yet</span>'; return; }
+  const hrs = (Date.now() - Date.parse(m.lastRun)) / 36e5;
+  const cls = m.errors?.length ? 'warn' : hrs > 8 ? 'bad' : '';
+  el.innerHTML = `<span class="dot ${cls}"></span><span>Updated ${ago(m.lastRun)}${m.errors?.length ? ' · ' + m.errors.length + ' warning(s)' : ''}</span>`;
+  el.title = `Engine v${m.version} · ${m.requests} ESPN requests · ${m.seconds}s` + (m.errors?.length ? '\n' + m.errors.join('\n') : '');
+}
+
+function renderKpis() {
+  const o = D.stats?.live?.overall, t = D.stats?.live?.byTier || {};
+  const r = t.royal;
+  const k = [
+    ['Units', o ? `<span class="${o.units >= 0 ? 'pos' : 'neg'}">${sgn(o.units)}u</span>` : '—', o ? `${o.w}-${o.l}${o.p ? '-' + o.p : ''} · ${o.staked}u risked` : 'No graded picks yet'],
+    ['ROI', o?.roi != null ? `<span class="${o.roi >= 0 ? 'pos' : 'neg'}">${sgn(o.roi * 100, 1)}%</span>` : '—', 'Return per unit risked'],
+    ['Beat the close', o?.beatClose != null ? pct(o.beatClose, 0) : '—', o?.avgClv != null ? `Avg CLV ${sgn(o.avgClv * 100, 1)}%` : 'Best early sign of a real edge'],
+    ['Crown Royal', r ? `${r.w}-${r.l}${r.p ? '-' + r.p : ''}` : '—', r ? `${sgn(r.units)}u` : 'Top play of each slate'],
+    ['Hit rate', o?.hit != null ? pct(o.hit, 1) : '—', o?.avgEv != null ? `Avg edge at pick ${pct(o.avgEv)}` : '—'],
+  ];
+  $('#kpis').innerHTML = k.map(([l, v, s]) => `<div class="kpi"><div class="l">${l}</div><div class="v num">${v}</div><div class="s">${s}</div></div>`).join('');
+}
+
+// ---------------- Board ----------------
+function liveState(gameId, sport) { return live[sport]?.[gameId]; }
+function liveResult(bet, g) {
+  if (!g || g.state !== 'in') return null;
+  const m = g.hs - g.as, t = g.hs + g.as;
+  let x = bet.market === 'spread' ? (bet.side === 'home' ? m : -m) + bet.line : bet.market === 'ml' ? (bet.side === 'home' ? m : -m) : bet.side === 'over' ? t - bet.line : bet.line - t;
+  return {txt: x > 0 ? 'Live · winning' : x < 0 ? 'Live · trailing' : 'Live · even', detail: g.detail};
+}
+function pickCard(p, opts = {}) {
+  const lg = liveState(p.gameId, p.sport), lr = p.status === 'open' ? liveResult(p, lg) : null;
+  const res = p.status && p.status !== 'open' ? `<div class="result res-${p.status}">${{W:'WIN',L:'LOSS',P:'PUSH',V:'VOID'}[p.status]}${p.profit != null ? ' ' + sgn(p.profit) + 'u' : ''}</div>` : lr ? `<div class="result res-live">${lr.txt}</div>` : '';
+  const lineCmp = p.market === 'total' ? `Model total ${p.modelTotal ?? '—'} vs market ${p.marketTotal ?? '—'}` : `Model ${p.home} ${ln(p.modelLine)} · market ${ln(p.marketLine)}`;
+  const clv = p.clvPts != null ? ` · CLV ${sgn(p.clvPts, 1)} pts` : p.clvProb != null && p.status !== 'open' ? ` · CLV ${sgn(p.clvProb * 100, 1)}%` : '';
+  return `<article class="card ${p.tier} ${opts.preview ? 'preview' : ''}">
+    ${res}
+    <div class="top"><span class="tier ${p.tier}">${TIER[p.tier]}</span><span class="units">${p.units}u · $${(p.units * UNIT).toFixed(0)}</span></div>
+    <div class="pick">${esc(p.label)}<span class="price">${am(p.price)}</span></div>
+    <div class="matchup">${esc(p.matchup)} · ${etTime(p.kickoff)}${p.final ? ' · Final ' + esc(p.final) : lg?.state === 'in' ? ' · ' + esc(lg.detail) + ` (${lg.as}-${lg.hs})` : ''}</div>
+    <div class="metrics"><div>Win %<b class="num">${pct(p.win, 1)}</b></div><div>Edge<b class="num edge-pos">${sgn(p.ev * 100, 1)}%</b></div><div>${p.market === 'ml' ? 'Odds' : MARKET[p.market]}<b class="num">${p.market === 'total' ? p.line : p.market === 'ml' ? am(p.price) : ln(p.line)}</b></div></div>
+    <div class="edgebar"><span style="width:${Math.min(100, p.ev / 0.12 * 100).toFixed(0)}%"></span></div>
+    <div class="why">${lineCmp}${clv}</div>
+  </article>`;
+}
+function parlayCard(t) {
+  const legs = t.legs.map(l => `<div class="leg"><span>${esc(l.label)} <span class="m">${esc(l.matchup || '')}</span></span><span class="num ${l.result ? 'res-' + l.result : ''}">${l.result ? {W:'✓',L:'✗',P:'push',V:'void'}[l.result] : am(l.price)}</span></div>`).join('');
+  const res = t.status !== 'open' ? `<div class="result res-${t.status}">${{W:'WIN',L:'LOSS',P:'PUSH'}[t.status]} ${sgn(t.profit)}u</div>` : '';
+  const name = t.type === 'hail-mary' ? 'Hail Mary' : 'Crown Parlay';
+  return `<article class="card">${res}
+    <div class="top"><span class="tier ${t.type === 'hail-mary' ? 'hail' : 'parlay'}">${name}</span><span class="units">${t.units}u · $${(t.units * UNIT).toFixed(0)}</span></div>
+    <div class="pick">${t.legs.length}-leg<span class="price">${am(t.price)}</span></div>
+    <div class="matchup">Pays ~$${(t.units * UNIT * (t.dec - 1)).toFixed(0)} · hits ${pct(t.prob, 1)} of the time (model)</div>
+    <div class="legs">${legs}</div></article>`;
+}
+function slateTable(s) {
+  if (!s.games.length) return '';
+  const rows = s.games.map(g => {
+    const lg = liveState(g.id, s.sport);
+    const st = lg?.state === 'in' ? `<span class="res-live">${esc(lg.detail)}</span>` : (g.completed || lg?.state === 'post') ? 'Final' : etTime(g.kickoff);
+    const sc = (lg && lg.state !== 'pre') ? [lg.as, lg.hs] : g.completed ? [g.away.score, g.home.score] : null;
+    const tm = (t, score) => `<span class="team">${t.logo ? `<img src="${esc(t.logo)}" alt="" loading="lazy">` : ''}${t.rank ? `<span class="rk">${t.rank}</span>` : ''}<b>${esc(t.abbr)}</b>${score != null ? ` <span class="num">${score}</span>` : ''}</span>`;
+    const L = g.line || {};
+    return `<tr><td>${tm(g.away, sc?.[0])} @ ${tm(g.home, sc?.[1])}</td><td>${st}</td>
+      <td class="r num">${L.spread != null ? esc(g.home.abbr) + ' ' + ln(L.spread) : '—'}${L.openSpread != null && L.openSpread !== L.spread ? ` <span class="rk">(open ${ln(L.openSpread)})</span>` : ''}</td>
+      <td class="r num">${g.model?.qualified ? ln(g.model.line) : '<span class="rk">thin data</span>'}</td>
+      <td class="r num">${L.total ?? '—'}</td><td class="r num">${g.model?.total ?? '—'}</td>
+      <td class="r num">${g.model?.homeWin != null ? pct(g.model.homeWin, 0) : '—'}</td>
+      <td>${g.best && g.best.ev > 0 ? `<span class="edge-pos">${esc(g.best.label)} ${sgn(g.best.ev * 100, 1)}%</span>` : '<span class="rk">no edge</span>'}</td></tr>`;
+  }).join('');
+  return `<h3 class="sec">Full slate — model vs market</h3><div class="tablewrap"><table><thead><tr><th>Matchup</th><th>Kickoff</th><th class="r">Market (home)</th><th class="r">Model (home)</th><th class="r">Total</th><th class="r">Model total</th><th class="r">Home win</th><th>Best edge</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function renderBoard() {
+  const b = D.board;
+  if (!b || !b.sports) { $('#tab-board').innerHTML = '<div class="empty">The engine hasn\'t produced a board yet. It runs every few hours; check back shortly.</div>'; return; }
+  const order = ['cfb', 'nfl'].filter(k => b.sports[k]).sort((a, c) => b.sports[a].date.localeCompare(b.sports[c].date));
+  $('#tab-board').innerHTML = order.map(k => {
+    const s = b.sports[k];
+    const pill = s.status === 'official' ? '<span class="pill official">Official · locked</span>' : s.status === 'final' ? '<span class="pill final">Final</span>' : s.status === 'preview' ? '<span class="pill preview">Early look</span>' : '<span class="pill">No games</span>';
+    const sub = s.status === 'preview' ? `Official card locks ${etTime(s.publishAt)}. Early picks below can change as lines move.` : s.publishedAt ? `Locked ${etTime(s.publishedAt)} · ${s.games.length} games on the slate` : s.missed ? 'Release window was missed — no card for this slate.' : '';
+    let body;
+    if (s.status === 'preview') body = s.preview.length ? `<div class="cards">${s.preview.map(p => pickCard(p, {preview: true})).join('')}</div>` : '<div class="empty">No bets clear the edge threshold yet. That\'s a feature: no edge, no bet.</div>';
+    else if (s.status === 'off') body = '<div class="empty">No games on this slate.</div>';
+    else body = (s.picks.length ? `<div class="cards">${s.picks.map(p => pickCard(p)).join('')}</div>` : '<div class="empty">No bet cleared the edge threshold for this slate, so the model passed.</div>') + (s.parlays.length ? `<h3 class="sec">Parlays</h3><div class="cards">${s.parlays.map(parlayCard).join('')}</div>` : '');
+    return `<section class="slate"><div class="slate-h"><div><h2>${esc(s.label)} · ${etDate(s.date)}</h2><div class="sub">${sub}</div></div><div>${pill}${s.status === 'preview' ? `<div class="countdown" data-until="${s.publishAt}"></div>` : ''}</div></div>${body}${slateTable(s)}</section>`;
+  }).join('');
+  tick();
+}
+function tick() {
+  document.querySelectorAll('[data-until]').forEach(el => {
+    const ms = Date.parse(el.dataset.until) - Date.now();
+    if (ms <= 0) { el.textContent = 'Locking on next engine run'; return; }
+    const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60;
+    el.textContent = `Locks in ${d ? d + 'd ' : ''}${h}h ${m}m`;
+  });
+}
+setInterval(tick, 30000);
+
+// Live scores straight from ESPN in the browser (optional; fails quietly).
+async function pollLive() {
+  const b = D.board; if (!b?.sports) return;
+  const paths = {nfl: 'nfl', cfb: 'college-football'};
+  let anyLive = false;
+  for (const [k, s] of Object.entries(b.sports)) {
+    const now = Date.now();
+    if (!s.games.some(g => !g.completed && Date.parse(g.kickoff) < now + 15 * 60e3 && Date.parse(g.kickoff) > now - 6 * 36e5)) continue;
+    try {
+      const d = s.date.replace(/-/g, '');
+      const j = await fetch(`https://site.api.espn.com/apis/site/v2/sports/football/${paths[k]}/scoreboard?dates=${d}&limit=400${k === 'cfb' ? '&groups=80' : ''}`).then(r => r.json());
+      live[k] = {};
+      for (const ev of j.events || []) {
+        const c = ev.competitions?.[0]; if (!c) continue;
+        const h = c.competitors.find(x => x.homeAway === 'home'), a = c.competitors.find(x => x.homeAway === 'away');
+        live[k][ev.id] = {state: c.status?.type?.state, detail: c.status?.type?.shortDetail, hs: +h.score, as: +a.score};
+        if (c.status?.type?.state === 'in') anyLive = true;
       }
-    }
-    function render(tier,id,subId,subtitle){
-      const record=summary[tier]||{wins:0,losses:0}, total=record.wins+record.losses;
-      document.getElementById(id).textContent=record.wins+'-'+record.losses;
-      document.getElementById(subId).textContent=total?Math.round(record.wins/total*100)+'% hit rate • all tracked sports':subtitle;
-    }
-    render('Crown Royal','statCrownRoyal','subCrownRoyal','All tracked sports');
-    render('Crown','statCrown','subCrown','All tracked sports');
-    render('Lean','statLean','subLean','All tracked sports');
-    const locks={wins:(summary['Lock']?.wins||0)+(summary['Lock Prop']?.wins||0),losses:(summary['Lock']?.losses||0)+(summary['Lock Prop']?.losses||0)};
-    const lockTotal=locks.wins+locks.losses;
-    document.getElementById('statLock').textContent=locks.wins+'-'+locks.losses;
-    document.getElementById('subLock').textContent=lockTotal?Math.round(locks.wins/lockTotal*100)+'% hit rate • props and parlays':'Includes lock props and parlays';
-    const hmTotal=hmWins+hmLosses, legTotal=hmLegWins+hmLegLosses;
-    document.getElementById('statHail').textContent=hmWins+'-'+hmLosses;
-    document.getElementById('subHail').textContent=hmLegWins+'/'+legTotal+' legs hit ('+(legTotal?Math.round(hmLegWins/legTotal*100):0)+'%) • '+hmTotal+' tickets';
+    } catch (e) { /* offline or blocked: the engine still grades */ }
   }
-  updateTracker();
-  update(); setInterval(update,60000);
+  if (Object.keys(live).length) renderBoard();
+  if (anyLive) setTimeout(pollLive, 60000);
+}
+
+// ---------------- Results ----------------
+function lineChart(series) {
+  if (!series.length) return '<div class="empty">The profit chart appears after the first graded card.</div>';
+  const W = 560, H = 220, P = {l: 40, r: 12, t: 12, b: 26};
+  const pts = [{date: 'start', units: 0}, ...series];
+  const ys = pts.map(p => p.units), lo = Math.min(0, ...ys), hi = Math.max(0, ...ys), pad = (hi - lo || 2) * 0.12;
+  const y0 = lo - pad, y1 = hi + pad;
+  const X = i => P.l + i * (W - P.l - P.r) / Math.max(1, pts.length - 1), Y = v => P.t + (y1 - v) / (y1 - y0) * (H - P.t - P.b);
+  const ticks = []; const step = Math.max(1, Math.ceil((y1 - y0) / 5)); for (let v = Math.ceil(y0 / step) * step; v <= y1; v += step) ticks.push(v);
+  const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(i).toFixed(1)},${Y(p.units).toFixed(1)}`).join('');
+  const area = d + `L${X(pts.length - 1)},${Y(0)}L${X(0)},${Y(0)}Z`;
+  const last = pts[pts.length - 1];
+  return `<div class="chart" data-pts='${esc(JSON.stringify(pts))}' data-w="${W}"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative units over time">
+    <defs><linearGradient id="ga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d6b25e" stop-opacity=".22"/><stop offset="1" stop-color="#d6b25e" stop-opacity="0"/></linearGradient></defs>
+    ${ticks.map(v => `<line x1="${P.l}" x2="${W - P.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="${v === 0 ? '#3a3a46' : '#1f1f28'}" stroke-width="1"/><text x="${P.l - 6}" y="${Y(v) + 4}" fill="#7d7c76" font-size="10.5" text-anchor="end">${v > 0 ? '+' : ''}${v}u</text>`).join('')}
+    <path d="${area}" fill="url(#ga)"/><path d="${d}" fill="none" stroke="#d6b25e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${X(pts.length - 1)}" cy="${Y(last.units)}" r="4" fill="#d6b25e" stroke="#111116" stroke-width="2"/>
+    <text x="${X(pts.length - 1) - 6}" y="${Y(last.units) - 9}" fill="#f4f3ee" font-size="11" text-anchor="end" font-weight="700">${last.units > 0 ? '+' : ''}${last.units}u</text>
+    <text x="${P.l}" y="${H - 6}" fill="#7d7c76" font-size="10.5">${esc(series[0].date)}</text><text x="${W - P.r}" y="${H - 6}" fill="#7d7c76" font-size="10.5" text-anchor="end">${esc(last.date)}</text>
+    <line class="xh" x1="0" x2="0" y1="${P.t}" y2="${H - P.b}" stroke="#4a4a58" stroke-width="1" opacity="0"/>
+    <rect x="${P.l}" y="0" width="${W - P.l - P.r}" height="${H}" fill="transparent" class="hit"/>
+  </svg><div class="tip"></div></div>`;
+}
+function wireLineChart(root) {
+  root.querySelectorAll('.chart[data-pts]').forEach(ch => {
+    const pts = JSON.parse(ch.dataset.pts), svg = ch.querySelector('svg'), tip = ch.querySelector('.tip'), xh = ch.querySelector('.xh'), W = +ch.dataset.w;
+    const move = e => {
+      const r = svg.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * W;
+      const i = Math.max(0, Math.min(pts.length - 1, Math.round((x - 40) / ((W - 52) / Math.max(1, pts.length - 1)))));
+      const px = 40 + i * (W - 52) / Math.max(1, pts.length - 1);
+      xh.setAttribute('x1', px); xh.setAttribute('x2', px); xh.setAttribute('opacity', 1);
+      tip.style.left = (px / W * r.width) + 'px'; tip.style.top = '30px'; tip.style.opacity = 1;
+      tip.textContent = `${pts[i].date === 'start' ? 'Start' : pts[i].date}: ${pts[i].units > 0 ? '+' : ''}${pts[i].units}u`;
+    };
+    svg.addEventListener('pointermove', move); svg.addEventListener('pointerleave', () => { tip.style.opacity = 0; xh.setAttribute('opacity', 0); });
+  });
+}
+function splitTable(title, obj, labels = {}) {
+  const rows = Object.entries(obj || {}).filter(([, s]) => s.n || s.open);
+  if (!rows.length) return '';
+  return `<div class="tablewrap" style="margin-bottom:12px"><table><thead><tr><th>${title}</th><th class="r">Record</th><th class="r">Units</th><th class="r">ROI</th><th class="r">Avg edge</th><th class="r">Beat close</th></tr></thead><tbody>${rows.map(([k, s]) => `<tr><td>${esc(labels[k] || k)}</td><td class="r num">${s.w}-${s.l}${s.p ? '-' + s.p : ''}${s.open ? ` <span class="rk">(${s.open} open)</span>` : ''}</td><td class="r num ${s.units >= 0 ? 'pos' : 'neg'}">${sgn(s.units)}</td><td class="r num">${s.roi != null ? sgn(s.roi * 100, 1) + '%' : '—'}</td><td class="r num">${pct(s.avgEv)}</td><td class="r num">${pct(s.beatClose, 0)}</td></tr>`).join('')}</tbody></table></div>`;
+}
+function renderResults() {
+  const L = D.stats?.live, led = D.ledger;
+  const pl = L?.parlays;
+  let h = `<div class="grid2"><div class="box"><h4>Bankroll</h4><p class="note">Cumulative units on official picks and parlays (1u = $${UNIT}).</p>${lineChart(L?.series || [])}</div>
+    <div class="box"><h4>Where the edge is (or isn't)</h4><p class="note">Graded official picks. "Beat close" = share of bets that got a better number than closing.</p>
+    ${splitTable('Tier', L?.byTier, TIER)}${splitTable('Market', L?.byMarket, MARKET)}${splitTable('Sport', L?.bySport, {nfl:'NFL', cfb:'CFB'})}${splitTable('Side', L?.bySide)}
+    ${pl ? `<div class="statgrid"><div class="mini"><div class="l">Crown Parlay</div><div class="v num">${pl.crown.w}-${pl.crown.l}</div><div class="s">${sgn(pl.crown.units)}u</div></div><div class="mini"><div class="l">Hail Mary</div><div class="v num">${pl.hail.w}-${pl.hail.l}</div><div class="s">${sgn(pl.hail.units)}u</div></div><div class="mini"><div class="l">Parlay legs hit</div><div class="v num">${pl.legs.hit}/${pl.legs.n}</div><div class="s">${pl.legs.n ? pct(pl.legs.hit / pl.legs.n, 0) : '—'}</div></div></div>` : ''}
+    </div></div>`;
+  h += `<h3 class="sec">Pick ledger</h3><div class="filters"><select id="fSport"><option value="">All sports</option><option value="nfl">NFL</option><option value="cfb">CFB</option></select><select id="fTier"><option value="">All tiers</option><option value="royal">Crown Royal</option><option value="crown">Crown</option><option value="lean">Lean</option></select><select id="fRes"><option value="">All results</option><option value="W">Wins</option><option value="L">Losses</option><option value="P">Pushes</option><option value="open">Open</option></select></div><div id="ledgerTable"></div>`;
+  if (D.legacy) h += `<h3 class="sec">v1 archive (manual picks, Sep 26 – Oct 3)</h3><p class="note" style="color:var(--muted);font-size:12.5px">${esc(D.legacy.note)}</p><div class="tablewrap"><table><thead><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Play</th><th class="r">Result</th></tr></thead><tbody>${D.legacy.picks.map(p => `<tr><td>${p.date.slice(5)}</td><td>${p.sport}</td><td>${esc(p.tier)}</td><td>${esc(p.label)}</td><td class="r res-${p.status}"><b>${p.status === 'W' ? 'WIN' : 'LOSS'}</b></td></tr>`).join('')}</tbody></table></div>`;
+  $('#tab-results').innerHTML = h;
+  wireLineChart($('#tab-results'));
+  const draw = () => {
+    const fs = $('#fSport').value, ft = $('#fTier').value, fr = $('#fRes').value;
+    const picks = (led?.picks || []).filter(p => (!fs || p.sport === fs) && (!ft || p.tier === ft) && (!fr || p.status === fr)).sort((a, b) => b.date.localeCompare(a.date) || (b.kickoff || '').localeCompare(a.kickoff || ''));
+    $('#ledgerTable').innerHTML = picks.length ? `<div class="tablewrap"><table><thead><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Pick</th><th class="r">Price</th><th class="r">Units</th><th class="r">Win %</th><th class="r">Edge</th><th class="r">Close</th><th class="r">CLV</th><th>Final</th><th class="r">Result</th></tr></thead><tbody>${picks.map(p => `<tr><td>${p.date.slice(5)}</td><td>${p.sport.toUpperCase()}</td><td><span class="tier ${p.tier}">${TIER[p.tier]}</span></td><td><b>${esc(p.label)}</b> <span class="rk">${esc(p.matchup)}</span></td><td class="r num">${am(p.price)}</td><td class="r num">${p.units}</td><td class="r num">${pct(p.win, 0)}</td><td class="r num">${pct(p.ev, 1)}</td><td class="r num">${p.closeLine != null ? (p.market === 'total' ? p.closeLine : ln(p.closeLine)) : p.closePrice != null ? am(p.closePrice) : '—'}</td><td class="r num ${p.clvProb > 0 ? 'pos' : p.clvProb < 0 ? 'neg' : ''}">${p.clvProb != null ? sgn(p.clvProb * 100, 1) + '%' : '—'}</td><td>${esc(p.final || '')}</td><td class="r res-${p.status}"><b>${{W:'WIN',L:'LOSS',P:'PUSH',V:'VOID',open:'OPEN'}[p.status]}</b>${p.profit != null ? ` <span class="num">${sgn(p.profit)}</span>` : ''}</td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">No picks match. The ledger fills in as official cards are published (10 AM ET on slate day).</div>';
+  };
+  ['#fSport', '#fTier', '#fRes'].forEach(s => $(s).addEventListener('change', draw));
+  draw();
+}
+
+// ---------------- Model Lab ----------------
+function calChart(cal, label) {
+  if (!cal || !cal.length) return '<div class="empty">Calibration needs graded games.</div>';
+  const W = 520, H = 260, P = {l: 40, r: 12, t: 10, b: 32}, lo = 0.45, hi = 0.8;
+  const X = v => P.l + (v - lo) / (hi - lo) * (W - P.l - P.r), Y = v => P.t + (1 - (v - 0.3) / 0.6) * (H - P.t - P.b);
+  const maxN = Math.max(...cal.map(c => c.n));
+  const grid = [0.3, 0.45, 0.6, 0.75, 0.9].map(v => `<line x1="${P.l}" x2="${W - P.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="#1f1f28"/><text x="${P.l - 5}" y="${Y(v) + 4}" fill="#7d7c76" font-size="10" text-anchor="end">${Math.round(v * 100)}%</text>`).join('');
+  const xt = [0.5, 0.6, 0.7, 0.8].map(v => `<text x="${X(v)}" y="${H - 14}" fill="#7d7c76" font-size="10" text-anchor="middle">${v * 100}%</text>`).join('');
+  const dots = cal.map(c => `<circle cx="${X(Math.min(hi, c.pred))}" cy="${Y(Math.max(0.3, Math.min(0.9, c.actual)))}" r="${4 + 6 * Math.sqrt(c.n / maxN)}" fill="#d6b25e" fill-opacity=".85" stroke="#111116" stroke-width="2"><title>Predicted ${pct(c.pred)} · actual ${pct(c.actual)} · ${c.n} bets</title></circle>`).join('');
+  return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">${grid}${xt}
+    <line x1="${X(lo)}" y1="${Y(lo)}" x2="${X(hi)}" y2="${Y(hi)}" stroke="#5a5a68" stroke-dasharray="4 4"/>
+    <text x="${X(hi) - 4}" y="${Y(hi) + 14}" fill="#7d7c76" font-size="10" text-anchor="end">perfect</text>${dots}
+    <text x="${(W + P.l) / 2}" y="${H - 1}" fill="#7d7c76" font-size="10" text-anchor="middle">Predicted win %</text></svg></div>
+    <div class="tablewrap" style="margin-top:8px"><table><thead><tr><th>Bucket</th><th class="r">Bets</th><th class="r">Predicted</th><th class="r">Actual</th></tr></thead><tbody>${cal.map(c => `<tr><td>${Math.round(c.lo * 100)}–${Math.round(c.hi * 100)}%</td><td class="r num">${c.n}</td><td class="r num">${pct(c.pred)}</td><td class="r num">${pct(c.actual)}</td></tr>`).join('')}</tbody></table></div>`;
+}
+function renderModel() {
+  const bt = D.stats?.backtest || {}, params = D.model?.params || {};
+  const sportBox = k => {
+    const b = bt[k], p = params[k]; if (!b) return '';
+    const s = b.picks;
+    const better = p?.mseBlend != null && p?.mseMarket != null ? (p.mseMarket - p.mseBlend) : null;
+    return `<div class="box"><h4>${k === 'nfl' ? 'NFL' : 'College Football'} — season walk-forward test</h4>
+      <p class="note">Each week is predicted using only games before it, then the pick rules run at closing prices. Weights are tuned on this same season, so read it as a sanity check, not a promise.</p>
+      <div class="statgrid">
+        <div class="mini"><div class="l">Games tested</div><div class="v num">${b.games}</div><div class="s">with closing lines</div></div>
+        <div class="mini"><div class="l">Sim record</div><div class="v num">${s.w}-${s.l}${s.p ? '-' + s.p : ''}</div><div class="s">${sgn(s.units)}u · ROI ${s.roi != null ? sgn(s.roi * 100, 1) + '%' : '—'}</div></div>
+        <div class="mini"><div class="l">Model ATS</div><div class="v num">${pct(b.modelAts.hit, 1)}</div><div class="s">${b.modelAts.w}/${b.modelAts.n} when 2+ pts off market</div></div>
+        <div class="mini"><div class="l">Model weight</div><div class="v num">${p ? Math.round(p.w * 100) + '%' : '—'}</div><div class="s">${better != null ? (better > 0 ? 'blend beats market by ' + better.toFixed(1) + ' MSE' : 'not beating market yet') : 'learning'}</div></div>
+      </div>
+      <h3 class="sec">Calibration — spread cover probability</h3>${calChart(b.calibration, 'Backtest calibration')}</div>`;
+  };
+  const logItems = (D.stats?.modelLog || []).map(l => `<li><time>${l.at.slice(0, 10)}</time>${esc(l.msg)}</li>`).join('');
+  const lessons = (D.legacy?.lessons || []).map(l => `<li><time>${l.date}</time><b>${esc(l.type)}${l.pick ? ' · ' + esc(l.pick) : ''} (${esc(l.result)})</b> — ${esc(l.lesson)}</li>`).join('');
+  $('#tab-model').innerHTML = `<div class="grid2">${sportBox('cfb')}${sportBox('nfl')}</div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="box"><h4>Live calibration</h4><p class="note">Official picks only: when the model says 58%, do those bets hit about 58%?</p>${calChart(D.stats?.live?.calibration, 'Live calibration')}</div>
+      <div class="box how"><h4>How picks are made</h4>
+        <ol>
+          <li><b>Team ratings</b> are re-fit every run from this season's results (recent games weigh more; blowouts are capped) and from past closing lines.</li>
+          <li><b>Model line</b> = a mix of the results ratings and the market ratings, plus home field.</li>
+          <li><b>Blend with the market.</b> Markets are sharp, so the model only pulls the line part-way. How far (the <i>model weight</i>) is learned each run from how well the model has predicted this season.</li>
+          <li><b>Price every bet</b> (spread, moneyline, total) off the blended line and compare to the actual odds. Only bets with positive expected value above a minimum edge qualify — one per game.</li>
+          <li><b>Tiers & stakes:</b> Crown Royal = the slate's best bet with 6%+ edge; Crown = 4%+; Lean = above minimum. Units come from quarter-Kelly, 0.5–3u.</li>
+          <li><b>Lock & grade.</b> The card locks at 10 AM ET on slate day; every bet is graded automatically and compared to the closing line.</li>
+          <li><b>Learn.</b> If a bet type keeps losing <i>and</i> keeps losing to the close, its minimum edge goes up automatically.</li>
+        </ol></div>
+    </div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="box"><h4>Learning log</h4><p class="note">Automatic changes the engine has made to itself.</p>${logItems ? `<ul class="log">${logItems}</ul>` : '<div class="empty">No adjustments yet.</div>'}</div>
+      <div class="box"><h4>v1 lessons</h4><p class="note">Notes kept from the manual era.</p>${lessons ? `<ul class="log">${lessons}</ul>` : ''}</div>
+    </div>`;
+}
+
+document.querySelectorAll('nav.tabs button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('nav.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
+  document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== 'tab-' + b.dataset.tab);
+}));
+load();
 })();
 </script>
 </body>

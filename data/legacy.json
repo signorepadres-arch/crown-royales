@@ -1,0 +1,220 @@
+{
+ "note": "v1 (manually picked, Sept 26 – Oct 3, 2026). No prices were recorded, so these count toward hit-rate history only, not units/ROI. Kept for model intelligence.",
+ "principles": [
+  "Keep Crown Royal rare and reserved for the highest-conviction setup.",
+  "Use moneylines or alternate spreads for higher-stake core bets when the full market spread creates unnecessary variance.",
+  "Keep the Hail Mary separate from the core card; target roughly $300-$500 from a $10 stake.",
+  "Track both parlay outcomes and individual leg hit rates so a one-leg miss is still informative.",
+  "Avoid overfitting to one week; adjust only when misses reveal repeatable risk such as overaggressive road-favorite spreads, uncertain touchdown dependence, or fragile volume assumptions."
+ ],
+ "picks": [
+  {
+   "date": "2026-09-26",
+   "sport": "CFB",
+   "tier": "Lock Parlay",
+   "label": "Texas ML + ND -14.5 + Georgia ML",
+   "status": "W"
+  },
+  {
+   "date": "2026-09-26",
+   "sport": "CFB",
+   "tier": "Hail Mary",
+   "label": "10-leg • 9/10 legs hit",
+   "status": "L",
+   "legsHit": 9,
+   "legs": 10
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Crown Royal",
+   "label": "SEA ML",
+   "status": "L"
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Crown",
+   "label": "KC -6.5",
+   "status": "W"
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Crown",
+   "label": "BUF ML",
+   "status": "W"
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Crown",
+   "label": "CIN ML",
+   "status": "L"
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Lock Prop",
+   "label": "JSN 70+ rec yds (128)",
+   "status": "W"
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "tier": "Hail Mary",
+   "label": "6-leg • 3/6 legs hit",
+   "status": "L",
+   "legsHit": 3,
+   "legs": 6
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Crown Royal",
+   "label": "Notre Dame -14.5 ALT (won by 11)",
+   "status": "L"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Crown",
+   "label": "Georgia -17.5 ALT (won by 24)",
+   "status": "W"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Crown",
+   "label": "Ohio State -7.5 ALT (won by 17)",
+   "status": "W"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Crown",
+   "label": "Miami ML",
+   "status": "W"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Lean",
+   "label": "Alabama ML",
+   "status": "W"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Lean",
+   "label": "Texas Tech -7.5 ALT (won by 22)",
+   "status": "W"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Lock Parlay",
+   "label": "ND -14.5 ALT + Georgia ML + Ohio State ML",
+   "status": "L"
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "tier": "Hail Mary",
+   "label": "6-leg • 4/6 legs hit",
+   "status": "L",
+   "legsHit": 4,
+   "legs": 6
+  }
+ ],
+ "lessons": [
+  {
+   "date": "2026-09-26",
+   "sport": "CFB",
+   "type": "Hail Mary",
+   "pick": null,
+   "result": "LOSS",
+   "lesson": "Texas won 20-17 but failed to cover -5.5. The ticket's only miss came from asking a favored team to cover rather than simply win. For core/high-stake tickets, favor ML or alt-spread protection when price permits."
+  },
+  {
+   "date": "2026-09-26",
+   "sport": "CFB",
+   "type": "Lock Parlay",
+   "pick": null,
+   "result": "WIN",
+   "lesson": "Shorter protected parlay structure worked; preserve this format for higher-stake CFB tickets."
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "type": "Crown Royal",
+   "pick": "Seattle ML",
+   "result": "LOSS",
+   "lesson": "Do not let injury-based matchup edges overwhelm turnover/game-variance risk. Crown Royal confidence should require multiple independent edges, not one dominant narrative."
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "type": "Crown",
+   "pick": null,
+   "result": "2-1",
+   "lesson": "Protected favorites performed better than the outright Crown Royal call; continue separating confidence tier from payout attractiveness."
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "type": "Lock Prop",
+   "pick": "Jaxon Smith-Njigba 70+ receiving yards",
+   "result": "WIN",
+   "lesson": "Volume-based receiving thresholds are preferable to touchdown-dependent props for the Lock Prop."
+  },
+  {
+   "date": "2026-09-27",
+   "sport": "NFL",
+   "type": "Hail Mary",
+   "pick": null,
+   "result": "LOSS",
+   "lesson": "TD props and aggressive alt thresholds added too much variance. Keep Hail Mary around 5-6 legs and diversify between sides, volume props, and only a limited number of TD scorers."
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "type": "Crown Royal",
+   "pick": "Notre Dame -14.5 ALT",
+   "result": "LOSS",
+   "lesson": "Notre Dame won, but did not cover -14.5. The 10.5-point miss shows the margin projection was too aggressive; a strong win probability did not justify a high spread confidence."
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "type": "Crown",
+   "pick": null,
+   "result": "3-0",
+   "lesson": "All three Crown plays won. Continue scoring price value and closing-line value separately from outcomes."
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "type": "Lean",
+   "pick": null,
+   "result": "2-0",
+   "lesson": "Both Leans won; retain them as a separate confidence tier rather than merging with Crown results."
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "type": "Lock Parlay",
+   "pick": null,
+   "result": "LOSS",
+   "lesson": "The parlay failed on Notre Dame's 11-point win. A losing leg makes the full ticket a loss even when the other legs hit."
+  },
+  {
+   "date": "2026-10-03",
+   "sport": "CFB",
+   "type": "Hail Mary",
+   "pick": null,
+   "result": "LOSS",
+   "lesson": "The parlay lost despite four of six legs hitting. Both missed legs were aggressive spreads on favorites; grade probability and price rather than assuming favorite dominance."
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:47:33.548Z",
+ "generated": "2026-11-10T16:49:37.851Z",
  "sports": {
   "cfb": {
    "sport": "cfb",
@@ -13,6 +13,70 @@
    "picks": [],
    "parlays": [],
    "preview": [
+    {
+     "id": "cfb-2026-11-14:401856888:ml:away",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401856888",
+     "kickoff": "2026-11-14T20:00Z",
+     "matchup": "TENN @ TA&M",
+     "away": "TENN",
+     "home": "TA&M",
+     "label": "TENN ML",
+     "market": "ml",
+     "side": "away",
+     "line": 0,
+     "price": -135,
+     "oppPrice": 114,
+     "win": 0.6224,
+     "push": 0,
+     "ev": 0.0835,
+     "tier": "royal",
+     "units": 3,
+     "modelLine": -1.5,
+     "lineMove": -12,
+     "fairLine": 5.4,
+     "marketLine": 2.5,
+     "modelTotal": 50.7,
+     "fairTotal": 44.6,
+     "marketTotal": 43.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
+    {
+     "id": "cfb-2026-11-14:401860914:spread:home",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401860914",
+     "kickoff": "2026-11-14T23:00Z",
+     "matchup": "ORST @ BOIS",
+     "away": "ORST",
+     "home": "BOIS",
+     "label": "BOIS -13.5",
+     "market": "spread",
+     "side": "home",
+     "line": -13.5,
+     "price": -105,
+     "oppPrice": -115,
+     "win": 0.5525,
+     "push": 0,
+     "ev": 0.0786,
+     "tier": "crown",
+     "units": 2,
+     "modelLine": -10,
+     "lineMove": 9,
+     "fairLine": -15.6,
+     "marketLine": -13.5,
+     "modelTotal": 61.4,
+     "fairTotal": 64.9,
+     "marketTotal": 65.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
     {
      "id": "cfb-2026-11-14:401864536:ml:home",
      "slateId": "cfb-2026-11-14",
@@ -29,13 +93,14 @@
      "line": 0,
      "price": 230,
      "oppPrice": -285,
-     "win": 0.3371,
+     "win": 0.3225,
      "push": 0,
-     "ev": 0.1125,
+     "ev": 0.0642,
      "tier": "crown",
-     "units": 1,
+     "units": 0.5,
      "modelLine": 4.1,
-     "fairLine": 6.6,
+     "lineMove": 3.5,
+     "fairLine": 5.5,
      "marketLine": 7,
      "modelTotal": 47.8,
      "fairTotal": 47.5,
@@ -45,218 +110,161 @@
      "profit": null
     },
     {
-     "id": "cfb-2026-11-14:401856882:ml:home",
+     "id": "cfb-2026-11-14:401856887:spread:away",
      "slateId": "cfb-2026-11-14",
      "sport": "cfb",
      "date": "2026-11-14",
-     "gameId": "401856882",
-     "kickoff": "2026-11-15T00:45Z",
-     "matchup": "SC @ ARK",
-     "away": "SC",
-     "home": "ARK",
-     "label": "ARK ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 250,
-     "oppPrice": -310,
-     "win": 0.3155,
-     "push": 0,
-     "ev": 0.1044,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 7.5,
-     "fairLine": 7.5,
-     "marketLine": 7.5,
-     "modelTotal": 53.3,
-     "fairTotal": 51.8,
-     "marketTotal": 51.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401864540:ml:home",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401864540",
-     "kickoff": "2026-11-15T03:00Z",
-     "matchup": "WYO @ UTEP",
-     "away": "WYO",
-     "home": "UTEP",
-     "label": "UTEP ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 245,
-     "oppPrice": -305,
-     "win": 0.3196,
-     "push": 0,
-     "ev": 0.1026,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 6.3,
-     "fairLine": 7.3,
-     "marketLine": 7.5,
-     "modelTotal": 45.5,
-     "fairTotal": 40.4,
-     "marketTotal": 39.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401870752:ml:home",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401870752",
-     "kickoff": "2026-11-14T20:30Z",
-     "matchup": "JXST @ WKU",
-     "away": "JXST",
-     "home": "WKU",
-     "label": "WKU ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 230,
-     "oppPrice": -285,
-     "win": 0.3308,
-     "push": 0,
-     "ev": 0.0917,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 3.1,
-     "fairLine": 6.8,
-     "marketLine": 7.5,
-     "modelTotal": 53.3,
-     "fairTotal": 53.5,
-     "marketTotal": 53.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401858520:ml:home",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401858520",
-     "kickoff": "2026-11-14T17:00Z",
-     "matchup": "WIS @ MD",
-     "away": "WIS",
-     "home": "MD",
-     "label": "MD ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 260,
-     "oppPrice": -325,
-     "win": 0.3032,
-     "push": 0,
-     "ev": 0.0915,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 5.5,
-     "fairLine": 8.1,
-     "marketLine": 8.5,
-     "modelTotal": 47,
-     "fairTotal": 44,
-     "marketTotal": 43.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401860917:ml:away",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401860917",
-     "kickoff": "2026-11-15T03:30Z",
-     "matchup": "CSU @ WSU",
-     "away": "CSU",
-     "home": "WSU",
-     "label": "CSU ML",
-     "market": "ml",
+     "gameId": "401856887",
+     "kickoff": "2026-11-14T21:15Z",
+     "matchup": "MISS @ OU",
+     "away": "MISS",
+     "home": "OU",
+     "label": "MISS -1.5",
+     "market": "spread",
      "side": "away",
-     "line": 0,
-     "price": 285,
-     "oppPrice": -360,
-     "win": 0.2831,
+     "line": -1.5,
+     "price": -102,
+     "oppPrice": -118,
+     "win": 0.5321,
      "push": 0,
-     "ev": 0.0898,
+     "ev": 0.0538,
      "tier": "crown",
-     "units": 1,
-     "modelLine": -5.9,
-     "fairLine": -9,
-     "marketLine": -9.5,
-     "modelTotal": 57.3,
-     "fairTotal": 66,
-     "marketTotal": 67.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401856884:ml:away",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401856884",
-     "kickoff": "2026-11-14T23:15Z",
-     "matchup": "FLA @ UK",
-     "away": "FLA",
-     "home": "UK",
-     "label": "FLA ML",
-     "market": "ml",
-     "side": "away",
-     "line": 0,
-     "price": 145,
-     "oppPrice": -175,
-     "win": 0.4339,
-     "push": 0,
-     "ev": 0.0629,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 2.5,
-     "fairLine": -2.6,
-     "marketLine": -3.5,
-     "modelTotal": 53.8,
-     "fairTotal": 52.7,
-     "marketTotal": 52.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "cfb-2026-11-14:401856858:ml:away",
-     "slateId": "cfb-2026-11-14",
-     "sport": "cfb",
-     "date": "2026-11-14",
-     "gameId": "401856858",
-     "kickoff": "2026-11-14T20:30Z",
-     "matchup": "BAY @ BYU",
-     "away": "BAY",
-     "home": "BYU",
-     "label": "BAY ML",
-     "market": "ml",
-     "side": "away",
-     "line": 0,
-     "price": 240,
-     "oppPrice": -298,
-     "win": 0.3125,
-     "push": 0,
-     "ev": 0.0624,
-     "tier": "crown",
-     "units": 0.5,
-     "modelLine": -8.4,
-     "fairLine": -7.6,
-     "marketLine": -7.5,
-     "modelTotal": 50.2,
-     "fairTotal": 49.6,
+     "units": 1.5,
+     "modelLine": -0.6,
+     "lineMove": -5.5,
+     "fairLine": 2.8,
+     "marketLine": 1.5,
+     "modelTotal": 50.6,
+     "fairTotal": 49.7,
      "marketTotal": 49.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
+    {
+     "id": "cfb-2026-11-14:401858522:spread:home",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401858522",
+     "kickoff": "2026-11-14T17:00Z",
+     "matchup": "NU @ OSU",
+     "away": "NU",
+     "home": "OSU",
+     "label": "OSU -12.5",
+     "market": "spread",
+     "side": "home",
+     "line": -12.5,
+     "price": -108,
+     "oppPrice": -112,
+     "win": 0.545,
+     "push": 0,
+     "ev": 0.0497,
+     "tier": "crown",
+     "units": 1.5,
+     "modelLine": -18.7,
+     "lineMove": 3,
+     "fairLine": -14.3,
+     "marketLine": -12.5,
+     "modelTotal": 51,
+     "fairTotal": 46.3,
+     "marketTotal": 45.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
+    {
+     "id": "cfb-2026-11-14:401856889:spread:home",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401856889",
+     "kickoff": "2026-11-14T17:45Z",
+     "matchup": "ALA @ VAN",
+     "away": "ALA",
+     "home": "VAN",
+     "label": "VAN +15.5",
+     "market": "spread",
+     "side": "home",
+     "line": 15.5,
+     "price": -105,
+     "oppPrice": -115,
+     "win": 0.537,
+     "push": 0,
+     "ev": 0.0485,
+     "tier": "crown",
+     "units": 1.5,
+     "modelLine": 13.4,
+     "lineMove": 4,
+     "fairLine": 14,
+     "marketLine": 15.5,
+     "modelTotal": 50.6,
+     "fairTotal": 50.5,
+     "marketTotal": 50.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
+    {
+     "id": "cfb-2026-11-14:401862827:total:under",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401862827",
+     "kickoff": "2026-11-15T02:00Z",
+     "matchup": "UNT @ UTSA",
+     "away": "UNT",
+     "home": "UTSA",
+     "label": "Under 76.5",
+     "market": "total",
+     "side": "under",
+     "line": 76.5,
+     "price": -105,
+     "oppPrice": -115,
+     "win": 0.5342,
+     "push": 0,
+     "ev": 0.0429,
+     "tier": "crown",
+     "units": 1,
+     "modelLine": -1.9,
+     "lineMove": -1,
+     "fairLine": 2.1,
+     "marketLine": 2.5,
+     "modelTotal": 67.1,
+     "fairTotal": 75.1,
+     "marketTotal": 76.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null
+    },
+    {
+     "id": "cfb-2026-11-14:401856885:spread:home",
+     "slateId": "cfb-2026-11-14",
+     "sport": "cfb",
+     "date": "2026-11-14",
+     "gameId": "401856885",
+     "kickoff": "2026-11-15T00:30Z",
+     "matchup": "TEX @ LSU",
+     "away": "TEX",
+     "home": "LSU",
+     "label": "LSU -3.5",
+     "market": "spread",
+     "side": "home",
+     "line": -3.5,
+     "price": -110,
+     "oppPrice": -110,
+     "win": 0.543,
+     "push": 0,
+     "ev": 0.0367,
+     "tier": "lean",
+     "units": 1,
+     "modelLine": -2.3,
+     "lineMove": 6.5,
+     "fairLine": -5.2,
+     "marketLine": -3.5,
+     "modelTotal": 50.3,
+     "fairTotal": 47.1,
+     "marketTotal": 46.5,
      "publishedAt": null,
      "status": "open",
      "profit": null
@@ -299,10 +307,10 @@
      },
      "model": {
       "line": -1.7,
-      "fair": -2.8,
+      "fair": -3.2,
       "total": 54.7,
       "fairTotal": 59.6,
-      "homeWin": 0.571,
+      "homeWin": 0.589,
       "qualified": true,
       "gp": [
        9,
@@ -352,10 +360,10 @@
      },
      "model": {
       "line": -1.3,
-      "fair": 1.9,
+      "fair": 1.6,
       "total": 55.9,
       "fairTotal": 51.3,
-      "homeWin": 0.451,
+      "homeWin": 0.449,
       "qualified": true,
       "gp": [
        9,
@@ -363,10 +371,10 @@
       ]
      },
      "best": {
-      "label": "MSST ML",
-      "ev": 0.0098,
-      "win": 0.451,
-      "market": "ml"
+      "label": "MSST +2.5",
+      "ev": 0.0182,
+      "win": 0.522,
+      "market": "spread"
      }
     },
     {
@@ -405,7 +413,7 @@
      },
      "model": {
       "line": -19.9,
-      "fair": -14.5,
+      "fair": -12.4,
       "total": 53.1,
       "fairTotal": 54.3,
       "homeWin": null,
@@ -416,9 +424,9 @@
       ]
      },
      "best": {
-      "label": "MIA -13.5",
-      "ev": 0.0093,
-      "win": 0.524,
+      "label": "DUKE +13.5",
+      "ev": -0.0024,
+      "win": 0.527,
       "market": "spread"
      }
     },
@@ -458,10 +466,10 @@
      },
      "model": {
       "line": -5,
-      "fair": 1.8,
+      "fair": 2.2,
       "total": 54.7,
       "fairTotal": 53.7,
-      "homeWin": 0.454,
+      "homeWin": 0.468,
       "qualified": true,
       "gp": [
        9,
@@ -469,10 +477,10 @@
       ]
      },
      "best": {
-      "label": "NCSU +3",
-      "ev": -0.0189,
-      "win": 0.518,
-      "market": "spread"
+      "label": "NCSU ML",
+      "ev": 0.0006,
+      "win": 0.468,
+      "market": "ml"
      }
     },
     {
@@ -511,10 +519,10 @@
      },
      "model": {
       "line": -5.4,
-      "fair": 0.5,
+      "fair": -0.1,
       "total": 57.3,
       "fairTotal": 60.9,
-      "homeWin": 0.488,
+      "homeWin": 0.53,
       "qualified": true,
       "gp": [
        9,
@@ -522,10 +530,10 @@
       ]
      },
      "best": {
-      "label": "SMU +1.5",
-      "ev": -0.0283,
-      "win": 0.526,
-      "market": "spread"
+      "label": "SMU ML",
+      "ev": 0.0343,
+      "win": 0.53,
+      "market": "ml"
      }
     },
     {
@@ -564,10 +572,10 @@
      },
      "model": {
       "line": 5.5,
-      "fair": 8.1,
+      "fair": 8.3,
       "total": 47,
       "fairTotal": 44,
-      "homeWin": 0.303,
+      "homeWin": 0.27,
       "qualified": true,
       "gp": [
        9,
@@ -575,10 +583,10 @@
       ]
      },
      "best": {
-      "label": "MD ML",
-      "ev": 0.0915,
-      "win": 0.303,
-      "market": "ml"
+      "label": "Over 43.5",
+      "ev": 0.0007,
+      "win": 0.513,
+      "market": "total"
      }
     },
     {
@@ -617,7 +625,7 @@
      },
      "model": {
       "line": -18.7,
-      "fair": -13.4,
+      "fair": -14.3,
       "total": 51,
       "fairTotal": 46.3,
       "homeWin": null,
@@ -629,8 +637,8 @@
      },
      "best": {
       "label": "OSU -12.5",
-      "ev": 0.0076,
-      "win": 0.523,
+      "ev": 0.0497,
+      "win": 0.545,
       "market": "spread"
      }
     },
@@ -670,10 +678,10 @@
      },
      "model": {
       "line": 5.3,
-      "fair": 4.2,
+      "fair": 4.9,
       "total": 56.8,
       "fairTotal": 57.4,
-      "homeWin": 0.394,
+      "homeWin": 0.348,
       "qualified": true,
       "gp": [
        10,
@@ -681,10 +689,10 @@
       ]
      },
      "best": {
-      "label": "CONN ML",
-      "ev": 0.0251,
-      "win": 0.394,
-      "market": "ml"
+      "label": "JMU -4",
+      "ev": -0.0006,
+      "win": 0.51,
+      "market": "spread"
      }
     },
     {
@@ -776,7 +784,7 @@
      },
      "model": {
       "line": 11.6,
-      "fair": 13.2,
+      "fair": 13.5,
       "total": 53.7,
       "fairTotal": 52.7,
       "homeWin": null,
@@ -829,7 +837,7 @@
      },
      "model": {
       "line": 13.4,
-      "fair": 15.2,
+      "fair": 14,
       "total": 50.6,
       "fairTotal": 50.5,
       "homeWin": null,
@@ -841,8 +849,8 @@
      },
      "best": {
       "label": "VAN +15.5",
-      "ev": -0.0085,
-      "win": 0.508,
+      "ev": 0.0485,
+      "win": 0.537,
       "market": "spread"
      }
     },
@@ -882,7 +890,7 @@
      },
      "model": {
       "line": 10.5,
-      "fair": 11.3,
+      "fair": 10.8,
       "total": 48.2,
       "fairTotal": 45.1,
       "homeWin": null,
@@ -893,10 +901,10 @@
       ]
      },
      "best": {
-      "label": "Under 44.5",
-      "ev": -0.0363,
-      "win": 0.487,
-      "market": "total"
+      "label": "CLT +11.5",
+      "ev": -0.0102,
+      "win": 0.518,
+      "market": "spread"
      }
     },
     {
@@ -938,7 +946,7 @@
       "fair": -3.1,
       "total": 51.4,
       "fairTotal": 48.9,
-      "homeWin": 0.579,
+      "homeWin": 0.558,
       "qualified": true,
       "gp": [
        9,
@@ -947,8 +955,8 @@
      },
      "best": {
       "label": "TEM ML",
-      "ev": 0.0248,
-      "win": 0.579,
+      "ev": -0.0126,
+      "win": 0.558,
       "market": "ml"
      }
     },
@@ -991,7 +999,7 @@
       "fair": -1.6,
       "total": 53,
       "fairTotal": 50.9,
-      "homeWin": 0.542,
+      "homeWin": 0.521,
       "qualified": true,
       "gp": [
        9,
@@ -999,10 +1007,10 @@
       ]
      },
      "best": {
-      "label": "CCU ML",
-      "ev": 0.0011,
-      "win": 0.542,
-      "market": "ml"
+      "label": "Under 50.5",
+      "ev": -0.0274,
+      "win": 0.491,
+      "market": "total"
      }
     },
     {
@@ -1041,7 +1049,7 @@
      },
      "model": {
       "line": -6.1,
-      "fair": -9.4,
+      "fair": -9.6,
       "total": 50.6,
       "fairTotal": 46.3,
       "homeWin": null,
@@ -1053,8 +1061,8 @@
      },
      "best": {
       "label": "KSU +10",
-      "ev": 0.0054,
-      "win": 0.502,
+      "ev": -0.0017,
+      "win": 0.499,
       "market": "spread"
      }
     },
@@ -1094,10 +1102,10 @@
      },
      "model": {
       "line": 1.7,
-      "fair": -1.9,
+      "fair": -3,
       "total": 48.5,
       "fairTotal": 48.5,
-      "homeWin": 0.548,
+      "homeWin": 0.556,
       "qualified": true,
       "gp": [
        9,
@@ -1105,9 +1113,9 @@
       ]
      },
      "best": {
-      "label": "TULN +2.5",
-      "ev": -0.024,
-      "win": 0.516,
+      "label": "RICE -2.5",
+      "ev": -0.0109,
+      "win": 0.514,
       "market": "spread"
      }
     },
@@ -1150,7 +1158,7 @@
       "fair": 6.7,
       "total": 51,
       "fairTotal": 47.2,
-      "homeWin": 0.333,
+      "homeWin": 0.294,
       "qualified": true,
       "gp": [
        9,
@@ -1159,8 +1167,8 @@
      },
      "best": {
       "label": "SHSU ML",
-      "ev": 0.1494,
-      "win": 0.333,
+      "ev": 0.0149,
+      "win": 0.294,
       "market": "ml"
      }
     },
@@ -1200,10 +1208,10 @@
      },
      "model": {
       "line": -1.5,
-      "fair": 1.9,
+      "fair": 5.4,
       "total": 50.7,
       "fairTotal": 44.6,
-      "homeWin": 0.451,
+      "homeWin": 0.378,
       "qualified": true,
       "gp": [
        9,
@@ -1211,10 +1219,10 @@
       ]
      },
      "best": {
-      "label": "Over 43.5",
-      "ev": 0.0274,
-      "win": 0.526,
-      "market": "total"
+      "label": "TENN ML",
+      "ev": 0.0835,
+      "win": 0.622,
+      "market": "ml"
      }
     },
     {
@@ -1256,7 +1264,7 @@
       "fair": -1.8,
       "total": 50.9,
       "fairTotal": 48.9,
-      "homeWin": 0.547,
+      "homeWin": 0.541,
       "qualified": true,
       "gp": [
        9,
@@ -1264,10 +1272,10 @@
       ]
      },
      "best": {
-      "label": "MOST ML",
-      "ev": -0.0155,
-      "win": 0.547,
-      "market": "ml"
+      "label": "MOST -1.5",
+      "ev": -0.0206,
+      "win": 0.509,
+      "market": "spread"
      }
     },
     {
@@ -1306,10 +1314,10 @@
      },
      "model": {
       "line": -2.6,
-      "fair": -5.1,
+      "fair": -4.8,
       "total": 52,
       "fairTotal": 54.1,
-      "homeWin": 0.627,
+      "homeWin": 0.641,
       "qualified": true,
       "gp": [
        9,
@@ -1318,8 +1326,8 @@
      },
      "best": {
       "label": "FIU ML",
-      "ev": 0.0439,
-      "win": 0.373,
+      "ev": 0.0062,
+      "win": 0.359,
       "market": "ml"
      }
     },
@@ -1359,10 +1367,10 @@
      },
      "model": {
       "line": -3.1,
-      "fair": -3.4,
+      "fair": -3.7,
       "total": 48.1,
       "fairTotal": 48.4,
-      "homeWin": 0.587,
+      "homeWin": 0.609,
       "qualified": true,
       "gp": [
        9,
@@ -1370,10 +1378,10 @@
       ]
      },
      "best": {
-      "label": "ASU ML",
-      "ev": -0.0012,
-      "win": 0.413,
-      "market": "ml"
+      "label": "UCF -3.5",
+      "ev": 0.0019,
+      "win": 0.506,
+      "market": "spread"
      }
     },
     {
@@ -1415,7 +1423,7 @@
       "fair": -7.6,
       "total": 50.2,
       "fairTotal": 49.6,
-      "homeWin": 0.688,
+      "homeWin": 0.721,
       "qualified": true,
       "gp": [
        9,
@@ -1423,10 +1431,10 @@
       ]
      },
      "best": {
-      "label": "BAY ML",
-      "ev": 0.0624,
-      "win": 0.312,
-      "market": "ml"
+      "label": "BYU -7.5",
+      "ev": -0.003,
+      "win": 0.503,
+      "market": "spread"
      }
     },
     {
@@ -1465,7 +1473,7 @@
      },
      "model": {
       "line": -14,
-      "fair": -15.3,
+      "fair": -16.2,
       "total": 51,
       "fairTotal": 48,
       "homeWin": null,
@@ -1518,7 +1526,7 @@
      },
      "model": {
       "line": -31.7,
-      "fair": -29.8,
+      "fair": -29.2,
       "total": 50.6,
       "fairTotal": 52.2,
       "homeWin": null,
@@ -1529,9 +1537,9 @@
       ]
      },
      "best": {
-      "label": "ND -29.5",
-      "ev": -0.0378,
-      "win": 0.508,
+      "label": "BC +29.5",
+      "ev": -0.0249,
+      "win": 0.506,
       "market": "spread"
      }
     },
@@ -1571,7 +1579,7 @@
      },
      "model": {
       "line": -10.2,
-      "fair": -10,
+      "fair": -9.3,
       "total": 49.8,
       "fairTotal": 47.9,
       "homeWin": null,
@@ -1582,10 +1590,10 @@
       ]
      },
      "best": {
-      "label": "Over 47.5",
-      "ev": -0.0292,
-      "win": 0.508,
-      "market": "total"
+      "label": "CAL +10",
+      "ev": -0.0111,
+      "win": 0.505,
+      "market": "spread"
      }
     },
     {
@@ -1624,10 +1632,10 @@
      },
      "model": {
       "line": -10,
-      "fair": -7.9,
+      "fair": -7,
       "total": 54.8,
       "fairTotal": 50.3,
-      "homeWin": 0.693,
+      "homeWin": 0.699,
       "qualified": true,
       "gp": [
        9,
@@ -1636,8 +1644,8 @@
      },
      "best": {
       "label": "USC ML",
-      "ev": 0.0134,
-      "win": 0.307,
+      "ev": -0.0056,
+      "win": 0.301,
       "market": "ml"
      }
     },
@@ -1677,7 +1685,7 @@
      },
      "model": {
       "line": -9.4,
-      "fair": -11.2,
+      "fair": -10.6,
       "total": 45.4,
       "fairTotal": 39.5,
       "homeWin": null,
@@ -1733,7 +1741,7 @@
       "fair": -5.6,
       "total": 62.8,
       "fairTotal": 72.8,
-      "homeWin": 0.641,
+      "homeWin": 0.661,
       "qualified": true,
       "gp": [
        9,
@@ -1783,10 +1791,10 @@
      },
      "model": {
       "line": 4.1,
-      "fair": 6.6,
+      "fair": 5.5,
       "total": 47.8,
       "fairTotal": 47.5,
-      "homeWin": 0.337,
+      "homeWin": 0.322,
       "qualified": true,
       "gp": [
        9,
@@ -1795,8 +1803,8 @@
      },
      "best": {
       "label": "NIU ML",
-      "ev": 0.1125,
-      "win": 0.337,
+      "ev": 0.0642,
+      "win": 0.322,
       "market": "ml"
      }
     },
@@ -1839,7 +1847,7 @@
       "fair": 4.6,
       "total": 56.1,
       "fairTotal": 56.4,
-      "homeWin": 0.384,
+      "homeWin": 0.376,
       "qualified": true,
       "gp": [
        9,
@@ -1848,8 +1856,8 @@
      },
      "best": {
       "label": "GAST ML",
-      "ev": 0.037,
-      "win": 0.384,
+      "ev": 0.0162,
+      "win": 0.376,
       "market": "ml"
      }
     },
@@ -1889,10 +1897,10 @@
      },
      "model": {
       "line": 3.1,
-      "fair": 6.8,
+      "fair": 7.3,
       "total": 53.3,
       "fairTotal": 53.5,
-      "homeWin": 0.331,
+      "homeWin": 0.295,
       "qualified": true,
       "gp": [
        9,
@@ -1900,10 +1908,10 @@
       ]
      },
      "best": {
-      "label": "WKU ML",
-      "ev": 0.0917,
-      "win": 0.331,
-      "market": "ml"
+      "label": "JXST -7.5",
+      "ev": -0.0209,
+      "win": 0.494,
+      "market": "spread"
      }
     },
     {
@@ -1995,7 +2003,7 @@
      },
      "model": {
       "line": -8.7,
-      "fair": -9.8,
+      "fair": -10.7,
       "total": 57.2,
       "fairTotal": 59.2,
       "homeWin": null,
@@ -2006,10 +2014,10 @@
       ]
      },
      "best": {
-      "label": "FRES ML",
-      "ev": 0.0483,
-      "win": 0.265,
-      "market": "ml"
+      "label": "TXST -10",
+      "ev": 0.0097,
+      "win": 0.504,
+      "market": "spread"
      }
     },
     {
@@ -2048,10 +2056,10 @@
      },
      "model": {
       "line": -0.6,
-      "fair": 1.2,
+      "fair": 2.8,
       "total": 50.6,
       "fairTotal": 49.7,
-      "homeWin": 0.47,
+      "homeWin": 0.457,
       "qualified": true,
       "gp": [
        9,
@@ -2059,10 +2067,10 @@
       ]
      },
      "best": {
-      "label": "MISS ML",
-      "ev": -0.0089,
-      "win": 0.53,
-      "market": "ml"
+      "label": "MISS -1.5",
+      "ev": 0.0538,
+      "win": 0.532,
+      "market": "spread"
      }
     },
     {
@@ -2101,10 +2109,10 @@
      },
      "model": {
       "line": 4.8,
-      "fair": 3.3,
+      "fair": 3.1,
       "total": 47.2,
       "fairTotal": 44.1,
-      "homeWin": 0.417,
+      "homeWin": 0.393,
       "qualified": true,
       "gp": [
        9,
@@ -2112,10 +2120,10 @@
       ]
      },
      "best": {
-      "label": "MSU ML",
-      "ev": 0.009,
-      "win": 0.417,
-      "market": "ml"
+      "label": "Over 43.5",
+      "ev": 0.0027,
+      "win": 0.514,
+      "market": "total"
      }
     },
     {
@@ -2154,7 +2162,7 @@
      },
      "model": {
       "line": -16.8,
-      "fair": -17.4,
+      "fair": -17.1,
       "total": 54.8,
       "fairTotal": 55.4,
       "homeWin": null,
@@ -2165,10 +2173,10 @@
       ]
      },
      "best": {
-      "label": "Under 55.5",
-      "ev": -0.0409,
-      "win": 0.502,
-      "market": "total"
+      "label": "USM +17.5",
+      "ev": -0.0349,
+      "win": 0.51,
+      "market": "spread"
      }
     },
     {
@@ -2207,10 +2215,10 @@
      },
      "model": {
       "line": -2.4,
-      "fair": -2.9,
+      "fair": -3.1,
       "total": 59.8,
       "fairTotal": 66.3,
-      "homeWin": 0.574,
+      "homeWin": 0.565,
       "qualified": true,
       "gp": [
        9,
@@ -2260,7 +2268,7 @@
      },
      "model": {
       "line": -10,
-      "fair": -13,
+      "fair": -15.6,
       "total": 61.4,
       "fairTotal": 64.9,
       "homeWin": null,
@@ -2271,10 +2279,10 @@
       ]
      },
      "best": {
-      "label": "Under 65.5",
-      "ev": -0.0086,
-      "win": 0.515,
-      "market": "total"
+      "label": "BOIS -13.5",
+      "ev": 0.0786,
+      "win": 0.552,
+      "market": "spread"
      }
     },
     {
@@ -2313,10 +2321,10 @@
      },
      "model": {
       "line": -2.7,
-      "fair": 0.9,
+      "fair": 0.6,
       "total": 55.6,
       "fairTotal": 53.8,
-      "homeWin": 0.478,
+      "homeWin": 0.501,
       "qualified": true,
       "gp": [
        9,
@@ -2325,8 +2333,8 @@
      },
      "best": {
       "label": "MRSH +1.5",
-      "ev": -0.007,
-      "win": 0.516,
+      "ev": 0.007,
+      "win": 0.523,
       "market": "spread"
      }
     },
@@ -2366,10 +2374,10 @@
      },
      "model": {
       "line": 2.5,
-      "fair": -2.6,
+      "fair": -3.2,
       "total": 53.8,
       "fairTotal": 52.7,
-      "homeWin": 0.566,
+      "homeWin": 0.602,
       "qualified": true,
       "gp": [
        9,
@@ -2378,8 +2386,8 @@
      },
      "best": {
       "label": "FLA ML",
-      "ev": 0.0629,
-      "win": 0.434,
+      "ev": -0.0241,
+      "win": 0.398,
       "market": "ml"
      }
     },
@@ -2419,10 +2427,10 @@
      },
      "model": {
       "line": 4.5,
-      "fair": 3.6,
+      "fair": 3.9,
       "total": 55.1,
       "fairTotal": 58.8,
-      "homeWin": 0.408,
+      "homeWin": 0.386,
       "qualified": true,
       "gp": [
        9,
@@ -2472,7 +2480,7 @@
      },
      "model": {
       "line": -11.7,
-      "fair": -9.8,
+      "fair": -10.6,
       "total": 43.5,
       "fairTotal": 41.8,
       "homeWin": null,
@@ -2484,8 +2492,8 @@
      },
      "best": {
       "label": "PSU -9.5",
-      "ev": -0.0209,
-      "win": 0.508,
+      "ev": 0.0143,
+      "win": 0.527,
       "market": "spread"
      }
     },
@@ -2525,7 +2533,7 @@
      },
      "model": {
       "line": -10.2,
-      "fair": -12.2,
+      "fair": -12.7,
       "total": 48.4,
       "fairTotal": 47.6,
       "homeWin": null,
@@ -2536,10 +2544,10 @@
       ]
      },
      "best": {
-      "label": "Over 47.5",
-      "ev": -0.0307,
-      "win": 0.503,
-      "market": "total"
+      "label": "AFA -12.5",
+      "ev": -0.0117,
+      "win": 0.506,
+      "market": "spread"
      }
     },
     {
@@ -2578,10 +2586,10 @@
      },
      "model": {
       "line": -4.3,
-      "fair": -3.2,
+      "fair": -3.3,
       "total": 56,
       "fairTotal": 55.6,
-      "homeWin": 0.581,
+      "homeWin": 0.591,
       "qualified": true,
       "gp": [
        9,
@@ -2589,9 +2597,9 @@
       ]
      },
      "best": {
-      "label": "TROY ML",
-      "ev": -0.0363,
-      "win": 0.419,
+      "label": "USA ML",
+      "ev": -0.0273,
+      "win": 0.591,
       "market": "ml"
      }
     },
@@ -2631,10 +2639,10 @@
      },
      "model": {
       "line": 0.8,
-      "fair": 2.2,
+      "fair": 2.5,
       "total": 53.6,
       "fairTotal": 54.4,
-      "homeWin": 0.443,
+      "homeWin": 0.436,
       "qualified": true,
       "gp": [
        9,
@@ -2642,10 +2650,10 @@
       ]
      },
      "best": {
-      "label": "ARIZ +2.5",
-      "ev": -0.0111,
-      "win": 0.507,
-      "market": "spread"
+      "label": "Under 54.5",
+      "ev": -0.0173,
+      "win": 0.503,
+      "market": "total"
      }
     },
     {
@@ -2684,10 +2692,10 @@
      },
      "model": {
       "line": -2.3,
-      "fair": -3.3,
+      "fair": -5.2,
       "total": 50.3,
       "fairTotal": 47.1,
-      "homeWin": 0.584,
+      "homeWin": 0.657,
       "qualified": true,
       "gp": [
        9,
@@ -2695,10 +2703,10 @@
       ]
      },
      "best": {
-      "label": "TEX ML",
-      "ev": 0.0392,
-      "win": 0.416,
-      "market": "ml"
+      "label": "LSU -3.5",
+      "ev": 0.0367,
+      "win": 0.543,
+      "market": "spread"
      }
     },
     {
@@ -2737,7 +2745,7 @@
      },
      "model": {
       "line": -16.2,
-      "fair": -15.6,
+      "fair": -15.3,
       "total": 53.8,
       "fairTotal": 57.8,
       "homeWin": null,
@@ -2843,7 +2851,7 @@
      },
      "model": {
       "line": -9.2,
-      "fair": -13.3,
+      "fair": -13.4,
       "total": 48.8,
       "fairTotal": 46.8,
       "homeWin": null,
@@ -2855,8 +2863,8 @@
      },
      "best": {
       "label": "UNLV +14",
-      "ev": -0.0098,
-      "win": 0.506,
+      "ev": -0.0167,
+      "win": 0.502,
       "market": "spread"
      }
     },
@@ -2896,10 +2904,10 @@
      },
      "model": {
       "line": 7.5,
-      "fair": 7.5,
+      "fair": 7.2,
       "total": 53.3,
       "fairTotal": 51.8,
-      "homeWin": 0.316,
+      "homeWin": 0.28,
       "qualified": true,
       "gp": [
        9,
@@ -2908,8 +2916,8 @@
      },
      "best": {
       "label": "ARK ML",
-      "ev": 0.1044,
-      "win": 0.316,
+      "ev": -0.0188,
+      "win": 0.28,
       "market": "ml"
      }
     },
@@ -2949,10 +2957,10 @@
      },
      "model": {
       "line": -1.9,
-      "fair": 1.8,
+      "fair": 2.1,
       "total": 67.1,
       "fairTotal": 75.1,
-      "homeWin": 0.453,
+      "homeWin": 0.477,
       "qualified": true,
       "gp": [
        9,
@@ -3002,10 +3010,10 @@
      },
      "model": {
       "line": 0.9,
-      "fair": -2.8,
+      "fair": -8.4,
       "total": 64,
       "fairTotal": 71.2,
-      "homeWin": 0.572,
+      "homeWin": 0.715,
       "qualified": true,
       "gp": [
        9,
@@ -3013,10 +3021,10 @@
       ]
      },
      "best": {
-      "label": "TTU ML",
-      "ev": 0.0356,
-      "win": 0.428,
-      "market": "ml"
+      "label": "OKST -3.5",
+      "ev": 0.2112,
+      "win": 0.62,
+      "market": "spread"
      }
     },
     {
@@ -3058,7 +3066,7 @@
       "fair": 1.6,
       "total": 47.8,
       "fairTotal": 43.3,
-      "homeWin": 0.46,
+      "homeWin": 0.472,
       "qualified": true,
       "gp": [
        9,
@@ -3066,10 +3074,10 @@
       ]
      },
      "best": {
-      "label": "SDSU +2.5",
-      "ev": 0.0082,
-      "win": 0.523,
-      "market": "spread"
+      "label": "SDSU ML",
+      "ev": 0.01,
+      "win": 0.472,
+      "market": "ml"
      }
     },
     {
@@ -3108,10 +3116,10 @@
      },
      "model": {
       "line": 6.3,
-      "fair": 7.3,
+      "fair": 6.6,
       "total": 45.5,
       "fairTotal": 40.4,
-      "homeWin": 0.32,
+      "homeWin": 0.297,
       "qualified": true,
       "gp": [
        9,
@@ -3120,8 +3128,8 @@
      },
      "best": {
       "label": "UTEP ML",
-      "ev": 0.1026,
-      "win": 0.32,
+      "ev": 0.0256,
+      "win": 0.297,
       "market": "ml"
      }
     },
@@ -3161,7 +3169,7 @@
      },
      "model": {
       "line": -5.9,
-      "fair": -9,
+      "fair": -9.8,
       "total": 57.3,
       "fairTotal": 66,
       "homeWin": null,
@@ -3172,10 +3180,10 @@
       ]
      },
      "best": {
-      "label": "CSU ML",
-      "ev": 0.0898,
-      "win": 0.283,
-      "market": "ml"
+      "label": "Under 67.5",
+      "ev": 0.0253,
+      "win": 0.537,
+      "market": "total"
      }
     },
     {
@@ -3214,10 +3222,10 @@
      },
      "model": {
       "line": 8.7,
-      "fair": 6.8,
+      "fair": 5.9,
       "total": 46,
       "fairTotal": 39.6,
-      "homeWin": 0.331,
+      "homeWin": 0.332,
       "qualified": true,
       "gp": [
        9,
@@ -3237,6 +3245,7 @@
     "w": 0.15,
     "at": 0.136,
     "wt": 0.15,
+    "k": 0.293,
     "n": 402
    }
   },
@@ -3251,101 +3260,7 @@
    "missed": false,
    "picks": [],
    "parlays": [],
-   "preview": [
-    {
-     "id": "nfl-2026-11-15:401873063:ml:home",
-     "slateId": "nfl-2026-11-15",
-     "sport": "nfl",
-     "date": "2026-11-15",
-     "gameId": "401873063",
-     "kickoff": "2026-11-15T21:25Z",
-     "matchup": "SF @ DAL",
-     "away": "SF",
-     "home": "DAL",
-     "label": "DAL ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 180,
-     "oppPrice": -218,
-     "win": 0.3876,
-     "push": 0,
-     "ev": 0.0853,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": 0.5,
-     "fairLine": 3.7,
-     "marketLine": 4.5,
-     "modelTotal": 53.7,
-     "fairTotal": 55.2,
-     "marketTotal": 55.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "nfl-2026-11-15:401873060:ml:away",
-     "slateId": "nfl-2026-11-15",
-     "sport": "nfl",
-     "date": "2026-11-15",
-     "gameId": "401873060",
-     "kickoff": "2026-11-15T18:00Z",
-     "matchup": "MIN @ GB",
-     "away": "MIN",
-     "home": "GB",
-     "label": "MIN ML",
-     "market": "ml",
-     "side": "away",
-     "line": 0,
-     "price": 190,
-     "oppPrice": -230,
-     "win": 0.3591,
-     "push": 0,
-     "ev": 0.0413,
-     "tier": "crown",
-     "units": 0.5,
-     "modelLine": -1.5,
-     "fairLine": -4.7,
-     "marketLine": -5.5,
-     "modelTotal": 41.2,
-     "fairTotal": 40.6,
-     "marketTotal": 40.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    },
-    {
-     "id": "nfl-2026-11-15:401873056:ml:home",
-     "slateId": "nfl-2026-11-15",
-     "sport": "nfl",
-     "date": "2026-11-15",
-     "gameId": "401873056",
-     "kickoff": "2026-11-15T18:00Z",
-     "matchup": "HOU @ CLE",
-     "away": "HOU",
-     "home": "CLE",
-     "label": "CLE ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 185,
-     "oppPrice": -225,
-     "win": 0.3649,
-     "push": 0,
-     "ev": 0.0401,
-     "tier": "crown",
-     "units": 0.5,
-     "modelLine": 4.7,
-     "fairLine": 4.5,
-     "marketLine": 4.5,
-     "modelTotal": 40.9,
-     "fairTotal": 39.7,
-     "marketTotal": 39.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null
-    }
-   ],
+   "preview": [],
    "games": [
     {
      "id": "401873053",
@@ -3386,7 +3301,7 @@
       "fair": -2.2,
       "total": 50.5,
       "fairTotal": 51.3,
-      "homeWin": 0.567,
+      "homeWin": 0.564,
       "qualified": true,
       "gp": [
        9,
@@ -3492,7 +3407,7 @@
       "fair": -1.2,
       "total": 47.7,
       "fairTotal": 48.4,
-      "homeWin": 0.537,
+      "homeWin": 0.513,
       "qualified": true,
       "gp": [
        8,
@@ -3500,9 +3415,9 @@
       ]
      },
      "best": {
-      "label": "NO ML",
-      "ev": -0.0159,
-      "win": 0.537,
+      "label": "CAR ML",
+      "ev": -0.0264,
+      "win": 0.487,
       "market": "ml"
      }
     },
@@ -3545,7 +3460,7 @@
       "fair": 4.5,
       "total": 40.9,
       "fairTotal": 39.7,
-      "homeWin": 0.365,
+      "homeWin": 0.336,
       "qualified": true,
       "gp": [
        8,
@@ -3553,10 +3468,10 @@
       ]
      },
      "best": {
-      "label": "CLE ML",
-      "ev": 0.0401,
-      "win": 0.365,
-      "market": "ml"
+      "label": "CLE +4.5",
+      "ev": -0.0255,
+      "win": 0.499,
+      "market": "spread"
      }
     },
     {
@@ -3651,7 +3566,7 @@
       "fair": 3.5,
       "total": 45.6,
       "fairTotal": 45.5,
-      "homeWin": 0.396,
+      "homeWin": 0.385,
       "qualified": true,
       "gp": [
        8,
@@ -3659,10 +3574,10 @@
       ]
      },
      "best": {
-      "label": "ATL ML",
-      "ev": -0.0096,
-      "win": 0.396,
-      "market": "ml"
+      "label": "KC -3.5",
+      "ev": -0.0125,
+      "win": 0.499,
+      "market": "spread"
      }
     },
     {
@@ -3704,7 +3619,7 @@
       "fair": -2.8,
       "total": 43.4,
       "fairTotal": 41,
-      "homeWin": 0.584,
+      "homeWin": 0.572,
       "qualified": true,
       "gp": [
        8,
@@ -3712,10 +3627,10 @@
       ]
      },
      "best": {
-      "label": "IND ML",
-      "ev": -0.0042,
-      "win": 0.584,
-      "market": "ml"
+      "label": "Over 40.5",
+      "ev": -0.01,
+      "win": 0.514,
+      "market": "total"
      }
     },
     {
@@ -3757,7 +3672,7 @@
       "fair": -4.7,
       "total": 41.2,
       "fairTotal": 40.6,
-      "homeWin": 0.641,
+      "homeWin": 0.648,
       "qualified": true,
       "gp": [
        8,
@@ -3766,8 +3681,8 @@
      },
      "best": {
       "label": "MIN ML",
-      "ev": 0.0413,
-      "win": 0.359,
+      "ev": 0.0202,
+      "win": 0.352,
       "market": "ml"
      }
     },
@@ -3863,7 +3778,7 @@
       "fair": 3.8,
       "total": 45.1,
       "fairTotal": 43.8,
-      "homeWin": 0.387,
+      "homeWin": 0.376,
       "qualified": true,
       "gp": [
        9,
@@ -3916,7 +3831,7 @@
       "fair": 3.7,
       "total": 53.7,
       "fairTotal": 55.2,
-      "homeWin": 0.388,
+      "homeWin": 0.363,
       "qualified": true,
       "gp": [
        8,
@@ -3925,8 +3840,8 @@
      },
      "best": {
       "label": "DAL ML",
-      "ev": 0.0853,
-      "win": 0.388,
+      "ev": 0.0172,
+      "win": 0.363,
       "market": "ml"
      }
     },
@@ -3969,7 +3884,7 @@
       "fair": -3.6,
       "total": 45.8,
       "fairTotal": 48.1,
-      "homeWin": 0.608,
+      "homeWin": 0.612,
       "qualified": true,
       "gp": [
        8,
@@ -3989,6 +3904,7 @@
     "w": 0.189,
     "at": 0.315,
     "wt": 0.158,
+    "k": 0,
     "n": 88
    }
   }

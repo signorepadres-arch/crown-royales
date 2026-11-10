@@ -145,7 +145,7 @@ export function simulateBacktest(rows, sport, params, thresholds) {
   const calPts = [];
   let atsN = 0, atsW = 0;
   for (const r of rows) {
-    const proj = project(r.c, r.g.close, sport, params);
+    const proj = project(r.c, r.g.close, sport, params, r.move);
     if (proj.mu == null) continue;
     const pr = lineProbs(proj.mu, CFG[sport].sd, r.g.close.spread);
     const pHome = pr.win + pr.push / 2;

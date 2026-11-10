@@ -3,7 +3,7 @@
 //   fetch ESPN → save lines → backfill closing lines → learn params (walk-forward backtest)
 //   → project the upcoming slate → publish the card at release time → grade → write data/*.json
 import { LEAGUES, scoreboard, parseEvent, coreOdds, parseOdds, stats as fetchStats } from './lib/espn.mjs';
-import { CFG, buildModel, components, project, evaluate, selectPicks, buildParlays, backtestRows, tune } from './lib/model.mjs';
+import { CFG, buildModel, components, lineMove, project, evaluate, selectPicks, buildParlays, backtestRows, tune } from './lib/model.mjs';
 import { gradeLedger, liveStats, simulateBacktest, learnThresholds, summarize } from './lib/grade.mjs';
 import { readJSON, writeJSON, etParts, etToDate, addDaysYMD, seasonYear, round } from './lib/util.mjs';
 
@@ -102,7 +102,7 @@ function pickRecord(sport, slateId, slateYmd, e, publishedAt) {
     matchup: `${g.away.abbr} @ ${g.home.abbr}`, away: g.away.abbr, home: g.home.abbr,
     label: p.label, market: p.market, side: p.side, line: p.line, price: p.price, oppPrice,
     win: round(p.win, 4), push: round(p.push, 4), ev: round(p.ev, 4), tier: p.tier, units: p.units,
-    modelLine: round(-e.proj.muModel, 1), fairLine: round(-e.proj.mu, 1), marketLine: round(-e.proj.muMkt, 1),
+    modelLine: round(-e.proj.muModel, 1), lineMove: round(e.proj.move, 1), fairLine: round(-e.proj.mu, 1), marketLine: round(-e.proj.muMkt, 1),
     modelTotal: round(e.proj.totModel, 1), fairTotal: round(e.proj.tot, 1), marketTotal: e.proj.totMkt,
     publishedAt, status: 'open', profit: null,
   };
@@ -151,7 +151,7 @@ async function main() {
       for (const g of slateGames) {
         const comp = components(g, M, sport);
         const odds = g.state === 'pre' ? g.close : null;
-        const proj = project(comp, g.close, sport, params);
+        const proj = project(comp, g.close, sport, params, lineMove(g, g.close));
         const cands = odds ? evaluate(g, proj, odds, sport) : [];
         if (odds) entries.push({ g, comp, proj, cands });
         const best = cands.slice().sort((a, b) => b.ev - a.ev)[0];
@@ -176,7 +176,7 @@ async function main() {
           const parlays = buildParlays(live).map(t => ({ ...t, id: `${slateId}:${t.type}`, slateId, sport, date: slateYmd, publishedAt, status: 'open', profit: null }));
           ledger.picks.push(...picks);
           ledger.parlays.push(...parlays);
-          ledger.slates[slateId] = { sport, date: slateYmd, publishedAt, picks: picks.length, parlays: parlays.length, gamesConsidered: live.length, params: { a: params.a, w: params.w, at: params.at, wt: params.wt } };
+          ledger.slates[slateId] = { sport, date: slateYmd, publishedAt, picks: picks.length, parlays: parlays.length, gamesConsidered: live.length, params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k } };
           log(`${sport}: PUBLISHED ${slateId} — ${picks.length} picks, ${parlays.length} parlays`);
         } else {
           ledger.slates[slateId] = { sport, date: slateYmd, publishedAt: null, missed: true, picks: 0 };
@@ -192,7 +192,7 @@ async function main() {
         picks: ledger.picks.filter(p => p.slateId === slateId),
         parlays: ledger.parlays.filter(t => t.slateId === slateId),
         preview, games: gameRows,
-        params: { a: params.a, w: params.w, at: params.at, wt: params.wt, n: params.n },
+        params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k, n: params.n },
       };
     } catch (e) { errors.push(`${sport} model: ${e.stack || e.message}`); log('ERROR', e.stack || e.message); }
   }

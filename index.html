@@ -103,7 +103,7 @@ td.r,th.r{text-align:right}
 .tip{position:absolute;pointer-events:none;background:#1d1d25;border:1px solid var(--line2);border-radius:8px;padding:6px 9px;font-size:12px;color:var(--text);white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .1s}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .filters select{background:var(--surface);color:var(--text);border:1px solid var(--line2);border-radius:8px;padding:7px 10px;font:inherit;font-size:13px}
-.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
 .mini{background:var(--surface2);border:1px solid var(--line);border-radius:12px;padding:11px 12px}
 .mini .l{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 .mini .v{font-size:19px;font-weight:750;margin-top:2px}
@@ -377,6 +377,7 @@ function renderModel() {
         <div class="mini"><div class="l">Games tested</div><div class="v num">${b.games}</div><div class="s">with closing lines</div></div>
         <div class="mini"><div class="l">Sim record</div><div class="v num">${s.w}-${s.l}${s.p ? '-' + s.p : ''}</div><div class="s">${sgn(s.units)}u · ROI ${s.roi != null ? sgn(s.roi * 100, 1) + '%' : '—'}</div></div>
         <div class="mini"><div class="l">Model ATS</div><div class="v num">${pct(b.modelAts.hit, 1)}</div><div class="s">${b.modelAts.w}/${b.modelAts.n} when 2+ pts off market</div></div>
+        <div class="mini"><div class="l">Line-move signal</div><div class="v num">${p?.steam ? pct(p.steam.hit, 1) : '—'}</div><div class="s">${p?.steam ? `steam side covered ${p.steam.w}/${p.steam.n} · weight ${p.k ?? 0}` : 'needs more games'}</div></div>
         <div class="mini"><div class="l">Model weight</div><div class="v num">${p ? Math.round(p.w * 100) + '%' : '—'}</div><div class="s">${better != null ? (better > 0 ? 'blend beats market by ' + better.toFixed(1) + ' MSE' : 'not beating market yet') : 'learning'}</div></div>
       </div>
       <h3 class="sec">Calibration — spread cover probability</h3>${calChart(b.calibration, 'Backtest calibration')}</div>`;
@@ -391,6 +392,7 @@ function renderModel() {
           <li><b>Team ratings</b> are re-fit every run from this season's results (recent games weigh more; blowouts are capped) and from past closing lines.</li>
           <li><b>Model line</b> = a mix of the results ratings and the market ratings, plus home field.</li>
           <li><b>Blend with the market.</b> Markets are sharp, so the model only pulls the line part-way. How far (the <i>model weight</i>) is learned each run from how well the model has predicted this season.</li>
+          <li><b>Line movement.</b> Where the spread moved since it opened is a learned input: if following (or fading) the move has predicted covers this season, it gets weight; if not, it's ignored.</li>
           <li><b>Price every bet</b> (spread, moneyline, total) off the blended line and compare to the actual odds. Only bets with positive expected value above a minimum edge qualify — one per game.</li>
           <li><b>Tiers & stakes:</b> Crown Royal = the slate's best bet with 6%+ edge; Crown = 4%+; Lean = above minimum. Units come from quarter-Kelly, 0.5–3u.</li>
           <li><b>Lock & grade.</b> The card locks at 10 AM ET on slate day; every bet is graded automatically and compared to the closing line.</li>

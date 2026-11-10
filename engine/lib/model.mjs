@@ -5,7 +5,7 @@
 //  4. Blended line = w·model + (1-w)·current market line   (w is learned from the season's walk-forward backtest).
 //  5. Every bet is priced off the blended line with a normal margin distribution; only +EV bets qualify.
 import { fitMargin, fitTotals } from './ratings.mjs';
-import { lineProbs, toDec, noVig, PhiInv, clamp, round, fmtLine, fmtAmerican, decToAmerican } from './util.mjs';
+import { lineProbs, toDec, noVig, Phi, PhiInv, clamp, round, fmtLine, fmtAmerican, decToAmerican } from './util.mjs';
 
 export const CFG = {
   nfl: {
@@ -69,6 +69,11 @@ export function components(g, M, sport) {
   out.qualified = out.gpH >= cfg.minGP && out.gpA >= cfg.minGP;
   return out;
 }
+// Line movement since open, in home-margin points (positive = market moved toward the home team).
+export function lineMove(g, odds) {
+  const open = g.open?.spread, cur = odds?.spread;
+  return open != null && cur != null ? open - cur : 0;
+}
 
 export function marketMu(odds, sport) {
   if (!odds) return null;
@@ -77,7 +82,7 @@ export function marketMu(odds, sport) {
   return null;
 }
 
-export function project(comp, odds, sport, P) {
+export function project(comp, odds, sport, P, move = 0) {
   const muModel = comp.muMr != null ? P.a * comp.muRes + (1 - P.a) * comp.muMr : comp.muRes;
   let totModel = null;
   if (comp.totRes != null && comp.totMr != null) totModel = P.at * comp.totRes + (1 - P.at) * comp.totMr;
@@ -86,7 +91,8 @@ export function project(comp, odds, sport, P) {
   const totMkt = odds?.total ?? null;
   return {
     muModel, totModel, muMkt, totMkt,
-    mu: muMkt == null ? null : P.w * muModel + (1 - P.w) * muMkt,
+    move,
+    mu: muMkt == null ? null : P.w * muModel + (1 - P.w) * muMkt + (P.k || 0) * move,
     tot: totMkt == null || totModel == null ? null : P.wt * totModel + (1 - P.wt) * totMkt,
   };
 }
@@ -108,7 +114,10 @@ export function evaluate(g, proj, odds, sport) {
     out.push({ ...priced('spread', 'away', -odds.spread, odds.spreadAwayPrice ?? -110, lineProbs(-proj.mu, cfg.sd, -odds.spread)), label: `${A} ${fmtLine(-odds.spread)}` });
   }
   if (odds.mlHome != null && odds.mlAway != null) {
-    const ph = lineProbs(proj.mu, cfg.sd, 0), pw = ph.win / (1 - ph.push);
+    // Anchor on the market's own moneyline (its spread→ML mapping is sharper than a plain normal),
+    // then shift by how far the blended line sits from the market line.
+    const pMkt = noVig(odds.mlHome, odds.mlAway)[0];
+    const pw = clamp(Phi(PhiInv(pMkt) + (proj.mu - proj.muMkt) / cfg.sd), 0.01, 0.99);
     for (const [side, price, p, ab] of [['home', odds.mlHome, pw, H], ['away', odds.mlAway, 1 - pw, A]]) {
       if (price < cfg.mlRange[0] || price > cfg.mlRange[1]) continue;
       out.push({ ...priced('ml', side, 0, price, { win: p, push: 0, loss: 1 - p }), label: `${ab} ML` });
@@ -200,7 +209,7 @@ export function backtestRows(games, sport) {
     for (const g of wk) {
       const c = components(g, M, sport);
       if (!c.qualified) continue;
-      rows.push({ g, c, muMkt: -g.close.spread, totMkt: g.close.total ?? null, margin: g.hs - g.as, total: g.hs + g.as });
+      rows.push({ g, c, muMkt: -g.close.spread, move: lineMove(g, g.close), totMkt: g.close.total ?? null, margin: g.hs - g.as, total: g.hs + g.as });
     }
   }
   return rows;
@@ -210,7 +219,7 @@ export function tune(rows, sport, prev) {
   const D = CFG[sport].defaults;
   const n = rows.length;
   const mse = f => rows.reduce((s, r) => s + (r.margin - f(r)) ** 2, 0) / n;
-  const out = { n, a: prev?.a ?? D.a, w: prev?.w ?? D.w, at: prev?.at ?? D.at, wt: prev?.wt ?? D.wt };
+  const out = { n, a: prev?.a ?? D.a, w: prev?.w ?? D.w, at: prev?.at ?? D.at, wt: prev?.wt ?? D.wt, k: prev?.k ?? 0 };
   if (n < 40) return { ...out, note: 'Not enough completed games with closing lines yet — using defaults.' };
   let best = { e: Infinity };
   for (let a = 0; a <= 1.0001; a += 0.25) for (let w = 0; w <= W_CEIL + 1e-9; w += 0.05) {
@@ -222,7 +231,22 @@ export function tune(rows, sport, prev) {
   out.w = round(clamp(D.w + (best.w - D.w) * shrink, W_FLOOR, W_CEIL), 3);
   out.mseMarket = round(mse(r => r.muMkt), 2);
   out.mseModel = round(mse(r => (r.c.muMr != null ? out.a * r.c.muRes + (1 - out.a) * r.c.muMr : r.c.muRes)), 2);
-  out.mseBlend = round(mse(r => out.w * (r.c.muMr != null ? out.a * r.c.muRes + (1 - out.a) * r.c.muMr : r.c.muRes) + (1 - out.w) * r.muMkt), 2);
+  const blend = r => out.w * (r.c.muMr != null ? out.a * r.c.muRes + (1 - out.a) * r.c.muMr : r.c.muRes) + (1 - out.w) * r.muMkt;
+  out.mseBlend = round(mse(blend), 2);
+  // line-movement weight k (follow/fade the steam), heavily shrunk toward 0
+  const mv = rows.filter(r => r.move !== 0);
+  if (mv.length >= 60) {
+    let bk = { e: Infinity, k: 0 };
+    for (let k = -0.6; k <= 0.6 + 1e-9; k += 0.05) {
+      const e = mv.reduce((s, r) => s + (r.margin - blend(r) - k * r.move) ** 2, 0);
+      if (e < bk.e) bk = { e, k };
+    }
+    out.k = round(clamp(bk.k * mv.length / (mv.length + 300), -0.4, 0.4), 3);
+    out.nMove = mv.length;
+    let n = 0, w = 0;
+    for (const r of mv) { const cov = r.margin + r.g.close.spread; if (!cov) continue; n++; if ((r.move > 0) === (cov > 0)) w++; }
+    out.steam = { n, w, hit: n ? round(w / n, 4) : null };
+  } else out.k = 0;
   const tr = rows.filter(r => r.totMkt != null && (r.c.totRes != null || r.c.totMr != null));
   if (tr.length >= 40) {
     const tm = (r, at) => (r.c.totRes != null && r.c.totMr != null ? at * r.c.totRes + (1 - at) * r.c.totMr : (r.c.totMr ?? r.c.totRes));

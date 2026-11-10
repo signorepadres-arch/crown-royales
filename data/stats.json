@@ -1,0 +1,142 @@
+{
+ "generated": "2026-11-10T16:45:45.379Z",
+ "live": {
+  "overall": {
+   "n": 0,
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "units": 0,
+   "staked": 0,
+   "open": 0,
+   "roi": null,
+   "hit": null,
+   "avgEv": null,
+   "avgClv": null,
+   "beatClose": null
+  },
+  "bySport": {},
+  "byTier": {},
+  "byMarket": {},
+  "bySide": {},
+  "parlays": {
+   "crown": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 0,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
+   },
+   "hail": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 0,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
+   },
+   "legs": {
+    "hit": 0,
+    "n": 0
+   }
+  },
+  "series": [],
+  "calibration": []
+ },
+ "backtest": {
+  "cfb": {
+   "games": 0,
+   "picks": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 0,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
+   },
+   "byMarket": {},
+   "byTier": {},
+   "modelAts": {
+    "n": 0,
+    "w": 0,
+    "hit": null
+   },
+   "calibration": [],
+   "params": {
+    "n": 0,
+    "a": 0.5,
+    "w": 0.3,
+    "at": 0.5,
+    "wt": 0.25,
+    "note": "Not enough completed games with closing lines yet — using defaults."
+   }
+  },
+  "nfl": {
+   "games": 0,
+   "picks": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 0,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
+   },
+   "byMarket": {},
+   "byTier": {},
+   "modelAts": {
+    "n": 0,
+    "w": 0,
+    "hit": null
+   },
+   "calibration": [],
+   "params": {
+    "n": 0,
+    "a": 0.5,
+    "w": 0.3,
+    "at": 0.5,
+    "wt": 0.25,
+    "note": "Not enough completed games with closing lines yet — using defaults."
+   }
+  }
+ },
+ "legacy": {
+  "n": 16,
+  "w": 9,
+  "l": 7,
+  "p": 0,
+  "units": 0,
+  "staked": 16,
+  "open": 0,
+  "roi": 0,
+  "hit": 0.5625,
+  "avgEv": 0,
+  "avgClv": null,
+  "beatClose": null
+ },
+ "modelLog": []
+}

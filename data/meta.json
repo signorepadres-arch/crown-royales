@@ -1,0 +1,10 @@
+{
+ "version": "2.0.0",
+ "lastRun": "2026-11-10T16:45:45.379Z",
+ "seconds": 8.9,
+ "requests": 6,
+ "errors": [
+  "cfb fetch: HTTP 403 https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?limit=500&groups=80",
+  "nfl fetch: HTTP 403 https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?limit=500"
+ ]
+}

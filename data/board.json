@@ -1,0 +1,47 @@
+{
+ "generated": "2026-11-10T16:45:45.379Z",
+ "sports": {
+  "cfb": {
+   "sport": "cfb",
+   "label": "Saturday College Football",
+   "slateId": "cfb-2026-11-14",
+   "date": "2026-11-14",
+   "status": "off",
+   "publishAt": "2026-11-14T15:00:00.000Z",
+   "publishedAt": null,
+   "missed": false,
+   "picks": [],
+   "parlays": [],
+   "preview": [],
+   "games": [],
+   "params": {
+    "a": 0.5,
+    "w": 0.3,
+    "at": 0.5,
+    "wt": 0.25,
+    "n": 0
+   }
+  },
+  "nfl": {
+   "sport": "nfl",
+   "label": "Sunday NFL",
+   "slateId": "nfl-2026-11-15",
+   "date": "2026-11-15",
+   "status": "off",
+   "publishAt": "2026-11-15T15:00:00.000Z",
+   "publishedAt": null,
+   "missed": false,
+   "picks": [],
+   "parlays": [],
+   "preview": [],
+   "games": [],
+   "params": {
+    "a": 0.5,
+    "w": 0.3,
+    "at": 0.5,
+    "wt": 0.25,
+    "n": 0
+   }
+  }
+ }
+}

@@ -1,24 +1,24 @@
 {
  "params": {
   "cfb": {
-   "n": 402,
-   "a": 0.136,
+   "n": 405,
+   "a": 0.135,
    "w": 0.15,
-   "at": 0.136,
+   "at": 0.135,
    "wt": 0.15,
-   "k": 0.293,
-   "mseMarket": 222.54,
-   "mseModel": 254.71,
-   "mseBlend": 224.09,
-   "nMove": 343,
+   "k": 0.295,
+   "mseMarket": 222.12,
+   "mseModel": 254.15,
+   "mseBlend": 223.67,
+   "nMove": 346,
    "steam": {
-    "n": 340,
-    "w": 188,
-    "hit": 0.5529
+    "n": 343,
+    "w": 189,
+    "hit": 0.551
    },
-   "mseTotMarket": 245.27,
-   "mseTotBlend": 247.32,
-   "updated": "2026-11-10T23:30:17.620Z"
+   "mseTotMarket": 244.4,
+   "mseTotBlend": 246.41,
+   "updated": "2026-11-11T06:41:25.370Z"
   },
   "nfl": {
    "n": 88,
@@ -38,7 +38,7 @@
    },
    "mseTotMarket": 159.5,
    "mseTotBlend": 161.39,
-   "updated": "2026-11-10T23:30:17.620Z"
+   "updated": "2026-11-11T06:41:25.370Z"
   }
  },
  "thresholds": {

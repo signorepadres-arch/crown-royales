@@ -172,7 +172,8 @@ async function main() {
       ledger.pending ||= {};
       let status = slateGames.length ? 'preview' : 'off';
       const relMs = publishAt.getTime();
-      if (!ledger.slates[slateId] && nowMs < relMs) {
+      // Snapshot freezes 10 min before release so the site has the final version deployed well before 10:00.
+      if (!ledger.slates[slateId] && nowMs < relMs - 10 * 60e3) {
         const pre = entries.filter(e => Date.parse(e.g.date) > relMs);
         const picks = selectPicks(pre, sport, learned.thresholds).map(e => pickRecord(sport, slateId, slateYmd, e, null));
         const parlays = buildParlays(pre).map(t => ({ ...t, id: `${slateId}:${t.type}`, slateId, sport, date: slateYmd, status: 'open', profit: null }));

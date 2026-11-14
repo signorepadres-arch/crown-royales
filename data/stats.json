@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T18:59:27.013Z",
+ "generated": "2026-11-14T21:50:36.860Z",
  "live": {
   "overall": {
    "n": 0,
@@ -160,47 +160,47 @@
  },
  "backtest": {
   "cfb": {
-   "games": 413,
+   "games": 426,
    "picks": {
-    "n": 38,
-    "w": 18,
-    "l": 20,
+    "n": 21,
+    "w": 10,
+    "l": 11,
     "p": 0,
-    "units": 7.97,
-    "staked": 37.5,
+    "units": 2.95,
+    "staked": 20,
     "open": 0,
-    "roi": 0.2125,
-    "hit": 0.4737,
-    "avgEv": 0.0499,
+    "roi": 0.1475,
+    "hit": 0.4762,
+    "avgEv": 0.0541,
     "avgClv": null,
     "beatClose": null
    },
    "byMarket": {
-    "spread": {
-     "n": 17,
-     "w": 8,
-     "l": 9,
+    "ml": {
+     "n": 13,
+     "w": 7,
+     "l": 6,
      "p": 0,
-     "units": -1.06,
-     "staked": 22.5,
+     "units": 4.85,
+     "staked": 9,
      "open": 0,
-     "roi": -0.0471,
-     "hit": 0.4706,
-     "avgEv": 0.0504,
+     "roi": 0.5389,
+     "hit": 0.5385,
+     "avgEv": 0.0552,
      "avgClv": null,
      "beatClose": null
     },
-    "ml": {
-     "n": 20,
-     "w": 9,
-     "l": 11,
+    "spread": {
+     "n": 7,
+     "w": 2,
+     "l": 5,
      "p": 0,
-     "units": 7.32,
-     "staked": 13.5,
+     "units": -3.61,
+     "staked": 9.5,
      "open": 0,
-     "roi": 0.5422,
-     "hit": 0.45,
-     "avgEv": 0.049,
+     "roi": -0.38,
+     "hit": 0.2857,
+     "avgEv": 0.0511,
      "avgClv": null,
      "beatClose": null
     },
@@ -214,101 +214,101 @@
      "open": 0,
      "roi": 1.14,
      "hit": 1,
-     "avgEv": 0.0601,
+     "avgEv": 0.06,
      "avgClv": null,
      "beatClose": null
     }
    },
    "byTier": {
     "crown": {
-     "n": 22,
-     "w": 10,
-     "l": 12,
+     "n": 11,
+     "w": 5,
+     "l": 6,
      "p": 0,
-     "units": 3.78,
-     "staked": 21,
-     "open": 0,
-     "roi": 0.18,
-     "hit": 0.4545,
-     "avgEv": 0.0524,
-     "avgClv": null,
-     "beatClose": null
-    },
-    "lean": {
-     "n": 13,
-     "w": 6,
-     "l": 7,
-     "p": 0,
-     "units": 1.56,
+     "units": 2.61,
      "staked": 9.5,
      "open": 0,
-     "roi": 0.1642,
-     "hit": 0.4615,
-     "avgEv": 0.036,
+     "roi": 0.2747,
+     "hit": 0.4545,
+     "avgEv": 0.0615,
      "avgClv": null,
      "beatClose": null
     },
     "royal": {
-     "n": 3,
-     "w": 2,
+     "n": 2,
+     "w": 1,
      "l": 1,
      "p": 0,
-     "units": 2.63,
-     "staked": 7,
+     "units": -0.6,
+     "staked": 4.5,
      "open": 0,
-     "roi": 0.3757,
-     "hit": 0.6667,
-     "avgEv": 0.0919,
+     "roi": -0.1333,
+     "hit": 0.5,
+     "avgEv": 0.087,
+     "avgClv": null,
+     "beatClose": null
+    },
+    "lean": {
+     "n": 8,
+     "w": 4,
+     "l": 4,
+     "p": 0,
+     "units": 0.93,
+     "staked": 6,
+     "open": 0,
+     "roi": 0.155,
+     "hit": 0.5,
+     "avgEv": 0.0357,
      "avgClv": null,
      "beatClose": null
     }
    },
    "modelAts": {
-    "n": 278,
-    "w": 140,
-    "hit": 0.5036
+    "n": 287,
+    "w": 144,
+    "hit": 0.5017
    },
    "calibration": [
     {
      "lo": 0.5,
      "hi": 0.53,
-     "n": 346,
-     "pred": 0.5128,
-     "actual": 0.5405
+     "n": 374,
+     "pred": 0.512,
+     "actual": 0.5107
     },
     {
      "lo": 0.53,
      "hi": 0.56,
-     "n": 53,
-     "pred": 0.5369,
-     "actual": 0.566
+     "n": 44,
+     "pred": 0.5392,
+     "actual": 0.5909
     },
     {
      "lo": 0.56,
      "hi": 0.6,
-     "n": 9,
-     "pred": 0.567,
-     "actual": 0.6667
+     "n": 2,
+     "pred": 0.5687,
+     "actual": 1
     }
    ],
    "params": {
-    "n": 413,
-    "a": 0.133,
+    "n": 426,
+    "a": 0.13,
     "w": 0.15,
-    "at": 0.133,
+    "at": 0.13,
     "wt": 0.15,
-    "k": 0.297,
-    "mseMarket": 220.36,
-    "mseModel": 252.06,
-    "mseBlend": 221.9,
-    "nMove": 352,
+    "k": 0.219,
+    "mseMarket": 227.12,
+    "mseModel": 259.13,
+    "mseBlend": 228.73,
+    "nMove": 364,
     "steam": {
-     "n": 349,
-     "w": 192,
-     "hit": 0.5501
+     "n": 360,
+     "w": 197,
+     "hit": 0.5472
     },
-    "mseTotMarket": 250.33,
-    "mseTotBlend": 252.31
+    "mseTotMarket": 247.1,
+    "mseTotBlend": 249.14
    }
   },
   "nfl": {

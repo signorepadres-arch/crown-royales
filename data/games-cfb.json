@@ -5396,7 +5396,7 @@
     "color": "9e1b32",
     "fbs": true,
     "rank": 3,
-    "record": "7-2"
+    "record": "8-2"
    },
    "away": {
     "id": "236",
@@ -5407,7 +5407,7 @@
     "color": "00386b",
     "fbs": false,
     "rank": null,
-    "record": "6-4"
+    "record": "7-4"
    },
    "hs": 0,
    "as": 0
@@ -5477,7 +5477,7 @@
     "color": "000000",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
    "hs": 0,
    "as": 0
@@ -5512,7 +5512,7 @@
     "color": "533B23",
     "fbs": false,
     "rank": null,
-    "record": "5-5"
+    "record": "5-6"
    },
    "hs": 0,
    "as": 0
@@ -11210,7 +11210,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -11226,7 +11226,7 @@
      "mlAway": 120
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -11270,15 +11270,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -8.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
     "mlHome": -310,
     "mlAway": 250,
-    "total": 50.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "total": 49.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": -7.5,
      "total": 47.5,
@@ -11286,7 +11286,7 @@
      "mlAway": 245
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -7.5,
@@ -11301,10 +11301,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "12:13 - 3rd",
+   "detail": "Final",
    "home": {
     "id": "66",
     "abbr": "ISU",
@@ -11314,7 +11314,7 @@
     "color": "ae192d",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
    "away": {
     "id": "2132",
@@ -11325,9 +11325,9 @@
     "color": "000000",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "5-5"
    },
-   "hs": 31,
+   "hs": 41,
    "as": 13,
    "close": {
     "provider": "DraftKings",
@@ -11436,10 +11436,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "2:00 - 2nd",
    "home": {
     "id": "277",
     "abbr": "WVU",
@@ -11462,18 +11462,18 @@
     "rank": null,
     "record": "3-6"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 7,
+   "as": 23,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -1.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": -125,
     "mlAway": 105,
     "total": 68.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": -2.5,
      "total": 64.5,
@@ -11482,12 +11482,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -2.5,
     "total": 64.5,
     "mlHome": -135,
     "mlAway": 114
+   },
+   "lastSeen": {
+    "spread": -1.5,
+    "total": 68.5,
+    "mlHome": -125,
+    "mlAway": 105,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401856862": {
@@ -11496,10 +11503,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 2:00 PM EST",
+   "detail": "6:07 - 4th",
    "home": {
     "id": "2628",
     "abbr": "TCU",
@@ -11522,10 +11529,10 @@
     "rank": null,
     "record": "4-5"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 20,
+   "as": 10,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -14,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -11542,12 +11549,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -9.5,
     "total": 45.5,
     "mlHome": -345,
     "mlAway": 275
+   },
+   "lastSeen": {
+    "spread": -14,
+    "total": 44.5,
+    "mlHome": -535,
+    "mlAway": 400,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401856863": {
@@ -11585,15 +11599,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
-    "mlHome": -170,
-    "mlAway": 142,
+    "mlHome": -180,
+    "mlAway": 150,
     "total": 73.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 15.5,
      "total": 61.5,
@@ -11601,7 +11615,7 @@
      "mlAway": -625
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 15.5,
@@ -11645,7 +11659,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 1.5,
     "spreadHomePrice": -118,
     "spreadAwayPrice": -102,
@@ -11661,7 +11675,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -11759,7 +11773,7 @@
     "color": "000000",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "5-5"
    },
    "away": {
     "id": "38",
@@ -11840,7 +11854,7 @@
     "color": "ae192d",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
    "hs": 0,
    "as": 0
@@ -12095,7 +12109,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 7.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -12111,7 +12125,7 @@
      "mlAway": -340
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -12126,10 +12140,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "6:52 - 2nd",
    "home": {
     "id": "61",
     "abbr": "UGA",
@@ -12152,15 +12166,15 @@
     "rank": 22,
     "record": "6-3"
    },
-   "hs": 0,
+   "hs": 31,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -16.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": -800,
-    "mlAway": 550,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": -850,
+    "mlAway": 575,
     "total": 48.5,
     "overPrice": -105,
     "underPrice": -115,
@@ -12172,12 +12186,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -12.5,
     "total": 46.5,
     "mlHome": -470,
     "mlAway": 360
+   },
+   "lastSeen": {
+    "spread": -16.5,
+    "total": 48.5,
+    "mlHome": -800,
+    "mlAway": 550,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401856884": {
@@ -12215,7 +12236,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -12231,7 +12252,7 @@
      "mlAway": 100
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -12275,15 +12296,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -4.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
     "mlHome": -205,
     "mlAway": 170,
-    "total": 46.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "total": 47.5,
+    "overPrice": -102,
+    "underPrice": -118,
     "open": {
      "spread": 3,
      "total": 54.5,
@@ -12291,7 +12312,7 @@
      "mlAway": -155
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -12306,10 +12327,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 4:15 PM EST",
+   "detail": "6:00 - 1st",
    "home": {
     "id": "344",
     "abbr": "MSST",
@@ -12333,14 +12354,14 @@
     "record": "5-4"
    },
    "hs": 0,
-   "as": 0,
+   "as": 7,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 2.5,
-    "spreadHomePrice": 100,
-    "spreadAwayPrice": -120,
-    "mlHome": 120,
-    "mlAway": -142,
+    "spreadHomePrice": 105,
+    "spreadAwayPrice": -125,
+    "mlHome": 124,
+    "mlAway": -148,
     "total": 51.5,
     "overPrice": -105,
     "underPrice": -115,
@@ -12352,12 +12373,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 3.5,
     "total": 51.5,
     "mlHome": 124,
     "mlAway": -148
+   },
+   "lastSeen": {
+    "spread": 2.5,
+    "total": 51.5,
+    "mlHome": 120,
+    "mlAway": -142,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401856887": {
@@ -12395,7 +12423,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -2.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -12411,7 +12439,7 @@
      "mlAway": 154
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -12426,10 +12454,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:00 PM EST",
+   "detail": "12:26 - 3rd",
    "home": {
     "id": "245",
     "abbr": "TA&M",
@@ -12452,18 +12480,18 @@
     "rank": 8,
     "record": "7-2"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 7,
+   "as": 6,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 1.5,
     "spreadHomePrice": -118,
     "spreadAwayPrice": -102,
     "mlHome": -105,
     "mlAway": -115,
-    "total": 43.5,
-    "overPrice": -118,
-    "underPrice": -102,
+    "total": 44.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -9.5,
      "total": 55.5,
@@ -12472,12 +12500,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -9.5,
     "total": 55.5,
     "mlHome": -355,
     "mlAway": 280
+   },
+   "lastSeen": {
+    "spread": 1.5,
+    "total": 43.5,
+    "mlHome": -105,
+    "mlAway": -115,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401856889": {
@@ -12486,10 +12521,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "2:00 - 2nd",
+   "detail": "Final",
    "home": {
     "id": "238",
     "abbr": "VAN",
@@ -12499,7 +12534,7 @@
     "color": "000000",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
    "away": {
     "id": "333",
@@ -12510,10 +12545,10 @@
     "color": "9e1b32",
     "fbs": true,
     "rank": 3,
-    "record": "7-2"
+    "record": "8-2"
    },
-   "hs": 3,
-   "as": 0,
+   "hs": 6,
+   "as": 21,
    "close": {
     "provider": "DraftKings",
     "spread": 15.5,
@@ -17928,10 +17963,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "2:32 - 2nd",
    "home": {
     "id": "87",
     "abbr": "ND",
@@ -17954,18 +17989,18 @@
     "rank": null,
     "record": "4-5"
    },
-   "hs": 0,
+   "hs": 21,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -29.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": -5000,
     "mlAway": 1800,
     "total": 51.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -31.5,
      "total": 52.5,
@@ -17974,12 +18009,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -31.5,
     "total": 52.5,
     "mlHome": -10000,
     "mlAway": 3000
+   },
+   "lastSeen": {
+    "spread": -29.5,
+    "total": 51.5,
+    "mlHome": -5000,
+    "mlAway": 1800,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401858295": {
@@ -17988,10 +18030,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "0:52 - 2nd",
    "home": {
     "id": "258",
     "abbr": "UVA",
@@ -18014,10 +18056,10 @@
     "rank": null,
     "record": "3-6"
    },
-   "hs": 0,
+   "hs": 16,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -11.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -18034,12 +18076,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -12.5,
     "total": 47.5,
     "mlHome": -500,
     "mlAway": 380
+   },
+   "lastSeen": {
+    "spread": -11.5,
+    "total": 46.5,
+    "mlHome": -470,
+    "mlAway": 360,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401858296": {
@@ -18048,10 +18097,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "Halftime",
+   "detail": "Final",
    "home": {
     "id": "2390",
     "abbr": "MIA",
@@ -18061,7 +18110,7 @@
     "color": "f47423",
     "fbs": true,
     "rank": 7,
-    "record": "8-1"
+    "record": "9-1"
    },
    "away": {
     "id": "150",
@@ -18072,10 +18121,10 @@
     "color": "00539b",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "7-3"
    },
-   "hs": 13,
-   "as": 10,
+   "hs": 36,
+   "as": 25,
    "close": {
     "provider": "DraftKings",
     "spread": -14,
@@ -18115,10 +18164,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "1:15 - 2nd",
+   "detail": "Final",
    "home": {
     "id": "228",
     "abbr": "CLEM",
@@ -18128,7 +18177,7 @@
     "color": "f56600",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
    "away": {
     "id": "59",
@@ -18139,10 +18188,10 @@
     "color": "b3a369",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "3-7"
    },
-   "hs": 3,
-   "as": 10,
+   "hs": 6,
+   "as": 20,
    "close": {
     "provider": "DraftKings",
     "spread": -15.5,
@@ -18211,15 +18260,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 3.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": 145,
     "mlAway": -175,
     "total": 57.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": 2.5,
      "total": 59.5,
@@ -18227,7 +18276,7 @@
      "mlAway": -135
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 2.5,
@@ -18271,7 +18320,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -17.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -18287,7 +18336,7 @@
      "mlAway": 600
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -18302,10 +18351,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "8:04 - 3rd",
+   "detail": "Final",
    "home": {
     "id": "152",
     "abbr": "NCSU",
@@ -18315,7 +18364,7 @@
     "color": "cc0000",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
    "away": {
     "id": "183",
@@ -18326,10 +18375,10 @@
     "color": "000e54",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
-   "hs": 21,
-   "as": 6,
+   "hs": 31,
+   "as": 34,
    "close": {
     "provider": "DraftKings",
     "spread": 3,
@@ -18369,10 +18418,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "Halftime",
+   "detail": "Final",
    "home": {
     "id": "2567",
     "abbr": "SMU",
@@ -18382,7 +18431,7 @@
     "color": "a80000",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "7-3"
    },
    "away": {
     "id": "154",
@@ -18393,10 +18442,10 @@
     "color": "ceb888",
     "fbs": true,
     "rank": 13,
-    "record": "8-1"
+    "record": "9-1"
    },
-   "hs": 0,
-   "as": 42,
+   "hs": 7,
+   "as": 49,
    "close": {
     "provider": "DraftKings",
     "spread": -2.5,
@@ -18449,7 +18498,7 @@
     "color": "f47423",
     "fbs": true,
     "rank": 7,
-    "record": "8-1"
+    "record": "9-1"
    },
    "away": {
     "id": "259",
@@ -18509,7 +18558,7 @@
     "color": "00539b",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "7-3"
    },
    "away": {
     "id": "228",
@@ -18520,7 +18569,7 @@
     "color": "f56600",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
    "hs": 0,
    "as": 0
@@ -18555,7 +18604,7 @@
     "color": "cc0000",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
    "hs": 0,
    "as": 0
@@ -18660,7 +18709,7 @@
     "color": "a80000",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "7-3"
    },
    "hs": 0,
    "as": 0,
@@ -18755,7 +18804,7 @@
     "color": "000e54",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
    "hs": 0,
    "as": 0
@@ -18779,7 +18828,7 @@
     "color": "b3a369",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "3-7"
    },
    "away": {
     "id": "154",
@@ -18790,7 +18839,7 @@
     "color": "ceb888",
     "fbs": true,
     "rank": 13,
-    "record": "8-1"
+    "record": "9-1"
    },
    "hs": 0,
    "as": 0
@@ -24526,10 +24575,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "1:59 - 2nd",
    "home": {
     "id": "84",
     "abbr": "IU",
@@ -24552,18 +24601,18 @@
     "rank": 18,
     "record": "7-2"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 7,
+   "as": 3,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -9.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
-    "mlHome": -340,
-    "mlAway": 270,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -325,
+    "mlAway": 260,
     "total": 51.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -10.5,
      "total": 58.5,
@@ -24572,12 +24621,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -10.5,
     "total": 58.5,
     "mlHome": -410,
     "mlAway": 320
+   },
+   "lastSeen": {
+    "spread": -9.5,
+    "total": 51.5,
+    "mlHome": -340,
+    "mlAway": 270,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401858519": {
@@ -24615,10 +24671,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -17.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -1000,
     "mlAway": 650,
     "total": 47.5,
@@ -24631,7 +24687,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -24646,10 +24702,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "10:49 - 3rd",
+   "detail": "Final",
    "home": {
     "id": "120",
     "abbr": "MD",
@@ -24659,7 +24715,7 @@
     "color": "ce1126",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "4-6"
    },
    "away": {
     "id": "275",
@@ -24670,10 +24726,10 @@
     "color": "a00000",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
-   "hs": 7,
-   "as": 10,
+   "hs": 24,
+   "as": 21,
    "close": {
     "provider": "DraftKings",
     "spread": 8.5,
@@ -24742,10 +24798,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 2.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 114,
     "mlAway": -135,
     "total": 44.5,
@@ -24758,7 +24814,7 @@
      "mlAway": -155
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3.5,
@@ -24773,10 +24829,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "13:52 - 3rd",
+   "detail": "Final",
    "home": {
     "id": "194",
     "abbr": "OSU",
@@ -24786,7 +24842,7 @@
     "color": "ba0c2f",
     "fbs": true,
     "rank": 20,
-    "record": "6-3"
+    "record": "7-3"
    },
    "away": {
     "id": "77",
@@ -24797,10 +24853,10 @@
     "color": "492f92",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
-   "hs": 14,
-   "as": 6,
+   "hs": 28,
+   "as": 19,
    "close": {
     "provider": "DraftKings",
     "spread": -14.5,
@@ -24840,10 +24896,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "5:10 - 2nd",
    "home": {
     "id": "2483",
     "abbr": "ORE",
@@ -24866,10 +24922,10 @@
     "rank": null,
     "record": "5-4"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 14,
+   "as": 7,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -10,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -24886,12 +24942,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -13.5,
     "total": 53.5,
     "mlHome": -575,
     "mlAway": 425
+   },
+   "lastSeen": {
+    "spread": -10,
+    "total": 39.5,
+    "mlHome": -395,
+    "mlAway": 310,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401858524": {
@@ -24929,7 +24992,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -12.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -24945,7 +25008,7 @@
      "mlAway": 220
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -7,
@@ -24960,10 +25023,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "Halftime",
+   "detail": "Final",
    "home": {
     "id": "164",
     "abbr": "RUTG",
@@ -24973,7 +25036,7 @@
     "color": "ce0e2d",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "2-8"
    },
    "away": {
     "id": "158",
@@ -24984,10 +25047,10 @@
     "color": "e31937",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "hs": 0,
-   "as": 14,
+   "as": 31,
    "close": {
     "provider": "DraftKings",
     "spread": 15.5,
@@ -25274,7 +25337,7 @@
     "color": "492f92",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
    "hs": 0,
    "as": 0
@@ -25298,7 +25361,7 @@
     "color": "e31937",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "away": {
     "id": "194",
@@ -25309,7 +25372,7 @@
     "color": "ba0c2f",
     "fbs": true,
     "rank": 20,
-    "record": "6-3"
+    "record": "7-3"
    },
    "hs": 0,
    "as": 0,
@@ -25369,7 +25432,7 @@
     "color": "ce0e2d",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "2-8"
    },
    "hs": 0,
    "as": 0
@@ -25404,7 +25467,7 @@
     "color": "a00000",
     "fbs": true,
     "rank": null,
-    "record": "6-3"
+    "record": "6-4"
    },
    "hs": 0,
    "as": 0
@@ -25439,7 +25502,7 @@
     "color": "ce1126",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "4-6"
    },
    "hs": 0,
    "as": 0
@@ -27788,15 +27851,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -16.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
     "mlHome": -700,
     "mlAway": 500,
-    "total": 64.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "total": 65.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -4.5,
      "total": 62.5,
@@ -27804,7 +27867,7 @@
      "mlAway": 150
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4.5,
@@ -27848,7 +27911,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 3,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -27864,7 +27927,7 @@
      "mlAway": -130
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 2.5,
@@ -27879,10 +27942,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 4:00 PM EST",
+   "detail": "End of 1st",
    "home": {
     "id": "326",
     "abbr": "TXST",
@@ -27905,15 +27968,15 @@
     "rank": null,
     "record": "5-4"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 21,
+   "as": 7,
    "close": {
-    "provider": "Draft Kings",
-    "spread": -10,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
-    "mlHome": -375,
-    "mlAway": 295,
+    "provider": "DraftKings",
+    "spread": -11.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -440,
+    "mlAway": 340,
     "total": 60.5,
     "overPrice": -108,
     "underPrice": -112,
@@ -27925,24 +27988,31 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -7,
     "total": 58.5,
     "mlHome": -298,
     "mlAway": 240
+   },
+   "lastSeen": {
+    "spread": -10,
+    "total": 60.5,
+    "mlHome": -375,
+    "mlAway": 295,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401860917": {
    "id": "401860917",
-   "date": "2026-11-15T03:30Z",
+   "date": "2026-11-15T03:45Z",
    "week": 11,
    "seasonType": 2,
    "neutral": false,
    "state": "pre",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 10:30 PM EST",
+   "detail": "11/14 - 10:45 PM EST",
    "home": {
     "id": "265",
     "abbr": "WSU",
@@ -27968,7 +28038,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -8.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -27984,7 +28054,7 @@
      "mlAway": 170
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -6.5,
@@ -28679,10 +28749,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "13:00 - 3rd",
+   "detail": "Final",
    "home": {
     "id": "41",
     "abbr": "CONN",
@@ -28692,7 +28762,7 @@
     "color": "0c2340",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
    "away": {
     "id": "256",
@@ -28703,10 +28773,10 @@
     "color": "450084",
     "fbs": true,
     "rank": null,
-    "record": "8-2"
+    "record": "8-3"
    },
-   "hs": 20,
-   "as": 13,
+   "hs": 46,
+   "as": 22,
    "close": {
     "provider": "DraftKings",
     "spread": 4.5,
@@ -28759,7 +28829,7 @@
     "color": "0c2340",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "5-5"
    },
    "away": {
     "id": "295",
@@ -32917,10 +32987,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "11:04 - 2nd",
+   "detail": "Final",
    "home": {
     "id": "2429",
     "abbr": "CLT",
@@ -32930,7 +33000,7 @@
     "color": "005035",
     "fbs": true,
     "rank": null,
-    "record": "1-8"
+    "record": "1-9"
    },
    "away": {
     "id": "151",
@@ -32941,10 +33011,10 @@
     "color": "582c83",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
-   "hs": 10,
-   "as": 7,
+   "hs": 16,
+   "as": 17,
    "close": {
     "provider": "DraftKings",
     "spread": 12.5,
@@ -33013,7 +33083,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -6.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -33029,7 +33099,7 @@
      "mlAway": 170
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -5.5,
@@ -33073,15 +33143,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 2.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 110,
     "mlAway": -130,
-    "total": 76.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "total": 75.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 1.5,
      "total": 75.5,
@@ -33089,7 +33159,7 @@
      "mlAway": -112
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -33104,10 +33174,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 4:30 PM EST",
+   "detail": "4:38 - 1st",
    "home": {
     "id": "242",
     "abbr": "RICE",
@@ -33130,18 +33200,18 @@
     "rank": null,
     "record": "4-5"
    },
-   "hs": 0,
+   "hs": 3,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
-    "spread": -3.5,
+    "provider": "DraftKings",
+    "spread": -4,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": -180,
     "mlAway": 150,
-    "total": 48.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "total": 49.5,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": 1.5,
      "total": 46.5,
@@ -33150,12 +33220,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 1.5,
     "total": 46.5,
     "mlHome": -108,
     "mlAway": -112
+   },
+   "lastSeen": {
+    "spread": -3.5,
+    "total": 48.5,
+    "mlHome": -180,
+    "mlAway": 150,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401862829": {
@@ -33164,10 +33241,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "8:49 - 2nd",
+   "detail": "Final",
    "home": {
     "id": "218",
     "abbr": "TEM",
@@ -33177,7 +33254,7 @@
     "color": "a41e35",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "2-8"
    },
    "away": {
     "id": "5",
@@ -33188,10 +33265,10 @@
     "color": "1a5632",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
-   "hs": 7,
-   "as": 10,
+   "hs": 10,
+   "as": 36,
    "close": {
     "provider": "DraftKings",
     "spread": -2.5,
@@ -33244,7 +33321,7 @@
     "color": "a41e35",
     "fbs": true,
     "rank": null,
-    "record": "2-7"
+    "record": "2-8"
    },
    "away": {
     "id": "242",
@@ -33290,7 +33367,7 @@
     "color": "582c83",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "hs": 0,
    "as": 0
@@ -33325,7 +33402,7 @@
     "color": "005035",
     "fbs": true,
     "rank": null,
-    "record": "1-8"
+    "record": "1-9"
    },
    "hs": 0,
    "as": 0
@@ -33454,7 +33531,7 @@
     "color": "1a5632",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "away": {
     "id": "2636",
@@ -36173,10 +36250,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "End of 2nd",
    "home": {
     "id": "2459",
     "abbr": "NIU",
@@ -36200,17 +36277,17 @@
     "record": "3-6"
    },
    "hs": 0,
-   "as": 0,
+   "as": 21,
    "close": {
-    "provider": "Draft Kings",
-    "spread": 6,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "provider": "DraftKings",
+    "spread": 6.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": 195,
     "mlAway": -238,
-    "total": 47.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "total": 48.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 10.5,
      "total": 46.5,
@@ -36219,12 +36296,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 10.5,
     "total": 46.5,
     "mlHome": 330,
     "mlAway": -425
+   },
+   "lastSeen": {
+    "spread": 6,
+    "total": 47.5,
+    "mlHome": 195,
+    "mlAway": -238,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401864537": {
@@ -36262,7 +36346,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 7,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -36278,7 +36362,7 @@
      "mlAway": -395
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 9.5,
@@ -36322,15 +36406,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -14,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
     "mlHome": -575,
     "mlAway": 425,
     "total": 48.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": -10.5,
      "total": 49.5,
@@ -36338,7 +36422,7 @@
      "mlAway": 310
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10.5,
@@ -36382,7 +36466,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -17.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -36398,7 +36482,7 @@
      "mlAway": 470
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -13.5,
@@ -36442,7 +36526,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 7,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -36458,7 +36542,7 @@
      "mlAway": -360
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10,
@@ -42618,15 +42702,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
-    "spread": 1.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
-    "mlHome": 100,
-    "mlAway": -120,
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
+    "mlHome": -115,
+    "mlAway": -105,
     "total": 54.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": 2.5,
      "total": 53.5,
@@ -42634,7 +42718,7 @@
      "mlAway": -135
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 2.5,
@@ -43044,10 +43128,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "6:30 - 2nd",
+   "detail": "Final",
    "home": {
     "id": "324",
     "abbr": "CCU",
@@ -43057,7 +43141,7 @@
     "color": "006f71",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "4-6"
    },
    "away": {
     "id": "2032",
@@ -43068,10 +43152,10 @@
     "color": "cc092f",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
-   "hs": 7,
-   "as": 14,
+   "hs": 28,
+   "as": 21,
    "close": {
     "provider": "DraftKings",
     "spread": 1.5,
@@ -43135,7 +43219,7 @@
     "color": "cc092f",
     "fbs": true,
     "rank": null,
-    "record": "4-5"
+    "record": "4-6"
    },
    "hs": 0,
    "as": 0
@@ -43530,7 +43614,7 @@
     "color": "006f71",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "4-6"
    },
    "hs": 0,
    "as": 0
@@ -43781,10 +43865,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "2:00 - 2nd",
    "home": {
     "id": "2247",
     "abbr": "GAST",
@@ -43807,18 +43891,18 @@
     "rank": null,
     "record": "5-4"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 14,
+   "as": 17,
    "close": {
-    "provider": "Draft Kings",
-    "spread": 6,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
-    "mlHome": 185,
-    "mlAway": -225,
+    "provider": "DraftKings",
+    "spread": 5.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 180,
+    "mlAway": -218,
     "total": 55.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": 5.5,
      "total": 55.5,
@@ -43827,12 +43911,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 5.5,
     "total": 55.5,
     "mlHome": 170,
     "mlAway": -205
+   },
+   "lastSeen": {
+    "spread": 6,
+    "total": 55.5,
+    "mlHome": 185,
+    "mlAway": -225,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401869953": {
@@ -44757,10 +44848,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "1:48 - 2nd",
    "home": {
     "id": "98",
     "abbr": "WKU",
@@ -44783,18 +44874,18 @@
     "rank": null,
     "record": "7-2"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 21,
+   "as": 24,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 7.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
     "mlHome": 240,
     "mlAway": -298,
     "total": 54.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 6,
      "total": 52.5,
@@ -44803,12 +44894,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 6,
     "total": 52.5,
     "mlHome": 170,
     "mlAway": -205
+   },
+   "lastSeen": {
+    "spread": 7.5,
+    "total": 54.5,
+    "mlHome": 240,
+    "mlAway": -298,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401870763": {
@@ -44995,10 +45093,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 2:00 PM EST",
+   "detail": "8:23 - 4th",
    "home": {
     "id": "2534",
     "abbr": "SHSU",
@@ -45021,15 +45119,15 @@
     "rank": null,
     "record": "3-6"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 7,
+   "as": 26,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 9.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
-    "mlHome": 270,
-    "mlAway": -340,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 275,
+    "mlAway": -345,
     "total": 44.5,
     "overPrice": -112,
     "underPrice": -108,
@@ -45041,12 +45139,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": 7.5,
     "total": 44.5,
     "mlHome": 245,
     "mlAway": -305
+   },
+   "lastSeen": {
+    "spread": 9.5,
+    "total": 44.5,
+    "mlHome": 270,
+    "mlAway": -340,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401870790": {
@@ -45175,10 +45280,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:00 PM EST",
+   "detail": "12:10 - 3rd",
    "home": {
     "id": "2623",
     "abbr": "MOST",
@@ -45201,18 +45306,18 @@
     "rank": null,
     "record": "3-6"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 14,
+   "as": 7,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -1.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
-    "mlHome": -120,
-    "mlAway": 100,
+    "spreadHomePrice": 102,
+    "spreadAwayPrice": -122,
+    "mlHome": -110,
+    "mlAway": -110,
     "total": 49.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": -1.5,
      "total": 50.5,
@@ -45221,12 +45326,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -1.5,
     "total": 50.5,
     "mlHome": -115,
     "mlAway": -105
+   },
+   "lastSeen": {
+    "spread": -1.5,
+    "total": 49.5,
+    "mlHome": -120,
+    "mlAway": 100,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401871045": {
@@ -46135,10 +46247,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:00 PM EST",
+   "detail": "8:19 - 3rd",
    "home": {
     "id": "48",
     "abbr": "DEL",
@@ -46161,18 +46273,18 @@
     "rank": null,
     "record": "4-5"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 10,
+   "as": 7,
    "close": {
-    "provider": "Draft Kings",
-    "spread": -3.5,
+    "provider": "DraftKings",
+    "spread": -4,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
     "mlHome": -185,
     "mlAway": 154,
     "total": 54.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -6.5,
      "total": 50.5,
@@ -46181,12 +46293,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -6.5,
     "total": 50.5,
     "mlHome": -218,
     "mlAway": 170
+   },
+   "lastSeen": {
+    "spread": -3.5,
+    "total": 54.5,
+    "mlHome": -185,
+    "mlAway": 154,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401871061": {
@@ -46195,10 +46314,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
    "canceled": false,
-   "detail": "11/14 - 3:30 PM EST",
+   "detail": "5:23 - 2nd",
    "home": {
     "id": "2335",
     "abbr": "LIB",
@@ -46221,15 +46340,15 @@
     "rank": null,
     "record": "5-4"
    },
-   "hs": 0,
-   "as": 0,
+   "hs": 7,
+   "as": 10,
    "close": {
-    "provider": "Draft Kings",
-    "spread": -21,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": -1650,
-    "mlAway": 950,
+    "provider": "DraftKings",
+    "spread": -22.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -2100,
+    "mlAway": 1100,
     "total": 53.5,
     "overPrice": -108,
     "underPrice": -112,
@@ -46241,12 +46360,19 @@
     }
    },
    "closeAt": "2026-11-14T18:59:27.013Z",
-   "closeSource": "scoreboard",
+   "closeSource": "core",
    "open": {
     "spread": -20.5,
     "total": 54.5,
     "mlHome": -2100,
     "mlAway": 1100
+   },
+   "lastSeen": {
+    "spread": -21,
+    "total": 53.5,
+    "mlHome": -1650,
+    "mlAway": 950,
+    "at": "2026-11-14T18:59:27.013Z"
    }
   },
   "401871066": {
@@ -47719,15 +47845,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -17.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
-    "mlHome": -950,
-    "mlAway": 625,
-    "total": 56.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "mlHome": -1000,
+    "mlAway": 650,
+    "total": 55.5,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": -18.5,
      "total": 54.5,
@@ -47735,7 +47861,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -18.5,
@@ -47779,10 +47905,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -155,
     "mlAway": 130,
     "total": 55.5,
@@ -47795,7 +47921,7 @@
      "mlAway": 102
     }
    },
-   "closeAt": "2026-11-14T18:59:27.013Z",
+   "closeAt": "2026-11-14T21:50:36.860Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -47840,5 +47966,5 @@
    "as": 0
   }
  },
- "updated": "2026-11-14T18:59:27.013Z"
+ "updated": "2026-11-14T21:50:36.860Z"
 }

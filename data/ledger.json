@@ -270,5 +270,77 @@
    "status": "open",
    "profit": null
   }
- ]
+ ],
+ "pending": {
+  "nfl-2026-11-15": {
+   "computedAt": "2026-11-14T21:50:36.860Z",
+   "gamesConsidered": 11,
+   "picks": [],
+   "parlays": [
+    {
+     "type": "hail-mary",
+     "units": 0.5,
+     "dec": 14.357,
+     "price": 1336,
+     "prob": 0.0746,
+     "ev": 0.0715,
+     "legs": [
+      {
+       "gameId": "401873061",
+       "market": "total",
+       "side": "over",
+       "line": 39.5,
+       "price": -108,
+       "label": "Over 39.5",
+       "win": 0.54,
+       "matchup": "LAR @ ARI"
+      },
+      {
+       "gameId": "401873060",
+       "market": "spread",
+       "side": "away",
+       "line": 2.5,
+       "price": 100,
+       "label": "MIN +2.5",
+       "win": 0.5059,
+       "matchup": "MIN @ GB"
+      },
+      {
+       "gameId": "401873059",
+       "market": "total",
+       "side": "over",
+       "line": 37.5,
+       "price": -110,
+       "label": "Over 37.5",
+       "win": 0.5286,
+       "matchup": "MIA @ IND"
+      },
+      {
+       "gameId": "401873063",
+       "market": "spread",
+       "side": "home",
+       "line": 3.5,
+       "price": -105,
+       "label": "DAL +3.5",
+       "win": 0.5168,
+       "matchup": "SF @ DAL"
+      }
+     ],
+     "id": "nfl-2026-11-15:hail-mary",
+     "slateId": "nfl-2026-11-15",
+     "sport": "nfl",
+     "date": "2026-11-15",
+     "status": "open",
+     "profit": null
+    }
+   ],
+   "params": {
+    "a": 0.314,
+    "w": 0.188,
+    "at": 0.314,
+    "wt": 0.157,
+    "k": 0
+   }
+  }
+ }
 }

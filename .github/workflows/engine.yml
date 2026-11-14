@@ -4,8 +4,10 @@ on:
   schedule:
     # Every 3 hours, every day (grading, line snapshots, previews)
     - cron: '17 */3 * * *'
-    # Extra runs on Saturday/Sunday mornings around the 10:00 AM ET card release
-    - cron: '7 14,15,16 * * 0,6'
+    # Saturday/Sunday mornings: frequent tries so the pre-10:00 AM ET snapshot uses fresh lines.
+    # (GitHub may delay or skip scheduled runs; the lock itself no longer depends on these timings.)
+    - cron: '*/20 11-14 * * 0,6'
+    - cron: '7,37 15,16,17 * * 0,6'
     # Extra late-evening runs on game days to capture closing lines for late kicks and grade
     - cron: '47 22,0,2 * * 0,1,6'
   workflow_dispatch: {}

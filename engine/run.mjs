@@ -165,33 +165,61 @@ async function main() {
         });
       }
 
-      // 3. publish (lock) the official card at release time
+      // 3. publish (lock) the official card.
+      // Every run before release saves the Early-look card as a snapshot. At release time the website
+      // shows that snapshot as locked; the first engine run after release commits exactly that snapshot
+      // to the ledger with publishedAt = release time. So the lock never depends on a run firing at 10:00.
+      ledger.pending ||= {};
       let status = slateGames.length ? 'preview' : 'off';
-      if (!ledger.slates[slateId] && nowMs >= publishAt.getTime() && slateGames.length) {
-        const live = entries.filter(e => Date.parse(e.g.date) > nowMs + 5 * 60e3);
-        if (live.length) {
-          const publishedAt = NOW.toISOString();
-          const card = selectPicks(live, sport, learned.thresholds);
-          const picks = card.map(e => pickRecord(sport, slateId, slateYmd, e, publishedAt));
-          const parlays = buildParlays(live).map(t => ({ ...t, id: `${slateId}:${t.type}`, slateId, sport, date: slateYmd, publishedAt, status: 'open', profit: null }));
+      const relMs = publishAt.getTime();
+      if (!ledger.slates[slateId] && nowMs < relMs) {
+        const pre = entries.filter(e => Date.parse(e.g.date) > relMs);
+        const picks = selectPicks(pre, sport, learned.thresholds).map(e => pickRecord(sport, slateId, slateYmd, e, null));
+        const parlays = buildParlays(pre).map(t => ({ ...t, id: `${slateId}:${t.type}`, slateId, sport, date: slateYmd, status: 'open', profit: null }));
+        picks.forEach(p => { p.linesAsOf = NOW.toISOString(); });
+        ledger.pending[slateId] = { computedAt: NOW.toISOString(), gamesConsidered: pre.length, picks, parlays, params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k } };
+      }
+      if (!ledger.slates[slateId] && nowMs >= relMs && slateGames.length) {
+        const snap = ledger.pending[slateId];
+        const lockedAt = publishAt.toISOString();
+        if (snap) {
+          const picks = snap.picks.filter(p => Date.parse(p.kickoff) > relMs).map(p => ({ ...p, publishedAt: lockedAt }));
+          const parlays = snap.parlays.map(t => ({ ...t, publishedAt: lockedAt, linesAsOf: snap.computedAt }));
           ledger.picks.push(...picks);
           ledger.parlays.push(...parlays);
-          ledger.slates[slateId] = { sport, date: slateYmd, publishedAt, picks: picks.length, parlays: parlays.length, gamesConsidered: live.length, params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k } };
-          log(`${sport}: PUBLISHED ${slateId} — ${picks.length} picks, ${parlays.length} parlays`);
+          ledger.slates[slateId] = { sport, date: slateYmd, publishedAt: lockedAt, linesAsOf: snap.computedAt, committedAt: NOW.toISOString(), lockMode: 'snapshot', picks: picks.length, parlays: parlays.length, gamesConsidered: snap.gamesConsidered, params: snap.params };
+          log(`${sport}: LOCKED ${slateId} from ${snap.computedAt} snapshot — ${picks.length} picks, ${parlays.length} parlays`);
         } else {
-          ledger.slates[slateId] = { sport, date: slateYmd, publishedAt: null, missed: true, picks: 0 };
+          // No pre-release snapshot (e.g. engine was down all week): lock now, unstarted games only.
+          const live = entries.filter(e => Date.parse(e.g.date) > nowMs + 5 * 60e3);
+          if (live.length) {
+            const publishedAt = NOW.toISOString();
+            const picks = selectPicks(live, sport, learned.thresholds).map(e => ({ ...pickRecord(sport, slateId, slateYmd, e, publishedAt), linesAsOf: publishedAt }));
+            const parlays = buildParlays(live).map(t => ({ ...t, id: `${slateId}:${t.type}`, slateId, sport, date: slateYmd, publishedAt, linesAsOf: publishedAt, status: 'open', profit: null }));
+            ledger.picks.push(...picks);
+            ledger.parlays.push(...parlays);
+            ledger.slates[slateId] = { sport, date: slateYmd, publishedAt, linesAsOf: publishedAt, lockMode: 'late', picks: picks.length, parlays: parlays.length, gamesConsidered: live.length, params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k } };
+            log(`${sport}: LATE LOCK ${slateId} (no snapshot) — ${picks.length} picks`);
+          } else {
+            ledger.slates[slateId] = { sport, date: slateYmd, publishedAt: null, missed: true, picks: 0 };
+          }
         }
+        delete ledger.pending[slateId];
       }
+      for (const k of Object.keys(ledger.pending)) if (ledger.slates[k] || k.slice(4) < etParts(NOW).ymd) delete ledger.pending[k];
       const pub = ledger.slates[slateId];
       if (pub) status = slateGames.every(g => g.completed || g.canceled) ? 'final' : 'official';
-      const preview = !pub ? selectPicks(entries, sport, learned.thresholds).map(e => pickRecord(sport, slateId, slateYmd, e, null)) : [];
+      const snap = ledger.pending[slateId];
+      const preview = !pub && snap ? snap.picks : [];
+      const previewParlays = !pub && snap ? snap.parlays : [];
 
       board.sports[sport] = {
         sport, label: SLATE_LABEL[sport], slateId, date: slateYmd, status,
         publishAt: publishAt.toISOString(), publishedAt: pub?.publishedAt || null, missed: !!pub?.missed,
+        linesAsOf: pub?.linesAsOf || snap?.computedAt || null, lockMode: pub?.lockMode || null,
         picks: ledger.picks.filter(p => p.slateId === slateId),
         parlays: ledger.parlays.filter(t => t.slateId === slateId),
-        preview, games: gameRows,
+        preview, previewParlays, games: gameRows,
         params: { a: params.a, w: params.w, at: params.at, wt: params.wt, k: params.k, n: params.n },
       };
     } catch (e) { errors.push(`${sport} model: ${e.stack || e.message}`); log('ERROR', e.stack || e.message); }

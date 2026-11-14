@@ -75,7 +75,12 @@ nav.tabs button:hover{color:var(--text)}
 .edgebar{height:4px;border-radius:4px;background:#24242d;margin-top:10px;overflow:hidden}
 .edgebar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:4px}
 .why{font-size:12.5px;color:var(--text2);margin-top:9px}
-.result{position:absolute;top:13px;right:14px;font-weight:800;font-size:12px;letter-spacing:.08em}
+.state{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:9px;font-size:12.5px;font-weight:700;padding:6px 9px;border-radius:8px;background:#1b1b23;border:1px solid var(--line)}
+.state .lbl{letter-spacing:.08em;font-size:11px}
+.state .sc{font-family:var(--mono);color:var(--text);font-weight:600}
+.state .dt{color:var(--muted);font-weight:500}
+.state.W{border-color:rgba(63,191,127,.4)}.state.L{border-color:rgba(240,101,111,.4)}.state.live{border-color:rgba(90,168,255,.4)}
+.pulse{width:7px;height:7px;border-radius:50%;background:var(--live);animation:pl 1.4s infinite}@keyframes pl{50%{opacity:.25}}
 .res-W{color:var(--good)}.res-L{color:var(--bad)}.res-P,.res-V{color:var(--push)}.res-live{color:var(--live)}
 .legs{display:flex;flex-direction:column;gap:5px;margin-top:10px}
 .leg{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:6px 9px;background:#1b1b23;border:1px solid var(--line);border-radius:8px}
@@ -189,36 +194,58 @@ function renderKpis() {
 
 // ---------------- Board ----------------
 function liveState(gameId, sport) { return live[sport]?.[gameId]; }
-function liveResult(bet, g) {
-  if (!g || g.state !== 'in') return null;
-  const m = g.hs - g.as, t = g.hs + g.as;
-  let x = bet.market === 'spread' ? (bet.side === 'home' ? m : -m) + bet.line : bet.market === 'ml' ? (bet.side === 'home' ? m : -m) : bet.side === 'over' ? t - bet.line : bet.line - t;
-  return {txt: x > 0 ? 'Live · winning' : x < 0 ? 'Live · trailing' : 'Live · even', detail: g.detail};
+function betMargin(bet, hs, as) {
+  const m = hs - as, t = hs + as;
+  return bet.market === 'spread' ? (bet.side === 'home' ? m : -m) + bet.line : bet.market === 'ml' ? (bet.side === 'home' ? m : -m) : bet.side === 'over' ? t - bet.line : bet.line - t;
+}
+function stateRow(bet, sport) {
+  const lg = liveState(bet.gameId, sport);
+  const score = (as, hs) => `<span class="sc">${esc(bet.away)} ${as} – ${esc(bet.home)} ${hs}</span>`;
+  if (bet.status && bet.status !== 'open') {
+    const lbl = {W: 'WIN', L: 'LOSS', P: 'PUSH', V: 'VOID'}[bet.status];
+    return `<div class="state ${bet.status}"><span class="lbl res-${bet.status}">${lbl}${bet.profit != null ? ' ' + sgn(bet.profit) + 'u' : ''}</span>${bet.final ? `<span class="sc">${esc(bet.final)}</span>` : ''}</div>`;
+  }
+  if (!lg || lg.state === 'pre' || !isFinite(lg.hs) || !isFinite(lg.as)) return '';
+  const x = betMargin(bet, lg.hs, lg.as);
+  if (lg.state === 'post') {
+    const r = x > 0 ? 'W' : x < 0 ? 'L' : 'P';
+    return `<div class="state ${r}"><span class="lbl res-${r}">FINAL · ${{W: 'WON', L: 'LOST', P: 'PUSH'}[r]}</span>${score(lg.as, lg.hs)}<span class="dt">grading on next update</span></div>`;
+  }
+  let how;
+  if (bet.market === 'spread') how = x > 0 ? `Covering by ${x}` : x < 0 ? `Not covering by ${-x}` : 'On the number';
+  else if (bet.market === 'total') how = bet.side === 'over' ? (x > 0 ? `Over by ${x}` : `Needs ${-x + (Number.isInteger(bet.line) ? 1 : 0.5)} more`) : (x > 0 ? `Under by ${x}` : `Over by ${-x}`);
+  else how = x > 0 ? `Winning by ${x}` : x < 0 ? `Trailing by ${-x}` : 'Tied';
+  const need = '';
+  return `<div class="state live"><span class="pulse"></span><span class="lbl res-live">LIVE · ${how}${need}</span>${score(lg.as, lg.hs)}<span class="dt">${esc(lg.detail || '')}</span></div>`;
 }
 function pickCard(p, opts = {}) {
-  const lg = liveState(p.gameId, p.sport), lr = p.status === 'open' ? liveResult(p, lg) : null;
-  const res = p.status && p.status !== 'open' ? `<div class="result res-${p.status}">${{W:'WIN',L:'LOSS',P:'PUSH',V:'VOID'}[p.status]}${p.profit != null ? ' ' + sgn(p.profit) + 'u' : ''}</div>` : lr ? `<div class="result res-live">${lr.txt}</div>` : '';
   const lineCmp = p.market === 'total' ? `Model total ${p.modelTotal ?? '—'} vs market ${p.marketTotal ?? '—'}` : `Model ${p.home} ${ln(p.modelLine)} · market ${ln(p.marketLine)}`;
   const clv = p.clvPts != null ? ` · CLV ${sgn(p.clvPts, 1)} pts` : p.clvProb != null && p.status !== 'open' ? ` · CLV ${sgn(p.clvProb * 100, 1)}%` : '';
   return `<article class="card ${p.tier} ${opts.preview ? 'preview' : ''}">
-    ${res}
     <div class="top"><span class="tier ${p.tier}">${TIER[p.tier]}</span><span class="units">${p.units}u · $${(p.units * UNIT).toFixed(0)}</span></div>
     <div class="pick">${esc(p.label)}<span class="price">${am(p.price)}</span></div>
-    <div class="matchup">${esc(p.matchup)} · ${etTime(p.kickoff)}${p.final ? ' · Final ' + esc(p.final) : lg?.state === 'in' ? ' · ' + esc(lg.detail) + ` (${lg.as}-${lg.hs})` : ''}</div>
+    <div class="matchup">${esc(p.matchup)} · ${etTime(p.kickoff)}</div>
+    ${stateRow(p, p.sport)}
     <div class="metrics"><div>Win %<b class="num">${pct(p.win, 1)}</b></div><div>Edge<b class="num edge-pos">${sgn(p.ev * 100, 1)}%</b></div><div>${p.market === 'ml' ? 'Odds' : MARKET[p.market]}<b class="num">${p.market === 'total' ? p.line : p.market === 'ml' ? am(p.price) : ln(p.line)}</b></div></div>
     <div class="edgebar"><span style="width:${Math.min(100, p.ev / 0.12 * 100).toFixed(0)}%"></span></div>
     <div class="why">${lineCmp}${clv}</div>
   </article>`;
 }
 function parlayCard(t) {
-  const legs = t.legs.map(l => `<div class="leg"><span>${esc(l.label)} <span class="m">${esc(l.matchup || '')}</span></span><span class="num ${l.result ? 'res-' + l.result : ''}">${l.result ? {W:'✓',L:'✗',P:'push',V:'void'}[l.result] : am(l.price)}</span></div>`).join('');
-  const res = t.status !== 'open' ? `<div class="result res-${t.status}">${{W:'WIN',L:'LOSS',P:'PUSH'}[t.status]} ${sgn(t.profit)}u</div>` : '';
+  const legMark = l => {
+    if (l.result) return `<span class="num res-${l.result}">${{W:'✓',L:'✗',P:'push',V:'void'}[l.result]}</span>`;
+    const lg = liveState(l.gameId, t.sport);
+    if (lg && lg.state !== 'pre' && isFinite(lg.hs)) { const x = betMargin(l, lg.hs, lg.as); return `<span class="num ${lg.state === 'post' ? (x > 0 ? 'res-W' : x < 0 ? 'res-L' : 'res-P') : 'res-live'}">${lg.state === 'post' ? (x > 0 ? '✓' : x < 0 ? '✗' : 'push') : (x > 0 ? 'live ▲' : x < 0 ? 'live ▼' : 'live =')}</span>`; }
+    return `<span class="num">${am(l.price)}</span>`;
+  };
+  const legs = t.legs.map(l => `<div class="leg"><span>${esc(l.label)} <span class="m">${esc(l.matchup || '')}</span></span>${legMark(l)}</div>`).join('');
+  const res = t.status !== 'open' ? `<div class="state ${t.status}"><span class="lbl res-${t.status}">${{W:'WIN',L:'LOSS',P:'PUSH'}[t.status]} ${sgn(t.profit)}u</span>${t.legsHit != null ? `<span class="dt">${t.legsHit}/${t.legs.length} legs hit</span>` : ''}</div>` : '';
   const name = t.type === 'hail-mary' ? 'Hail Mary' : 'Crown Parlay';
-  return `<article class="card">${res}
+  return `<article class="card">
     <div class="top"><span class="tier ${t.type === 'hail-mary' ? 'hail' : 'parlay'}">${name}</span><span class="units">${t.units}u · $${(t.units * UNIT).toFixed(0)}</span></div>
     <div class="pick">${t.legs.length}-leg<span class="price">${am(t.price)}</span></div>
     <div class="matchup">Pays ~$${(t.units * UNIT * (t.dec - 1)).toFixed(0)} · hits ${pct(t.prob, 1)} of the time (model)</div>
-    <div class="legs">${legs}</div></article>`;
+    ${res}<div class="legs">${legs}</div></article>`;
 }
 function slateTable(s) {
   if (!s.games.length) return '';
@@ -242,11 +269,17 @@ function renderBoard() {
   if (!b || !b.sports) { $('#tab-board').innerHTML = '<div class="empty">The engine hasn\'t produced a board yet. It runs every few hours; check back shortly.</div>'; return; }
   const order = ['cfb', 'nfl'].filter(k => b.sports[k]).sort((a, c) => b.sports[a].date.localeCompare(b.sports[c].date));
   $('#tab-board').innerHTML = order.map(k => {
-    const s = b.sports[k];
+    const s = {...b.sports[k]};
+    // The card locks at release time even if the engine hasn't run yet: the snapshot on screen is what gets committed.
+    if (s.status === 'preview' && Date.now() >= Date.parse(s.publishAt)) {
+      s.status = 'official'; s.publishedAt = s.publishAt; s.clientLocked = true;
+      s.picks = s.preview; s.parlays = s.previewParlays || [];
+    }
+    const asOf = s.linesAsOf ? ` · lines as of ${etTime(s.linesAsOf)}` : '';
     const pill = s.status === 'official' ? '<span class="pill official">Official · locked</span>' : s.status === 'final' ? '<span class="pill final">Final</span>' : s.status === 'preview' ? '<span class="pill preview">Early look</span>' : '<span class="pill">No games</span>';
-    const sub = s.status === 'preview' ? `Official card locks ${etTime(s.publishAt)}. Early picks below can change as lines move.` : s.publishedAt ? `Locked ${etTime(s.publishedAt)} · ${s.games.length} games on the slate` : s.missed ? 'Release window was missed — no card for this slate.' : '';
+    const sub = s.status === 'preview' ? `Official card locks ${etTime(s.publishAt)}. Early picks below can change as lines move${asOf}.` : s.publishedAt ? `Locked ${etTime(s.publishedAt)}${asOf} · ${s.games.length} games on the slate` : s.missed ? 'Release window was missed — no card for this slate.' : '';
     let body;
-    if (s.status === 'preview') body = s.preview.length ? `<div class="cards">${s.preview.map(p => pickCard(p, {preview: true})).join('')}</div>` : '<div class="empty">No bets clear the edge threshold yet. That\'s a feature: no edge, no bet.</div>';
+    if (s.status === 'preview') body = (s.preview.length ? `<div class="cards">${s.preview.map(p => pickCard(p, {preview: true})).join('')}</div>` : '<div class="empty">No bets clear the edge threshold yet. That\'s a feature: no edge, no bet.</div>') + ((s.previewParlays || []).length ? `<h3 class="sec">Parlays (early look)</h3><div class="cards">${s.previewParlays.map(parlayCard).join('')}</div>` : '');
     else if (s.status === 'off') body = '<div class="empty">No games on this slate.</div>';
     else body = (s.picks.length ? `<div class="cards">${s.picks.map(p => pickCard(p)).join('')}</div>` : '<div class="empty">No bet cleared the edge threshold for this slate, so the model passed.</div>') + (s.parlays.length ? `<h3 class="sec">Parlays</h3><div class="cards">${s.parlays.map(parlayCard).join('')}</div>` : '');
     return `<section class="slate"><div class="slate-h"><div><h2>${esc(s.label)} · ${etDate(s.date)}</h2><div class="sub">${sub}</div></div><div>${pill}${s.status === 'preview' ? `<div class="countdown" data-until="${s.publishAt}"></div>` : ''}</div></div>${body}${slateTable(s)}</section>`;
@@ -256,18 +289,17 @@ function renderBoard() {
 function tick() {
   document.querySelectorAll('[data-until]').forEach(el => {
     const ms = Date.parse(el.dataset.until) - Date.now();
-    if (ms <= 0) { el.textContent = 'Locking on next engine run'; return; }
+    if (ms <= 0) { renderBoard(); return; }
     const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60;
     el.textContent = `Locks in ${d ? d + 'd ' : ''}${h}h ${m}m`;
   });
 }
-setInterval(tick, 30000);
+setInterval(tick, 15000);
 
 // Live scores straight from ESPN in the browser (optional; fails quietly).
 async function pollLive() {
   const b = D.board; if (!b?.sports) return;
   const paths = {nfl: 'nfl', cfb: 'college-football'};
-  let anyLive = false;
   for (const [k, s] of Object.entries(b.sports)) {
     const now = Date.now();
     if (!s.games.some(g => !g.completed && Date.parse(g.kickoff) < now + 15 * 60e3 && Date.parse(g.kickoff) > now - 6 * 36e5)) continue;
@@ -279,13 +311,17 @@ async function pollLive() {
         const c = ev.competitions?.[0]; if (!c) continue;
         const h = c.competitors.find(x => x.homeAway === 'home'), a = c.competitors.find(x => x.homeAway === 'away');
         live[k][ev.id] = {state: c.status?.type?.state, detail: c.status?.type?.shortDetail, hs: +h.score, as: +a.score};
-        if (c.status?.type?.state === 'in') anyLive = true;
       }
     } catch (e) { /* offline or blocked: the engine still grades */ }
   }
   if (Object.keys(live).length) renderBoard();
-  if (anyLive) setTimeout(pollLive, 60000);
 }
+setInterval(pollLive, 60000);
+setInterval(async () => {
+  const get = f => fetch('data/' + f + '?t=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
+  const [board, meta] = await Promise.all([get('board.json'), get('meta.json')]);
+  if (meta && meta.lastRun !== D.meta?.lastRun) load();
+}, 300000);
 
 // ---------------- Results ----------------
 function lineChart(series) {

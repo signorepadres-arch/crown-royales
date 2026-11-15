@@ -5488,7 +5488,7 @@
     "spreadAwayPrice": -110,
     "mlHome": -535,
     "mlAway": 400,
-    "total": 48.5,
+    "total": 47.5,
     "overPrice": -110,
     "underPrice": -110,
     "open": {
@@ -5498,7 +5498,7 @@
      "mlAway": 400
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -13.5,
@@ -5526,7 +5526,7 @@
     "color": "13294b",
     "fbs": true,
     "rank": 19,
-    "record": "6-3"
+    "record": "6-4"
    },
    "away": {
     "id": "2747",
@@ -5628,7 +5628,7 @@
      "mlAway": 185
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -6.5,
@@ -5656,7 +5656,7 @@
     "color": "990000",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "away": {
     "id": "245",
@@ -5670,7 +5670,32 @@
     "record": "4-6"
    },
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "close": {
+    "provider": "Draft Kings",
+    "spread": -7.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -278,
+    "mlAway": 225,
+    "total": 39.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -2.5,
+     "total": 51.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeAt": "2026-11-15T22:56:48.331Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -2.5,
+    "total": 51.5,
+    "mlHome": -142,
+    "mlAway": 120
+   }
   },
   "401856753": {
    "id": "401856753",
@@ -5714,8 +5739,8 @@
     "mlHome": 550,
     "mlAway": -800,
     "total": 50.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 10.5,
      "total": 50.5,
@@ -5723,7 +5748,7 @@
      "mlAway": -375
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -5769,8 +5794,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 1.5,
-    "spreadHomePrice": -120,
-    "spreadAwayPrice": 100,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
     "mlHome": -108,
     "mlAway": -112,
     "total": 45.5,
@@ -5783,7 +5808,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -5829,13 +5854,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -21,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -1650,
     "mlAway": 950,
     "total": 46.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -118,
+    "underPrice": -102,
     "open": {
      "spread": -21,
      "total": 48.5,
@@ -5843,7 +5868,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -21,
@@ -11800,9 +11825,9 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 10,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spread": 9.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": 295,
     "mlAway": -375,
     "total": 52.5,
@@ -11815,7 +11840,7 @@
      "mlAway": -380
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -11861,8 +11886,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 6,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 200,
     "mlAway": -245,
     "total": 48.5,
@@ -11875,7 +11900,7 @@
      "mlAway": -258
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7,
@@ -11923,8 +11948,8 @@
     "spread": -3.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
-    "mlHome": -148,
-    "mlAway": 124,
+    "mlHome": -155,
+    "mlAway": 130,
     "total": 60.5,
     "overPrice": -112,
     "underPrice": -108,
@@ -11935,7 +11960,7 @@
      "mlAway": 120
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -11981,13 +12006,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 7,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": 200,
     "mlAway": -245,
     "total": 70.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 7,
      "total": 71.5,
@@ -11995,7 +12020,7 @@
      "mlAway": -230
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7,
@@ -12045,9 +12070,9 @@
     "spreadAwayPrice": -110,
     "mlHome": -118,
     "mlAway": -102,
-    "total": 54.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 53.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": -1.5,
      "total": 54.5,
@@ -12055,7 +12080,7 @@
      "mlAway": -108
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -12105,9 +12130,9 @@
     "spreadAwayPrice": -110,
     "mlHome": 145,
     "mlAway": -175,
-    "total": 62.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "total": 61.5,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": 4,
      "total": 62.5,
@@ -12115,7 +12140,7 @@
      "mlAway": -175
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 4,
@@ -12161,13 +12186,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 3.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": 124,
-    "mlAway": -148,
-    "total": 58.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
+    "mlHome": 130,
+    "mlAway": -155,
+    "total": 57.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 1.5,
      "total": 55.5,
@@ -12175,7 +12200,7 @@
      "mlAway": -112
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -12223,8 +12248,8 @@
     "spread": 6.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
-    "mlHome": 205,
-    "mlAway": -250,
+    "mlHome": 200,
+    "mlAway": -245,
     "total": 45.5,
     "overPrice": -108,
     "underPrice": -112,
@@ -12235,7 +12260,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -12645,10 +12670,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "13:22 - 4th",
+   "detail": "Final",
    "home": {
     "id": "201",
     "abbr": "OU",
@@ -12658,7 +12683,7 @@
     "color": "990000",
     "fbs": true,
     "rank": null,
-    "record": "5-4"
+    "record": "6-4"
    },
    "away": {
     "id": "145",
@@ -12669,10 +12694,10 @@
     "color": "13294b",
     "fbs": true,
     "rank": 19,
-    "record": "6-3"
+    "record": "6-4"
    },
-   "hs": 21,
-   "as": 7,
+   "hs": 24,
+   "as": 17,
    "close": {
     "provider": "Draft Kings",
     "spread": -2.5,
@@ -18802,7 +18827,7 @@
      "mlAway": 675
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -18847,11 +18872,11 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -10,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": -375,
-    "mlAway": 295,
+    "spread": -11.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": -425,
+    "mlAway": 330,
     "total": 43.5,
     "overPrice": -110,
     "underPrice": -110,
@@ -18862,7 +18887,7 @@
      "mlAway": 260
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -8.5,
@@ -18907,9 +18932,9 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -9.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spread": -8.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": -305,
     "mlAway": 245,
     "total": 54.5,
@@ -18922,7 +18947,7 @@
      "mlAway": 245
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10,
@@ -18982,7 +19007,7 @@
      "mlAway": -105
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -19033,8 +19058,8 @@
     "mlHome": -500,
     "mlAway": 380,
     "total": 51.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -12.5,
      "total": 51.5,
@@ -19042,7 +19067,7 @@
      "mlAway": 270
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -12.5,
@@ -19087,7 +19112,7 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -20.5,
+    "spread": -21,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
     "mlHome": -1100,
@@ -19102,7 +19127,7 @@
      "mlAway": 625
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -17.5,
@@ -19152,9 +19177,9 @@
     "spreadAwayPrice": -115,
     "mlHome": 110,
     "mlAway": -130,
-    "total": 54.5,
-    "overPrice": -120,
-    "underPrice": 100,
+    "total": 55.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 1.5,
      "total": 55.5,
@@ -19162,7 +19187,7 @@
      "mlAway": -122
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -19222,7 +19247,7 @@
      "mlAway": -166
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3.5,
@@ -19267,14 +19292,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 21,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spread": 21.5,
+    "spreadHomePrice": -118,
+    "spreadAwayPrice": -102,
     "mlHome": 900,
     "mlAway": -1600,
-    "total": 56.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 57.5,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": 20.5,
      "total": 56.5,
@@ -19282,7 +19307,7 @@
      "mlAway": -1650
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 20.5,
@@ -25657,9 +25682,9 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 6,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spread": 6.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 200,
     "mlAway": -245,
     "total": 43.5,
@@ -25672,7 +25697,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25717,9 +25742,9 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 6.5,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spread": 5.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 195,
     "mlAway": -238,
     "total": 39.5,
@@ -25732,7 +25757,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25777,14 +25802,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 13.5,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spread": 14,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 390,
     "mlAway": -520,
     "total": 44.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -102,
+    "underPrice": -118,
     "open": {
      "spread": 12.5,
      "total": 45.5,
@@ -25792,7 +25817,7 @@
      "mlAway": -455
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 12.5,
@@ -25837,14 +25862,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 2.5,
-    "spreadHomePrice": -102,
-    "spreadAwayPrice": -118,
+    "spread": 3,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 120,
     "mlAway": -142,
     "total": 43.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": 3,
      "total": 43.5,
@@ -25852,7 +25877,7 @@
      "mlAway": -148
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -25897,11 +25922,11 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 3,
-    "spreadHomePrice": -115,
-    "spreadAwayPrice": -105,
-    "mlHome": 142,
-    "mlAway": -170,
+    "spread": 2.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": 130,
+    "mlAway": -155,
     "total": 43.5,
     "overPrice": -115,
     "underPrice": -105,
@@ -25912,7 +25937,7 @@
      "mlAway": -198
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25963,8 +25988,8 @@
     "mlHome": -2100,
     "mlAway": 1100,
     "total": 50.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": -20.5,
      "total": 49.5,
@@ -25972,7 +25997,7 @@
      "mlAway": 1000
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -20.5,
@@ -26032,7 +26057,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 6,
@@ -26082,9 +26107,9 @@
     "spreadAwayPrice": -105,
     "mlHome": -800,
     "mlAway": 550,
-    "total": 56.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "total": 57.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -16.5,
      "total": 56.5,
@@ -26092,7 +26117,7 @@
      "mlAway": 550
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -26142,7 +26167,7 @@
     "spreadAwayPrice": -112,
     "mlHome": 260,
     "mlAway": -325,
-    "total": 41.5,
+    "total": 43.5,
     "overPrice": -115,
     "underPrice": -105,
     "open": {
@@ -26152,7 +26177,7 @@
      "mlAway": -278
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7.5,
@@ -28741,8 +28766,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -21,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -1650,
     "mlAway": 950,
     "total": 63.5,
@@ -28755,7 +28780,7 @@
      "mlAway": 1000
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -19.5,
@@ -28800,9 +28825,9 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -9.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spread": -8.5,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -355,
     "mlAway": 280,
     "total": 51.5,
@@ -28815,7 +28840,7 @@
      "mlAway": 295
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10,
@@ -28860,11 +28885,11 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -12.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": -625,
-    "mlAway": 455,
+    "spread": -11.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -500,
+    "mlAway": 380,
     "total": 59.5,
     "overPrice": -112,
     "underPrice": -108,
@@ -28875,7 +28900,7 @@
      "mlAway": 500
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -29175,7 +29200,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -18.5,
@@ -29588,8 +29613,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -14,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": -625,
     "mlAway": 455,
     "total": 47.5,
@@ -29602,7 +29627,7 @@
      "mlAway": 410
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -34118,14 +34143,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -4,
+    "spread": -3.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": -170,
     "mlAway": 142,
-    "total": 47.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 48.5,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -4,
      "total": 47.5,
@@ -34133,7 +34158,7 @@
      "mlAway": 142
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -34184,8 +34209,8 @@
     "mlHome": -192,
     "mlAway": 160,
     "total": 44.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -4.5,
      "total": 42.5,
@@ -34193,7 +34218,7 @@
      "mlAway": 150
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4.5,
@@ -34238,11 +34263,11 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -20.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
-    "mlHome": -1000,
-    "mlAway": 650,
+    "spread": -21.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -1200,
+    "mlAway": 750,
     "total": 52.5,
     "overPrice": -105,
     "underPrice": -115,
@@ -34253,7 +34278,7 @@
      "mlAway": 675
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -20.5,
@@ -34299,13 +34324,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 1.5,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -105,
     "mlAway": -115,
-    "total": 67.5,
-    "overPrice": -108,
-    "underPrice": -112,
+    "total": 65.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -1.5,
      "total": 69.5,
@@ -34313,7 +34338,7 @@
      "mlAway": -105
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -34358,14 +34383,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 3.5,
-    "spreadHomePrice": -115,
-    "spreadAwayPrice": -105,
+    "spread": 3,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
     "mlHome": 142,
     "mlAway": -170,
-    "total": 64.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 65.5,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": 3,
      "total": 64.5,
@@ -34373,7 +34398,7 @@
      "mlAway": -166
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -34418,14 +34443,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 10,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": 250,
-    "mlAway": -310,
+    "spread": 7,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
+    "mlHome": 195,
+    "mlAway": -238,
     "total": 57.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "overPrice": -118,
+    "underPrice": -102,
     "open": {
      "spread": 13.5,
      "total": 60.5,
@@ -34433,7 +34458,7 @@
      "mlAway": -575
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 13.5,
@@ -34493,7 +34518,7 @@
      "mlAway": -285
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7.5,
@@ -37571,14 +37596,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -3.5,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spread": -4,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": -185,
     "mlAway": 154,
-    "total": 42.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 41.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -2.5,
      "total": 42.5,
@@ -37586,7 +37611,7 @@
      "mlAway": 110
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -37636,9 +37661,9 @@
     "spreadAwayPrice": -110,
     "mlHome": 285,
     "mlAway": -360,
-    "total": 38.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "total": 37.5,
+    "overPrice": -102,
+    "underPrice": -118,
     "open": {
      "spread": 10.5,
      "total": 38.5,
@@ -37646,7 +37671,7 @@
      "mlAway": -440
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -37692,8 +37717,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -24.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -3600,
     "mlAway": 1500,
     "total": 45.5,
@@ -37706,7 +37731,7 @@
      "mlAway": 1800
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -25.5,
@@ -37751,14 +37776,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 4,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spread": 5.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 150,
     "mlAway": -180,
-    "total": 48.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "total": 46.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 3,
      "total": 49.5,
@@ -37766,7 +37791,7 @@
      "mlAway": -148
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -37811,12 +37836,12 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": -21.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
-    "mlHome": -2100,
-    "mlAway": 1100,
-    "total": 46.5,
+    "spread": -22.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": -1800,
+    "mlAway": 1000,
+    "total": 45.5,
     "overPrice": -110,
     "underPrice": -110,
     "open": {
@@ -37826,7 +37851,7 @@
      "mlAway": 1300
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -21.5,
@@ -41872,8 +41897,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -10.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -380,
     "mlAway": 300,
     "total": 49.5,
@@ -41886,7 +41911,7 @@
      "mlAway": 280
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -9.5,
@@ -41946,7 +41971,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -41992,13 +42017,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": 9.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": 260,
     "mlAway": -325,
-    "total": 45.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "total": 46.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 8.5,
      "total": 45.5,
@@ -42006,7 +42031,7 @@
      "mlAway": -310
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -42052,13 +42077,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -3,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
     "mlHome": -148,
     "mlAway": 124,
     "total": 46.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": -3.5,
      "total": 47.5,
@@ -42066,7 +42091,7 @@
      "mlAway": 130
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -3.5,
@@ -42116,7 +42141,7 @@
     "spreadAwayPrice": -110,
     "mlHome": -700,
     "mlAway": 500,
-    "total": 47.5,
+    "total": 48.5,
     "overPrice": -110,
     "underPrice": -110,
     "open": {
@@ -42126,7 +42151,7 @@
      "mlAway": 500
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -15.5,
@@ -42172,13 +42197,13 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -2.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -105,
     "mlHome": -130,
     "mlAway": 110,
-    "total": 42.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "total": 43.5,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -1.5,
      "total": 43.5,
@@ -42186,7 +42211,7 @@
      "mlAway": 105
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -44032,8 +44057,8 @@
     "spread": -14,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
-    "mlHome": -675,
-    "mlAway": 490,
+    "mlHome": -700,
+    "mlAway": 500,
     "total": 50.5,
     "overPrice": -110,
     "underPrice": -110,
@@ -44044,7 +44069,7 @@
      "mlAway": 425
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -13.5,
@@ -44517,8 +44542,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -14.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -750,
     "mlAway": 525,
     "total": 52.5,
@@ -44531,7 +44556,7 @@
      "mlAway": 575
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -44951,7 +44976,7 @@
      "mlAway": 225
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -7.5,
@@ -45318,7 +45343,7 @@
      "mlAway": -325
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -45543,14 +45568,14 @@
    "as": 0,
    "close": {
     "provider": "Draft Kings",
-    "spread": 2.5,
-    "spreadHomePrice": -115,
-    "spreadAwayPrice": -105,
+    "spread": 1.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -102,
     "mlAway": -118,
     "total": 57.5,
-    "overPrice": -110,
-    "underPrice": -110,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 1.5,
      "total": 57.5,
@@ -45558,7 +45583,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -48477,7 +48502,7 @@
      "mlAway": -185
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 4.5,
@@ -48523,8 +48548,8 @@
    "close": {
     "provider": "Draft Kings",
     "spread": -3.5,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": -162,
     "mlAway": 136,
     "total": 44.5,
@@ -48537,7 +48562,7 @@
      "mlAway": 145
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -48597,7 +48622,7 @@
      "mlAway": 270
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10.5,
@@ -48645,11 +48670,11 @@
     "spread": -16.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
-    "mlHome": -625,
-    "mlAway": 455,
-    "total": 52.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "mlHome": -675,
+    "mlAway": 490,
+    "total": 53.5,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -14.5,
      "total": 52.5,
@@ -48657,7 +48682,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -48717,7 +48742,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -49511,7 +49536,7 @@
      "mlAway": -192
     }
    },
-   "closeAt": "2026-11-15T20:19:31.883Z",
+   "closeAt": "2026-11-15T22:56:48.331Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -49521,5 +49546,5 @@
    }
   }
  },
- "updated": "2026-11-15T20:19:31.883Z"
+ "updated": "2026-11-15T22:56:48.331Z"
 }

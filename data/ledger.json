@@ -83,8 +83,13 @@
    "fairTotal": 64,
    "marketTotal": 64.5,
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "L",
+   "profit": -2,
+   "final": "ORST 41 – BOIS 46",
+   "closeLine": -17.5,
+   "clvPts": 1,
+   "clvProb": 0.0249,
+   "gradedAt": "2026-11-15T06:46:38.963Z"
   },
   {
    "id": "cfb-2026-11-14:401864536:ml:home",
@@ -178,7 +183,7 @@
      "label": "OKST -3.5",
      "win": 0.6218,
      "matchup": "TTU @ OKST",
-     "result": null
+     "result": "L"
     },
     {
      "gameId": "401856885",
@@ -189,7 +194,7 @@
      "label": "LSU ML",
      "win": 0.6883,
      "matchup": "TEX @ LSU",
-     "result": null
+     "result": "L"
     },
     {
      "gameId": "401856888",
@@ -208,8 +213,10 @@
    "sport": "cfb",
    "date": "2026-11-14",
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "L",
+   "profit": -1,
+   "legsHit": 1,
+   "gradedAt": "2026-11-15T06:46:38.963Z"
   },
   {
    "type": "hail-mary",
@@ -288,28 +295,18 @@
  ],
  "pending": {
   "nfl-2026-11-15": {
-   "computedAt": "2026-11-15T02:07:35.963Z",
+   "computedAt": "2026-11-15T06:46:36.042Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 27.65,
-     "price": 2665,
-     "prob": 0.039,
-     "ev": 0.0775,
+     "dec": 26.524,
+     "price": 2552,
+     "prob": 0.0393,
+     "ev": 0.0428,
      "legs": [
-      {
-       "gameId": "401873061",
-       "market": "total",
-       "side": "over",
-       "line": 39.5,
-       "price": -108,
-       "label": "Over 39.5",
-       "win": 0.54,
-       "matchup": "LAR @ ARI"
-      },
       {
        "gameId": "401873060",
        "market": "spread",
@@ -341,6 +338,16 @@
        "matchup": "SF @ DAL"
       },
       {
+       "gameId": "401873061",
+       "market": "total",
+       "side": "over",
+       "line": 38.5,
+       "price": -118,
+       "label": "Over 38.5",
+       "win": 0.5448,
+       "matchup": "LAR @ ARI"
+      },
+      {
        "gameId": "401873062",
        "market": "total",
        "side": "over",
@@ -365,6 +372,19 @@
     "at": 0.314,
     "wt": 0.157,
     "k": 0
+   }
+  },
+  "cfb-2026-11-21": {
+   "computedAt": "2026-11-15T06:46:36.042Z",
+   "gamesConsidered": 6,
+   "picks": [],
+   "parlays": [],
+   "params": {
+    "a": 0.122,
+    "w": 0.15,
+    "at": 0.122,
+    "wt": 0.15,
+    "k": 0.029
    }
   }
  }

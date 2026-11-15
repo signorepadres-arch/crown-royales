@@ -5603,7 +5603,7 @@
      "mlAway": 185
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -6.5,
@@ -5758,7 +5758,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -5818,7 +5818,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -21,
@@ -11678,10 +11678,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "10:27 - 4th",
+   "detail": "Final",
    "home": {
     "id": "12",
     "abbr": "ARIZ",
@@ -11691,7 +11691,7 @@
     "color": "cc0033",
     "fbs": true,
     "rank": 23,
-    "record": "7-2"
+    "record": "7-3"
    },
    "away": {
     "id": "254",
@@ -11702,10 +11702,10 @@
     "color": "be0000",
     "fbs": true,
     "rank": 2,
-    "record": "9-0"
+    "record": "10-0"
    },
-   "hs": 28,
-   "as": 33,
+   "hs": 39,
+   "as": 40,
    "close": {
     "provider": "DraftKings",
     "spread": 2.5,
@@ -11769,7 +11769,7 @@
     "color": "cc0033",
     "fbs": true,
     "rank": 23,
-    "record": "7-2"
+    "record": "7-3"
    },
    "hs": 0,
    "as": 0
@@ -11825,7 +11825,7 @@
      "mlAway": -258
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7,
@@ -11955,7 +11955,7 @@
      "mlAway": -108
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -12089,7 +12089,7 @@
     "color": "be0000",
     "fbs": true,
     "rank": 2,
-    "record": "9-0"
+    "record": "10-0"
    },
    "hs": 0,
    "as": 0,
@@ -12565,7 +12565,7 @@
      "mlAway": 154
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -18670,7 +18670,7 @@
      "mlAway": 675
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -18730,7 +18730,7 @@
      "mlAway": 260
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -8.5,
@@ -18895,7 +18895,7 @@
      "mlAway": 625
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -17.5,
@@ -19025,7 +19025,7 @@
      "mlAway": -1650
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 20.5,
@@ -25415,7 +25415,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25426,14 +25426,14 @@
   },
   "401858528": {
    "id": "401858528",
-   "date": "2026-11-21T05:00Z",
+   "date": "2026-11-21T20:30Z",
    "week": 12,
    "seasonType": 2,
    "neutral": false,
    "state": "pre",
    "completed": false,
    "canceled": false,
-   "detail": "TBD",
+   "detail": "11/21 - 3:30 PM EST",
    "home": {
     "id": "130",
     "abbr": "MICH",
@@ -25475,7 +25475,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25535,7 +25535,7 @@
      "mlAway": -455
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 12.5,
@@ -25581,14 +25581,14 @@
   },
   "401858531": {
    "id": "401858531",
-   "date": "2026-11-21T05:00Z",
+   "date": "2026-11-21T17:00Z",
    "week": 12,
    "seasonType": 2,
    "neutral": false,
    "state": "pre",
    "completed": false,
    "canceled": false,
-   "detail": "TBD",
+   "detail": "11/21 - 12:00 PM EST",
    "home": {
     "id": "158",
     "abbr": "NEB",
@@ -25630,7 +25630,7 @@
      "mlAway": -198
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25746,14 +25746,14 @@
   },
   "401858535": {
    "id": "401858535",
-   "date": "2026-11-21T05:00Z",
+   "date": "2026-11-21T20:30Z",
    "week": 12,
    "seasonType": 2,
    "neutral": false,
    "state": "pre",
    "completed": false,
    "canceled": false,
-   "detail": "TBD",
+   "detail": "11/21 - 3:30 PM EST",
    "home": {
     "id": "264",
     "abbr": "WASH",
@@ -25795,7 +25795,7 @@
      "mlAway": -278
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7.5,
@@ -28286,10 +28286,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "9:10 - 4th",
+   "detail": "Final",
    "home": {
     "id": "265",
     "abbr": "WSU",
@@ -28299,7 +28299,7 @@
     "color": "a60f2d",
     "fbs": true,
     "rank": null,
-    "record": "1-8"
+    "record": "2-8"
    },
    "away": {
     "id": "36",
@@ -28310,7 +28310,7 @@
     "color": "004c23",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "3-7"
    },
    "hs": 73,
    "as": 7,
@@ -28377,7 +28377,7 @@
     "color": "004c23",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "3-7"
    },
    "hs": 0,
    "as": 0
@@ -28447,7 +28447,7 @@
     "color": "a60f2d",
     "fbs": true,
     "rank": null,
-    "record": "1-8"
+    "record": "2-8"
    },
    "hs": 0,
    "as": 0
@@ -36615,10 +36615,10 @@
    "week": 11,
    "seasonType": 2,
    "neutral": false,
-   "state": "in",
-   "completed": false,
+   "state": "post",
+   "completed": true,
    "canceled": false,
-   "detail": "8:38 - 4th",
+   "detail": "Final",
    "home": {
     "id": "62",
     "abbr": "HAW",
@@ -36628,7 +36628,7 @@
     "color": "005737",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "3-7"
    },
    "away": {
     "id": "2449",
@@ -36639,10 +36639,10 @@
     "color": "01402A",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "8-2"
    },
    "hs": 13,
-   "as": 7,
+   "as": 21,
    "close": {
     "provider": "DraftKings",
     "spread": 8.5,
@@ -36908,7 +36908,7 @@
     "color": "005737",
     "fbs": true,
     "rank": null,
-    "record": "3-6"
+    "record": "3-7"
    },
    "hs": 0,
    "as": 0
@@ -36967,7 +36967,7 @@
     "color": "01402A",
     "fbs": true,
     "rank": null,
-    "record": "7-2"
+    "record": "8-2"
    },
    "away": {
     "id": "2459",
@@ -41104,7 +41104,7 @@
      "mlAway": 280
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -9.5,
@@ -41164,7 +41164,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -41224,7 +41224,7 @@
      "mlAway": -310
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -41284,7 +41284,7 @@
      "mlAway": 130
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -3.5,
@@ -41379,7 +41379,7 @@
      "mlAway": 105
     }
    },
-   "closeAt": "2026-11-15T06:46:36.042Z",
+   "closeAt": "2026-11-15T09:55:01.642Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -48439,5 +48439,5 @@
    "as": 0
   }
  },
- "updated": "2026-11-15T06:46:36.042Z"
+ "updated": "2026-11-15T09:55:01.642Z"
 }

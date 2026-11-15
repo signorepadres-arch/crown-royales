@@ -295,18 +295,38 @@
  ],
  "pending": {
   "nfl-2026-11-15": {
-   "computedAt": "2026-11-15T06:46:36.042Z",
+   "computedAt": "2026-11-15T09:55:01.642Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 26.524,
-     "price": 2552,
-     "prob": 0.0393,
-     "ev": 0.0428,
+     "dec": 38.374,
+     "price": 3737,
+     "prob": 0.0276,
+     "ev": 0.0608,
      "legs": [
+      {
+       "gameId": "401873059",
+       "market": "total",
+       "side": "over",
+       "line": 37.5,
+       "price": -108,
+       "label": "Over 37.5",
+       "win": 0.5286,
+       "matchup": "MIA @ IND"
+      },
+      {
+       "gameId": "401873063",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 180,
+       "label": "DAL ML",
+       "win": 0.3634,
+       "matchup": "SF @ DAL"
+      },
       {
        "gameId": "401873060",
        "market": "spread",
@@ -316,26 +336,6 @@
        "label": "MIN +2.5",
        "win": 0.5059,
        "matchup": "MIN @ GB"
-      },
-      {
-       "gameId": "401873059",
-       "market": "total",
-       "side": "over",
-       "line": 37.5,
-       "price": -110,
-       "label": "Over 37.5",
-       "win": 0.5286,
-       "matchup": "MIA @ IND"
-      },
-      {
-       "gameId": "401873063",
-       "market": "spread",
-       "side": "home",
-       "line": 3.5,
-       "price": -105,
-       "label": "DAL +3.5",
-       "win": 0.5168,
-       "matchup": "SF @ DAL"
       },
       {
        "gameId": "401873061",
@@ -375,14 +375,14 @@
    }
   },
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-15T06:46:36.042Z",
-   "gamesConsidered": 6,
+   "computedAt": "2026-11-15T09:55:01.642Z",
+   "gamesConsidered": 9,
    "picks": [],
    "parlays": [],
    "params": {
-    "a": 0.122,
+    "a": 0.121,
     "w": 0.15,
-    "at": 0.122,
+    "at": 0.121,
     "wt": 0.15,
     "k": 0.029
    }

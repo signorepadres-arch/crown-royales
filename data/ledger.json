@@ -47,8 +47,12 @@
    "fairTotal": 44.6,
    "marketTotal": 43.5,
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "W",
+   "profit": 2.232,
+   "final": "TENN 22 – TA&M 7",
+   "closePrice": -115,
+   "clvProb": 0.0065,
+   "gradedAt": "2026-11-15T02:07:38.468Z"
   },
   {
    "id": "cfb-2026-11-14:401860914:spread:home",
@@ -111,8 +115,12 @@
    "fairTotal": 47.5,
    "marketTotal": 47.5,
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "L",
+   "profit": -1,
+   "final": "NEV 28 – NIU 7",
+   "closePrice": 195,
+   "clvProb": -0.006,
+   "gradedAt": "2026-11-15T02:07:38.468Z"
   },
   {
    "id": "cfb-2026-11-14:401856886:spread:home",
@@ -143,8 +151,13 @@
    "fairTotal": 52.2,
    "marketTotal": 51.5,
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "L",
+   "profit": -1,
+   "final": "AUB 41 – MSST 9",
+   "closeLine": 2.5,
+   "clvPts": 0,
+   "clvProb": 0,
+   "gradedAt": "2026-11-15T02:07:38.468Z"
   }
  ],
  "parlays": [
@@ -187,7 +200,7 @@
      "label": "TENN -1.5",
      "win": 0.57,
      "matchup": "TENN @ TA&M",
-     "result": null
+     "result": "W"
     }
    ],
    "id": "cfb-2026-11-14:crown-parlay",
@@ -226,7 +239,7 @@
      "label": "TENN -1.5",
      "win": 0.57,
      "matchup": "TENN @ TA&M",
-     "result": null
+     "result": "W"
     },
     {
      "gameId": "401860914",
@@ -248,7 +261,7 @@
      "label": "NIU ML",
      "win": 0.368,
      "matchup": "NEV @ NIU",
-     "result": null
+     "result": "L"
     },
     {
      "gameId": "401856886",
@@ -259,7 +272,7 @@
      "label": "MSST +2.5",
      "win": 0.5213,
      "matchup": "AUB @ MSST",
-     "result": null
+     "result": "L"
     }
    ],
    "id": "cfb-2026-11-14:hail-mary",
@@ -267,23 +280,25 @@
    "sport": "cfb",
    "date": "2026-11-14",
    "publishedAt": "2026-11-14T18:15:34.089Z",
-   "status": "open",
-   "profit": null
+   "status": "L",
+   "profit": -0.5,
+   "legsHit": 1,
+   "gradedAt": "2026-11-15T02:07:38.468Z"
   }
  ],
  "pending": {
   "nfl-2026-11-15": {
-   "computedAt": "2026-11-14T22:36:15.044Z",
+   "computedAt": "2026-11-15T02:07:35.963Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 14.357,
-     "price": 1336,
-     "prob": 0.0746,
-     "ev": 0.0715,
+     "dec": 27.65,
+     "price": 2665,
+     "prob": 0.039,
+     "ev": 0.0775,
      "legs": [
       {
        "gameId": "401873061",
@@ -324,6 +339,16 @@
        "label": "DAL +3.5",
        "win": 0.5168,
        "matchup": "SF @ DAL"
+      },
+      {
+       "gameId": "401873062",
+       "market": "total",
+       "side": "over",
+       "line": 40.5,
+       "price": -108,
+       "label": "Over 40.5",
+       "win": 0.5222,
+       "matchup": "SEA @ LV"
       }
      ],
      "id": "nfl-2026-11-15:hail-mary",

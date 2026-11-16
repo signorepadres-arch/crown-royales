@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-16T06:44:40.759Z",
+   "computedAt": "2026-11-16T10:10:58.298Z",
    "gamesConsidered": 54,
    "picks": [
     {
@@ -422,17 +422,17 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-16T06:44:40.759Z"
+     "linesAsOf": "2026-11-16T10:10:58.298Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 64.676,
-     "price": 6368,
-     "prob": 0.0178,
-     "ev": 0.1507,
+     "dec": 42.804,
+     "price": 4180,
+     "prob": 0.0269,
+     "ev": 0.1505,
      "legs": [
       {
        "gameId": "401858528",
@@ -461,18 +461,18 @@
        "line": 0,
        "price": 110,
        "label": "CAL ML",
-       "win": 0.4881,
+       "win": 0.4882,
        "matchup": "STAN @ CAL"
       },
       {
-       "gameId": "401871081",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 195,
-       "label": "SHSU ML",
-       "win": 0.3471,
-       "matchup": "MTSU @ SHSU"
+       "gameId": "401861968",
+       "market": "spread",
+       "side": "away",
+       "line": 13.5,
+       "price": -105,
+       "label": "ODU +13.5",
+       "win": 0.5243,
+       "matchup": "ODU @ CONN"
       }
      ],
      "id": "cfb-2026-11-21:hail-mary",
@@ -492,7 +492,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-16T06:44:40.759Z",
+   "computedAt": "2026-11-16T10:10:58.298Z",
    "gamesConsidered": 11,
    "picks": [
     {
@@ -526,7 +526,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-16T06:44:40.759Z"
+     "linesAsOf": "2026-11-16T10:10:58.298Z"
     }
    ],
    "parlays": [],

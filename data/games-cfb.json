@@ -5482,7 +5482,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -13.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -5498,7 +5498,7 @@
      "mlAway": 400
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -13.5,
@@ -5612,7 +5612,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -5.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -5628,7 +5628,7 @@
      "mlAway": 185
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -6.5,
@@ -5672,7 +5672,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -7.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -5688,7 +5688,7 @@
      "mlAway": 120
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -5732,7 +5732,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 16.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -5748,7 +5748,7 @@
      "mlAway": -375
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -5792,10 +5792,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": 1.5,
-    "spreadHomePrice": -118,
-    "spreadAwayPrice": -102,
+    "provider": "Draft Kings",
+    "spread": -1.5,
+    "spreadHomePrice": -102,
+    "spreadAwayPrice": -118,
     "mlHome": -108,
     "mlAway": -112,
     "total": 45.5,
@@ -5808,7 +5808,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -5852,10 +5852,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -21,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -1650,
     "mlAway": 950,
     "total": 46.5,
@@ -5868,7 +5868,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -21,
@@ -5876,6 +5876,356 @@
     "mlHome": -1450,
     "mlAway": 850
    }
+  },
+  "401856756": {
+   "id": "401856756",
+   "date": "2026-11-28T00:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 7:30 PM EST",
+   "home": {
+    "id": "245",
+    "abbr": "TA&M",
+    "name": "Texas A&M",
+    "full": "Texas A&M Aggies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "color": "500000",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "251",
+    "abbr": "TEX",
+    "name": "Texas",
+    "full": "Texas Longhorns",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+    "color": "af5c37",
+    "fbs": true,
+    "rank": 6,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856757": {
+   "id": "401856757",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "333",
+    "abbr": "ALA",
+    "name": "Alabama",
+    "full": "Alabama Crimson Tide",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "color": "9e1b32",
+    "fbs": true,
+    "rank": 3,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "AUB",
+    "name": "Auburn",
+    "full": "Auburn Tigers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "color": "002b5c",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856758": {
+   "id": "401856758",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "8",
+    "abbr": "ARK",
+    "name": "Arkansas",
+    "full": "Arkansas Razorbacks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+    "color": "a32136",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "99",
+    "abbr": "LSU",
+    "name": "LSU",
+    "full": "LSU Tigers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "color": "461d76",
+    "fbs": true,
+    "rank": 21,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856759": {
+   "id": "401856759",
+   "date": "2026-11-27T20:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 3:30 PM EST",
+   "home": {
+    "id": "52",
+    "abbr": "FSU",
+    "name": "Florida St",
+    "full": "Florida State Seminoles",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+    "color": "782f40",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "57",
+    "abbr": "FLA",
+    "name": "Florida",
+    "full": "Florida Gators",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+    "color": "0021a5",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856760": {
+   "id": "401856760",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "61",
+    "abbr": "UGA",
+    "name": "Georgia",
+    "full": "Georgia Bulldogs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "color": "ba0c2f",
+    "fbs": true,
+    "rank": 1,
+    "record": "9-1"
+   },
+   "away": {
+    "id": "59",
+    "abbr": "GT",
+    "name": "Georgia Tech",
+    "full": "Georgia Tech Yellow Jackets",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+    "color": "b3a369",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856761": {
+   "id": "401856761",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "96",
+    "abbr": "UK",
+    "name": "Kentucky",
+    "full": "Kentucky Wildcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "color": "0033a0",
+    "fbs": true,
+    "rank": 11,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "97",
+    "abbr": "LOU",
+    "name": "Louisville",
+    "full": "Louisville Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "color": "c9001f",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856762": {
+   "id": "401856762",
+   "date": "2026-11-27T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 12:00 PM EST",
+   "home": {
+    "id": "145",
+    "abbr": "MISS",
+    "name": "Ole Miss",
+    "full": "Ole Miss Rebels",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "color": "13294b",
+    "fbs": true,
+    "rank": 19,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "344",
+    "abbr": "MSST",
+    "name": "Mississippi St",
+    "full": "Mississippi State Bulldogs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "color": "5d1725",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856763": {
+   "id": "401856763",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "142",
+    "abbr": "MIZ",
+    "name": "Missouri",
+    "full": "Missouri Tigers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "color": "f1b82d",
+    "fbs": true,
+    "rank": 22,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "201",
+    "abbr": "OU",
+    "name": "Oklahoma",
+    "full": "Oklahoma Sooners",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "color": "990000",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856764": {
+   "id": "401856764",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "228",
+    "abbr": "CLEM",
+    "name": "Clemson",
+    "full": "Clemson Tigers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "color": "f56600",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2579",
+    "abbr": "SC",
+    "name": "South Carolina",
+    "full": "South Carolina Gamecocks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "color": "73000a",
+    "fbs": true,
+    "rank": 17,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856765": {
+   "id": "401856765",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "238",
+    "abbr": "VAN",
+    "name": "Vanderbilt",
+    "full": "Vanderbilt Commodores",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+    "color": "000000",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2633",
+    "abbr": "TENN",
+    "name": "Tennessee",
+    "full": "Tennessee Volunteers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "color": "ff8200",
+    "fbs": true,
+    "rank": 8,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401856766": {
    "id": "401856766",
@@ -11824,10 +12174,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": 9.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "provider": "Draft Kings",
+    "spread": 7.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": 295,
     "mlAway": -375,
     "total": 52.5,
@@ -11840,7 +12190,7 @@
      "mlAway": -380
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -11884,7 +12234,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 5.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -11900,7 +12250,7 @@
      "mlAway": -258
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7,
@@ -11944,7 +12294,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -3.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -11960,7 +12310,7 @@
      "mlAway": 120
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -12004,12 +12354,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 7,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
-    "mlHome": 200,
-    "mlAway": -245,
+    "mlHome": 205,
+    "mlAway": -250,
     "total": 70.5,
     "overPrice": -105,
     "underPrice": -115,
@@ -12020,7 +12370,7 @@
      "mlAway": -230
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7,
@@ -12064,10 +12414,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -2.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -125,
     "mlAway": 105,
     "total": 53.5,
@@ -12080,7 +12430,7 @@
      "mlAway": -108
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -12124,7 +12474,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 3,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -12140,7 +12490,7 @@
      "mlAway": -175
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 4,
@@ -12184,7 +12534,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 3.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -12200,7 +12550,7 @@
      "mlAway": -112
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -12244,10 +12594,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": 200,
     "mlAway": -245,
     "total": 46.5,
@@ -12260,7 +12610,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -12268,6 +12618,311 @@
     "mlHome": 170,
     "mlAway": -205
    }
+  },
+  "401856873": {
+   "id": "401856873",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "12",
+    "abbr": "ARIZ",
+    "name": "Arizona",
+    "full": "Arizona Wildcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+    "color": "cc0033",
+    "fbs": true,
+    "rank": 23,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "ASU",
+    "name": "Arizona St",
+    "full": "Arizona State Sun Devils",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "color": "ffc627",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856874": {
+   "id": "401856874",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "248",
+    "abbr": "HOU",
+    "name": "Houston",
+    "full": "Houston Cougars",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+    "color": "c8102e",
+    "fbs": true,
+    "rank": 14,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "239",
+    "abbr": "BAY",
+    "name": "Baylor",
+    "full": "Baylor Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+    "color": "154734",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856875": {
+   "id": "401856875",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "38",
+    "abbr": "COLO",
+    "name": "Colorado",
+    "full": "Colorado Buffaloes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+    "color": "cfb87c",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2116",
+    "abbr": "UCF",
+    "name": "UCF",
+    "full": "UCF Knights",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+    "color": "000000",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856876": {
+   "id": "401856876",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "252",
+    "abbr": "BYU",
+    "name": "BYU",
+    "full": "BYU Cougars",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+    "color": "0047ba",
+    "fbs": true,
+    "rank": 10,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "2132",
+    "abbr": "CIN",
+    "name": "Cincinnati",
+    "full": "Cincinnati Bearcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+    "color": "000000",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856877": {
+   "id": "401856877",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "197",
+    "abbr": "OKST",
+    "name": "Oklahoma St",
+    "full": "Oklahoma State Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+    "color": "fe5c00",
+    "fbs": true,
+    "rank": 25,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2305",
+    "abbr": "KU",
+    "name": "Kansas",
+    "full": "Kansas Jayhawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+    "color": "0051ba",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856878": {
+   "id": "401856878",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "66",
+    "abbr": "ISU",
+    "name": "Iowa State",
+    "full": "Iowa State Cyclones",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+    "color": "ae192d",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "2306",
+    "abbr": "KSU",
+    "name": "Kansas St",
+    "full": "Kansas State Wildcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "color": "330a57",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401856879": {
+   "id": "401856879",
+   "date": "2026-11-27T01:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/26 - 8:00 PM EST",
+   "home": {
+    "id": "2641",
+    "abbr": "TTU",
+    "name": "Texas Tech",
+    "full": "Texas Tech Red Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+    "color": "da291c",
+    "fbs": true,
+    "rank": 12,
+    "record": "9-1"
+   },
+   "away": {
+    "id": "2628",
+    "abbr": "TCU",
+    "name": "TCU",
+    "full": "TCU Horned Frogs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+    "color": "4d1979",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "Draft Kings",
+    "spread": -16.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": null,
+    "mlAway": null,
+    "total": null,
+    "overPrice": null,
+    "underPrice": null,
+    "open": {
+     "spread": -16.5,
+     "total": null,
+     "mlHome": null,
+     "mlAway": null
+    }
+   },
+   "closeAt": "2026-11-16T06:44:40.759Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -16.5,
+    "total": null,
+    "mlHome": null,
+    "mlAway": null
+   }
+  },
+  "401856880": {
+   "id": "401856880",
+   "date": "2026-11-28T02:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 9:00 PM EST",
+   "home": {
+    "id": "254",
+    "abbr": "UTAH",
+    "name": "Utah",
+    "full": "Utah Utes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+    "color": "be0000",
+    "fbs": true,
+    "rank": 2,
+    "record": "10-0"
+   },
+   "away": {
+    "id": "277",
+    "abbr": "WVU",
+    "name": "West Virginia",
+    "full": "West Virginia Mountaineers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+    "color": "eaaa00",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401856881": {
    "id": "401856881",
@@ -18811,7 +19466,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -20.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -18827,7 +19482,7 @@
      "mlAway": 675
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -18871,12 +19526,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -11.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
-    "mlHome": -455,
-    "mlAway": 350,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -115,
+    "mlHome": -500,
+    "mlAway": 380,
     "total": 43.5,
     "overPrice": -110,
     "underPrice": -110,
@@ -18887,7 +19542,7 @@
      "mlAway": 260
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -8.5,
@@ -18931,12 +19586,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -9.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
-    "mlHome": -310,
-    "mlAway": 250,
+    "mlHome": -325,
+    "mlAway": 260,
     "total": 54.5,
     "overPrice": -120,
     "underPrice": 100,
@@ -18947,7 +19602,7 @@
      "mlAway": 245
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10,
@@ -18991,7 +19646,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 1.5,
     "spreadHomePrice": -120,
     "spreadAwayPrice": 100,
@@ -19007,7 +19662,7 @@
      "mlAway": -105
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -19051,15 +19706,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -13.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
-    "mlHome": -500,
-    "mlAway": 380,
+    "mlHome": -550,
+    "mlAway": 410,
     "total": 50.5,
-    "overPrice": -120,
-    "underPrice": 100,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": -12.5,
      "total": 51.5,
@@ -19067,7 +19722,7 @@
      "mlAway": 270
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -12.5,
@@ -19111,7 +19766,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -21,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -19127,7 +19782,7 @@
      "mlAway": 625
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -17.5,
@@ -19171,15 +19826,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 2.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": 110,
     "mlAway": -130,
     "total": 55.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "overPrice": -110,
+    "underPrice": -110,
     "open": {
      "spread": 1.5,
      "total": 55.5,
@@ -19187,7 +19842,7 @@
      "mlAway": -122
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -19231,10 +19886,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": 3.5,
-    "spreadHomePrice": -118,
-    "spreadAwayPrice": -102,
+    "provider": "Draft Kings",
+    "spread": 3,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": 140,
     "mlAway": -166,
     "total": 50.5,
@@ -19247,7 +19902,7 @@
      "mlAway": -166
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3.5,
@@ -19291,7 +19946,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 21,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -105,
@@ -19307,7 +19962,7 @@
      "mlAway": -1650
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 20.5,
@@ -19315,6 +19970,276 @@
     "mlHome": 950,
     "mlAway": -1650
    }
+  },
+  "401858311": {
+   "id": "401858311",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2390",
+    "abbr": "MIA",
+    "name": "Miami",
+    "full": "Miami Hurricanes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+    "color": "f47423",
+    "fbs": true,
+    "rank": 7,
+    "record": "9-1"
+   },
+   "away": {
+    "id": "103",
+    "abbr": "BC",
+    "name": "Boston College",
+    "full": "Boston College Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+    "color": "8c2232",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858312": {
+   "id": "401858312",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "154",
+    "abbr": "WAKE",
+    "name": "Wake Forest",
+    "full": "Wake Forest Demon Deacons",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "color": "ceb888",
+    "fbs": true,
+    "rank": 13,
+    "record": "9-1"
+   },
+   "away": {
+    "id": "150",
+    "abbr": "DUKE",
+    "name": "Duke",
+    "full": "Duke Blue Devils",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "color": "00539b",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858313": {
+   "id": "401858313",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "153",
+    "abbr": "UNC",
+    "name": "North Carolina",
+    "full": "North Carolina Tar Heels",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+    "color": "7bafd4",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "152",
+    "abbr": "NCSU",
+    "name": "NC State",
+    "full": "NC State Wolfpack",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+    "color": "cc0000",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "Draft Kings",
+    "spread": null,
+    "spreadHomePrice": null,
+    "spreadAwayPrice": null,
+    "mlHome": null,
+    "mlAway": null,
+    "total": 55.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": null,
+     "total": 55.5,
+     "mlHome": null,
+     "mlAway": null
+    }
+   },
+   "closeAt": "2026-11-16T06:44:40.759Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": null,
+    "total": 55.5,
+    "mlHome": null,
+    "mlAway": null
+   }
+  },
+  "401858314": {
+   "id": "401858314",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "183",
+    "abbr": "SYR",
+    "name": "Syracuse",
+    "full": "Syracuse Orange",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+    "color": "000e54",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "87",
+    "abbr": "ND",
+    "name": "Notre Dame",
+    "full": "Notre Dame Fighting Irish",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+    "color": "062340",
+    "fbs": true,
+    "rank": 5,
+    "record": "9-1"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858315": {
+   "id": "401858315",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "25",
+    "abbr": "CAL",
+    "name": "California",
+    "full": "California Golden Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+    "color": "041e42",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "221",
+    "abbr": "PITT",
+    "name": "Pitt",
+    "full": "Pittsburgh Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+    "color": "003594",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858316": {
+   "id": "401858316",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "24",
+    "abbr": "STAN",
+    "name": "Stanford",
+    "full": "Stanford Cardinal",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+    "color": "8c1515",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "2567",
+    "abbr": "SMU",
+    "name": "SMU",
+    "full": "SMU Mustangs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "color": "a80000",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858317": {
+   "id": "401858317",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "259",
+    "abbr": "VT",
+    "name": "Virginia Tech",
+    "full": "Virginia Tech Hokies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+    "color": "6a2c3e",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "258",
+    "abbr": "UVA",
+    "name": "Virginia",
+    "full": "Virginia Cavaliers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+    "color": "232d4b",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401858422": {
    "id": "401858422",
@@ -25681,7 +26606,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -25697,7 +26622,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25741,15 +26666,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 5.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
     "mlHome": 190,
     "mlAway": -230,
-    "total": 39.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "total": 38.5,
+    "overPrice": -112,
+    "underPrice": -108,
     "open": {
      "spread": 5.5,
      "total": 42.5,
@@ -25757,7 +26682,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25801,10 +26726,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 14,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
     "mlHome": 425,
     "mlAway": -575,
     "total": 44.5,
@@ -25817,7 +26742,7 @@
      "mlAway": -455
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 12.5,
@@ -25861,10 +26786,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 3,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 124,
     "mlAway": -148,
     "total": 43.5,
@@ -25877,7 +26802,7 @@
      "mlAway": -148
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -25921,10 +26846,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 2.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": 130,
     "mlAway": -155,
     "total": 43.5,
@@ -25937,7 +26862,7 @@
      "mlAway": -198
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -25981,7 +26906,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -24.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -25997,7 +26922,7 @@
      "mlAway": 1000
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -20.5,
@@ -26041,7 +26966,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -26057,7 +26982,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 6,
@@ -26101,7 +27026,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -17.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -26117,7 +27042,7 @@
      "mlAway": 550
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -26161,7 +27086,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 7.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -26177,7 +27102,7 @@
      "mlAway": -278
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7.5,
@@ -26185,6 +27110,321 @@
     "mlHome": 225,
     "mlAway": -278
    }
+  },
+  "401858536": {
+   "id": "401858536",
+   "date": "2026-11-27T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 12:00 PM EST",
+   "home": {
+    "id": "2294",
+    "abbr": "IOWA",
+    "name": "Iowa",
+    "full": "Iowa Hawkeyes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+    "color": "231f20",
+    "fbs": true,
+    "rank": 15,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "158",
+    "abbr": "NEB",
+    "name": "Nebraska",
+    "full": "Nebraska Cornhuskers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+    "color": "e31937",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858537": {
+   "id": "401858537",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "77",
+    "abbr": "NU",
+    "name": "Northwestern",
+    "full": "Northwestern Wildcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+    "color": "492f92",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "356",
+    "abbr": "ILL",
+    "name": "Illinois",
+    "full": "Illinois Fighting Illini",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+    "color": "ff5f05",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858538": {
+   "id": "401858538",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "84",
+    "abbr": "IU",
+    "name": "Indiana",
+    "full": "Indiana Hoosiers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+    "color": "970310",
+    "fbs": true,
+    "rank": 9,
+    "record": "9-1"
+   },
+   "away": {
+    "id": "2509",
+    "abbr": "PUR",
+    "name": "Purdue",
+    "full": "Purdue Boilermakers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+    "color": "ceb888",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858539": {
+   "id": "401858539",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "120",
+    "abbr": "MD",
+    "name": "Maryland",
+    "full": "Maryland Terrapins",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "color": "ce1126",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "213",
+    "abbr": "PSU",
+    "name": "Penn State",
+    "full": "Penn State Nittany Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "color": "061440",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858540": {
+   "id": "401858540",
+   "date": "2026-11-28T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 12:00 PM EST",
+   "home": {
+    "id": "194",
+    "abbr": "OSU",
+    "name": "Ohio State",
+    "full": "Ohio State Buckeyes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+    "color": "ba0c2f",
+    "fbs": true,
+    "rank": 20,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "130",
+    "abbr": "MICH",
+    "name": "Michigan",
+    "full": "Michigan Wolverines",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "color": "00274c",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858541": {
+   "id": "401858541",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2483",
+    "abbr": "ORE",
+    "name": "Oregon",
+    "full": "Oregon Ducks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "color": "00934b",
+    "fbs": true,
+    "rank": 16,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "264",
+    "abbr": "WASH",
+    "name": "Washington",
+    "full": "Washington Huskies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "color": "33006f",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858542": {
+   "id": "401858542",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "164",
+    "abbr": "RUTG",
+    "name": "Rutgers",
+    "full": "Rutgers Scarlet Knights",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+    "color": "ce0e2d",
+    "fbs": true,
+    "rank": null,
+    "record": "2-8"
+   },
+   "away": {
+    "id": "127",
+    "abbr": "MSU",
+    "name": "Michigan St",
+    "full": "Michigan State Spartans",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+    "color": "173f35",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858543": {
+   "id": "401858543",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "26",
+    "abbr": "UCLA",
+    "name": "UCLA",
+    "full": "UCLA Bruins",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "color": "2774ae",
+    "fbs": true,
+    "rank": 4,
+    "record": "10-0"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "USC",
+    "name": "USC",
+    "full": "USC Trojans",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "color": "9d2235",
+    "fbs": true,
+    "rank": 18,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401858544": {
+   "id": "401858544",
+   "date": "2026-11-28T00:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 7:30 PM EST",
+   "home": {
+    "id": "275",
+    "abbr": "WIS",
+    "name": "Wisconsin",
+    "full": "Wisconsin Badgers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+    "color": "a00000",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "135",
+    "abbr": "MINN",
+    "name": "Minnesota",
+    "full": "Minnesota Golden Gophers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+    "color": "5e0a2f",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401859184": {
    "id": "401859184",
@@ -28764,7 +30004,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -21,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -28780,7 +30020,7 @@
      "mlAway": 1000
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -19.5,
@@ -28824,15 +30064,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": -8.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "provider": "Draft Kings",
+    "spread": -9.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -355,
     "mlAway": 280,
-    "total": 52.5,
-    "overPrice": -102,
-    "underPrice": -118,
+    "total": 51.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": -10,
      "total": 49.5,
@@ -28840,7 +30080,7 @@
      "mlAway": 295
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10,
@@ -28884,7 +30124,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -11.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -28900,7 +30140,7 @@
      "mlAway": 500
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -29184,7 +30424,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -16.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -29200,7 +30440,7 @@
      "mlAway": 850
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -18.5,
@@ -29208,6 +30448,146 @@
     "mlHome": -1450,
     "mlAway": 850
    }
+  },
+  "401860926": {
+   "id": "401860926",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "36",
+    "abbr": "CSU",
+    "name": "Colorado St",
+    "full": "Colorado State Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+    "color": "004c23",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401860927": {
+   "id": "401860927",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "278",
+    "abbr": "FRES",
+    "name": "Fresno St",
+    "full": "Fresno State Bulldogs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+    "color": "b1102b",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401860928": {
+   "id": "401860928",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "328",
+    "abbr": "USU",
+    "name": "Utah State",
+    "full": "Utah State Aggies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+    "color": "0f2439",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401860929": {
+   "id": "401860929",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "265",
+    "abbr": "WSU",
+    "name": "Washington St",
+    "full": "Washington State Cougars",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+    "color": "a60f2d",
+    "fbs": true,
+    "rank": null,
+    "record": "2-8"
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
   },
   "401861962": {
    "id": "401861962",
@@ -29611,15 +30991,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -13.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
     "mlHome": -625,
     "mlAway": 455,
     "total": 47.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": -14.5,
      "total": 48.5,
@@ -29627,7 +31007,7 @@
      "mlAway": 410
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -29635,6 +31015,41 @@
     "mlHome": -550,
     "mlAway": 410
    }
+  },
+  "401861969": {
+   "id": "401861969",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2751",
+    "abbr": "WYO",
+    "name": "Wyoming",
+    "full": "Wyoming Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+    "color": "492f24",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "41",
+    "abbr": "CONN",
+    "name": "UConn",
+    "full": "UConn Huskies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "color": "0c2340",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401861970": {
    "id": "401861970",
@@ -34142,10 +35557,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -3.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": -170,
     "mlAway": 142,
     "total": 48.5,
@@ -34158,7 +35573,7 @@
      "mlAway": 142
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -34202,7 +35617,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -4.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -34218,7 +35633,7 @@
      "mlAway": 150
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4.5,
@@ -34262,7 +35677,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -22.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -34278,7 +35693,7 @@
      "mlAway": 675
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -20.5,
@@ -34322,7 +35737,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 1.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -34338,7 +35753,7 @@
      "mlAway": -105
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -34382,10 +35797,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 3,
-    "spreadHomePrice": -102,
-    "spreadAwayPrice": -118,
+    "spreadHomePrice": 100,
+    "spreadAwayPrice": -120,
     "mlHome": 142,
     "mlAway": -170,
     "total": null,
@@ -34398,7 +35813,7 @@
      "mlAway": -166
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -34442,7 +35857,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 7,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -34458,7 +35873,7 @@
      "mlAway": -575
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 13.5,
@@ -34502,10 +35917,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 185,
     "mlAway": -225,
     "total": 52.5,
@@ -34518,7 +35933,7 @@
      "mlAway": -285
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 7.5,
@@ -34526,6 +35941,251 @@
     "mlHome": 230,
     "mlAway": -285
    }
+  },
+  "401862837": {
+   "id": "401862837",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "151",
+    "abbr": "ECU",
+    "name": "East Carolina",
+    "full": "East Carolina Pirates",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+    "color": "582c83",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2226",
+    "abbr": "FAU",
+    "name": "FAU",
+    "full": "Florida Atlantic Owls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+    "color": "003366",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862838": {
+   "id": "401862838",
+   "date": "2026-11-27T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "235",
+    "abbr": "MEM",
+    "name": "Memphis",
+    "full": "Memphis Tigers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "color": "004991",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "218",
+    "abbr": "TEM",
+    "name": "Temple",
+    "full": "Temple Owls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+    "color": "a41e35",
+    "fbs": true,
+    "rank": null,
+    "record": "2-8"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862839": {
+   "id": "401862839",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "58",
+    "abbr": "USF",
+    "name": "South Florida",
+    "full": "South Florida Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+    "color": "006747",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2655",
+    "abbr": "TULN",
+    "name": "Tulane",
+    "full": "Tulane Green Wave",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "color": "006747",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862840": {
+   "id": "401862840",
+   "date": "2026-11-27T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2636",
+    "abbr": "UTSA",
+    "name": "UTSA",
+    "full": "UTSA Roadrunners",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+    "color": "0c2340",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "202",
+    "abbr": "TLSA",
+    "name": "Tulsa",
+    "full": "Tulsa Golden Hurricane",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+    "color": "003595",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862841": {
+   "id": "401862841",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "242",
+    "abbr": "RICE",
+    "name": "Rice",
+    "full": "Rice Owls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "color": "00205b",
+    "fbs": true,
+    "rank": null,
+    "record": "1-9"
+   },
+   "away": {
+    "id": "349",
+    "abbr": "ARMY",
+    "name": "Army",
+    "full": "Army Black Knights",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+    "color": "000000",
+    "fbs": true,
+    "rank": null,
+    "record": "5-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862842": {
+   "id": "401862842",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2429",
+    "abbr": "CLT",
+    "name": "Charlotte",
+    "full": "Charlotte 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+    "color": "005035",
+    "fbs": true,
+    "rank": null,
+    "record": "1-9"
+   },
+   "away": {
+    "id": "2426",
+    "abbr": "NAVY",
+    "name": "Navy",
+    "full": "Navy Midshipmen",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+    "color": "00225b",
+    "fbs": true,
+    "rank": null,
+    "record": "3-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401862843": {
+   "id": "401862843",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "249",
+    "abbr": "UNT",
+    "name": "North Texas",
+    "full": "North Texas Mean Green",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "color": "068f33",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "5",
+    "abbr": "UAB",
+    "name": "UAB",
+    "full": "UAB Blazers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+    "color": "1a5632",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401864424": {
    "id": "401864424",
@@ -37595,7 +39255,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -4,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -37611,7 +39271,7 @@
      "mlAway": 110
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -37655,15 +39315,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 8.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
-    "mlHome": 285,
-    "mlAway": -360,
+    "mlHome": 260,
+    "mlAway": -325,
     "total": 37.5,
-    "overPrice": -102,
-    "underPrice": -118,
+    "overPrice": -105,
+    "underPrice": -115,
     "open": {
      "spread": 10.5,
      "total": 38.5,
@@ -37671,7 +39331,7 @@
      "mlAway": -440
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 10.5,
@@ -37715,7 +39375,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -25.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -37731,7 +39391,7 @@
      "mlAway": 1800
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -25.5,
@@ -37775,7 +39435,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
@@ -37791,7 +39451,7 @@
      "mlAway": -148
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 3,
@@ -37835,7 +39495,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -22.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
@@ -37851,7 +39511,7 @@
      "mlAway": 1300
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -21.5,
@@ -37859,6 +39519,181 @@
     "mlHome": -2800,
     "mlAway": 1300
    }
+  },
+  "401864546": {
+   "id": "401864546",
+   "date": "2026-11-27T21:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 4:30 PM EST",
+   "home": {
+    "id": "167",
+    "abbr": "UNM",
+    "name": "New Mexico",
+    "full": "New Mexico Lobos",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+    "color": "ba0c2f",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "2005",
+    "abbr": "AFA",
+    "name": "Air Force",
+    "full": "Air Force Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+    "color": "003594",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401864547": {
+   "id": "401864547",
+   "date": "2026-11-29T04:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 11:00 PM EST",
+   "home": {
+    "id": "62",
+    "abbr": "HAW",
+    "name": "Hawai'i",
+    "full": "Hawai'i Rainbow Warriors",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+    "color": "005737",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "16",
+    "abbr": "SAC",
+    "name": "Sacramento St",
+    "full": "Sacramento State Hornets",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+    "color": "00573C",
+    "fbs": true,
+    "rank": null,
+    "record": "2-9"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401864548": {
+   "id": "401864548",
+   "date": "2026-11-29T02:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 9:00 PM EST",
+   "home": {
+    "id": "2439",
+    "abbr": "UNLV",
+    "name": "UNLV",
+    "full": "UNLV Rebels",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+    "color": "cf0a2c",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2440",
+    "abbr": "NEV",
+    "name": "Nevada",
+    "full": "Nevada Wolf Pack",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+    "color": "041e42",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401864549": {
+   "id": "401864549",
+   "date": "2026-11-27T20:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 3:30 PM EST",
+   "home": {
+    "id": "23",
+    "abbr": "SJSU",
+    "name": "San José St",
+    "full": "San José State Spartans",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+    "color": "0038a8",
+    "fbs": true,
+    "rank": null,
+    "record": "5-6"
+   },
+   "away": {
+    "id": "2449",
+    "abbr": "NDSU",
+    "name": "N Dakota St",
+    "full": "North Dakota State Bison",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+    "color": "01402A",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401864550": {
+   "id": "401864550",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2459",
+    "abbr": "NIU",
+    "name": "N Illinois",
+    "full": "Northern Illinois Huskies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "color": "c8102e",
+    "fbs": true,
+    "rank": null,
+    "record": "0-10"
+   },
+   "away": {
+    "id": "2638",
+    "abbr": "UTEP",
+    "name": "UTEP",
+    "full": "UTEP Miners",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "color": "ff8200",
+    "fbs": true,
+    "rank": null,
+    "record": "1-9"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401864570": {
    "id": "401864570",
@@ -41895,12 +43730,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -10.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
-    "mlHome": -380,
-    "mlAway": 300,
+    "mlHome": -425,
+    "mlAway": 330,
     "total": 49.5,
     "overPrice": -110,
     "underPrice": -110,
@@ -41911,7 +43746,7 @@
      "mlAway": 280
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -9.5,
@@ -41955,7 +43790,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -14.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
@@ -41971,7 +43806,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -42015,15 +43850,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": 9.5,
+    "provider": "Draft Kings",
+    "spread": 8.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
     "mlHome": 260,
     "mlAway": -325,
-    "total": 46.5,
-    "overPrice": -105,
-    "underPrice": -115,
+    "total": 45.5,
+    "overPrice": -115,
+    "underPrice": -105,
     "open": {
      "spread": 8.5,
      "total": 45.5,
@@ -42031,7 +43866,7 @@
      "mlAway": -310
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -42075,7 +43910,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -3,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -42091,7 +43926,7 @@
      "mlAway": 130
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -3.5,
@@ -42135,10 +43970,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": -15.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "provider": "Draft Kings",
+    "spread": -16.5,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
     "mlHome": -700,
     "mlAway": 500,
     "total": 48.5,
@@ -42151,7 +43986,7 @@
      "mlAway": 500
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -15.5,
@@ -42195,7 +44030,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -2.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -42211,7 +44046,7 @@
      "mlAway": 105
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -42219,6 +44054,216 @@
     "mlHome": -125,
     "mlAway": 105
    }
+  },
+  "401866470": {
+   "id": "401866470",
+   "date": "2026-11-25T00:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/24 - 7:00 PM EST",
+   "home": {
+    "id": "2199",
+    "abbr": "EMU",
+    "name": "E Michigan",
+    "full": "Eastern Michigan Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+    "color": "006938",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2309",
+    "abbr": "KENT",
+    "name": "Kent State",
+    "full": "Kent State Golden Flashes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+    "color": "002664",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401866471": {
+   "id": "401866471",
+   "date": "2026-11-25T00:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/24 - 7:00 PM EST",
+   "home": {
+    "id": "2711",
+    "abbr": "WMU",
+    "name": "W Michigan",
+    "full": "Western Michigan Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+    "color": "532e1f",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "193",
+    "abbr": "M-OH",
+    "name": "Miami OH",
+    "full": "Miami (OH) RedHawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+    "color": "c41230",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401866472": {
+   "id": "401866472",
+   "date": "2026-11-27T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 12:00 PM EST",
+   "home": {
+    "id": "2006",
+    "abbr": "AKR",
+    "name": "Akron",
+    "full": "Akron Zips",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+    "color": "041e42",
+    "fbs": true,
+    "rank": null,
+    "record": "1-9"
+   },
+   "away": {
+    "id": "2084",
+    "abbr": "BUFF",
+    "name": "Buffalo",
+    "full": "Buffalo Bulls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+    "color": "005bbb",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401866473": {
+   "id": "401866473",
+   "date": "2026-11-27T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 12:00 PM EST",
+   "home": {
+    "id": "195",
+    "abbr": "OHIO",
+    "name": "Ohio",
+    "full": "Ohio Bobcats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "color": "154734",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "2649",
+    "abbr": "TOL",
+    "name": "Toledo",
+    "full": "Toledo Rockets",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+    "color": "0b2240",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401866474": {
+   "id": "401866474",
+   "date": "2026-11-28T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 12:00 PM EST",
+   "home": {
+    "id": "2050",
+    "abbr": "BALL",
+    "name": "Ball State",
+    "full": "Ball State Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+    "color": "ba0c2f",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "2117",
+    "abbr": "CMU",
+    "name": "C Michigan",
+    "full": "Central Michigan Chippewas",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+    "color": "4c0027",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401866475": {
+   "id": "401866475",
+   "date": "2026-11-28T17:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 12:00 PM EST",
+   "home": {
+    "id": "189",
+    "abbr": "BGSU",
+    "name": "Bowling Green",
+    "full": "Bowling Green Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+    "color": "fd5000",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "113",
+    "abbr": "MASS",
+    "name": "UMass",
+    "full": "Massachusetts Minutemen",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+    "color": "881c1c",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401866476": {
    "id": "401866476",
@@ -44053,7 +46098,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -14,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -44069,7 +46114,7 @@
      "mlAway": 425
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -13.5,
@@ -44077,6 +46122,41 @@
     "mlHome": -575,
     "mlAway": 425
    }
+  },
+  "401869930": {
+   "id": "401869930",
+   "date": "2026-11-27T20:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/27 - 3:00 PM EST",
+   "home": {
+    "id": "6",
+    "abbr": "USA",
+    "name": "South Alabama",
+    "full": "South Alabama Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+    "color": "00205b",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "2026",
+    "abbr": "APP",
+    "name": "App State",
+    "full": "App State Mountaineers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+    "color": "000000",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401869931": {
    "id": "401869931",
@@ -44540,15 +46620,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -14.5,
-    "spreadHomePrice": -112,
-    "spreadAwayPrice": -108,
-    "mlHome": -750,
-    "mlAway": 525,
-    "total": 52.5,
-    "overPrice": -112,
-    "underPrice": -108,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -700,
+    "mlAway": 500,
+    "total": 53.5,
+    "overPrice": -108,
+    "underPrice": -112,
     "open": {
      "spread": -16.5,
      "total": 50.5,
@@ -44556,7 +46636,7 @@
      "mlAway": 575
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -16.5,
@@ -44564,6 +46644,41 @@
     "mlHome": -850,
     "mlAway": 575
    }
+  },
+  "401869939": {
+   "id": "401869939",
+   "date": "2026-11-28T20:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 3:00 PM EST",
+   "home": {
+    "id": "2032",
+    "abbr": "ARST",
+    "name": "Arkansas St",
+    "full": "Arkansas State Red Wolves",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "color": "cc092f",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2653",
+    "abbr": "TROY",
+    "name": "Troy",
+    "full": "Troy Trojans",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+    "color": "862633",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401869940": {
    "id": "401869940",
@@ -44960,12 +47075,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": -10,
-    "spreadHomePrice": -115,
-    "spreadAwayPrice": -105,
-    "mlHome": -345,
-    "mlAway": 275,
+    "provider": "Draft Kings",
+    "spread": -10.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -395,
+    "mlAway": 310,
     "total": 50.5,
     "overPrice": -120,
     "underPrice": 100,
@@ -44976,7 +47091,7 @@
      "mlAway": 225
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -7.5,
@@ -44984,6 +47099,41 @@
     "mlHome": -278,
     "mlAway": 225
    }
+  },
+  "401869947": {
+   "id": "401869947",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "256",
+    "abbr": "JMU",
+    "name": "James Madison",
+    "full": "James Madison Dukes",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+    "color": "450084",
+    "fbs": true,
+    "rank": null,
+    "record": "8-3"
+   },
+   "away": {
+    "id": "324",
+    "abbr": "CCU",
+    "name": "Coastal",
+    "full": "Coastal Carolina Chanticleers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+    "color": "006f71",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401869948": {
    "id": "401869948",
@@ -45327,7 +47477,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 8.5,
     "spreadHomePrice": -112,
     "spreadAwayPrice": -108,
@@ -45343,7 +47493,7 @@
      "mlAway": -325
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 8.5,
@@ -45351,6 +47501,41 @@
     "mlHome": 260,
     "mlAway": -325
    }
+  },
+  "401869954": {
+   "id": "401869954",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "290",
+    "abbr": "GASO",
+    "name": "GA Southern",
+    "full": "Georgia Southern Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+    "color": "041e42",
+    "fbs": true,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "2348",
+    "abbr": "LT",
+    "name": "Louisiana Tech",
+    "full": "Louisiana Tech Bulldogs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+    "color": "003087",
+    "fbs": true,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401869955": {
    "id": "401869955",
@@ -45567,10 +47752,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 1.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": -102,
     "mlAway": -118,
     "total": 57.5,
@@ -45583,7 +47768,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -45591,6 +47776,41 @@
     "mlHome": -102,
     "mlAway": -118
    }
+  },
+  "401869959": {
+   "id": "401869959",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2247",
+    "abbr": "GAST",
+    "name": "Georgia St",
+    "full": "Georgia State Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+    "color": "0039a6",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "309",
+    "abbr": "UL",
+    "name": "Louisiana",
+    "full": "Louisiana Ragin' Cajuns",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+    "color": "ce181e",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401869960": {
    "id": "401869960",
@@ -46757,6 +48977,41 @@
     "at": "2026-11-14T18:59:27.013Z"
    }
   },
+  "401870804": {
+   "id": "401870804",
+   "date": "2026-11-28T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 1:00 PM EST",
+   "home": {
+    "id": "98",
+    "abbr": "WKU",
+    "name": "Western KY",
+    "full": "Western Kentucky Hilltoppers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+    "color": "e13a3e",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "338",
+    "abbr": "KENN",
+    "name": "Kennesaw St",
+    "full": "Kennesaw State Owls",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+    "color": "fdbb30",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0
+  },
   "401871045": {
    "id": "401871045",
    "date": "2026-09-12T23:00Z",
@@ -47791,6 +50046,76 @@
     "at": "2026-11-14T18:59:27.013Z"
    }
   },
+  "401871062": {
+   "id": "401871062",
+   "date": "2026-11-28T20:30Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 3:30 PM EST",
+   "home": {
+    "id": "48",
+    "abbr": "DEL",
+    "name": "Delaware",
+    "full": "Delaware Blue Hens",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+    "color": "00539f",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "55",
+    "abbr": "JXST",
+    "name": "Jax State",
+    "full": "Jacksonville State Gamecocks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "color": "cc0000",
+    "fbs": true,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401871063": {
+   "id": "401871063",
+   "date": "2026-11-28T19:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 2:00 PM EST",
+   "home": {
+    "id": "2623",
+    "abbr": "MOST",
+    "name": "Missouri St",
+    "full": "Missouri State Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+    "color": "5e0009",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2335",
+    "abbr": "LIB",
+    "name": "Liberty",
+    "full": "Liberty Flames",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+    "color": "0a254e",
+    "fbs": true,
+    "rank": null,
+    "record": "9-1"
+   },
+   "hs": 0,
+   "as": 0
+  },
   "401871066": {
    "id": "401871066",
    "date": "2026-10-08T00:04Z",
@@ -48486,12 +50811,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 3,
-    "spreadHomePrice": -105,
-    "spreadAwayPrice": -115,
-    "mlHome": 140,
-    "mlAway": -166,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -112,
+    "mlHome": 136,
+    "mlAway": -162,
     "total": 53.5,
     "overPrice": -110,
     "underPrice": -110,
@@ -48502,7 +50827,7 @@
      "mlAway": -185
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 4.5,
@@ -48546,12 +50871,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -3.5,
     "spreadHomePrice": -110,
     "spreadAwayPrice": -110,
-    "mlHome": -162,
-    "mlAway": 136,
+    "mlHome": -170,
+    "mlAway": 142,
     "total": 44.5,
     "overPrice": -115,
     "underPrice": -105,
@@ -48562,7 +50887,7 @@
      "mlAway": 145
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4,
@@ -48606,7 +50931,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -10.5,
     "spreadHomePrice": -115,
     "spreadAwayPrice": -105,
@@ -48622,7 +50947,7 @@
      "mlAway": 270
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -10.5,
@@ -48666,12 +50991,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": -16.5,
     "spreadHomePrice": -108,
     "spreadAwayPrice": -112,
-    "mlHome": -750,
-    "mlAway": 525,
+    "mlHome": -800,
+    "mlAway": 550,
     "total": 53.5,
     "overPrice": -108,
     "underPrice": -112,
@@ -48682,7 +51007,7 @@
      "mlAway": 455
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -14.5,
@@ -48726,10 +51051,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "spread": 6.5,
-    "spreadHomePrice": -108,
-    "spreadAwayPrice": -112,
+    "spreadHomePrice": -112,
+    "spreadAwayPrice": -108,
     "mlHome": 195,
     "mlAway": -238,
     "total": 48.5,
@@ -48742,7 +51067,7 @@
      "mlAway": -205
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -48750,6 +51075,76 @@
     "mlHome": 170,
     "mlAway": -205
    }
+  },
+  "401871082": {
+   "id": "401871082",
+   "date": "2026-11-28T19:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 2:00 PM EST",
+   "home": {
+    "id": "2229",
+    "abbr": "FIU",
+    "name": "FIU",
+    "full": "Florida International Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+    "color": "091f3f",
+    "fbs": true,
+    "rank": null,
+    "record": "4-6"
+   },
+   "away": {
+    "id": "2534",
+    "abbr": "SHSU",
+    "name": "Sam Houston",
+    "full": "Sam Houston Bearkats",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+    "color": "f56423",
+    "fbs": true,
+    "rank": null,
+    "record": "1-9"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401871083": {
+   "id": "401871083",
+   "date": "2026-11-28T19:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "11/28 - 2:00 PM EST",
+   "home": {
+    "id": "2393",
+    "abbr": "MTSU",
+    "name": "MTSU",
+    "full": "Middle Tennessee Blue Raiders",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+    "color": "036eb7",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "166",
+    "abbr": "NMSU",
+    "name": "New Mexico St",
+    "full": "New Mexico State Aggies",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+    "color": "7e141b",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
   },
   "401871089": {
    "id": "401871089",
@@ -49520,10 +51915,10 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "DraftKings",
-    "spread": 5.5,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -110,
+    "provider": "Draft Kings",
+    "spread": 4.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
     "mlHome": 170,
     "mlAway": -205,
     "total": 63.5,
@@ -49536,7 +51931,7 @@
      "mlAway": -192
     }
    },
-   "closeAt": "2026-11-16T02:23:30.686Z",
+   "closeAt": "2026-11-16T06:44:40.759Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 5.5,
@@ -49544,7 +51939,357 @@
     "mlHome": 160,
     "mlAway": -192
    }
+  },
+  "401871102": {
+   "id": "401871102",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "2433",
+    "abbr": "ULM",
+    "name": "UL Monroe",
+    "full": "UL Monroe Warhawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+    "color": "840029",
+    "fbs": true,
+    "rank": null,
+    "record": "2-8"
+   },
+   "away": {
+    "id": "276",
+    "abbr": "MRSH",
+    "name": "Marshall",
+    "full": "Marshall Thundering Herd",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+    "color": "00b140",
+    "fbs": true,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401871103": {
+   "id": "401871103",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "295",
+    "abbr": "ODU",
+    "name": "Old Dominion",
+    "full": "Old Dominion Monarchs",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+    "color": "003768",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "2572",
+    "abbr": "USM",
+    "name": "Southern Miss",
+    "full": "Southern Miss Golden Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+    "color": "ffc72c",
+    "fbs": true,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934095": {
+   "id": "401934095",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934096": {
+   "id": "401934096",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934097": {
+   "id": "401934097",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934098": {
+   "id": "401934098",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934099": {
+   "id": "401934099",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934100": {
+   "id": "401934100",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934101": {
+   "id": "401934101",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
+  },
+  "401934102": {
+   "id": "401934102",
+   "date": "2026-11-28T05:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "TBD",
+   "home": {
+    "id": "-1",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "away": {
+    "id": "-2",
+    "abbr": "TBD",
+    "name": "TBD",
+    "full": "TBD",
+    "logo": null,
+    "color": null,
+    "fbs": null,
+    "rank": null,
+    "record": null
+   },
+   "hs": 0,
+   "as": 0
   }
  },
- "updated": "2026-11-16T02:23:30.686Z"
+ "updated": "2026-11-16T06:44:40.759Z"
 }

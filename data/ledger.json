@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-16T02:23:30.686Z",
+   "computedAt": "2026-11-16T06:44:40.759Z",
    "gamesConsidered": 54,
    "picks": [
     {
@@ -417,54 +417,125 @@
      "fairLine": 4,
      "marketLine": 5.5,
      "modelTotal": 43,
-     "fairTotal": 40,
-     "marketTotal": 39.5,
+     "fairTotal": 39.2,
+     "marketTotal": 38.5,
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-16T02:23:30.686Z"
-    },
+     "linesAsOf": "2026-11-16T06:44:40.759Z"
+    }
+   ],
+   "parlays": [
     {
-     "id": "cfb-2026-11-21:401856865:ml:home",
+     "type": "hail-mary",
+     "units": 0.5,
+     "dec": 64.676,
+     "price": 6368,
+     "prob": 0.0178,
+     "ev": 0.1507,
+     "legs": [
+      {
+       "gameId": "401858528",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 190,
+       "label": "MICH ML",
+       "win": 0.3655,
+       "matchup": "UCLA @ MICH"
+      },
+      {
+       "gameId": "401869953",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 260,
+       "label": "TROY ML",
+       "win": 0.2873,
+       "matchup": "GASO @ TROY"
+      },
+      {
+       "gameId": "401858308",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 110,
+       "label": "CAL ML",
+       "win": 0.4881,
+       "matchup": "STAN @ CAL"
+      },
+      {
+       "gameId": "401871081",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 195,
+       "label": "SHSU ML",
+       "win": 0.3471,
+       "matchup": "MTSU @ SHSU"
+      }
+     ],
+     "id": "cfb-2026-11-21:hail-mary",
      "slateId": "cfb-2026-11-21",
      "sport": "cfb",
      "date": "2026-11-21",
-     "gameId": "401856865",
-     "kickoff": "2026-11-22T00:00Z",
-     "matchup": "ARIZ @ KSU",
-     "away": "ARIZ",
-     "home": "KSU",
-     "label": "KSU ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 295,
-     "oppPrice": -375,
-     "win": 0.263,
-     "push": 0,
-     "ev": 0.039,
-     "tier": "lean",
-     "units": 0.5,
-     "modelLine": 2.9,
-     "lineMove": 1,
-     "fairLine": 8.5,
-     "marketLine": 9.5,
-     "modelTotal": 53.2,
-     "fairTotal": 52.6,
-     "marketTotal": 52.5,
-     "publishedAt": null,
      "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-16T02:23:30.686Z"
+     "profit": null
     }
    ],
-   "parlays": [],
    "params": {
     "a": 0.121,
     "w": 0.15,
     "at": 0.121,
     "wt": 0.15,
     "k": 0.029
+   }
+  },
+  "nfl-2026-11-22": {
+   "computedAt": "2026-11-16T06:44:40.759Z",
+   "gamesConsidered": 11,
+   "picks": [
+    {
+     "id": "nfl-2026-11-22:401873075:total:over",
+     "slateId": "nfl-2026-11-22",
+     "sport": "nfl",
+     "date": "2026-11-22",
+     "gameId": "401873075",
+     "kickoff": "2026-11-22T21:25Z",
+     "matchup": "LV @ DEN",
+     "away": "LV",
+     "home": "DEN",
+     "label": "Over 40.5",
+     "market": "total",
+     "side": "over",
+     "line": 40.5,
+     "price": -102,
+     "oppPrice": -118,
+     "win": 0.5247,
+     "push": 0,
+     "ev": 0.0391,
+     "tier": "lean",
+     "units": 1,
+     "modelLine": -6.3,
+     "lineMove": 1.5,
+     "fairLine": -9.4,
+     "marketLine": -10,
+     "modelTotal": 45.9,
+     "fairTotal": 41.3,
+     "marketTotal": 40.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-16T06:44:40.759Z"
+    }
+   ],
+   "parlays": [],
+   "params": {
+    "a": 0.299,
+    "w": 0.179,
+    "at": 0.299,
+    "wt": 0.15,
+    "k": 0.011
    }
   }
  }

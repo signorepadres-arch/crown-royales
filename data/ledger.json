@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-17T03:58:33.401Z",
+   "computedAt": "2026-11-17T04:47:25.596Z",
    "gamesConsidered": 54,
    "picks": [
     {
@@ -422,7 +422,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T03:58:33.401Z"
+     "linesAsOf": "2026-11-17T04:47:25.596Z"
     },
     {
      "id": "cfb-2026-11-21:401858528:ml:home",
@@ -455,7 +455,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T03:58:33.401Z"
+     "linesAsOf": "2026-11-17T04:47:25.596Z"
     }
    ],
    "parlays": [
@@ -525,7 +525,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-17T03:58:33.401Z",
+   "computedAt": "2026-11-17T04:47:25.596Z",
    "gamesConsidered": 11,
    "picks": [
     {
@@ -546,7 +546,7 @@
      "oppPrice": -120,
      "win": 0.5204,
      "push": 0,
-     "ev": 0.0408,
+     "ev": 0.0409,
      "tier": "crown",
      "units": 1,
      "modelLine": -8.1,
@@ -559,7 +559,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T03:58:33.401Z"
+     "linesAsOf": "2026-11-17T04:47:25.596Z"
     },
     {
      "id": "nfl-2026-11-22:401873067:total:over",
@@ -592,7 +592,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T03:58:33.401Z"
+     "linesAsOf": "2026-11-17T04:47:25.596Z"
     }
    ],
    "parlays": [
@@ -631,7 +631,7 @@
        "line": 11.5,
        "price": -108,
        "label": "NO +11.5",
-       "win": 0.5316,
+       "win": 0.5317,
        "matchup": "NO @ CHI"
       },
       {
@@ -641,7 +641,7 @@
        "line": 40.5,
        "price": -108,
        "label": "Over 40.5",
-       "win": 0.5249,
+       "win": 0.5248,
        "matchup": "LV @ DEN"
       }
      ],
@@ -654,9 +654,9 @@
     }
    ],
    "params": {
-    "a": 0.299,
+    "a": 0.298,
     "w": 0.179,
-    "at": 0.299,
+    "at": 0.298,
     "wt": 0.15,
     "k": 0.011
    }

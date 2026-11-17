@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-17T04:47:25.596Z",
+   "computedAt": "2026-11-17T16:12:10.359Z",
    "gamesConsidered": 54,
    "picks": [
     {
@@ -422,7 +422,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T04:47:25.596Z"
+     "linesAsOf": "2026-11-17T16:12:10.359Z"
     },
     {
      "id": "cfb-2026-11-21:401858528:ml:home",
@@ -440,32 +440,32 @@
      "line": 0,
      "price": 154,
      "oppPrice": -185,
-     "win": 0.4091,
+     "win": 0.4076,
      "push": 0,
-     "ev": 0.0391,
+     "ev": 0.0354,
      "tier": "lean",
      "units": 0.5,
      "modelLine": -4.5,
-     "lineMove": 1.5,
-     "fairLine": 2.7,
-     "marketLine": 4,
+     "lineMove": 2,
+     "fairLine": 2.2,
+     "marketLine": 3.5,
      "modelTotal": 43,
      "fairTotal": 38.3,
      "marketTotal": 37.5,
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T04:47:25.596Z"
+     "linesAsOf": "2026-11-17T16:12:10.359Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 34.876,
-     "price": 3388,
-     "prob": 0.0331,
-     "ev": 0.156,
+     "dec": 38.028,
+     "price": 3703,
+     "prob": 0.0301,
+     "ev": 0.1436,
      "legs": [
       {
        "gameId": "401860925",
@@ -484,7 +484,7 @@
        "line": 0,
        "price": 154,
        "label": "MICH ML",
-       "win": 0.4091,
+       "win": 0.4076,
        "matchup": "UCLA @ MICH"
       },
       {
@@ -494,18 +494,18 @@
        "line": 0,
        "price": 260,
        "label": "TROY ML",
-       "win": 0.2873,
+       "win": 0.2874,
        "matchup": "GASO @ TROY"
       },
       {
-       "gameId": "401862834",
-       "market": "total",
-       "side": "under",
-       "line": 66.5,
-       "price": -108,
-       "label": "Under 66.5",
-       "win": 0.5362,
-       "matchup": "MEM @ NAVY"
+       "gameId": "401858308",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 110,
+       "label": "CAL ML",
+       "win": 0.4882,
+       "matchup": "STAN @ CAL"
       }
      ],
      "id": "cfb-2026-11-21:hail-mary",
@@ -525,7 +525,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-17T04:47:25.596Z",
+   "computedAt": "2026-11-17T16:12:10.359Z",
    "gamesConsidered": 11,
    "picks": [
     {
@@ -544,7 +544,7 @@
      "line": 54.5,
      "price": 100,
      "oppPrice": -120,
-     "win": 0.5204,
+     "win": 0.5205,
      "push": 0,
      "ev": 0.0409,
      "tier": "crown",
@@ -559,50 +559,17 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-17T04:47:25.596Z"
-    },
-    {
-     "id": "nfl-2026-11-22:401873067:total:over",
-     "slateId": "nfl-2026-11-22",
-     "sport": "nfl",
-     "date": "2026-11-22",
-     "gameId": "401873067",
-     "kickoff": "2026-11-22T18:00Z",
-     "matchup": "ARI @ KC",
-     "away": "ARI",
-     "home": "KC",
-     "label": "Over 41.5",
-     "market": "total",
-     "side": "over",
-     "line": 41.5,
-     "price": -102,
-     "oppPrice": -118,
-     "win": 0.5207,
-     "push": 0,
-     "ev": 0.0312,
-     "tier": "lean",
-     "units": 1,
-     "modelLine": -8.3,
-     "lineMove": 5,
-     "fairLine": -15.1,
-     "marketLine": -16.5,
-     "modelTotal": 46,
-     "fairTotal": 42.2,
-     "marketTotal": 41.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-17T04:47:25.596Z"
+     "linesAsOf": "2026-11-17T16:12:10.359Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 14.691,
-     "price": 1369,
-     "prob": 0.0756,
-     "ev": 0.1109,
+     "dec": 27.466,
+     "price": 2647,
+     "prob": 0.0403,
+     "ev": 0.1066,
      "legs": [
       {
        "gameId": "401873073",
@@ -611,18 +578,8 @@
        "line": 54.5,
        "price": 100,
        "label": "Under 54.5",
-       "win": 0.5204,
+       "win": 0.5205,
        "matchup": "TEN @ DAL"
-      },
-      {
-       "gameId": "401873067",
-       "market": "total",
-       "side": "over",
-       "line": 41.5,
-       "price": -102,
-       "label": "Over 41.5",
-       "win": 0.5207,
-       "matchup": "ARI @ KC"
       },
       {
        "gameId": "401873071",
@@ -633,6 +590,26 @@
        "label": "NO +11.5",
        "win": 0.5317,
        "matchup": "NO @ CHI"
+      },
+      {
+       "gameId": "401873072",
+       "market": "total",
+       "side": "over",
+       "line": 45.5,
+       "price": -102,
+       "label": "Over 45.5",
+       "win": 0.5121,
+       "matchup": "TB @ DET"
+      },
+      {
+       "gameId": "401873067",
+       "market": "spread",
+       "side": "away",
+       "line": 16.5,
+       "price": -115,
+       "label": "ARI +16.5",
+       "win": 0.5417,
+       "matchup": "ARI @ KC"
       },
       {
        "gameId": "401873075",

@@ -388,9 +388,42 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-18T01:00:49.449Z",
+   "computedAt": "2026-11-18T11:54:57.398Z",
    "gamesConsidered": 54,
    "picks": [
+    {
+     "id": "cfb-2026-11-21:401860925:total:under",
+     "slateId": "cfb-2026-11-21",
+     "sport": "cfb",
+     "date": "2026-11-21",
+     "gameId": "401860925",
+     "kickoff": "2026-11-22T02:30Z",
+     "matchup": "SDSU @ BOIS",
+     "away": "SDSU",
+     "home": "BOIS",
+     "label": "Under 61.5",
+     "market": "total",
+     "side": "under",
+     "line": 61.5,
+     "price": -102,
+     "oppPrice": -118,
+     "win": 0.5258,
+     "push": 0,
+     "ev": 0.0412,
+     "tier": "crown",
+     "units": 1,
+     "modelLine": -18.8,
+     "lineMove": -2,
+     "fairLine": -16.8,
+     "marketLine": -16.5,
+     "modelTotal": 54.4,
+     "fairTotal": 60.4,
+     "marketTotal": 61.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-18T11:54:57.398Z"
+    },
     {
      "id": "cfb-2026-11-21:401858528:ml:home",
      "slateId": "cfb-2026-11-21",
@@ -409,7 +442,7 @@
      "oppPrice": -185,
      "win": 0.4077,
      "push": 0,
-     "ev": 0.0356,
+     "ev": 0.0355,
      "tier": "lean",
      "units": 0.5,
      "modelLine": -4.5,
@@ -422,17 +455,17 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-18T01:00:49.449Z"
+     "linesAsOf": "2026-11-18T11:54:57.398Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 37.49,
-     "price": 3649,
-     "prob": 0.0313,
-     "ev": 0.173,
+     "dec": 35.355,
+     "price": 3436,
+     "prob": 0.0337,
+     "ev": 0.1913,
      "legs": [
       {
        "gameId": "401858310",
@@ -443,6 +476,16 @@
        "label": "GT +20.5",
        "win": 0.5471,
        "matchup": "WAKE @ GT"
+      },
+      {
+       "gameId": "401860925",
+       "market": "total",
+       "side": "under",
+       "line": 61.5,
+       "price": -102,
+       "label": "Under 61.5",
+       "win": 0.5258,
+       "matchup": "SDSU @ BOIS"
       },
       {
        "gameId": "401858528",
@@ -463,16 +506,6 @@
        "label": "TROY ML",
        "win": 0.2873,
        "matchup": "GASO @ TROY"
-      },
-      {
-       "gameId": "401858308",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 110,
-       "label": "CAL ML",
-       "win": 0.4882,
-       "matchup": "STAN @ CAL"
       }
      ],
      "id": "cfb-2026-11-21:hail-mary",
@@ -492,7 +525,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-18T01:00:49.449Z",
+   "computedAt": "2026-11-18T11:54:57.398Z",
    "gamesConsidered": 11,
    "picks": [
     {
@@ -526,67 +559,10 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-18T01:00:49.449Z"
+     "linesAsOf": "2026-11-18T11:54:57.398Z"
     }
    ],
-   "parlays": [
-    {
-     "type": "hail-mary",
-     "units": 0.5,
-     "dec": 14.261,
-     "price": 1326,
-     "prob": 0.0775,
-     "ev": 0.1048,
-     "legs": [
-      {
-       "gameId": "401873073",
-       "market": "total",
-       "side": "under",
-       "line": 54.5,
-       "price": 100,
-       "label": "Under 54.5",
-       "win": 0.5205,
-       "matchup": "TEN @ DAL"
-      },
-      {
-       "gameId": "401873071",
-       "market": "spread",
-       "side": "away",
-       "line": 11.5,
-       "price": -108,
-       "label": "NO +11.5",
-       "win": 0.5317,
-       "matchup": "NO @ CHI"
-      },
-      {
-       "gameId": "401873072",
-       "market": "total",
-       "side": "over",
-       "line": 44.5,
-       "price": -102,
-       "label": "Over 44.5",
-       "win": 0.5167,
-       "matchup": "TB @ DET"
-      },
-      {
-       "gameId": "401873067",
-       "market": "spread",
-       "side": "away",
-       "line": 16.5,
-       "price": -115,
-       "label": "ARI +16.5",
-       "win": 0.5417,
-       "matchup": "ARI @ KC"
-      }
-     ],
-     "id": "nfl-2026-11-22:hail-mary",
-     "slateId": "nfl-2026-11-22",
-     "sport": "nfl",
-     "date": "2026-11-22",
-     "status": "open",
-     "profit": null
-    }
-   ],
+   "parlays": [],
    "params": {
     "a": 0.298,
     "w": 0.179,

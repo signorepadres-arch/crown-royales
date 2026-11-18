@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T01:00:49.449Z",
+ "generated": "2026-11-18T11:54:57.398Z",
  "live": {
   "overall": {
    "n": 4,
@@ -184,7 +184,7 @@
  },
  "backtest": {
   "cfb": {
-   "games": 469,
+   "games": 472,
    "picks": {
     "n": 16,
     "w": 6,
@@ -274,17 +274,17 @@
     }
    },
    "modelAts": {
-    "n": 311,
-    "w": 159,
-    "hit": 0.5113
+    "n": 314,
+    "w": 160,
+    "hit": 0.5096
    },
    "calibration": [
     {
      "lo": 0.5,
      "hi": 0.53,
-     "n": 427,
+     "n": 430,
      "pred": 0.5116,
-     "actual": 0.4567
+     "actual": 0.4558
     },
     {
      "lo": 0.53,
@@ -302,23 +302,23 @@
     }
    ],
    "params": {
-    "n": 469,
+    "n": 472,
     "a": 0.121,
     "w": 0.15,
     "at": 0.121,
     "wt": 0.15,
     "k": 0.029,
-    "mseMarket": 234.53,
-    "mseModel": 262.74,
-    "mseBlend": 235.65,
-    "nMove": 405,
+    "mseMarket": 233.46,
+    "mseModel": 261.57,
+    "mseBlend": 234.57,
+    "nMove": 408,
     "steam": {
-     "n": 401,
-     "w": 210,
-     "hit": 0.5237
+     "n": 404,
+     "w": 211,
+     "hit": 0.5223
     },
-    "mseTotMarket": 243.46,
-    "mseTotBlend": 245.47
+    "mseTotMarket": 243.97,
+    "mseTotBlend": 245.93
    }
   },
   "nfl": {

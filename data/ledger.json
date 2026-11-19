@@ -388,18 +388,28 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-18T20:40:24.438Z",
-   "gamesConsidered": 54,
+   "computedAt": "2026-11-19T02:39:05.898Z",
+   "gamesConsidered": 58,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 36.769,
-     "price": 3577,
-     "prob": 0.0305,
-     "ev": 0.1218,
+     "dec": 34.272,
+     "price": 3327,
+     "prob": 0.0334,
+     "ev": 0.1459,
      "legs": [
+      {
+       "gameId": "401858310",
+       "market": "spread",
+       "side": "home",
+       "line": 20.5,
+       "price": -110,
+       "label": "GT +20.5",
+       "win": 0.5471,
+       "matchup": "WAKE @ GT"
+      },
       {
        "gameId": "401869953",
        "market": "ml",
@@ -415,30 +425,20 @@
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 150,
+       "price": 145,
        "label": "MICH ML",
-       "win": 0.4138,
+       "win": 0.4212,
        "matchup": "UCLA @ MICH"
       },
       {
-       "gameId": "401858308",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 110,
-       "label": "CAL ML",
-       "win": 0.4882,
-       "matchup": "STAN @ CAL"
-      },
-      {
-       "gameId": "401862834",
-       "market": "total",
-       "side": "under",
-       "line": 67.5,
-       "price": -112,
-       "label": "Under 67.5",
-       "win": 0.5399,
-       "matchup": "MEM @ NAVY"
+       "gameId": "401869938",
+       "market": "spread",
+       "side": "away",
+       "line": 13.5,
+       "price": -102,
+       "label": "ARST +13.5",
+       "win": 0.5188,
+       "matchup": "ARST @ LT"
       }
      ],
      "id": "cfb-2026-11-21:hail-mary",
@@ -458,7 +458,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-18T20:40:24.438Z",
+   "computedAt": "2026-11-19T02:39:05.898Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [],

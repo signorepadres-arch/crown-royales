@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-19T20:46:50.124Z",
+   "computedAt": "2026-11-20T02:23:51.232Z",
    "gamesConsidered": 58,
    "picks": [
     {
@@ -409,7 +409,7 @@
      "oppPrice": -355,
      "win": 0.2751,
      "push": 0,
-     "ev": 0.0453,
+     "ev": 0.0454,
      "tier": "crown",
      "units": 0.5,
      "modelLine": 1.8,
@@ -422,17 +422,17 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-19T20:46:50.124Z"
+     "linesAsOf": "2026-11-20T02:23:51.232Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 37.325,
-     "price": 3632,
-     "prob": 0.031,
-     "ev": 0.1556,
+     "dec": 38.086,
+     "price": 3709,
+     "prob": 0.0304,
+     "ev": 0.1586,
      "legs": [
       {
        "gameId": "401869953",
@@ -459,9 +459,9 @@
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 145,
+       "price": 150,
        "label": "MICH ML",
-       "win": 0.4213,
+       "win": 0.4139,
        "matchup": "UCLA @ MICH"
       },
       {
@@ -492,7 +492,7 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-19T20:46:50.124Z",
+   "computedAt": "2026-11-20T02:23:51.232Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [],

@@ -388,7 +388,7 @@
  ],
  "pending": {
   "cfb-2026-11-21": {
-   "computedAt": "2026-11-20T11:52:38.826Z",
+   "computedAt": "2026-11-20T20:30:09.761Z",
    "gamesConsidered": 58,
    "picks": [
     {
@@ -409,7 +409,7 @@
      "oppPrice": -355,
      "win": 0.2751,
      "push": 0,
-     "ev": 0.0454,
+     "ev": 0.0455,
      "tier": "crown",
      "units": 0.5,
      "modelLine": 1.8,
@@ -422,40 +422,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-20T11:52:38.826Z"
-    },
-    {
-     "id": "cfb-2026-11-21:401860918:spread:away",
-     "slateId": "cfb-2026-11-21",
-     "sport": "cfb",
-     "date": "2026-11-21",
-     "gameId": "401860918",
-     "kickoff": "2026-11-22T00:30Z",
-     "matchup": "CSU @ FRES",
-     "away": "CSU",
-     "home": "FRES",
-     "label": "CSU +19.5",
-     "market": "spread",
-     "side": "away",
-     "line": 19.5,
-     "price": -105,
-     "oppPrice": -115,
-     "win": 0.535,
-     "push": 0,
-     "ev": 0.0446,
-     "tier": "crown",
-     "units": 1,
-     "modelLine": -10.1,
-     "lineMove": 0,
-     "fairLine": -18.1,
-     "marketLine": -19.5,
-     "modelTotal": 58.4,
-     "fairTotal": 65.3,
-     "marketTotal": 66.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-20T11:52:38.826Z"
+     "linesAsOf": "2026-11-20T20:30:09.761Z"
     },
     {
      "id": "cfb-2026-11-21:401861968:spread:away",
@@ -488,18 +455,28 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-20T11:52:38.826Z"
+     "linesAsOf": "2026-11-20T20:30:09.761Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 70.124,
-     "price": 6912,
-     "prob": 0.0175,
-     "ev": 0.2267,
+     "dec": 69.784,
+     "price": 6878,
+     "prob": 0.0177,
+     "ev": 0.2325,
      "legs": [
+      {
+       "gameId": "401858310",
+       "market": "spread",
+       "side": "home",
+       "line": 20.5,
+       "price": -108,
+       "label": "GT +20.5",
+       "win": 0.5472,
+       "matchup": "WAKE @ GT"
+      },
       {
        "gameId": "401869953",
        "market": "ml",
@@ -511,24 +488,14 @@
        "matchup": "GASO @ TROY"
       },
       {
-       "gameId": "401860918",
-       "market": "spread",
-       "side": "away",
-       "line": 19.5,
-       "price": -105,
-       "label": "CSU +19.5",
-       "win": 0.535,
-       "matchup": "CSU @ FRES"
-      },
-      {
-       "gameId": "401858310",
-       "market": "spread",
-       "side": "home",
-       "line": 20.5,
-       "price": -110,
-       "label": "GT +20.5",
-       "win": 0.5471,
-       "matchup": "WAKE @ GT"
+       "gameId": "401862834",
+       "market": "total",
+       "side": "under",
+       "line": 67.5,
+       "price": -108,
+       "label": "Under 67.5",
+       "win": 0.5401,
+       "matchup": "MEM @ NAVY"
       },
       {
        "gameId": "401861968",
@@ -568,18 +535,28 @@
    }
   },
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-20T11:52:38.826Z",
+   "computedAt": "2026-11-20T20:30:09.761Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 13.539,
-     "price": 1254,
+     "dec": 13.713,
+     "price": 1271,
      "prob": 0.0781,
-     "ev": 0.0571,
+     "ev": 0.0708,
      "legs": [
+      {
+       "gameId": "401873067",
+       "market": "spread",
+       "side": "away",
+       "line": 16.5,
+       "price": -110,
+       "label": "ARI +16.5",
+       "win": 0.5398,
+       "matchup": "ARI @ KC"
+      },
       {
        "gameId": "401873073",
        "market": "total",
@@ -589,16 +566,6 @@
        "label": "Under 54.5",
        "win": 0.5207,
        "matchup": "TEN @ DAL"
-      },
-      {
-       "gameId": "401873067",
-       "market": "spread",
-       "side": "away",
-       "line": 16.5,
-       "price": -113,
-       "label": "ARI +16.5",
-       "win": 0.5397,
-       "matchup": "ARI @ KC"
       },
       {
        "gameId": "401873075",

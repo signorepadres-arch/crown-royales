@@ -563,7 +563,7 @@
      "label": "Under 67.5",
      "win": 0.5403,
      "matchup": "MEM @ NAVY",
-     "result": null
+     "result": "L"
     },
     {
      "gameId": "401861968",
@@ -592,15 +592,17 @@
    "slateId": "cfb-2026-11-21",
    "sport": "cfb",
    "date": "2026-11-21",
-   "status": "open",
-   "profit": null,
+   "status": "L",
+   "profit": -0.5,
    "publishedAt": "2026-11-21T15:00:00.000Z",
-   "linesAsOf": "2026-11-21T11:21:36.491Z"
+   "linesAsOf": "2026-11-21T11:21:36.491Z",
+   "legsHit": 0,
+   "gradedAt": "2026-11-21T20:52:13.806Z"
   }
  ],
  "pending": {
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-21T19:26:31.730Z",
+   "computedAt": "2026-11-21T20:52:11.188Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [],

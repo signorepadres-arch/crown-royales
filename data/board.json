@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T10:18:16.708Z",
+ "generated": "2026-11-22T11:38:14.553Z",
  "sports": {
   "cfb": {
    "sport": "cfb",
@@ -10,7 +10,7 @@
    "publishAt": "2026-11-28T15:00:00.000Z",
    "publishedAt": null,
    "missed": false,
-   "linesAsOf": "2026-11-22T10:18:16.708Z",
+   "linesAsOf": "2026-11-22T11:38:14.553Z",
    "lockMode": null,
    "picks": [],
    "parlays": [],
@@ -367,7 +367,7 @@
       "total": 53.5,
       "mlHome": -102,
       "mlAway": -118,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 54.5
      },
@@ -460,7 +460,7 @@
       "total": 55.5,
       "mlHome": null,
       "mlAway": null,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": null,
       "openTotal": 55.5
      },
@@ -508,7 +508,7 @@
       "total": 52.5,
       "mlHome": 1200,
       "mlAway": -2400,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 21,
       "openTotal": 54.5
      },
@@ -561,7 +561,7 @@
       "total": 38.5,
       "mlHome": -410,
       "mlAway": 320,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -14,
       "openTotal": 46.5
      },
@@ -774,7 +774,7 @@
       "total": 47.5,
       "mlHome": -170,
       "mlAway": 142,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3.5,
       "openTotal": 52.5
      },
@@ -1347,7 +1347,7 @@
       "total": 42.5,
       "mlHome": 136,
       "mlAway": -162,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -3,
       "openTotal": 53.5
      },
@@ -1400,7 +1400,7 @@
       "total": 53.5,
       "mlHome": -142,
       "mlAway": 120,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 53.5
      },
@@ -1573,7 +1573,7 @@
       "total": 55.5,
       "mlHome": -550,
       "mlAway": 410,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -10.5,
       "openTotal": 52.5
      },
@@ -1706,7 +1706,7 @@
       "total": 47.5,
       "mlHome": 200,
       "mlAway": -245,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 11.5,
       "openTotal": 55.5
      },
@@ -1715,7 +1715,7 @@
       "fair": 5.6,
       "total": 53,
       "fairTotal": 48.3,
-      "homeWin": 0.339,
+      "homeWin": 0.34,
       "qualified": true,
       "gp": [
        11,
@@ -1959,7 +1959,7 @@
       "total": 42.5,
       "mlHome": -118,
       "mlAway": -102,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 42.5
      },
@@ -2172,7 +2172,7 @@
       "total": 44.5,
       "mlHome": 390,
       "mlAway": -520,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3,
       "openTotal": 57.5
      },
@@ -2265,7 +2265,7 @@
       "total": 50.5,
       "mlHome": -600,
       "mlAway": 440,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -10,
       "openTotal": 52.5
      },
@@ -2358,7 +2358,7 @@
       "total": 49.5,
       "mlHome": -500,
       "mlAway": 380,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -15.5,
       "openTotal": 54.5
      },
@@ -2640,7 +2640,7 @@
    "publishAt": "2026-11-22T15:00:00.000Z",
    "publishedAt": null,
    "missed": false,
-   "linesAsOf": "2026-11-22T10:18:16.708Z",
+   "linesAsOf": "2026-11-22T11:38:14.553Z",
    "lockMode": null,
    "picks": [],
    "parlays": [],
@@ -2734,7 +2734,7 @@
       "total": 40.5,
       "mlHome": -1320,
       "mlAway": 800,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -11.5,
       "openTotal": 44.5
      },
@@ -2787,7 +2787,7 @@
       "total": 43.5,
       "mlHome": -145,
       "mlAway": 123,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 4.5,
       "openTotal": 46.5
      },
@@ -2840,7 +2840,7 @@
       "total": 44.5,
       "mlHome": -1460,
       "mlAway": 860,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -11.5,
       "openTotal": 47.5
      },
@@ -2892,8 +2892,8 @@
       "spread": -11.5,
       "total": 48.5,
       "mlHome": -610,
-      "mlAway": 450,
-      "provider": "DraftKings",
+      "mlAway": 451,
+      "provider": "Draft Kings",
       "openSpread": -6.5,
       "openTotal": 46.5
      },
@@ -2946,7 +2946,7 @@
       "total": 47.5,
       "mlHome": -200,
       "mlAway": 168,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 49.5
      },
@@ -2999,7 +2999,7 @@
       "total": 54.5,
       "mlHome": -343,
       "mlAway": 276,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -6.5,
       "openTotal": 48.5
      },
@@ -3052,7 +3052,7 @@
       "total": 37.5,
       "mlHome": 160,
       "mlAway": -190,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -5.5,
       "openTotal": 42.5
      },
@@ -3105,7 +3105,7 @@
       "total": 41.5,
       "mlHome": -172,
       "mlAway": 144,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -9.5,
       "openTotal": 41.5
      },
@@ -3158,7 +3158,7 @@
       "total": 45.5,
       "mlHome": 210,
       "mlAway": -255,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 1.5,
       "openTotal": 46.5
      },
@@ -3209,9 +3209,9 @@
      "line": {
       "spread": -10.5,
       "total": 41.5,
-      "mlHome": -660,
-      "mlAway": 478,
-      "provider": "DraftKings",
+      "mlHome": -610,
+      "mlAway": 449,
+      "provider": "Draft Kings",
       "openSpread": -8.5,
       "openTotal": 41.5
      },
@@ -3260,20 +3260,20 @@
       "score": 0
      },
      "line": {
-      "spread": -3,
+      "spread": -3.5,
       "total": 46.5,
-      "mlHome": -170,
-      "mlAway": 143,
-      "provider": "DraftKings",
+      "mlHome": -178,
+      "mlAway": 149,
+      "provider": "Draft Kings",
       "openSpread": -3.5,
       "openTotal": 46.5
      },
      "model": {
       "line": -2.5,
-      "fair": -2.9,
+      "fair": -3.3,
       "total": 45.3,
       "fairTotal": 46.3,
-      "homeWin": 0.602,
+      "homeWin": 0.61,
       "qualified": true,
       "gp": [
        9,
@@ -3281,10 +3281,10 @@
       ]
      },
      "best": {
-      "label": "MIN +3",
-      "ev": -0.0039,
-      "win": 0.488,
-      "market": "spread"
+      "label": "MIN ML",
+      "ev": -0.0279,
+      "win": 0.39,
+      "market": "ml"
      }
     }
    ],

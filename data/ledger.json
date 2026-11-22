@@ -229,9 +229,13 @@
    "fairTotal": 47.9,
    "marketTotal": 47.5,
    "publishedAt": "2026-11-21T15:00:00.000Z",
-   "status": "open",
-   "profit": null,
-   "linesAsOf": "2026-11-21T11:21:36.491Z"
+   "status": "L",
+   "profit": -0.5,
+   "linesAsOf": "2026-11-21T11:21:36.491Z",
+   "final": "GASO 45 – TROY 7",
+   "closePrice": 250,
+   "clvProb": 0.022,
+   "gradedAt": "2026-11-22T01:25:08.674Z"
   },
   {
    "id": "cfb-2026-11-21:401861968:spread:away",
@@ -262,9 +266,14 @@
    "fairTotal": 47.6,
    "marketTotal": 47.5,
    "publishedAt": "2026-11-21T15:00:00.000Z",
-   "status": "open",
-   "profit": null,
-   "linesAsOf": "2026-11-21T11:21:36.491Z"
+   "status": "W",
+   "profit": 0.98,
+   "linesAsOf": "2026-11-21T11:21:36.491Z",
+   "final": "ODU 21 – CONN 29",
+   "closeLine": 14,
+   "clvPts": -0.5,
+   "clvProb": -0.0125,
+   "gradedAt": "2026-11-22T01:25:08.674Z"
   },
   {
    "id": "cfb-2026-11-21:401858528:ml:home",
@@ -295,9 +304,13 @@
    "fairTotal": 37.5,
    "marketTotal": 36.5,
    "publishedAt": "2026-11-21T15:00:00.000Z",
-   "status": "open",
-   "profit": null,
-   "linesAsOf": "2026-11-21T11:21:36.491Z"
+   "status": "W",
+   "profit": 0.75,
+   "linesAsOf": "2026-11-21T11:21:36.491Z",
+   "final": "UCLA 16 – MICH 18",
+   "closePrice": 150,
+   "clvProb": 0,
+   "gradedAt": "2026-11-22T01:25:08.674Z"
   },
   {
    "id": "cfb-2026-11-21:401858308:spread:home",
@@ -602,7 +615,7 @@
  ],
  "pending": {
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-21T20:52:11.188Z",
+   "computedAt": "2026-11-22T01:25:05.775Z",
    "gamesConsidered": 11,
    "picks": [],
    "parlays": [],

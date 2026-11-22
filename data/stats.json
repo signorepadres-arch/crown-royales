@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T19:48:39.762Z",
+ "generated": "2026-11-22T20:59:59.657Z",
  "live": {
   "overall": {
    "n": 8,
@@ -151,22 +151,22 @@
     "beatClose": null
    },
    "hail": {
-    "n": 3,
+    "n": 4,
     "w": 0,
-    "l": 3,
+    "l": 4,
     "p": 0,
-    "units": -1.5,
-    "staked": 1.5,
-    "open": 1,
+    "units": -2,
+    "staked": 2,
+    "open": 0,
     "roi": -1,
     "hit": 0,
-    "avgEv": 0.2805,
+    "avgEv": 0.2265,
     "avgClv": null,
     "beatClose": null
    },
    "legs": {
     "hit": 5,
-    "n": 12
+    "n": 13
    }
   },
   "series": [
@@ -181,6 +181,10 @@
    {
     "date": "2026-11-21",
     "units": -4.04
+   },
+   {
+    "date": "2026-11-22",
+    "units": -4.54
    }
   ],
   "calibration": [
@@ -347,33 +351,33 @@
    }
   },
   "nfl": {
-   "games": 103,
+   "games": 104,
    "picks": {
-    "n": 9,
-    "w": 3,
+    "n": 8,
+    "w": 2,
     "l": 6,
     "p": 0,
-    "units": -3.04,
-    "staked": 8,
+    "units": -3.54,
+    "staked": 7.5,
     "open": 0,
-    "roi": -0.38,
-    "hit": 0.3333,
-    "avgEv": 0.037,
+    "roi": -0.472,
+    "hit": 0.25,
+    "avgEv": 0.0364,
     "avgClv": null,
     "beatClose": null
    },
    "byMarket": {
     "spread": {
-     "n": 4,
-     "w": 3,
+     "n": 3,
+     "w": 2,
      "l": 1,
      "p": 0,
-     "units": 1.46,
-     "staked": 3.5,
+     "units": 0.96,
+     "staked": 3,
      "open": 0,
-     "roi": 0.4171,
-     "hit": 0.75,
-     "avgEv": 0.0373,
+     "roi": 0.32,
+     "hit": 0.6667,
+     "avgEv": 0.0369,
      "avgClv": null,
      "beatClose": null
     },
@@ -387,7 +391,7 @@
      "open": 0,
      "roi": -1,
      "hit": 0,
-     "avgEv": 0.0334,
+     "avgEv": 0.0303,
      "avgClv": null,
      "beatClose": null
     },
@@ -408,16 +412,16 @@
    },
    "byTier": {
     "crown": {
-     "n": 3,
-     "w": 1,
+     "n": 2,
+     "w": 0,
      "l": 2,
      "p": 0,
-     "units": -1.02,
-     "staked": 3,
+     "units": -2,
+     "staked": 2,
      "open": 0,
-     "roi": -0.34,
-     "hit": 0.3333,
-     "avgEv": 0.044,
+     "roi": -1,
+     "hit": 0,
+     "avgEv": 0.0447,
      "avgClv": null,
      "beatClose": null
     },
@@ -426,55 +430,48 @@
      "w": 2,
      "l": 4,
      "p": 0,
-     "units": -2.02,
-     "staked": 5,
+     "units": -1.54,
+     "staked": 5.5,
      "open": 0,
-     "roi": -0.404,
+     "roi": -0.28,
      "hit": 0.3333,
-     "avgEv": 0.0335,
+     "avgEv": 0.0336,
      "avgClv": null,
      "beatClose": null
     }
    },
    "modelAts": {
-    "n": 44,
+    "n": 45,
     "w": 20,
-    "hit": 0.4545
+    "hit": 0.4444
    },
    "calibration": [
     {
      "lo": 0.5,
      "hi": 0.53,
-     "n": 99,
-     "pred": 0.5095,
-     "actual": 0.4343
-    },
-    {
-     "lo": 0.53,
-     "hi": 0.56,
-     "n": 3,
-     "pred": 0.5306,
-     "actual": 0.6667
+     "n": 103,
+     "pred": 0.5097,
+     "actual": 0.4272
     }
    ],
    "params": {
-    "n": 103,
-    "a": 0.296,
-    "w": 0.178,
-    "at": 0.296,
+    "n": 104,
+    "a": 0.295,
+    "w": 0.177,
+    "at": 0.295,
     "wt": 0.15,
-    "k": 0.023,
-    "mseMarket": 134.17,
-    "mseModel": 147.94,
-    "mseBlend": 135.5,
-    "nMove": 90,
+    "k": 0.035,
+    "mseMarket": 134.38,
+    "mseModel": 149.88,
+    "mseBlend": 135.97,
+    "nMove": 91,
     "steam": {
-     "n": 89,
-     "w": 43,
-     "hit": 0.4831
+     "n": 90,
+     "w": 44,
+     "hit": 0.4889
     },
-    "mseTotMarket": 155.73,
-    "mseTotBlend": 157.41
+    "mseTotMarket": 154.23,
+    "mseTotBlend": 155.9
    }
   }
  },

@@ -341,9 +341,14 @@
    "fairTotal": 55.3,
    "marketTotal": 55.5,
    "publishedAt": "2026-11-21T15:00:00.000Z",
-   "status": "open",
-   "profit": null,
-   "linesAsOf": "2026-11-21T11:21:36.491Z"
+   "status": "L",
+   "profit": -1,
+   "linesAsOf": "2026-11-21T11:21:36.491Z",
+   "final": "STAN 44 – CAL 28",
+   "closeLine": 2.5,
+   "clvPts": 0,
+   "clvProb": 0,
+   "gradedAt": "2026-11-22T10:18:19.995Z"
   }
  ],
  "parlays": [
@@ -615,16 +620,86 @@
  ],
  "pending": {
   "nfl-2026-11-22": {
-   "computedAt": "2026-11-22T02:39:04.192Z",
+   "computedAt": "2026-11-22T10:18:16.708Z",
    "gamesConsidered": 11,
    "picks": [],
-   "parlays": [],
+   "parlays": [
+    {
+     "type": "hail-mary",
+     "units": 0.5,
+     "dec": 13.86,
+     "price": 1286,
+     "prob": 0.0768,
+     "ev": 0.0642,
+     "legs": [
+      {
+       "gameId": "401873075",
+       "market": "total",
+       "side": "over",
+       "line": 41.5,
+       "price": -102,
+       "label": "Over 41.5",
+       "win": 0.52,
+       "matchup": "LV @ DEN"
+      },
+      {
+       "gameId": "401873073",
+       "market": "total",
+       "side": "under",
+       "line": 54.5,
+       "price": -104,
+       "label": "Under 54.5",
+       "win": 0.5208,
+       "matchup": "TEN @ DAL"
+      },
+      {
+       "gameId": "401873067",
+       "market": "spread",
+       "side": "away",
+       "line": 15.5,
+       "price": -113,
+       "label": "ARI +15.5",
+       "win": 0.5353,
+       "matchup": "ARI @ KC"
+      },
+      {
+       "gameId": "401873071",
+       "market": "spread",
+       "side": "away",
+       "line": 11.5,
+       "price": -112,
+       "label": "NO +11.5",
+       "win": 0.5296,
+       "matchup": "NO @ CHI"
+      }
+     ],
+     "id": "nfl-2026-11-22:hail-mary",
+     "slateId": "nfl-2026-11-22",
+     "sport": "nfl",
+     "date": "2026-11-22",
+     "status": "open",
+     "profit": null
+    }
+   ],
    "params": {
     "a": 0.296,
     "w": 0.178,
     "at": 0.296,
     "wt": 0.15,
     "k": 0.023
+   }
+  },
+  "cfb-2026-11-28": {
+   "computedAt": "2026-11-22T10:18:16.708Z",
+   "gamesConsidered": 13,
+   "picks": [],
+   "parlays": [],
+   "params": {
+    "a": 0.109,
+    "w": 0.15,
+    "at": 0.109,
+    "wt": 0.15,
+    "k": 0
    }
   }
  }

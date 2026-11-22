@@ -51,6 +51,24 @@
     "wt": 0.15,
     "k": 0.058
    }
+  },
+  "nfl-2026-11-22": {
+   "sport": "nfl",
+   "date": "2026-11-22",
+   "publishedAt": "2026-11-22T15:00:00.000Z",
+   "linesAsOf": "2026-11-22T11:38:14.553Z",
+   "committedAt": "2026-11-22T18:18:02.359Z",
+   "lockMode": "snapshot",
+   "picks": 0,
+   "parlays": 1,
+   "gamesConsidered": 11,
+   "params": {
+    "a": 0.296,
+    "w": 0.178,
+    "at": 0.296,
+    "wt": 0.15,
+    "k": 0.023
+   }
   }
  },
  "picks": [
@@ -616,84 +634,143 @@
    "linesAsOf": "2026-11-21T11:21:36.491Z",
    "legsHit": 0,
    "gradedAt": "2026-11-21T20:52:13.806Z"
+  },
+  {
+   "type": "hail-mary",
+   "units": 0.5,
+   "dec": 13.86,
+   "price": 1286,
+   "prob": 0.0768,
+   "ev": 0.0642,
+   "legs": [
+    {
+     "gameId": "401873075",
+     "market": "total",
+     "side": "over",
+     "line": 41.5,
+     "price": -102,
+     "label": "Over 41.5",
+     "win": 0.52,
+     "matchup": "LV @ DEN",
+     "result": null
+    },
+    {
+     "gameId": "401873073",
+     "market": "total",
+     "side": "under",
+     "line": 54.5,
+     "price": -104,
+     "label": "Under 54.5",
+     "win": 0.5208,
+     "matchup": "TEN @ DAL",
+     "result": null
+    },
+    {
+     "gameId": "401873067",
+     "market": "spread",
+     "side": "away",
+     "line": 15.5,
+     "price": -113,
+     "label": "ARI +15.5",
+     "win": 0.5353,
+     "matchup": "ARI @ KC",
+     "result": null
+    },
+    {
+     "gameId": "401873071",
+     "market": "spread",
+     "side": "away",
+     "line": 11.5,
+     "price": -112,
+     "label": "NO +11.5",
+     "win": 0.5296,
+     "matchup": "NO @ CHI",
+     "result": null
+    }
+   ],
+   "id": "nfl-2026-11-22:hail-mary",
+   "slateId": "nfl-2026-11-22",
+   "sport": "nfl",
+   "date": "2026-11-22",
+   "status": "open",
+   "profit": null,
+   "publishedAt": "2026-11-22T15:00:00.000Z",
+   "linesAsOf": "2026-11-22T11:38:14.553Z"
   }
  ],
  "pending": {
-  "nfl-2026-11-22": {
-   "computedAt": "2026-11-22T11:38:14.553Z",
-   "gamesConsidered": 11,
+  "cfb-2026-11-28": {
+   "computedAt": "2026-11-22T18:18:02.359Z",
+   "gamesConsidered": 49,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 13.86,
-     "price": 1286,
-     "prob": 0.0768,
-     "ev": 0.0642,
+     "dec": 44.117,
+     "price": 4312,
+     "prob": 0.0251,
+     "ev": 0.1079,
      "legs": [
       {
-       "gameId": "401873075",
+       "gameId": "401862843",
+       "market": "total",
+       "side": "over",
+       "line": 48.5,
+       "price": -110,
+       "label": "Over 48.5",
+       "win": 0.5387,
+       "matchup": "UAB @ UNT"
+      },
+      {
+       "gameId": "401858543",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 210,
+       "label": "UCLA ML",
+       "win": 0.3307,
+       "matchup": "USC @ UCLA"
+      },
+      {
+       "gameId": "401856763",
        "market": "total",
        "side": "over",
        "line": 41.5,
-       "price": -102,
+       "price": 100,
        "label": "Over 41.5",
-       "win": 0.52,
-       "matchup": "LV @ DEN"
+       "win": 0.5092,
+       "matchup": "OU @ MIZ"
       },
       {
-       "gameId": "401873073",
+       "gameId": "401856764",
+       "market": "total",
+       "side": "over",
+       "line": 39.5,
+       "price": -110,
+       "label": "Over 39.5",
+       "win": 0.533,
+       "matchup": "SC @ CLEM"
+      },
+      {
+       "gameId": "401862842",
        "market": "total",
        "side": "under",
-       "line": 54.5,
-       "price": -104,
-       "label": "Under 54.5",
-       "win": 0.5208,
-       "matchup": "TEN @ DAL"
-      },
-      {
-       "gameId": "401873067",
-       "market": "spread",
-       "side": "away",
-       "line": 15.5,
-       "price": -113,
-       "label": "ARI +15.5",
-       "win": 0.5353,
-       "matchup": "ARI @ KC"
-      },
-      {
-       "gameId": "401873071",
-       "market": "spread",
-       "side": "away",
-       "line": 11.5,
-       "price": -112,
-       "label": "NO +11.5",
-       "win": 0.5296,
-       "matchup": "NO @ CHI"
+       "line": 56.5,
+       "price": -105,
+       "label": "Under 56.5",
+       "win": 0.5193,
+       "matchup": "NAVY @ CLT"
       }
      ],
-     "id": "nfl-2026-11-22:hail-mary",
-     "slateId": "nfl-2026-11-22",
-     "sport": "nfl",
-     "date": "2026-11-22",
+     "id": "cfb-2026-11-28:hail-mary",
+     "slateId": "cfb-2026-11-28",
+     "sport": "cfb",
+     "date": "2026-11-28",
      "status": "open",
      "profit": null
     }
    ],
-   "params": {
-    "a": 0.296,
-    "w": 0.178,
-    "at": 0.296,
-    "wt": 0.15,
-    "k": 0.023
-   }
-  },
-  "cfb-2026-11-28": {
-   "computedAt": "2026-11-22T11:38:14.553Z",
-   "gamesConsidered": 13,
-   "picks": [],
-   "parlays": [],
    "params": {
     "a": 0.109,
     "w": 0.15,

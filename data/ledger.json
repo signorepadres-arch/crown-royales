@@ -700,26 +700,80 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-22T18:18:02.359Z",
-   "gamesConsidered": 49,
-   "picks": [],
+   "computedAt": "2026-11-22T19:48:39.762Z",
+   "gamesConsidered": 53,
+   "picks": [
+    {
+     "id": "cfb-2026-11-28:401869954:spread:away",
+     "slateId": "cfb-2026-11-28",
+     "sport": "cfb",
+     "date": "2026-11-28",
+     "gameId": "401869954",
+     "kickoff": "2026-11-28T17:00Z",
+     "matchup": "LT @ GASO",
+     "away": "LT",
+     "home": "GASO",
+     "label": "LT +2.5",
+     "market": "spread",
+     "side": "away",
+     "line": 2.5,
+     "price": 105,
+     "oppPrice": -125,
+     "win": 0.5075,
+     "push": 0,
+     "ev": 0.0404,
+     "tier": "crown",
+     "units": 1,
+     "modelLine": -0.5,
+     "lineMove": 1,
+     "fairLine": -2.2,
+     "marketLine": -2.5,
+     "modelTotal": 52,
+     "fairTotal": 52.4,
+     "marketTotal": 52.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-22T19:48:39.762Z"
+    }
+   ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 44.117,
-     "price": 4312,
-     "prob": 0.0251,
-     "ev": 0.1079,
+     "dec": 46.323,
+     "price": 4532,
+     "prob": 0.0249,
+     "ev": 0.1528,
      "legs": [
       {
+       "gameId": "401869954",
+       "market": "spread",
+       "side": "away",
+       "line": 2.5,
+       "price": 105,
+       "label": "LT +2.5",
+       "win": 0.5075,
+       "matchup": "LT @ GASO"
+      },
+      {
+       "gameId": "401856760",
+       "market": "spread",
+       "side": "away",
+       "line": 34.5,
+       "price": 100,
+       "label": "GT +34.5",
+       "win": 0.5178,
+       "matchup": "GT @ UGA"
+      },
+      {
        "gameId": "401862843",
-       "market": "total",
-       "side": "over",
-       "line": 48.5,
+       "market": "spread",
+       "side": "home",
+       "line": -4.5,
        "price": -110,
-       "label": "Over 48.5",
-       "win": 0.5387,
+       "label": "UNT -4.5",
+       "win": 0.5372,
        "matchup": "UAB @ UNT"
       },
       {
@@ -733,16 +787,6 @@
        "matchup": "USC @ UCLA"
       },
       {
-       "gameId": "401856763",
-       "market": "total",
-       "side": "over",
-       "line": 41.5,
-       "price": 100,
-       "label": "Over 41.5",
-       "win": 0.5092,
-       "matchup": "OU @ MIZ"
-      },
-      {
        "gameId": "401856764",
        "market": "total",
        "side": "over",
@@ -751,16 +795,6 @@
        "label": "Over 39.5",
        "win": 0.533,
        "matchup": "SC @ CLEM"
-      },
-      {
-       "gameId": "401862842",
-       "market": "total",
-       "side": "under",
-       "line": 56.5,
-       "price": -105,
-       "label": "Under 56.5",
-       "win": 0.5193,
-       "matchup": "NAVY @ CLT"
       }
      ],
      "id": "cfb-2026-11-28:hail-mary",

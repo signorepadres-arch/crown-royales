@@ -702,26 +702,26 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-23T01:49:05.293Z",
+   "computedAt": "2026-11-23T03:07:42.188Z",
    "gamesConsidered": 53,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 44.541,
-     "price": 4354,
-     "prob": 0.0248,
-     "ev": 0.106,
+     "dec": 61.026,
+     "price": 6003,
+     "prob": 0.0181,
+     "ev": 0.1053,
      "legs": [
       {
        "gameId": "401858543",
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 220,
+       "price": 210,
        "label": "UCLA ML",
-       "win": 0.3211,
+       "win": 0.3307,
        "matchup": "USC @ UCLA"
       },
       {
@@ -755,14 +755,14 @@
        "matchup": "NCSU @ UNC"
       },
       {
-       "gameId": "401864547",
-       "market": "total",
-       "side": "over",
-       "line": 38.5,
-       "price": -110,
-       "label": "Over 38.5",
-       "win": 0.5295,
-       "matchup": "SAC @ HAW"
+       "gameId": "401856764",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 170,
+       "label": "CLEM ML",
+       "win": 0.3749,
+       "matchup": "SC @ CLEM"
       }
      ],
      "id": "cfb-2026-11-28:hail-mary",

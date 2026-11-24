@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T13:55:08.498Z",
+ "generated": "2026-11-24T23:56:45.635Z",
  "sports": {
   "cfb": {
    "sport": "cfb",
@@ -10,7 +10,7 @@
    "publishAt": "2026-11-28T15:00:00.000Z",
    "publishedAt": null,
    "missed": false,
-   "linesAsOf": "2026-11-24T13:55:08.498Z",
+   "linesAsOf": "2026-11-24T23:56:45.635Z",
    "lockMode": null,
    "picks": [],
    "parlays": [],
@@ -19,30 +19,30 @@
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 44.147,
-     "price": 4315,
-     "prob": 0.0259,
-     "ev": 0.1423,
+     "dec": 47.586,
+     "price": 4659,
+     "prob": 0.0249,
+     "ev": 0.1835,
      "legs": [
       {
        "gameId": "401862843",
-       "market": "total",
-       "side": "over",
-       "line": 46.5,
-       "price": -110,
-       "label": "Over 46.5",
-       "win": 0.5459,
+       "market": "spread",
+       "side": "home",
+       "line": -3.5,
+       "price": -102,
+       "label": "UNT -3.5",
+       "win": 0.5409,
        "matchup": "UAB @ UNT"
       },
       {
-       "gameId": "401856764",
-       "market": "total",
-       "side": "over",
-       "line": 41.5,
-       "price": -105,
-       "label": "Over 41.5",
-       "win": 0.5259,
-       "matchup": "SC @ CLEM"
+       "gameId": "401871063",
+       "market": "spread",
+       "side": "home",
+       "line": 16.5,
+       "price": -102,
+       "label": "MOST +16.5",
+       "win": 0.5199,
+       "matchup": "LIB @ MOST"
       },
       {
        "gameId": "401858543",
@@ -55,24 +55,24 @@
        "matchup": "USC @ UCLA"
       },
       {
+       "gameId": "401862842",
+       "market": "total",
+       "side": "under",
+       "line": 54.5,
+       "price": 100,
+       "label": "Under 54.5",
+       "win": 0.5121,
+       "matchup": "NAVY @ CLT"
+      },
+      {
        "gameId": "401860926",
        "market": "total",
        "side": "under",
        "line": 76.5,
        "price": -108,
        "label": "Under 76.5",
-       "win": 0.5303,
+       "win": 0.5304,
        "matchup": "BOIS @ CSU"
-      },
-      {
-       "gameId": "401856765",
-       "market": "spread",
-       "side": "home",
-       "line": 13.5,
-       "price": -105,
-       "label": "VAN +13.5",
-       "win": 0.522,
-       "matchup": "TENN @ VAN"
       }
      ],
      "id": "cfb-2026-11-28:hail-mary",
@@ -434,7 +434,7 @@
       "total": 54.5,
       "mlHome": 120,
       "mlAway": -142,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 54.5
      },
@@ -487,7 +487,7 @@
       "total": 53.5,
       "mlHome": -2800,
       "mlAway": 1300,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -26.5,
       "openTotal": 53.5
      },
@@ -505,7 +505,7 @@
      },
      "best": {
       "label": "MIA -25.5",
-      "ev": -0.0072,
+      "ev": -0.0073,
       "win": 0.508,
       "market": "spread"
      }
@@ -537,10 +537,10 @@
      },
      "line": {
       "spread": -5.5,
-      "total": 53.5,
+      "total": 54.5,
       "mlHome": -218,
       "mlAway": 180,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": null,
       "openTotal": 55.5
      },
@@ -548,7 +548,7 @@
       "line": -7.9,
       "fair": -5.9,
       "total": 51.9,
-      "fairTotal": 53.3,
+      "fairTotal": 54.1,
       "homeWin": 0.666,
       "qualified": true,
       "gp": [
@@ -557,10 +557,10 @@
       ]
      },
      "best": {
-      "label": "Under 53.5",
-      "ev": -0.0127,
-      "win": 0.506,
-      "market": "total"
+      "label": "UNC ML",
+      "ev": -0.0292,
+      "win": 0.666,
+      "market": "ml"
      }
     },
     {
@@ -593,12 +593,12 @@
       "total": 52.5,
       "mlHome": 1300,
       "mlAway": -2800,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 21,
       "openTotal": 54.5
      },
      "model": {
-      "line": 21.8,
+      "line": 21.7,
       "fair": 24.1,
       "total": 53.8,
       "fairTotal": 52.7,
@@ -611,7 +611,7 @@
      },
      "best": {
       "label": "SYR +24.5",
-      "ev": -0.0038,
+      "ev": -0.0172,
       "win": 0.51,
       "market": "spread"
      }
@@ -646,7 +646,7 @@
       "total": 38.5,
       "mlHome": -395,
       "mlAway": 310,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -14,
       "openTotal": 46.5
      },
@@ -696,18 +696,18 @@
      },
      "line": {
       "spread": 3,
-      "total": 46.5,
+      "total": 45.5,
       "mlHome": 130,
       "mlAway": -155,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 2.5,
       "openTotal": 49.5
      },
      "model": {
-      "line": 1.3,
+      "line": 1.2,
       "fair": 2.7,
       "total": 48.3,
-      "fairTotal": 46.8,
+      "fairTotal": 45.9,
       "homeWin": 0.423,
       "qualified": true,
       "gp": [
@@ -716,10 +716,10 @@
       ]
      },
      "best": {
-      "label": "WYO +3",
-      "ev": -0.0105,
-      "win": 0.494,
-      "market": "spread"
+      "label": "Over 45.5",
+      "ev": -0.0036,
+      "win": 0.51,
+      "market": "total"
      }
     },
     {
@@ -749,18 +749,18 @@
      },
      "line": {
       "spread": 16.5,
-      "total": 55.5,
+      "total": 54.5,
       "mlHome": 575,
       "mlAway": -850,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 16.5,
       "openTotal": 53.5
      },
      "model": {
-      "line": 12.9,
+      "line": 12.8,
       "fair": 16,
       "total": 51.2,
-      "fairTotal": 54.9,
+      "fairTotal": 54,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -769,10 +769,10 @@
       ]
      },
      "best": {
-      "label": "CLT +16.5",
-      "ev": 0.0028,
-      "win": 0.514,
-      "market": "spread"
+      "label": "Under 54.5",
+      "ev": 0.0241,
+      "win": 0.512,
+      "market": "total"
      }
     },
     {
@@ -802,10 +802,10 @@
      },
      "line": {
       "spread": 4,
-      "total": 48.5,
+      "total": 49.5,
       "mlHome": 160,
       "mlAway": -192,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 6.5,
       "openTotal": 46.5
      },
@@ -813,7 +813,7 @@
       "line": 2,
       "fair": 3.7,
       "total": 48.2,
-      "fairTotal": 48.5,
+      "fairTotal": 49.3,
       "homeWin": 0.376,
       "qualified": true,
       "gp": [
@@ -822,10 +822,10 @@
       ]
      },
      "best": {
-      "label": "BALL ML",
-      "ev": -0.0221,
-      "win": 0.376,
-      "market": "ml"
+      "label": "Under 49.5",
+      "ev": -0.0149,
+      "win": 0.505,
+      "market": "total"
      }
     },
     {
@@ -858,7 +858,7 @@
       "total": 54.5,
       "mlHome": -135,
       "mlAway": 114,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 50.5
      },
@@ -908,10 +908,10 @@
      },
      "line": {
       "spread": -3,
-      "total": 49.5,
+      "total": 50.5,
       "mlHome": -148,
       "mlAway": 124,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3.5,
       "openTotal": 52.5
      },
@@ -919,7 +919,7 @@
       "line": -7.2,
       "fair": -3.6,
       "total": 51.2,
-      "fairTotal": 49.8,
+      "fairTotal": 50.6,
       "homeWin": 0.587,
       "qualified": true,
       "gp": [
@@ -964,13 +964,13 @@
       "total": 49.5,
       "mlHome": 455,
       "mlAway": -625,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 13.5,
       "openTotal": 47.5
      },
      "model": {
       "line": 14.8,
-      "fair": 14.6,
+      "fair": 14.5,
       "total": 51.2,
       "fairTotal": 49.8,
       "homeWin": null,
@@ -1014,10 +1014,10 @@
      },
      "line": {
       "spread": -1.5,
-      "total": 55.5,
-      "mlHome": -115,
-      "mlAway": -105,
-      "provider": "DraftKings",
+      "total": 57.5,
+      "mlHome": -118,
+      "mlAway": -102,
+      "provider": "Draft Kings",
       "openSpread": -2.5,
       "openTotal": 55.5
      },
@@ -1025,8 +1025,8 @@
       "line": -4.9,
       "fair": -2,
       "total": 61,
-      "fairTotal": 56.3,
-      "homeWin": 0.523,
+      "fairTotal": 58,
+      "homeWin": 0.53,
       "qualified": true,
       "gp": [
        11,
@@ -1035,7 +1035,7 @@
      },
      "best": {
       "label": "ECU -1.5",
-      "ev": 0.0151,
+      "ev": -0.0128,
       "win": 0.513,
       "market": "spread"
      }
@@ -1070,7 +1070,7 @@
       "total": 53.5,
       "mlHome": 142,
       "mlAway": -170,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 1.5,
       "openTotal": 53.5
      },
@@ -1121,9 +1121,9 @@
      "line": {
       "spread": 5.5,
       "total": 51.5,
-      "mlHome": 164,
-      "mlAway": -198,
-      "provider": "DraftKings",
+      "mlHome": 170,
+      "mlAway": -205,
+      "provider": "Draft Kings",
       "openSpread": 4,
       "openTotal": 49.5
      },
@@ -1132,7 +1132,7 @@
       "fair": 5.7,
       "total": 53.2,
       "fairTotal": 51.8,
-      "homeWin": 0.359,
+      "homeWin": 0.352,
       "qualified": true,
       "gp": [
        11,
@@ -1176,7 +1176,7 @@
       "total": 50.5,
       "mlHome": -230,
       "mlAway": 190,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 50.5
      },
@@ -1229,7 +1229,7 @@
       "total": 50.5,
       "mlHome": -125,
       "mlAway": 105,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 50.5
      },
@@ -1247,7 +1247,7 @@
      },
      "best": {
       "label": "Under 50.5",
-      "ev": -0.0022,
+      "ev": -0.0243,
       "win": 0.511,
       "market": "total"
      }
@@ -1282,7 +1282,7 @@
       "total": 53.5,
       "mlHome": -180,
       "mlAway": 150,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -5.5,
       "openTotal": 54.5
      },
@@ -1299,10 +1299,10 @@
       ]
      },
      "best": {
-      "label": "Under 53.5",
-      "ev": -0.0227,
-      "win": 0.507,
-      "market": "total"
+      "label": "KSU ML",
+      "ev": -0.0369,
+      "win": 0.385,
+      "market": "ml"
      }
     },
     {
@@ -1333,9 +1333,9 @@
      "line": {
       "spread": 6,
       "total": 48.5,
-      "mlHome": 190,
-      "mlAway": -230,
-      "provider": "DraftKings",
+      "mlHome": 170,
+      "mlAway": -205,
+      "provider": "Draft Kings",
       "openSpread": 7.5,
       "openTotal": 50.5
      },
@@ -1344,7 +1344,7 @@
       "fair": 5.8,
       "total": 47.5,
       "fairTotal": 48.4,
-      "homeWin": 0.335,
+      "homeWin": 0.359,
       "qualified": true,
       "gp": [
        10,
@@ -1353,8 +1353,8 @@
      },
      "best": {
       "label": "RICE ML",
-      "ev": -0.0286,
-      "win": 0.335,
+      "ev": -0.0297,
+      "win": 0.359,
       "market": "ml"
      }
     },
@@ -1384,19 +1384,19 @@
       "score": 0
      },
      "line": {
-      "spread": -16.5,
-      "total": 55.5,
+      "spread": -17.5,
+      "total": 54.5,
       "mlHome": -850,
       "mlAway": 575,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -13.5,
       "openTotal": 55.5
      },
      "model": {
       "line": -14.2,
-      "fair": -16.2,
+      "fair": -17,
       "total": 53,
-      "fairTotal": 55.1,
+      "fairTotal": 54.3,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -1405,10 +1405,10 @@
       ]
      },
      "best": {
-      "label": "CCU +16.5",
-      "ev": -0.0073,
-      "win": 0.508,
-      "market": "spread"
+      "label": "Under 54.5",
+      "ev": -0.0129,
+      "win": 0.506,
+      "market": "total"
      }
     },
     {
@@ -1439,9 +1439,9 @@
      "line": {
       "spread": 5.5,
       "total": 55.5,
-      "mlHome": 180,
-      "mlAway": -218,
-      "provider": "DraftKings",
+      "mlHome": 170,
+      "mlAway": -205,
+      "provider": "Draft Kings",
       "openSpread": 3,
       "openTotal": 56.5
      },
@@ -1450,7 +1450,7 @@
       "fair": 4.8,
       "total": 54.4,
       "fairTotal": 55.3,
-      "homeWin": 0.358,
+      "homeWin": 0.371,
       "qualified": true,
       "gp": [
        11,
@@ -1459,8 +1459,8 @@
      },
      "best": {
       "label": "GAST ML",
-      "ev": 0.0025,
-      "win": 0.358,
+      "ev": 0.0017,
+      "win": 0.371,
       "market": "ml"
      }
     },
@@ -1491,10 +1491,10 @@
      },
      "line": {
       "spread": 16.5,
-      "total": 52.5,
-      "mlHome": 550,
-      "mlAway": -800,
-      "provider": "DraftKings",
+      "total": 53.5,
+      "mlHome": 575,
+      "mlAway": -850,
+      "provider": "Draft Kings",
       "openSpread": 14.5,
       "openTotal": 51.5
      },
@@ -1502,7 +1502,7 @@
       "line": 11.2,
       "fair": 15.7,
       "total": 51.8,
-      "fairTotal": 52.4,
+      "fairTotal": 53.2,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -1512,7 +1512,7 @@
      },
      "best": {
       "label": "MOST +16.5",
-      "ev": -0.016,
+      "ev": 0.0295,
       "win": 0.52,
       "market": "spread"
      }
@@ -1547,7 +1547,7 @@
       "total": 41.5,
       "mlHome": -455,
       "mlAway": 350,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -10.5,
       "openTotal": 39.5
      },
@@ -1564,10 +1564,10 @@
       ]
      },
      "best": {
-      "label": "FIU -11.5",
-      "ev": -0.0141,
-      "win": 0.505,
-      "market": "spread"
+      "label": "Over 41.5",
+      "ev": -0.0187,
+      "win": 0.514,
+      "market": "total"
      }
     },
     {
@@ -1600,7 +1600,7 @@
       "total": 51.5,
       "mlHome": -155,
       "mlAway": 130,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -3.5,
       "openTotal": 52.5
      },
@@ -1649,20 +1649,20 @@
       "score": 0
      },
      "line": {
-      "spread": 5.5,
+      "spread": 6,
       "total": 41.5,
-      "mlHome": 180,
-      "mlAway": -218,
-      "provider": "DraftKings",
+      "mlHome": 190,
+      "mlAway": -230,
+      "provider": "Draft Kings",
       "openSpread": -3,
       "openTotal": 53.5
      },
      "model": {
       "line": -0.1,
-      "fair": 4.7,
+      "fair": 5.1,
       "total": 48.6,
       "fairTotal": 42.6,
-      "homeWin": 0.362,
+      "homeWin": 0.352,
       "qualified": true,
       "gp": [
        11,
@@ -1670,10 +1670,10 @@
       ]
      },
      "best": {
-      "label": "Over 41.5",
-      "ev": 0.0267,
-      "win": 0.526,
-      "market": "total"
+      "label": "CLEM ML",
+      "ev": 0.0212,
+      "win": 0.352,
+      "market": "ml"
      }
     },
     {
@@ -1706,7 +1706,7 @@
       "total": 51.5,
       "mlHome": -155,
       "mlAway": 130,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 53.5
      },
@@ -1759,7 +1759,7 @@
       "total": 46.5,
       "mlHome": -185,
       "mlAway": 154,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -3.5,
       "openTotal": 46.5
      },
@@ -1812,7 +1812,7 @@
       "total": 55.5,
       "mlHome": -8000,
       "mlAway": 2200,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -35.5,
       "openTotal": 55.5
      },
@@ -1830,7 +1830,7 @@
      },
      "best": {
       "label": "GT +35.5",
-      "ev": -0.0039,
+      "ev": -0.0038,
       "win": 0.522,
       "market": "spread"
      }
@@ -1862,10 +1862,10 @@
      },
      "line": {
       "spread": -15.5,
-      "total": 55.5,
+      "total": 56.5,
       "mlHome": -700,
       "mlAway": 500,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -12.5,
       "openTotal": 56.5
      },
@@ -1873,7 +1873,7 @@
       "line": -13.3,
       "fair": -15.2,
       "total": 52.9,
-      "fairTotal": 55.1,
+      "fairTotal": 56,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -1882,10 +1882,10 @@
       ]
      },
      "best": {
-      "label": "Under 55.5",
-      "ev": -0.0055,
-      "win": 0.509,
-      "market": "total"
+      "label": "CIN +15.5",
+      "ev": -0.0381,
+      "win": 0.508,
+      "market": "spread"
      }
     },
     {
@@ -1918,7 +1918,7 @@
       "total": 55.5,
       "mlHome": -625,
       "mlAway": 455,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -10.5,
       "openTotal": 52.5
      },
@@ -1971,7 +1971,7 @@
       "total": 60.5,
       "mlHome": 250,
       "mlAway": -310,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 10,
       "openTotal": 60.5
      },
@@ -1989,7 +1989,7 @@
      },
      "best": {
       "label": "SMU -7.5",
-      "ev": -0.0109,
+      "ev": -0.011,
       "win": 0.514,
       "market": "spread"
      }
@@ -2021,10 +2021,10 @@
      },
      "line": {
       "spread": 7,
-      "total": 50.5,
+      "total": 49.5,
       "mlHome": 225,
       "mlAway": -278,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 7.5,
       "openTotal": 49.5
      },
@@ -2032,7 +2032,7 @@
       "line": 8.8,
       "fair": 7.3,
       "total": 50.9,
-      "fairTotal": 50.6,
+      "fairTotal": 49.7,
       "homeWin": 0.289,
       "qualified": true,
       "gp": [
@@ -2077,7 +2077,7 @@
       "total": 45.5,
       "mlHome": 215,
       "mlAway": -265,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 11.5,
       "openTotal": 55.5
      },
@@ -2095,7 +2095,7 @@
      },
      "best": {
       "label": "UCLA ML",
-      "ev": 0.0258,
+      "ev": 0.0259,
       "win": 0.326,
       "market": "ml"
      }
@@ -2130,7 +2130,7 @@
       "total": 43.5,
       "mlHome": -238,
       "mlAway": 195,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -8.5,
       "openTotal": 45.5
      },
@@ -2148,7 +2148,7 @@
      },
      "best": {
       "label": "Over 43.5",
-      "ev": -0.01,
+      "ev": -0.0099,
       "win": 0.507,
       "market": "total"
      }
@@ -2183,7 +2183,7 @@
       "total": 50.5,
       "mlHome": -192,
       "mlAway": 160,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 49.5
      },
@@ -2236,7 +2236,7 @@
       "total": 43.5,
       "mlHome": -155,
       "mlAway": 130,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 43.5
      },
@@ -2253,10 +2253,10 @@
       ]
      },
      "best": {
-      "label": "Over 43.5",
-      "ev": -0.0328,
-      "win": 0.502,
-      "market": "total"
+      "label": "MASS +3",
+      "ev": -0.0218,
+      "win": 0.488,
+      "market": "spread"
      }
     },
     {
@@ -2289,7 +2289,7 @@
       "total": 58.5,
       "mlHome": -142,
       "mlAway": 120,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 57.5
      },
@@ -2339,10 +2339,10 @@
      },
      "line": {
       "spread": -3.5,
-      "total": 46.5,
-      "mlHome": -180,
-      "mlAway": 150,
-      "provider": "DraftKings",
+      "total": 45.5,
+      "mlHome": -170,
+      "mlAway": 142,
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 48.5
      },
@@ -2350,8 +2350,8 @@
       "line": -14.5,
       "fair": -5.1,
       "total": 59.2,
-      "fairTotal": 48.4,
-      "homeWin": 0.655,
+      "fairTotal": 47.6,
+      "homeWin": 0.643,
       "qualified": true,
       "gp": [
        11,
@@ -2359,10 +2359,10 @@
       ]
      },
      "best": {
-      "label": "Over 46.5",
-      "ev": 0.0421,
-      "win": 0.546,
-      "market": "total"
+      "label": "UNT -3.5",
+      "ev": 0.0712,
+      "win": 0.541,
+      "market": "spread"
      }
     },
     {
@@ -2391,20 +2391,20 @@
       "score": 0
      },
      "line": {
-      "spread": -1.5,
+      "spread": -2.5,
       "total": 41.5,
       "mlHome": -122,
       "mlAway": 102,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 42.5
      },
      "model": {
       "line": -1.1,
-      "fair": -1.4,
+      "fair": -2.3,
       "total": 44.1,
       "fairTotal": 41.9,
-      "homeWin": 0.525,
+      "homeWin": 0.521,
       "qualified": true,
       "gp": [
        11,
@@ -2413,7 +2413,7 @@
      },
      "best": {
       "label": "Over 41.5",
-      "ev": -0.0057,
+      "ev": 0.0086,
       "win": 0.509,
       "market": "total"
      }
@@ -2448,7 +2448,7 @@
       "total": 47.5,
       "mlHome": 142,
       "mlAway": -170,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3.5,
       "openTotal": 48.5
      },
@@ -2501,7 +2501,7 @@
       "total": 76.5,
       "mlHome": 1000,
       "mlAway": -1800,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 21,
       "openTotal": 75.5
      },
@@ -2552,9 +2552,9 @@
      "line": {
       "spread": -6.5,
       "total": 65.5,
-      "mlHome": -250,
-      "mlAway": 205,
-      "provider": "DraftKings",
+      "mlHome": -238,
+      "mlAway": 195,
+      "provider": "Draft Kings",
       "openSpread": -6.5,
       "openTotal": 67.5
      },
@@ -2563,7 +2563,7 @@
       "fair": -7,
       "total": 62.3,
       "fairTotal": 65,
-      "homeWin": 0.696,
+      "homeWin": 0.686,
       "qualified": true,
       "gp": [
        11,
@@ -2571,10 +2571,10 @@
       ]
      },
      "best": {
-      "label": "Under 65.5",
-      "ev": -0.0011,
-      "win": 0.512,
-      "market": "total"
+      "label": "OKST ML",
+      "ev": -0.0261,
+      "win": 0.686,
+      "market": "ml"
      }
     },
     {
@@ -2607,7 +2607,7 @@
       "total": 46.5,
       "mlHome": -142,
       "mlAway": 120,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3,
       "openTotal": 46.5
      },
@@ -2625,7 +2625,7 @@
      },
      "best": {
       "label": "SDSU +2.5",
-      "ev": -0.0113,
+      "ev": 0.0085,
       "win": 0.499,
       "market": "spread"
      }
@@ -2660,7 +2660,7 @@
       "total": 43.5,
       "mlHome": 410,
       "mlAway": -550,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 3,
       "openTotal": 57.5
      },
@@ -2713,7 +2713,7 @@
       "total": 52.5,
       "mlHome": -2100,
       "mlAway": 1100,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -22.5,
       "openTotal": 52.5
      },
@@ -2762,17 +2762,17 @@
       "score": 0
      },
      "line": {
-      "spread": -16.5,
+      "spread": -14.5,
       "total": 49.5,
-      "mlHome": -750,
-      "mlAway": 525,
-      "provider": "DraftKings",
+      "mlHome": -700,
+      "mlAway": 500,
+      "provider": "Draft Kings",
       "openSpread": -10,
       "openTotal": 52.5
      },
      "model": {
       "line": -13,
-      "fair": -16,
+      "fair": -14.3,
       "total": 53.6,
       "fairTotal": 50.1,
       "homeWin": null,
@@ -2819,7 +2819,7 @@
       "total": 47.5,
       "mlHome": 280,
       "mlAway": -355,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -7.5,
       "openTotal": 47.5
      },
@@ -2872,7 +2872,7 @@
       "total": 50.5,
       "mlHome": -600,
       "mlAway": 440,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -15.5,
       "openTotal": 54.5
      },
@@ -2922,10 +2922,10 @@
      },
      "line": {
       "spread": -8.5,
-      "total": 54.5,
-      "mlHome": -340,
-      "mlAway": 270,
-      "provider": "DraftKings",
+      "total": 53.5,
+      "mlHome": -325,
+      "mlAway": 260,
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 52.5
      },
@@ -2933,7 +2933,7 @@
       "line": -11.1,
       "fair": -8.9,
       "total": 51.6,
-      "fairTotal": 54.1,
+      "fairTotal": 53.2,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -2942,10 +2942,10 @@
       ]
      },
      "best": {
-      "label": "ARIZ -8.5",
-      "ev": -0.0269,
-      "win": 0.51,
-      "market": "spread"
+      "label": "Under 53.5",
+      "ev": -0.0103,
+      "win": 0.507,
+      "market": "total"
      }
     },
     {
@@ -2978,14 +2978,14 @@
       "total": 44.5,
       "mlHome": -225,
       "mlAway": 185,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 45.5
      },
      "model": {
-      "line": -8,
+      "line": -8.1,
       "fair": -5.9,
-      "total": 47.6,
+      "total": 47.7,
       "fairTotal": 45,
       "homeWin": 0.672,
       "qualified": true,
@@ -3027,20 +3027,20 @@
       "score": 0
      },
      "line": {
-      "spread": -5.5,
+      "spread": -4.5,
       "total": 55.5,
       "mlHome": -198,
       "mlAway": 164,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 54.5
      },
      "model": {
       "line": -6.6,
-      "fair": -5.7,
+      "fair": -4.8,
       "total": 56.2,
       "fairTotal": 55.6,
-      "homeWin": 0.641,
+      "homeWin": 0.644,
       "qualified": true,
       "gp": [
        11,
@@ -3048,10 +3048,10 @@
       ]
      },
      "best": {
-      "label": "HOU -5.5",
-      "ev": -0.0156,
-      "win": 0.504,
-      "market": "spread"
+      "label": "HOU ML",
+      "ev": -0.0302,
+      "win": 0.644,
+      "market": "ml"
      }
     },
     {
@@ -3084,7 +3084,7 @@
       "total": 52.5,
       "mlHome": 220,
       "mlAway": -270,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": 7.5,
       "openTotal": 53.5
      },
@@ -3134,10 +3134,10 @@
      },
      "line": {
       "spread": -3,
-      "total": 56.5,
+      "total": 57.5,
       "mlHome": -155,
       "mlAway": 130,
-      "provider": "DraftKings",
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 56.5
      },
@@ -3145,7 +3145,7 @@
       "line": -1.3,
       "fair": -2.7,
       "total": 55.2,
-      "fairTotal": 56.3,
+      "fairTotal": 57.2,
       "homeWin": 0.577,
       "qualified": true,
       "gp": [
@@ -3154,10 +3154,10 @@
       ]
      },
      "best": {
-      "label": "ORST +3",
-      "ev": -0.0106,
-      "win": 0.494,
-      "market": "spread"
+      "label": "Under 57.5",
+      "ev": -0.0076,
+      "win": 0.508,
+      "market": "total"
      }
     },
     {
@@ -3186,17 +3186,17 @@
       "score": 0
      },
      "line": {
-      "spread": -14,
+      "spread": -13.5,
       "total": 39.5,
-      "mlHome": -600,
-      "mlAway": 440,
-      "provider": "DraftKings",
+      "mlHome": -575,
+      "mlAway": 425,
+      "provider": "Draft Kings",
       "openSpread": -14.5,
       "openTotal": 44.5
      },
      "model": {
       "line": -15.8,
-      "fair": -14.3,
+      "fair": -13.9,
       "total": 46.6,
       "fairTotal": 40.6,
       "homeWin": null,
@@ -3208,7 +3208,7 @@
      },
      "best": {
       "label": "Over 39.5",
-      "ev": 0.0128,
+      "ev": -0.0046,
       "win": 0.526,
       "market": "total"
      }
@@ -3232,7 +3232,7 @@
    "publishAt": "2026-11-29T15:00:00.000Z",
    "publishedAt": null,
    "missed": false,
-   "linesAsOf": "2026-11-24T13:55:08.498Z",
+   "linesAsOf": "2026-11-24T23:56:45.635Z",
    "lockMode": null,
    "picks": [],
    "parlays": [],
@@ -3251,14 +3251,14 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 260,
-     "oppPrice": -322,
-     "win": 0.2937,
+     "price": 252,
+     "oppPrice": -311,
+     "win": 0.3,
      "push": 0,
-     "ev": 0.0572,
+     "ev": 0.0561,
      "tier": "crown",
      "units": 0.5,
-     "modelLine": -0.4,
+     "modelLine": -0.5,
      "lineMove": -9,
      "fairLine": 5.4,
      "marketLine": 6.5,
@@ -3268,27 +3268,70 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-24T13:55:08.498Z"
+     "linesAsOf": "2026-11-24T23:56:45.635Z"
+    },
+    {
+     "id": "nfl-2026-11-29:401873092:ml:home",
+     "slateId": "nfl-2026-11-29",
+     "sport": "nfl",
+     "date": "2026-11-29",
+     "gameId": "401873092",
+     "kickoff": "2026-11-29T21:25Z",
+     "matchup": "WSH @ ARI",
+     "away": "WSH",
+     "home": "ARI",
+     "label": "ARI ML",
+     "market": "ml",
+     "side": "home",
+     "line": 0,
+     "price": 280,
+     "oppPrice": -348,
+     "win": 0.2774,
+     "push": 0,
+     "ev": 0.0541,
+     "tier": "crown",
+     "units": 0.5,
+     "modelLine": 0.9,
+     "lineMove": -2.5,
+     "fairLine": 6,
+     "marketLine": 7,
+     "modelTotal": 45.1,
+     "fairTotal": 42,
+     "marketTotal": 41.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-24T23:56:45.635Z"
     }
    ],
    "previewParlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 50.076,
-     "price": 4908,
-     "prob": 0.0225,
-     "ev": 0.1259,
+     "dec": 95.665,
+     "price": 9467,
+     "prob": 0.0122,
+     "ev": 0.1677,
      "legs": [
       {
        "gameId": "401873088",
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 260,
+       "price": 252,
        "label": "IND ML",
-       "win": 0.2937,
+       "win": 0.3,
        "matchup": "NYG @ IND"
+      },
+      {
+       "gameId": "401873092",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 280,
+       "label": "ARI ML",
+       "win": 0.2774,
+       "matchup": "WSH @ ARI"
       },
       {
        "gameId": "401873093",
@@ -3301,23 +3344,13 @@
        "matchup": "NE @ LAC"
       },
       {
-       "gameId": "401873092",
-       "market": "spread",
-       "side": "home",
-       "line": 7.5,
-       "price": -110,
-       "label": "ARI +7.5",
-       "win": 0.5319,
-       "matchup": "WSH @ ARI"
-      },
-      {
        "gameId": "401873084",
        "market": "ml",
        "side": "away",
        "line": 0,
-       "price": 280,
+       "price": 273,
        "label": "ATL ML",
-       "win": 0.2659,
+       "win": 0.271,
        "matchup": "ATL @ MIN"
       }
      ],
@@ -3357,10 +3390,10 @@
      },
      "line": {
       "spread": -7,
-      "total": 42.5,
-      "mlHome": -350,
-      "mlAway": 280,
-      "provider": "DraftKings",
+      "total": 41.5,
+      "mlHome": -339,
+      "mlAway": 273,
+      "provider": "Draft Kings",
       "openSpread": -4.5,
       "openTotal": 43.5
      },
@@ -3368,7 +3401,7 @@
       "line": -3.6,
       "fair": -6.5,
       "total": 41.9,
-      "fairTotal": 42.4,
+      "fairTotal": 41.6,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -3378,8 +3411,8 @@
      },
      "best": {
       "label": "ATL ML",
-      "ev": 0.0106,
-      "win": 0.266,
+      "ev": 0.0107,
+      "win": 0.271,
       "market": "ml"
      }
     },
@@ -3409,19 +3442,19 @@
       "score": 0
      },
      "line": {
-      "spread": -6.5,
-      "total": 46.5,
-      "mlHome": -304,
-      "mlAway": 247,
-      "provider": "DraftKings",
+      "spread": -7,
+      "total": 47.5,
+      "mlHome": -320,
+      "mlAway": 258,
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 45.5
      },
      "model": {
       "line": -5.3,
-      "fair": -6.4,
+      "fair": -6.8,
       "total": 43.1,
-      "fairTotal": 46,
+      "fairTotal": 46.8,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -3430,10 +3463,10 @@
       ]
      },
      "best": {
-      "label": "BAL +6.5",
-      "ev": -0.011,
-      "win": 0.504,
-      "market": "spread"
+      "label": "BAL ML",
+      "ev": -0.0202,
+      "win": 0.274,
+      "market": "ml"
      }
     },
     {
@@ -3464,9 +3497,9 @@
      "line": {
       "spread": -10,
       "total": 50.5,
-      "mlHome": -650,
-      "mlAway": 471,
-      "provider": "DraftKings",
+      "mlHome": -610,
+      "mlAway": 449,
+      "provider": "Draft Kings",
       "openSpread": -6.5,
       "openTotal": 48.5
      },
@@ -3483,10 +3516,10 @@
       ]
      },
      "best": {
-      "label": "NO +10",
-      "ev": -0.0235,
-      "win": 0.494,
-      "market": "spread"
+      "label": "Over 50.5",
+      "ev": -0.0321,
+      "win": 0.5,
+      "market": "total"
      }
     },
     {
@@ -3517,18 +3550,18 @@
      "line": {
       "spread": 6.5,
       "total": 41.5,
-      "mlHome": 260,
-      "mlAway": -322,
-      "provider": "DraftKings",
+      "mlHome": 252,
+      "mlAway": -311,
+      "provider": "Draft Kings",
       "openSpread": -2.5,
       "openTotal": 47.5
      },
      "model": {
-      "line": -0.4,
+      "line": -0.5,
       "fair": 5.4,
       "total": 43.5,
       "fairTotal": 41.8,
-      "homeWin": 0.294,
+      "homeWin": 0.3,
       "qualified": true,
       "gp": [
        10,
@@ -3537,8 +3570,8 @@
      },
      "best": {
       "label": "IND ML",
-      "ev": 0.0572,
-      "win": 0.294,
+      "ev": 0.0561,
+      "win": 0.3,
       "market": "ml"
      }
     },
@@ -3570,9 +3603,9 @@
      "line": {
       "spread": 3.5,
       "total": 40.5,
-      "mlHome": 178,
-      "mlAway": -213,
-      "provider": "DraftKings",
+      "mlHome": 167,
+      "mlAway": -199,
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 41.5
      },
@@ -3581,7 +3614,7 @@
       "fair": 3.2,
       "total": 40.9,
       "fairTotal": 40.6,
-      "homeWin": 0.355,
+      "homeWin": 0.37,
       "qualified": true,
       "gp": [
        11,
@@ -3589,10 +3622,10 @@
       ]
      },
      "best": {
-      "label": "MIA ML",
-      "ev": -0.0121,
-      "win": 0.355,
-      "market": "ml"
+      "label": "MIA +3.5",
+      "ev": 0.0057,
+      "win": 0.51,
+      "market": "spread"
      }
     },
     {
@@ -3622,10 +3655,10 @@
      },
      "line": {
       "spread": -14.5,
-      "total": 47.5,
-      "mlHome": -1240,
-      "mlAway": 770,
-      "provider": "DraftKings",
+      "total": 48.5,
+      "mlHome": -1280,
+      "mlAway": 780,
+      "provider": "Draft Kings",
       "openSpread": -5.5,
       "openTotal": 45.5
      },
@@ -3633,7 +3666,7 @@
       "line": -12.4,
       "fair": -14.3,
       "total": 45.2,
-      "fairTotal": 47.2,
+      "fairTotal": 48,
       "homeWin": null,
       "qualified": true,
       "gp": [
@@ -3642,9 +3675,9 @@
       ]
      },
      "best": {
-      "label": "Under 47.5",
-      "ev": -0.0029,
-      "win": 0.511,
+      "label": "Under 48.5",
+      "ev": -0.0162,
+      "win": 0.515,
       "market": "total"
      }
     },
@@ -3676,9 +3709,9 @@
      "line": {
       "spread": -1.5,
       "total": 35.5,
-      "mlHome": -114,
-      "mlAway": -103,
-      "provider": "DraftKings",
+      "mlHome": -113,
+      "mlAway": -104,
+      "provider": "Draft Kings",
       "openSpread": -2.5,
       "openTotal": 45.5
      },
@@ -3687,7 +3720,7 @@
       "fair": -1,
       "total": 44.5,
       "fairTotal": 36.8,
-      "homeWin": 0.497,
+      "homeWin": 0.495,
       "qualified": true,
       "gp": [
        10,
@@ -3727,20 +3760,20 @@
       "score": 0
      },
      "line": {
-      "spread": -3,
-      "total": 46.5,
-      "mlHome": -176,
-      "mlAway": 148,
-      "provider": "DraftKings",
+      "spread": -3.5,
+      "total": 45.5,
+      "mlHome": -180,
+      "mlAway": 151,
+      "provider": "Draft Kings",
       "openSpread": -1.5,
       "openTotal": 46.5
      },
      "model": {
       "line": -1.6,
-      "fair": -2.8,
+      "fair": -3.2,
       "total": 46.1,
-      "fairTotal": 46.4,
-      "homeWin": 0.606,
+      "fairTotal": 45.6,
+      "homeWin": 0.609,
       "qualified": true,
       "gp": [
        10,
@@ -3748,10 +3781,10 @@
       ]
      },
      "best": {
-      "label": "SEA +3",
-      "ev": 0.0131,
-      "win": 0.492,
-      "market": "spread"
+      "label": "SEA ML",
+      "ev": -0.0183,
+      "win": 0.391,
+      "market": "ml"
      }
     },
     {
@@ -3780,20 +3813,20 @@
       "score": 0
      },
      "line": {
-      "spread": 7.5,
-      "total": 42.5,
-      "mlHome": 323,
-      "mlAway": -409,
-      "provider": "DraftKings",
+      "spread": 7,
+      "total": 41.5,
+      "mlHome": 280,
+      "mlAway": -348,
+      "provider": "Draft Kings",
       "openSpread": 4.5,
       "openTotal": 47.5
      },
      "model": {
       "line": 0.9,
-      "fair": 6.4,
+      "fair": 6,
       "total": 45.1,
-      "fairTotal": 42.9,
-      "homeWin": null,
+      "fairTotal": 42,
+      "homeWin": 0.277,
       "qualified": true,
       "gp": [
        10,
@@ -3801,10 +3834,10 @@
       ]
      },
      "best": {
-      "label": "ARI +7.5",
-      "ev": 0.0155,
-      "win": 0.532,
-      "market": "spread"
+      "label": "ARI ML",
+      "ev": 0.0541,
+      "win": 0.277,
+      "market": "ml"
      }
     },
     {
@@ -3834,10 +3867,10 @@
      },
      "line": {
       "spread": -4.5,
-      "total": 41.5,
-      "mlHome": -220,
-      "mlAway": 183,
-      "provider": "DraftKings",
+      "total": 40.5,
+      "mlHome": -217,
+      "mlAway": 181,
+      "provider": "Draft Kings",
       "openSpread": -2.5,
       "openTotal": 39.5
      },
@@ -3845,8 +3878,8 @@
       "line": -1.5,
       "fair": -4,
       "total": 44.2,
-      "fairTotal": 41.9,
-      "homeWin": 0.647,
+      "fairTotal": 41.1,
+      "homeWin": 0.644,
       "qualified": true,
       "gp": [
        11,
@@ -3854,10 +3887,10 @@
       ]
      },
      "best": {
-      "label": "Over 41.5",
-      "ev": 0.0098,
-      "win": 0.512,
-      "market": "total"
+      "label": "LV ML",
+      "ev": -0.0009,
+      "win": 0.356,
+      "market": "ml"
      }
     }
    ],

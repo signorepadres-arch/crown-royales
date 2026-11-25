@@ -10009,15 +10009,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -2.5,
-    "spreadHomePrice": -109,
-    "spreadAwayPrice": -110,
-    "mlHome": -136,
-    "mlAway": 115,
-    "total": 43.5,
-    "overPrice": -121,
-    "underPrice": 101,
+    "spreadHomePrice": -113,
+    "spreadAwayPrice": -106,
+    "mlHome": -138,
+    "mlAway": 117,
+    "total": 44.5,
+    "overPrice": -107,
+    "underPrice": -112,
     "open": {
      "spread": -3.5,
      "total": 49.5,
@@ -10025,7 +10025,7 @@
      "mlAway": 164
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -3.5,
@@ -10069,15 +10069,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -8.5,
     "spreadHomePrice": -111,
     "spreadAwayPrice": -108,
-    "mlHome": -471,
-    "mlAway": 364,
-    "total": 47.5,
-    "overPrice": -115,
-    "underPrice": -105,
+    "mlHome": -469,
+    "mlAway": 363,
+    "total": 48.5,
+    "overPrice": -106,
+    "underPrice": -113,
     "open": {
      "spread": -1.5,
      "total": 49.5,
@@ -10085,7 +10085,7 @@
      "mlAway": 100
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -10129,12 +10129,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
-    "spread": 2.5,
-    "spreadHomePrice": -111,
-    "spreadAwayPrice": -108,
-    "mlHome": 116,
-    "mlAway": -137,
+    "provider": "DraftKings",
+    "spread": 1.5,
+    "spreadHomePrice": -109,
+    "spreadAwayPrice": -110,
+    "mlHome": 102,
+    "mlAway": -121,
     "total": 55.5,
     "overPrice": -104,
     "underPrice": -115,
@@ -10145,7 +10145,7 @@
      "mlAway": 114
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -10189,15 +10189,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3,
     "spreadHomePrice": 100,
     "spreadAwayPrice": -120,
-    "mlHome": -149,
-    "mlAway": 126,
-    "total": 47.5,
-    "overPrice": -107,
-    "underPrice": -112,
+    "mlHome": -150,
+    "mlAway": 127,
+    "total": 46.5,
+    "overPrice": -117,
+    "underPrice": -102,
     "open": {
      "spread": -2.5,
      "total": 49.5,
@@ -10205,7 +10205,7 @@
      "mlAway": 114
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -10249,15 +10249,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
-    "spread": 3,
-    "spreadHomePrice": -117,
-    "spreadAwayPrice": -102,
-    "mlHome": 132,
-    "mlAway": -157,
-    "total": 37.5,
-    "overPrice": -115,
-    "underPrice": -104,
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -103,
+    "spreadAwayPrice": -116,
+    "mlHome": 171,
+    "mlAway": -204,
+    "total": 36.5,
+    "overPrice": -104,
+    "underPrice": -116,
     "open": {
      "spread": 1.5,
      "total": 41.5,
@@ -10265,7 +10265,7 @@
      "mlAway": -118
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 1.5,
@@ -10309,12 +10309,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -7,
     "spreadHomePrice": 100,
     "spreadAwayPrice": -120,
-    "mlHome": -339,
-    "mlAway": 273,
+    "mlHome": -324,
+    "mlAway": 262,
     "total": 41.5,
     "overPrice": -113,
     "underPrice": -107,
@@ -10325,7 +10325,7 @@
      "mlAway": 180
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -4.5,
@@ -10369,12 +10369,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -7,
-    "spreadHomePrice": -106,
-    "spreadAwayPrice": -113,
-    "mlHome": -320,
-    "mlAway": 258,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -115,
+    "mlHome": -307,
+    "mlAway": 249,
     "total": 47.5,
     "overPrice": -103,
     "underPrice": -117,
@@ -10385,7 +10385,7 @@
      "mlAway": -102
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -10429,12 +10429,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -4.5,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -114,
-    "mlHome": -217,
-    "mlAway": 181,
+    "mlHome": -219,
+    "mlAway": 182,
     "total": 40.5,
     "overPrice": -111,
     "underPrice": -108,
@@ -10445,7 +10445,7 @@
      "mlAway": 110
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -10489,12 +10489,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -10,
     "spreadHomePrice": -107,
     "spreadAwayPrice": -112,
-    "mlHome": -610,
-    "mlAway": 449,
+    "mlHome": -588,
+    "mlAway": 438,
     "total": 50.5,
     "overPrice": -107,
     "underPrice": -112,
@@ -10505,7 +10505,7 @@
      "mlAway": 235
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -6.5,
@@ -10549,12 +10549,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 6.5,
-    "spreadHomePrice": -104,
-    "spreadAwayPrice": -115,
-    "mlHome": 252,
-    "mlAway": -311,
+    "spreadHomePrice": -108,
+    "spreadAwayPrice": -111,
+    "mlHome": 246,
+    "mlAway": -303,
     "total": 41.5,
     "overPrice": -110,
     "underPrice": -109,
@@ -10565,7 +10565,7 @@
      "mlAway": 114
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -10609,15 +10609,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 3.5,
     "spreadHomePrice": -103,
     "spreadAwayPrice": -117,
-    "mlHome": 167,
-    "mlAway": -199,
+    "mlHome": 164,
+    "mlAway": -195,
     "total": 40.5,
-    "overPrice": -115,
-    "underPrice": -104,
+    "overPrice": -110,
+    "underPrice": -109,
     "open": {
      "spread": -1.5,
      "total": 41.5,
@@ -10625,7 +10625,7 @@
      "mlAway": 105
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -10669,12 +10669,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -14.5,
     "spreadHomePrice": -104,
     "spreadAwayPrice": -116,
-    "mlHome": -1280,
-    "mlAway": 780,
+    "mlHome": -1120,
+    "mlAway": 710,
     "total": 48.5,
     "overPrice": -109,
     "underPrice": -110,
@@ -10685,7 +10685,7 @@
      "mlAway": 210
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -5.5,
@@ -10729,15 +10729,15 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
-    "spread": -3.5,
-    "spreadHomePrice": -101,
-    "spreadAwayPrice": -118,
-    "mlHome": -180,
-    "mlAway": 151,
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -122,
+    "spreadAwayPrice": 102,
+    "mlHome": -177,
+    "mlAway": 149,
     "total": 45.5,
-    "overPrice": -107,
-    "underPrice": -112,
+    "overPrice": -105,
+    "underPrice": -114,
     "open": {
      "spread": -1.5,
      "total": 46.5,
@@ -10745,7 +10745,7 @@
      "mlAway": -108
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -1.5,
@@ -10789,12 +10789,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": 7,
-    "spreadHomePrice": -110,
-    "spreadAwayPrice": -109,
-    "mlHome": 280,
-    "mlAway": -348,
+    "spreadHomePrice": -109,
+    "spreadAwayPrice": -110,
+    "mlHome": 271,
+    "mlAway": -337,
     "total": 41.5,
     "overPrice": -111,
     "underPrice": -108,
@@ -10805,7 +10805,7 @@
      "mlAway": -218
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": 4.5,
@@ -10849,7 +10849,7 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -1.5,
     "spreadHomePrice": 102,
     "spreadAwayPrice": -122,
@@ -10865,7 +10865,7 @@
      "mlAway": 114
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -2.5,
@@ -10909,12 +10909,12 @@
    "hs": 0,
    "as": 0,
    "close": {
-    "provider": "Draft Kings",
+    "provider": "DraftKings",
     "spread": -3,
     "spreadHomePrice": -105,
     "spreadAwayPrice": -115,
-    "mlHome": -154,
-    "mlAway": 130,
+    "mlHome": -155,
+    "mlAway": 131,
     "total": 43.5,
     "overPrice": -110,
     "underPrice": -109,
@@ -10925,7 +10925,7 @@
      "mlAway": 160
     }
    },
-   "closeAt": "2026-11-24T23:56:45.635Z",
+   "closeAt": "2026-11-25T08:48:16.195Z",
    "closeSource": "scoreboard",
    "open": {
     "spread": -3.5,
@@ -10933,7 +10933,847 @@
     "mlHome": -192,
     "mlAway": 160
    }
+  },
+  "401873095": {
+   "id": "401873095",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "19",
+    "abbr": "NYG",
+    "name": "Giants",
+    "full": "New York Giants",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "color": "003c7f",
+    "fbs": null,
+    "rank": null,
+    "record": "6-3-1"
+   },
+   "away": {
+    "id": "25",
+    "abbr": "SF",
+    "name": "49ers",
+    "full": "San Francisco 49ers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "color": "aa0000",
+    "fbs": null,
+    "rank": null,
+    "record": "9-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 6.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 240,
+    "mlAway": -294,
+    "total": 47.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 3,
+     "total": 47.5,
+     "mlHome": 136,
+     "mlAway": -162
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 3,
+    "total": 47.5,
+    "mlHome": 136,
+    "mlAway": -162
+   }
+  },
+  "401873096": {
+   "id": "401873096",
+   "date": "2026-12-04T01:15Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/3 - 8:15 PM EST",
+   "home": {
+    "id": "14",
+    "abbr": "LAR",
+    "name": "Rams",
+    "full": "Los Angeles Rams",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "color": "003594",
+    "fbs": null,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "12",
+    "abbr": "KC",
+    "name": "Chiefs",
+    "full": "Kansas City Chiefs",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "color": "e31837",
+    "fbs": null,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -1.5,
+    "spreadHomePrice": 102,
+    "spreadAwayPrice": -122,
+    "mlHome": -109,
+    "mlAway": -108,
+    "total": 45.5,
+    "overPrice": -110,
+    "underPrice": -109,
+    "open": {
+     "spread": -3.5,
+     "total": 47.5,
+     "mlHome": -192,
+     "mlAway": 160
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -3.5,
+    "total": 47.5,
+    "mlHome": -192,
+    "mlAway": 160
+   }
+  },
+  "401873097": {
+   "id": "401873097",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "5",
+    "abbr": "CLE",
+    "name": "Browns",
+    "full": "Cleveland Browns",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "color": "472a08",
+    "fbs": null,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "4",
+    "abbr": "CIN",
+    "name": "Bengals",
+    "full": "Cincinnati Bengals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "color": "fb4f14",
+    "fbs": null,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 6,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 212,
+    "mlAway": -257,
+    "total": 46.5,
+    "overPrice": -113,
+    "underPrice": -106,
+    "open": {
+     "spread": 4.5,
+     "total": 45.5,
+     "mlHome": 180,
+     "mlAway": -218
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 4.5,
+    "total": 45.5,
+    "mlHome": 180,
+    "mlAway": -218
+   }
+  },
+  "401873098": {
+   "id": "401873098",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "1",
+    "abbr": "ATL",
+    "name": "Falcons",
+    "full": "Atlanta Falcons",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "color": "a71930",
+    "fbs": null,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "8",
+    "abbr": "DET",
+    "name": "Lions",
+    "full": "Detroit Lions",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "color": "0076b6",
+    "fbs": null,
+    "rank": null,
+    "record": "8-2"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -115,
+    "spreadAwayPrice": -104,
+    "mlHome": 157,
+    "mlAway": -188,
+    "total": 49.5,
+    "overPrice": -115,
+    "underPrice": -104,
+    "open": {
+     "spread": 3.5,
+     "total": 47.5,
+     "mlHome": 154,
+     "mlAway": -185
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 3.5,
+    "total": 47.5,
+    "mlHome": 154,
+    "mlAway": -185
+   }
+  },
+  "401873099": {
+   "id": "401873099",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "18",
+    "abbr": "NO",
+    "name": "Saints",
+    "full": "New Orleans Saints",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "color": "d3bc8d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "9",
+    "abbr": "GB",
+    "name": "Packers",
+    "full": "Green Bay Packers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "color": "204e32",
+    "fbs": null,
+    "rank": null,
+    "record": "6-4"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 5.5,
+    "spreadHomePrice": -106,
+    "spreadAwayPrice": -113,
+    "mlHome": 206,
+    "mlAway": -250,
+    "total": 46.5,
+    "overPrice": -109,
+    "underPrice": -110,
+    "open": {
+     "spread": 4.5,
+     "total": 45.5,
+     "mlHome": 190,
+     "mlAway": -230
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 4.5,
+    "total": 45.5,
+    "mlHome": 190,
+    "mlAway": -230
+   }
+  },
+  "401873100": {
+   "id": "401873100",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "3",
+    "abbr": "CHI",
+    "name": "Bears",
+    "full": "Chicago Bears",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "color": "0b1c3a",
+    "fbs": null,
+    "rank": null,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "30",
+    "abbr": "JAX",
+    "name": "Jaguars",
+    "full": "Jacksonville Jaguars",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "color": "007487",
+    "fbs": null,
+    "rank": null,
+    "record": "7-3"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -3,
+    "spreadHomePrice": -104,
+    "spreadAwayPrice": -115,
+    "mlHome": -155,
+    "mlAway": 131,
+    "total": 49.5,
+    "overPrice": -115,
+    "underPrice": -104,
+    "open": {
+     "spread": -2.5,
+     "total": 47.5,
+     "mlHome": -142,
+     "mlAway": 120
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -2.5,
+    "total": 47.5,
+    "mlHome": -142,
+    "mlAway": 120
+   }
+  },
+  "401873101": {
+   "id": "401873101",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "27",
+    "abbr": "TB",
+    "name": "Buccaneers",
+    "full": "Tampa Bay Buccaneers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "color": "bd1c36",
+    "fbs": null,
+    "rank": null,
+    "record": "3-7"
+   },
+   "away": {
+    "id": "24",
+    "abbr": "LAC",
+    "name": "Chargers",
+    "full": "Los Angeles Chargers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "color": "0080c6",
+    "fbs": null,
+    "rank": null,
+    "record": "1-9"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -256,
+    "mlAway": 211,
+    "total": 40.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 46.5,
+     "mlHome": 105,
+     "mlAway": -125
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 1.5,
+    "total": 46.5,
+    "mlHome": 105,
+    "mlAway": -125
+   }
+  },
+  "401873102": {
+   "id": "401873102",
+   "date": "2026-12-06T18:00Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 1:00 PM EST",
+   "home": {
+    "id": "10",
+    "abbr": "TEN",
+    "name": "Titans",
+    "full": "Tennessee Titans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "color": "4495d2",
+    "fbs": null,
+    "rank": null,
+    "record": "1-9"
+   },
+   "away": {
+    "id": "28",
+    "abbr": "WSH",
+    "name": "Commanders",
+    "full": "Washington Commanders",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "color": "5a1414",
+    "fbs": null,
+    "rank": null,
+    "record": "4-5-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 4.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": 193,
+    "mlAway": -233,
+    "total": 47.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": 1.5,
+     "total": 46.5,
+     "mlHome": -102,
+     "mlAway": -118
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 1.5,
+    "total": 46.5,
+    "mlHome": -102,
+    "mlAway": -118
+   }
+  },
+  "401873103": {
+   "id": "401873103",
+   "date": "2026-12-06T21:05Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 4:05 PM EST",
+   "home": {
+    "id": "7",
+    "abbr": "DEN",
+    "name": "Broncos",
+    "full": "Denver Broncos",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "color": "0a2343",
+    "fbs": null,
+    "rank": null,
+    "record": "8-2"
+   },
+   "away": {
+    "id": "15",
+    "abbr": "MIA",
+    "name": "Dolphins",
+    "full": "Miami Dolphins",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "color": "008e97",
+    "fbs": null,
+    "rank": null,
+    "record": "1-9"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -14.5,
+    "spreadHomePrice": -105,
+    "spreadAwayPrice": -114,
+    "mlHome": -1120,
+    "mlAway": 710,
+    "total": 39.5,
+    "overPrice": -110,
+    "underPrice": -109,
+    "open": {
+     "spread": -9.5,
+     "total": 42.5,
+     "mlHome": -500,
+     "mlAway": 380
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -9.5,
+    "total": 42.5,
+    "mlHome": -500,
+    "mlAway": 380
+   }
+  },
+  "401873104": {
+   "id": "401873104",
+   "date": "2026-12-06T21:05Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 4:05 PM EST",
+   "home": {
+    "id": "22",
+    "abbr": "ARI",
+    "name": "Cardinals",
+    "full": "Arizona Cardinals",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "color": "a40227",
+    "fbs": null,
+    "rank": null,
+    "record": "3-8"
+   },
+   "away": {
+    "id": "21",
+    "abbr": "PHI",
+    "name": "Eagles",
+    "full": "Philadelphia Eagles",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "color": "06424d",
+    "fbs": null,
+    "rank": null,
+    "record": "3-7"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3,
+    "spreadHomePrice": -109,
+    "spreadAwayPrice": -110,
+    "mlHome": 131,
+    "mlAway": -156,
+    "total": 36.5,
+    "overPrice": -115,
+    "underPrice": -104,
+    "open": {
+     "spread": 8.5,
+     "total": 43.5,
+     "mlHome": 330,
+     "mlAway": -425
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 8.5,
+    "total": 43.5,
+    "mlHome": 330,
+    "mlAway": -425
+   }
+  },
+  "401873105": {
+   "id": "401873105",
+   "date": "2026-12-06T21:25Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 4:25 PM EST",
+   "home": {
+    "id": "17",
+    "abbr": "NE",
+    "name": "Patriots",
+    "full": "New England Patriots",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-5"
+   },
+   "away": {
+    "id": "2",
+    "abbr": "BUF",
+    "name": "Bills",
+    "full": "Buffalo Bills",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "color": "00338d",
+    "fbs": null,
+    "rank": null,
+    "record": "9-1"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 12.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -109,
+    "mlHome": 549,
+    "mlAway": -780,
+    "total": 44.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -1.5,
+     "total": 48.5,
+     "mlHome": -115,
+     "mlAway": -105
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -1.5,
+    "total": 48.5,
+    "mlHome": -115,
+    "mlAway": -105
+   }
+  },
+  "401873106": {
+   "id": "401873106",
+   "date": "2026-12-06T21:25Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 4:25 PM EST",
+   "home": {
+    "id": "16",
+    "abbr": "MIN",
+    "name": "Vikings",
+    "full": "Minnesota Vikings",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "color": "4f2683",
+    "fbs": null,
+    "rank": null,
+    "record": "7-3"
+   },
+   "away": {
+    "id": "29",
+    "abbr": "CAR",
+    "name": "Panthers",
+    "full": "Carolina Panthers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "color": "0085ca",
+    "fbs": null,
+    "rank": null,
+    "record": "5-5"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -5.5,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -248,
+    "mlAway": 205,
+    "total": 43.5,
+    "overPrice": -104,
+    "underPrice": -115,
+    "open": {
+     "spread": -3.5,
+     "total": 42.5,
+     "mlHome": -198,
+     "mlAway": 164
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -3.5,
+    "total": 42.5,
+    "mlHome": -198,
+    "mlAway": 164
+   }
+  },
+  "401873107": {
+   "id": "401873107",
+   "date": "2026-12-07T01:20Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/6 - 8:20 PM EST",
+   "home": {
+    "id": "23",
+    "abbr": "PIT",
+    "name": "Steelers",
+    "full": "Pittsburgh Steelers",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "color": "000000",
+    "fbs": null,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "34",
+    "abbr": "HOU",
+    "name": "Texans",
+    "full": "Houston Texans",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "color": "021018",
+    "fbs": null,
+    "rank": null,
+    "record": "4-6"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": 3.5,
+    "spreadHomePrice": -103,
+    "spreadAwayPrice": -117,
+    "mlHome": 164,
+    "mlAway": -195,
+    "total": 41.5,
+    "overPrice": -110,
+    "underPrice": -109,
+    "open": {
+     "spread": 1.5,
+     "total": 41.5,
+     "mlHome": -102,
+     "mlAway": -118
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": 1.5,
+    "total": 41.5,
+    "mlHome": -102,
+    "mlAway": -118
+   }
+  },
+  "401873108": {
+   "id": "401873108",
+   "date": "2026-12-08T01:15Z",
+   "week": 13,
+   "seasonType": 2,
+   "neutral": false,
+   "state": "pre",
+   "completed": false,
+   "canceled": false,
+   "detail": "12/7 - 8:15 PM EST",
+   "home": {
+    "id": "26",
+    "abbr": "SEA",
+    "name": "Seahawks",
+    "full": "Seattle Seahawks",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "6-4"
+   },
+   "away": {
+    "id": "6",
+    "abbr": "DAL",
+    "name": "Cowboys",
+    "full": "Dallas Cowboys",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "color": "002a5c",
+    "fbs": null,
+    "rank": null,
+    "record": "5-6"
+   },
+   "hs": 0,
+   "as": 0,
+   "close": {
+    "provider": "DraftKings",
+    "spread": -6,
+    "spreadHomePrice": -110,
+    "spreadAwayPrice": -110,
+    "mlHome": -263,
+    "mlAway": 216,
+    "total": 50.5,
+    "overPrice": -110,
+    "underPrice": -110,
+    "open": {
+     "spread": -4.5,
+     "total": 48.5,
+     "mlHome": -225,
+     "mlAway": 185
+    }
+   },
+   "closeAt": "2026-11-25T08:48:16.195Z",
+   "closeSource": "scoreboard",
+   "open": {
+    "spread": -4.5,
+    "total": 48.5,
+    "mlHome": -225,
+    "mlAway": 185
+   }
   }
  },
- "updated": "2026-11-24T23:56:45.635Z"
+ "updated": "2026-11-25T08:48:16.195Z"
 }

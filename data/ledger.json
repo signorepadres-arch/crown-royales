@@ -702,24 +702,24 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-25T19:24:23.558Z",
+   "computedAt": "2026-11-26T03:38:28.296Z",
    "gamesConsidered": 53,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 67.767,
-     "price": 6677,
-     "prob": 0.0172,
-     "ev": 0.1644,
+     "dec": 66.517,
+     "price": 6552,
+     "prob": 0.0177,
+     "ev": 0.1746,
      "legs": [
       {
        "gameId": "401862843",
        "market": "total",
        "side": "over",
        "line": 45.5,
-       "price": -108,
+       "price": -105,
        "label": "Over 45.5",
        "win": 0.5494,
        "matchup": "UAB @ UNT"
@@ -731,18 +731,8 @@
        "line": 41.5,
        "price": 100,
        "label": "Over 41.5",
-       "win": 0.514,
+       "win": 0.5141,
        "matchup": "SHSU @ FIU"
-      },
-      {
-       "gameId": "401858543",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 215,
-       "label": "UCLA ML",
-       "win": 0.3256,
-       "matchup": "USC @ UCLA"
       },
       {
        "gameId": "401860926",
@@ -751,7 +741,7 @@
        "line": 76.5,
        "price": -108,
        "label": "Under 76.5",
-       "win": 0.5304,
+       "win": 0.5305,
        "matchup": "BOIS @ CSU"
       },
       {
@@ -763,6 +753,16 @@
        "label": "CLEM ML",
        "win": 0.3522,
        "matchup": "SC @ CLEM"
+      },
+      {
+       "gameId": "401858543",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 205,
+       "label": "UCLA ML",
+       "win": 0.3346,
+       "matchup": "USC @ UCLA"
       }
      ],
      "id": "cfb-2026-11-28:hail-mary",
@@ -782,42 +782,9 @@
    }
   },
   "nfl-2026-11-29": {
-   "computedAt": "2026-11-25T19:24:23.558Z",
+   "computedAt": "2026-11-26T03:38:28.296Z",
    "gamesConsidered": 10,
    "picks": [
-    {
-     "id": "nfl-2026-11-29:401873088:ml:home",
-     "slateId": "nfl-2026-11-29",
-     "sport": "nfl",
-     "date": "2026-11-29",
-     "gameId": "401873088",
-     "kickoff": "2026-11-29T18:00Z",
-     "matchup": "NYG @ IND",
-     "away": "NYG",
-     "home": "IND",
-     "label": "IND ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 262,
-     "oppPrice": -324,
-     "win": 0.2923,
-     "push": 0,
-     "ev": 0.058,
-     "tier": "crown",
-     "units": 0.5,
-     "modelLine": -0.5,
-     "lineMove": -9,
-     "fairLine": 5.4,
-     "marketLine": 6.5,
-     "modelTotal": 43.5,
-     "fairTotal": 41.8,
-     "marketTotal": 41.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-25T19:24:23.558Z"
-    },
     {
      "id": "nfl-2026-11-29:401873092:ml:home",
      "slateId": "nfl-2026-11-29",
@@ -832,54 +799,87 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 267,
-     "oppPrice": -331,
-     "win": 0.2867,
+     "price": 262,
+     "oppPrice": -324,
+     "win": 0.2903,
      "push": 0,
-     "ev": 0.052,
+     "ev": 0.0508,
      "tier": "crown",
      "units": 0.5,
-     "modelLine": 0.9,
+     "modelLine": 1,
      "lineMove": -2.5,
      "fairLine": 6,
      "marketLine": 7,
-     "modelTotal": 45.1,
-     "fairTotal": 42,
+     "modelTotal": 45.2,
+     "fairTotal": 42.1,
      "marketTotal": 41.5,
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-25T19:24:23.558Z"
+     "linesAsOf": "2026-11-26T03:38:28.296Z"
+    },
+    {
+     "id": "nfl-2026-11-29:401873088:ml:home",
+     "slateId": "nfl-2026-11-29",
+     "sport": "nfl",
+     "date": "2026-11-29",
+     "gameId": "401873088",
+     "kickoff": "2026-11-29T18:00Z",
+     "matchup": "NYG @ IND",
+     "away": "NYG",
+     "home": "IND",
+     "label": "IND ML",
+     "market": "ml",
+     "side": "home",
+     "line": 0,
+     "price": 235,
+     "oppPrice": -286,
+     "win": 0.3129,
+     "push": 0,
+     "ev": 0.0482,
+     "tier": "crown",
+     "units": 0.5,
+     "modelLine": -0.5,
+     "lineMove": -8.5,
+     "fairLine": 5,
+     "marketLine": 6,
+     "modelTotal": 43.5,
+     "fairTotal": 41.8,
+     "marketTotal": 41.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-26T03:38:28.296Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 89.668,
-     "price": 8867,
-     "prob": 0.013,
-     "ev": 0.1667,
+     "dec": 81.617,
+     "price": 8062,
+     "prob": 0.0141,
+     "ev": 0.1542,
      "legs": [
-      {
-       "gameId": "401873088",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 262,
-       "label": "IND ML",
-       "win": 0.2923,
-       "matchup": "NYG @ IND"
-      },
       {
        "gameId": "401873092",
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 267,
+       "price": 262,
        "label": "ARI ML",
-       "win": 0.2867,
+       "win": 0.2903,
        "matchup": "WSH @ ARI"
+      },
+      {
+       "gameId": "401873088",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 235,
+       "label": "IND ML",
+       "win": 0.3129,
+       "matchup": "NYG @ IND"
       },
       {
        "gameId": "401873093",
@@ -888,7 +888,7 @@
        "line": 35.5,
        "price": -109,
        "label": "Over 35.5",
-       "win": 0.5413,
+       "win": 0.5416,
        "matchup": "NE @ LAC"
       },
       {
@@ -896,9 +896,9 @@
        "market": "ml",
        "side": "away",
        "line": 0,
-       "price": 252,
+       "price": 251,
        "label": "ATL ML",
-       "win": 0.2869,
+       "win": 0.2875,
        "matchup": "ATL @ MIN"
       }
      ],

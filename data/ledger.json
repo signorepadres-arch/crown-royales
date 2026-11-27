@@ -702,7 +702,7 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-26T17:03:32.802Z",
+   "computedAt": "2026-11-27T01:47:34.660Z",
    "gamesConsidered": 53,
    "picks": [],
    "parlays": [
@@ -712,7 +712,7 @@
      "dec": 66.517,
      "price": 6552,
      "prob": 0.0177,
-     "ev": 0.1751,
+     "ev": 0.176,
      "legs": [
       {
        "gameId": "401862843",
@@ -731,18 +731,8 @@
        "line": 41.5,
        "price": 100,
        "label": "Over 41.5",
-       "win": 0.5141,
+       "win": 0.5143,
        "matchup": "SHSU @ FIU"
-      },
-      {
-       "gameId": "401860926",
-       "market": "total",
-       "side": "under",
-       "line": 76.5,
-       "price": -108,
-       "label": "Under 76.5",
-       "win": 0.5305,
-       "matchup": "BOIS @ CSU"
       },
       {
        "gameId": "401856764",
@@ -751,8 +741,18 @@
        "line": 0,
        "price": 190,
        "label": "CLEM ML",
-       "win": 0.3523,
+       "win": 0.3524,
        "matchup": "SC @ CLEM"
+      },
+      {
+       "gameId": "401860926",
+       "market": "total",
+       "side": "under",
+       "line": 76.5,
+       "price": -108,
+       "label": "Under 76.5",
+       "win": 0.5306,
+       "matchup": "BOIS @ CSU"
       },
       {
        "gameId": "401858543",
@@ -761,7 +761,7 @@
        "line": 0,
        "price": 205,
        "label": "UCLA ML",
-       "win": 0.3346,
+       "win": 0.3347,
        "matchup": "USC @ UCLA"
       }
      ],
@@ -782,7 +782,7 @@
    }
   },
   "nfl-2026-11-29": {
-   "computedAt": "2026-11-26T17:03:32.802Z",
+   "computedAt": "2026-11-27T01:47:34.660Z",
    "gamesConsidered": 10,
    "picks": [
     {
@@ -801,14 +801,14 @@
      "line": 0,
      "price": 236,
      "oppPrice": -287,
-     "win": 0.3118,
+     "win": 0.3146,
      "push": 0,
-     "ev": 0.0476,
+     "ev": 0.0572,
      "tier": "crown",
      "units": 0.5,
      "modelLine": -0.5,
      "lineMove": -8.5,
-     "fairLine": 5,
+     "fairLine": 4.9,
      "marketLine": 6,
      "modelTotal": 43.5,
      "fairTotal": 41.8,
@@ -816,7 +816,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-26T17:03:32.802Z"
+     "linesAsOf": "2026-11-27T01:47:34.660Z"
     },
     {
      "id": "nfl-2026-11-29:401873092:ml:home",
@@ -834,32 +834,32 @@
      "line": 0,
      "price": 282,
      "oppPrice": -351,
-     "win": 0.2739,
+     "win": 0.2744,
      "push": 0,
-     "ev": 0.0462,
+     "ev": 0.0482,
      "tier": "crown",
      "units": 0.5,
      "modelLine": 0.9,
      "lineMove": -2,
      "fairLine": 5.6,
      "marketLine": 6.5,
-     "modelTotal": 45.2,
-     "fairTotal": 42.1,
+     "modelTotal": 45.1,
+     "fairTotal": 42,
      "marketTotal": 41.5,
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-26T17:03:32.802Z"
+     "linesAsOf": "2026-11-27T01:47:34.660Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 49.96,
-     "price": 4896,
-     "prob": 0.0233,
-     "ev": 0.1647,
+     "dec": 48.504,
+     "price": 4750,
+     "prob": 0.0242,
+     "ev": 0.1738,
      "legs": [
       {
        "gameId": "401873088",
@@ -868,7 +868,7 @@
        "line": 0,
        "price": 236,
        "label": "IND ML",
-       "win": 0.3118,
+       "win": 0.3146,
        "matchup": "NYG @ IND"
       },
       {
@@ -878,7 +878,7 @@
        "line": 0,
        "price": 282,
        "label": "ARI ML",
-       "win": 0.2739,
+       "win": 0.2744,
        "matchup": "WSH @ ARI"
       },
       {
@@ -892,14 +892,14 @@
        "matchup": "NE @ LAC"
       },
       {
-       "gameId": "401873091",
-       "market": "spread",
-       "side": "away",
-       "line": 2.5,
-       "price": 103,
-       "label": "SEA +2.5",
-       "win": 0.5041,
-       "matchup": "SEA @ SF"
+       "gameId": "401873086",
+       "market": "total",
+       "side": "over",
+       "line": 40.5,
+       "price": -103,
+       "label": "Over 40.5",
+       "win": 0.5175,
+       "matchup": "LV @ CLE"
       }
      ],
      "id": "nfl-2026-11-29:hail-mary",
@@ -911,11 +911,11 @@
     }
    ],
    "params": {
-    "a": 0.282,
-    "w": 0.169,
-    "at": 0.282,
+    "a": 0.28,
+    "w": 0.168,
+    "at": 0.28,
     "wt": 0.15,
-    "k": 0.013
+    "k": 0
    }
   }
  }

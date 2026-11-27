@@ -18,27 +18,27 @@
    },
    "mseTotMarket": 234.94,
    "mseTotBlend": 236.81,
-   "updated": "2026-11-26T17:03:32.802Z"
+   "updated": "2026-11-27T01:47:34.660Z"
   },
   "nfl": {
-   "n": 116,
-   "a": 0.282,
-   "w": 0.169,
-   "at": 0.282,
+   "n": 118,
+   "a": 0.28,
+   "w": 0.168,
+   "at": 0.28,
    "wt": 0.15,
-   "k": 0.013,
-   "mseMarket": 129.75,
-   "mseModel": 143.9,
-   "mseBlend": 130.99,
-   "nMove": 101,
+   "k": 0,
+   "mseMarket": 128.54,
+   "mseModel": 142.07,
+   "mseBlend": 129.66,
+   "nMove": 103,
    "steam": {
-    "n": 100,
-    "w": 48,
-    "hit": 0.48
+    "n": 102,
+    "w": 49,
+    "hit": 0.4804
    },
-   "mseTotMarket": 157.75,
-   "mseTotBlend": 159.25,
-   "updated": "2026-11-26T17:03:32.802Z"
+   "mseTotMarket": 164.08,
+   "mseTotBlend": 165.83,
+   "updated": "2026-11-27T01:47:34.660Z"
   }
  },
  "thresholds": {

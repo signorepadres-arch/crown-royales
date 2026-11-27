@@ -702,17 +702,17 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-27T01:47:34.660Z",
+   "computedAt": "2026-11-27T12:42:35.359Z",
    "gamesConsidered": 53,
    "picks": [],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 66.517,
-     "price": 6552,
-     "prob": 0.0177,
-     "ev": 0.176,
+     "dec": 33.258,
+     "price": 3226,
+     "prob": 0.0346,
+     "ev": 0.1494,
      "legs": [
       {
        "gameId": "401862843",
@@ -725,23 +725,13 @@
        "matchup": "UAB @ UNT"
       },
       {
-       "gameId": "401871082",
-       "market": "total",
-       "side": "over",
-       "line": 41.5,
-       "price": 100,
-       "label": "Over 41.5",
-       "win": 0.5143,
-       "matchup": "SHSU @ FIU"
-      },
-      {
        "gameId": "401856764",
        "market": "ml",
        "side": "home",
        "line": 0,
        "price": 190,
        "label": "CLEM ML",
-       "win": 0.3524,
+       "win": 0.3542,
        "matchup": "SC @ CLEM"
       },
       {
@@ -782,7 +772,7 @@
    }
   },
   "nfl-2026-11-29": {
-   "computedAt": "2026-11-27T01:47:34.660Z",
+   "computedAt": "2026-11-27T12:42:35.359Z",
    "gamesConsidered": 10,
    "picks": [
     {
@@ -799,11 +789,11 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 236,
-     "oppPrice": -287,
-     "win": 0.3146,
+     "price": 233,
+     "oppPrice": -283,
+     "win": 0.3172,
      "push": 0,
-     "ev": 0.0572,
+     "ev": 0.0563,
      "tier": "crown",
      "units": 0.5,
      "modelLine": -0.5,
@@ -816,7 +806,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-27T01:47:34.660Z"
+     "linesAsOf": "2026-11-27T12:42:35.359Z"
     },
     {
      "id": "nfl-2026-11-29:401873092:ml:home",
@@ -832,43 +822,43 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 282,
-     "oppPrice": -351,
-     "win": 0.2744,
+     "price": 281,
+     "oppPrice": -350,
+     "win": 0.2749,
      "push": 0,
-     "ev": 0.0482,
+     "ev": 0.0475,
      "tier": "crown",
      "units": 0.5,
      "modelLine": 0.9,
      "lineMove": -2,
      "fairLine": 5.6,
      "marketLine": 6.5,
-     "modelTotal": 45.1,
+     "modelTotal": 45.2,
      "fairTotal": 42,
      "marketTotal": 41.5,
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-27T01:47:34.660Z"
+     "linesAsOf": "2026-11-27T12:42:35.359Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 48.504,
-     "price": 4750,
-     "prob": 0.0242,
-     "ev": 0.1738,
+     "dec": 73.954,
+     "price": 7295,
+     "prob": 0.0159,
+     "ev": 0.1729,
      "legs": [
       {
        "gameId": "401873088",
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 236,
+       "price": 233,
        "label": "IND ML",
-       "win": 0.3146,
+       "win": 0.3172,
        "matchup": "NYG @ IND"
       },
       {
@@ -876,9 +866,9 @@
        "market": "ml",
        "side": "home",
        "line": 0,
-       "price": 282,
+       "price": 281,
        "label": "ARI ML",
-       "win": 0.2744,
+       "win": 0.2749,
        "matchup": "WSH @ ARI"
       },
       {
@@ -888,18 +878,18 @@
        "line": 35.5,
        "price": -109,
        "label": "Over 35.5",
-       "win": 0.5416,
+       "win": 0.5417,
        "matchup": "NE @ LAC"
       },
       {
-       "gameId": "401873086",
-       "market": "total",
-       "side": "over",
-       "line": 40.5,
-       "price": -103,
-       "label": "Over 40.5",
-       "win": 0.5175,
-       "matchup": "LV @ CLE"
+       "gameId": "401873089",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": 204,
+       "label": "MIA ML",
+       "win": 0.3357,
+       "matchup": "NYJ @ MIA"
       }
      ],
      "id": "nfl-2026-11-29:hail-mary",
@@ -911,9 +901,9 @@
     }
    ],
    "params": {
-    "a": 0.28,
-    "w": 0.168,
-    "at": 0.28,
+    "a": 0.279,
+    "w": 0.167,
+    "at": 0.279,
     "wt": 0.15,
     "k": 0
    }

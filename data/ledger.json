@@ -702,7 +702,7 @@
  ],
  "pending": {
   "cfb-2026-11-28": {
-   "computedAt": "2026-11-28T08:00:13.837Z",
+   "computedAt": "2026-11-28T08:27:13.098Z",
    "gamesConsidered": 53,
    "picks": [
     {
@@ -721,7 +721,7 @@
      "line": 76.5,
      "price": -105,
      "oppPrice": -115,
-     "win": 0.5309,
+     "win": 0.531,
      "push": 0,
      "ev": 0.0366,
      "tier": "lean",
@@ -736,18 +736,28 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-28T08:00:13.837Z"
+     "linesAsOf": "2026-11-28T08:27:13.098Z"
     }
    ],
    "parlays": [
     {
      "type": "hail-mary",
      "units": 0.5,
-     "dec": 39.238,
-     "price": 3824,
-     "prob": 0.029,
-     "ev": 0.1368,
+     "dec": 40.079,
+     "price": 3908,
+     "prob": 0.0284,
+     "ev": 0.1386,
      "legs": [
+      {
+       "gameId": "401862843",
+       "market": "ml",
+       "side": "home",
+       "line": 0,
+       "price": -135,
+       "label": "UNT ML",
+       "win": 0.5957,
+       "matchup": "UAB @ UNT"
+      },
       {
        "gameId": "401860926",
        "market": "total",
@@ -755,18 +765,8 @@
        "line": 76.5,
        "price": -105,
        "label": "Under 76.5",
-       "win": 0.5309,
+       "win": 0.531,
        "matchup": "BOIS @ CSU"
-      },
-      {
-       "gameId": "401862843",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": -142,
-       "label": "UNT ML",
-       "win": 0.6075,
-       "matchup": "UAB @ UNT"
       },
       {
        "gameId": "401856764",
@@ -816,42 +816,9 @@
    }
   },
   "nfl-2026-11-29": {
-   "computedAt": "2026-11-28T08:00:13.837Z",
+   "computedAt": "2026-11-28T08:27:13.098Z",
    "gamesConsidered": 10,
    "picks": [
-    {
-     "id": "nfl-2026-11-29:401873088:ml:home",
-     "slateId": "nfl-2026-11-29",
-     "sport": "nfl",
-     "date": "2026-11-29",
-     "gameId": "401873088",
-     "kickoff": "2026-11-29T18:00Z",
-     "matchup": "NYG @ IND",
-     "away": "NYG",
-     "home": "IND",
-     "label": "IND ML",
-     "market": "ml",
-     "side": "home",
-     "line": 0,
-     "price": 221,
-     "oppPrice": -266,
-     "win": 0.3267,
-     "push": 0,
-     "ev": 0.0487,
-     "tier": "crown",
-     "units": 0.5,
-     "modelLine": -0.6,
-     "lineMove": -8,
-     "fairLine": 4.5,
-     "marketLine": 5.5,
-     "modelTotal": 43.5,
-     "fairTotal": 41.8,
-     "marketTotal": 41.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-28T08:00:13.837Z"
-    },
     {
      "id": "nfl-2026-11-29:401873092:ml:home",
      "slateId": "nfl-2026-11-29",
@@ -883,7 +850,40 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-28T08:00:13.837Z"
+     "linesAsOf": "2026-11-28T08:27:13.098Z"
+    },
+    {
+     "id": "nfl-2026-11-29:401873088:ml:home",
+     "slateId": "nfl-2026-11-29",
+     "sport": "nfl",
+     "date": "2026-11-29",
+     "gameId": "401873088",
+     "kickoff": "2026-11-29T18:00Z",
+     "matchup": "NYG @ IND",
+     "away": "NYG",
+     "home": "IND",
+     "label": "IND ML",
+     "market": "ml",
+     "side": "home",
+     "line": 0,
+     "price": 221,
+     "oppPrice": -267,
+     "win": 0.3265,
+     "push": 0,
+     "ev": 0.0479,
+     "tier": "crown",
+     "units": 0.5,
+     "modelLine": -0.6,
+     "lineMove": -8,
+     "fairLine": 4.5,
+     "marketLine": 5.5,
+     "modelTotal": 43.5,
+     "fairTotal": 41.8,
+     "marketTotal": 41.5,
+     "publishedAt": null,
+     "status": "open",
+     "profit": null,
+     "linesAsOf": "2026-11-28T08:27:13.098Z"
     }
    ],
    "parlays": [],

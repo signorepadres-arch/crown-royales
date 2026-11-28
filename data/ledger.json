@@ -69,6 +69,24 @@
     "wt": 0.15,
     "k": 0.023
    }
+  },
+  "cfb-2026-11-28": {
+   "sport": "cfb",
+   "date": "2026-11-28",
+   "publishedAt": "2026-11-28T15:00:00.000Z",
+   "linesAsOf": "2026-11-28T08:27:13.098Z",
+   "committedAt": "2026-11-28T17:38:13.412Z",
+   "lockMode": "snapshot",
+   "picks": 1,
+   "parlays": 1,
+   "gamesConsidered": 53,
+   "params": {
+    "a": 0.107,
+    "w": 0.15,
+    "at": 0.107,
+    "wt": 0.15,
+    "k": 0
+   }
   }
  },
  "picks": [
@@ -367,6 +385,39 @@
    "clvPts": 0,
    "clvProb": 0,
    "gradedAt": "2026-11-22T10:18:19.995Z"
+  },
+  {
+   "id": "cfb-2026-11-28:401860926:total:under",
+   "slateId": "cfb-2026-11-28",
+   "sport": "cfb",
+   "date": "2026-11-28",
+   "gameId": "401860926",
+   "kickoff": "2026-11-28T23:00Z",
+   "matchup": "BOIS @ CSU",
+   "away": "BOIS",
+   "home": "CSU",
+   "label": "Under 76.5",
+   "market": "total",
+   "side": "under",
+   "line": 76.5,
+   "price": -105,
+   "oppPrice": -115,
+   "win": 0.531,
+   "push": 0,
+   "ev": 0.0366,
+   "tier": "lean",
+   "units": 1,
+   "modelLine": 17.2,
+   "lineMove": 0,
+   "fairLine": 20.4,
+   "marketLine": 21,
+   "modelTotal": 68,
+   "fairTotal": 75.2,
+   "marketTotal": 76.5,
+   "publishedAt": "2026-11-28T15:00:00.000Z",
+   "status": "open",
+   "profit": null,
+   "linesAsOf": "2026-11-28T08:27:13.098Z"
   }
  ],
  "parlays": [
@@ -698,125 +749,84 @@
    "linesAsOf": "2026-11-22T11:38:14.553Z",
    "legsHit": 0,
    "gradedAt": "2026-11-22T21:00:02.924Z"
-  }
- ],
- "pending": {
-  "cfb-2026-11-28": {
-   "computedAt": "2026-11-28T08:27:13.098Z",
-   "gamesConsidered": 53,
-   "picks": [
+  },
+  {
+   "type": "hail-mary",
+   "units": 0.5,
+   "dec": 40.079,
+   "price": 3908,
+   "prob": 0.0284,
+   "ev": 0.1386,
+   "legs": [
     {
-     "id": "cfb-2026-11-28:401860926:total:under",
-     "slateId": "cfb-2026-11-28",
-     "sport": "cfb",
-     "date": "2026-11-28",
+     "gameId": "401862843",
+     "market": "ml",
+     "side": "home",
+     "line": 0,
+     "price": -135,
+     "label": "UNT ML",
+     "win": 0.5957,
+     "matchup": "UAB @ UNT",
+     "result": null
+    },
+    {
      "gameId": "401860926",
-     "kickoff": "2026-11-28T23:00Z",
-     "matchup": "BOIS @ CSU",
-     "away": "BOIS",
-     "home": "CSU",
-     "label": "Under 76.5",
      "market": "total",
      "side": "under",
      "line": 76.5,
      "price": -105,
-     "oppPrice": -115,
+     "label": "Under 76.5",
      "win": 0.531,
-     "push": 0,
-     "ev": 0.0366,
-     "tier": "lean",
-     "units": 1,
-     "modelLine": 17.2,
-     "lineMove": 0,
-     "fairLine": 20.4,
-     "marketLine": 21,
-     "modelTotal": 68,
-     "fairTotal": 75.2,
-     "marketTotal": 76.5,
-     "publishedAt": null,
-     "status": "open",
-     "profit": null,
-     "linesAsOf": "2026-11-28T08:27:13.098Z"
-    }
-   ],
-   "parlays": [
+     "matchup": "BOIS @ CSU",
+     "result": null
+    },
     {
-     "type": "hail-mary",
-     "units": 0.5,
-     "dec": 40.079,
-     "price": 3908,
-     "prob": 0.0284,
-     "ev": 0.1386,
-     "legs": [
-      {
-       "gameId": "401862843",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": -135,
-       "label": "UNT ML",
-       "win": 0.5957,
-       "matchup": "UAB @ UNT"
-      },
-      {
-       "gameId": "401860926",
-       "market": "total",
-       "side": "under",
-       "line": 76.5,
-       "price": -105,
-       "label": "Under 76.5",
-       "win": 0.531,
-       "matchup": "BOIS @ CSU"
-      },
-      {
-       "gameId": "401856764",
-       "market": "ml",
-       "side": "home",
-       "line": 0,
-       "price": 205,
-       "label": "CLEM ML",
-       "win": 0.3365,
-       "matchup": "SC @ CLEM"
-      },
-      {
-       "gameId": "401858540",
-       "market": "total",
-       "side": "over",
-       "line": 37.5,
-       "price": -105,
-       "label": "Over 37.5",
-       "win": 0.5213,
-       "matchup": "MICH @ OSU"
-      },
-      {
-       "gameId": "401871062",
-       "market": "total",
-       "side": "under",
-       "line": 57.5,
-       "price": -102,
-       "label": "Under 57.5",
-       "win": 0.5121,
-       "matchup": "JXST @ DEL"
-      }
-     ],
-     "id": "cfb-2026-11-28:hail-mary",
-     "slateId": "cfb-2026-11-28",
-     "sport": "cfb",
-     "date": "2026-11-28",
-     "status": "open",
-     "profit": null
+     "gameId": "401856764",
+     "market": "ml",
+     "side": "home",
+     "line": 0,
+     "price": 205,
+     "label": "CLEM ML",
+     "win": 0.3365,
+     "matchup": "SC @ CLEM",
+     "result": null
+    },
+    {
+     "gameId": "401858540",
+     "market": "total",
+     "side": "over",
+     "line": 37.5,
+     "price": -105,
+     "label": "Over 37.5",
+     "win": 0.5213,
+     "matchup": "MICH @ OSU",
+     "result": null
+    },
+    {
+     "gameId": "401871062",
+     "market": "total",
+     "side": "under",
+     "line": 57.5,
+     "price": -102,
+     "label": "Under 57.5",
+     "win": 0.5121,
+     "matchup": "JXST @ DEL",
+     "result": null
     }
    ],
-   "params": {
-    "a": 0.107,
-    "w": 0.15,
-    "at": 0.107,
-    "wt": 0.15,
-    "k": 0
-   }
-  },
+   "id": "cfb-2026-11-28:hail-mary",
+   "slateId": "cfb-2026-11-28",
+   "sport": "cfb",
+   "date": "2026-11-28",
+   "status": "open",
+   "profit": null,
+   "publishedAt": "2026-11-28T15:00:00.000Z",
+   "linesAsOf": "2026-11-28T08:27:13.098Z"
+  }
+ ],
+ "pending": {
   "nfl-2026-11-29": {
-   "computedAt": "2026-11-28T08:27:13.098Z",
+   "computedAt": "2026-11-28T17:38:13.412Z",
    "gamesConsidered": 10,
    "picks": [
     {
@@ -833,11 +843,11 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 277,
-     "oppPrice": -344,
-     "win": 0.2781,
+     "price": 278,
+     "oppPrice": -345,
+     "win": 0.2774,
      "push": 0,
-     "ev": 0.0483,
+     "ev": 0.0486,
      "tier": "crown",
      "units": 0.5,
      "modelLine": 0.8,
@@ -850,7 +860,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-28T08:27:13.098Z"
+     "linesAsOf": "2026-11-28T17:38:13.412Z"
     },
     {
      "id": "nfl-2026-11-29:401873088:ml:home",
@@ -866,11 +876,11 @@
      "market": "ml",
      "side": "home",
      "line": 0,
-     "price": 221,
-     "oppPrice": -267,
-     "win": 0.3265,
+     "price": 218,
+     "oppPrice": -263,
+     "win": 0.3294,
      "push": 0,
-     "ev": 0.0479,
+     "ev": 0.0476,
      "tier": "crown",
      "units": 0.5,
      "modelLine": -0.6,
@@ -883,7 +893,7 @@
      "publishedAt": null,
      "status": "open",
      "profit": null,
-     "linesAsOf": "2026-11-28T08:27:13.098Z"
+     "linesAsOf": "2026-11-28T17:38:13.412Z"
     }
    ],
    "parlays": [],

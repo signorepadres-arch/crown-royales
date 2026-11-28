@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T08:27:13.098Z",
+ "generated": "2026-11-28T17:38:13.412Z",
  "live": {
   "overall": {
    "n": 8,
@@ -8,7 +8,7 @@
    "p": 0,
    "units": -1.54,
    "staked": 9.5,
-   "open": 0,
+   "open": 1,
    "roi": -0.1621,
    "hit": 0.375,
    "avgEv": 0.0529,
@@ -23,7 +23,7 @@
     "p": 0,
     "units": -1.54,
     "staked": 9.5,
-    "open": 0,
+    "open": 1,
     "roi": -0.1621,
     "hit": 0.375,
     "avgEv": 0.0529,
@@ -67,7 +67,7 @@
     "p": 0,
     "units": 0.73,
     "staked": 2.5,
-    "open": 0,
+    "open": 1,
     "roi": 0.292,
     "hit": 0.6667,
     "avgEv": 0.0377,
@@ -103,6 +103,20 @@
     "avgEv": 0.0464,
     "avgClv": 0.0031,
     "beatClose": 0.25
+   },
+   "total": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 1,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
    }
   },
   "bySide": {
@@ -133,6 +147,20 @@
     "avgEv": 0.0447,
     "avgClv": 0.0006,
     "beatClose": 0.1667
+   },
+   "under": {
+    "n": 0,
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "staked": 0,
+    "open": 1,
+    "roi": null,
+    "hit": null,
+    "avgEv": null,
+    "avgClv": null,
+    "beatClose": null
    }
   },
   "parlays": {
@@ -157,7 +185,7 @@
     "p": 0,
     "units": -2,
     "staked": 2,
-    "open": 0,
+    "open": 1,
     "roi": -1,
     "hit": 0,
     "avgEv": 0.2265,
